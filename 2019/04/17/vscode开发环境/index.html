@@ -110,16 +110,16 @@
 
 
   <meta name="description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过bat执行bash命令 改写 json   使用说明 make 工程 配置 go     使用场景  利用 wsl 实现在 windows 系统下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端  网上很多方法，这里不赘述 通过bat执行bash命令 如果装上子系统后，可以在 bash 下">
-<meta name="keywords" content="vscode,go,wsl,c++">
+<meta name="keywords" content="vscode,wsl,c++">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vscode+wsl+c++开发环境">
-<meta property="og:url" content="http://yoursite.com/2019/04/17/vscode+wsl+c++开发环境/index.html">
+<meta property="og:title" content="vscode+wsl搭建go和c++开发环境">
+<meta property="og:url" content="http://yoursite.com/2019/04/17/vscode开发环境/index.html">
 <meta property="og:site_name" content="M_Kepler">
 <meta property="og:description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过bat执行bash命令 改写 json   使用说明 make 工程 配置 go     使用场景  利用 wsl 实现在 windows 系统下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端  网上很多方法，这里不赘述 通过bat执行bash命令 如果装上子系统后，可以在 bash 下">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-20T10:49:06.086Z">
+<meta property="og:updated_time" content="2019-04-30T02:07:36.586Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vscode+wsl+c++开发环境">
+<meta name="twitter:title" content="vscode+wsl搭建go和c++开发环境">
 <meta name="twitter:description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过bat执行bash命令 改写 json   使用说明 make 工程 配置 go     使用场景  利用 wsl 实现在 windows 系统下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端  网上很多方法，这里不赘述 通过bat执行bash命令 如果装上子系统后，可以在 bash 下">
 
 
@@ -130,7 +130,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/04/17/vscode+wsl+c++开发环境/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/17/vscode开发环境/">
 
 
 
@@ -140,7 +140,7 @@
   };
 </script>
 
-  <title>vscode+wsl+c++开发环境 | M_Kepler</title>
+  <title>vscode+wsl搭建go和c++开发环境 | M_Kepler</title>
   
 
 
@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/17/vscode+wsl+c++开发环境/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/17/vscode开发环境/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="M_Kepler">
@@ -404,7 +404,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">vscode+wsl+c++开发环境
+          <h1 class="post-title" itemprop="name headline">vscode+wsl搭建go和c++开发环境
 
               
             
@@ -448,7 +448,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-20 18:49 18:49:06" itemprop="dateModified" datetime="2019-04-20T18:49:06+08:00">2019-04-20 18:49</time>
+                <time title="修改时间：2019-04-30 10:07 10:07:36" itemprop="dateModified" datetime="2019-04-30T10:07:36+08:00">2019-04-30 10:07</time>
               
             
           </span>
@@ -465,7 +465,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/开发周边/" itemprop="url" rel="index"><span itemprop="name">开发周边</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/开发环境/" itemprop="url" rel="index"><span itemprop="name">开发环境</span></a></span>
 
                 
                 
@@ -494,7 +494,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">5.2k</span>
+                <span title="本文字数">5k</span>
               
 
               
@@ -552,7 +552,7 @@
 <li><p>可以通过 <code>cmd</code> 批处理命令来调用 <code>bash</code> 并执行 <code>shell</code> 命令，使用方法如下:</p>
 <figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">M</span>-<span class="title">Kepler</span>&gt;<span class="title">bash</span> -<span class="title">c</span> " <span class="title">ls</span> ~/"</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>可以自己写个批处理命令，来实现 <code>windows</code> 下用 <code>vscode</code> 写代码，然后在 <code>wsl</code> 下编译运行代码，新建make.bat，内容如下</p>
+<li><p>可以自己写个批处理命令，来实现 <code>windows</code> 下用 <code>vscode</code> 写代码，然后在 <code>wsl</code> 下编译运行代码，这里路径有个问题，<code>windows</code>下路径是右斜杠，而<code>linux</code>下是左斜杠，所以利用批处理把右斜杠替换成左斜杠</p>
 <figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> cpp_path=%<span class="number">1</span></span><br><span class="line"><span class="built_in">set</span> "cpp_path=<span class="variable">%cpp_path:\=/%</span>"</span><br><span class="line">bash -c "rm -f %<span class="number">2</span> &amp;&amp; g++ --std=c++<span class="number">11</span> -g <span class="variable">%cpp_path%</span> -o %<span class="number">2</span> -lpthread &amp;&amp; clear &amp;&amp; <span class="built_in">time</span> %<span class="number">2</span>"</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -561,11 +561,11 @@
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">  <span class="attr">"tasks"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          "label": "make", // ctrl+ shift+b 是显示的名称</span><br><span class="line">          "command": "$&#123;workspaceFolder&#125;/.vscode/make.bat", // make.bat的路径</span><br><span class="line">          "args": [ // 传递给make.bat的参数 %1和%2</span><br><span class="line">              "$&#123;relativeFile&#125;", // 当前打开文件的路径</span><br><span class="line">              "./debug/$&#123;fileBasenameNoExtension&#125;.out" // 编译后文件输出路径</span><br><span class="line">          ],</span><br><span class="line">          "problemMatcher": &#123;</span><br><span class="line">              "owner": "cpp",</span><br><span class="line">              "fileLocation": [</span><br><span class="line">                  "relative",</span><br><span class="line">                  <span class="string">"$&#123;workspaceRoot&#125;"</span></span><br><span class="line">              ],</span><br><span class="line">              "pattern": &#123;</span><br><span class="line">                  "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",</span><br><span class="line">                  "file": 1,</span><br><span class="line">                  "line": 2,</span><br><span class="line">                  "column": 3,</span><br><span class="line">                  "severity": 4,</span><br><span class="line">                  "message": 5</span><br><span class="line">              &#125;</span><br><span class="line">          &#125;,</span><br><span class="line">          "group": &#123;</span><br><span class="line">              "kind": "build",</span><br><span class="line">              "isDefault": true</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  ],</span><br><span class="line">  "sourceFileMap": &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><code>launch.json</code><br>下面注释部分按照实际情况改写    </p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">  <span class="attr">"configurations"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          <span class="attr">"name"</span>: <span class="string">"(gdb)"</span>,</span><br><span class="line">          <span class="attr">"type"</span>: <span class="string">"cppdbg"</span>,</span><br><span class="line">          <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">          <span class="attr">"program"</span>: <span class="string">"$&#123;fileBasenameNoExtension&#125;.out"</span>,</span><br><span class="line">          <span class="attr">"args"</span>: [</span><br><span class="line">              <span class="string">"test.log"</span>,</span><br><span class="line">              <span class="string">"100"</span></span><br><span class="line">          ],</span><br><span class="line">          "stopAtEntry": true, // 设为true时程序将暂停在程序入口处</span><br><span class="line">          "cwd": "/mnt/f/workspaces/c++/debug", // 调试程序时的工作目录</span><br><span class="line">          "environment": [],</span><br><span class="line">          "externalConsole": true,</span><br><span class="line">          "internalConsoleOptions":"openOnSessionStart", </span><br><span class="line">          "sourceFileMap": &#123;</span><br><span class="line">              "/mnt/f/workspaces/c++/":"$&#123;workspaceFolder&#125;" // 路径映射，修改路径为实际路径</span><br><span class="line">          &#125;,</span><br><span class="line">          "windows": &#123;</span><br><span class="line">              "MIMode": "gdb",</span><br><span class="line">              "setupCommands": [</span><br><span class="line">                  &#123;</span><br><span class="line">                      <span class="attr">"description"</span>: <span class="string">"Enable pretty-printing for gdb"</span>,</span><br><span class="line">                      <span class="attr">"text"</span>: <span class="string">"-enable-pretty-printing"</span>,</span><br><span class="line">                      <span class="attr">"ignoreFailures"</span>: <span class="literal">true</span></span><br><span class="line">                  &#125;</span><br><span class="line">              ]</span><br><span class="line">          &#125;,</span><br><span class="line">          "pipeTransport": &#123;</span><br><span class="line">              "pipeCwd": "",</span><br><span class="line">              "pipeProgram": "c:\\Windows\\System32\\bash.exe",</span><br><span class="line">              "pipeArgs": [</span><br><span class="line">                  <span class="string">"-c"</span></span><br><span class="line">              ],</span><br><span class="line">              "debuggerPath": "/usr/bin/gdb"</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">  <span class="attr">"configurations"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          <span class="attr">"name"</span>: <span class="string">"(gdb)"</span>,</span><br><span class="line">          <span class="attr">"type"</span>: <span class="string">"cppdbg"</span>,</span><br><span class="line">          <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">          <span class="attr">"program"</span>: <span class="string">"$&#123;fileBasenameNoExtension&#125;.out"</span>,</span><br><span class="line">          <span class="attr">"args"</span>: [ // 调试时送给程序的参数相当于gdb中的 set args xxx</span><br><span class="line">              <span class="string">"test.log"</span>,</span><br><span class="line">              <span class="string">"100"</span></span><br><span class="line">          ],</span><br><span class="line">          "stopAtEntry": true, // 设为true时程序将暂停在程序入口处</span><br><span class="line">          "cwd": "/mnt/f/workspaces/c++/debug", // 调试程序时的工作目录</span><br><span class="line">          "environment": [],</span><br><span class="line">          "externalConsole": true,</span><br><span class="line">          "internalConsoleOptions":"openOnSessionStart", </span><br><span class="line">          "sourceFileMap": &#123;</span><br><span class="line">              "/mnt/f/workspaces/c++/":"$&#123;workspaceFolder&#125;" // 路径映射，修改路径为实际路径</span><br><span class="line">          &#125;,</span><br><span class="line">          "windows": &#123;</span><br><span class="line">              "MIMode": "gdb",</span><br><span class="line">              "setupCommands": [</span><br><span class="line">                  &#123;</span><br><span class="line">                      <span class="attr">"description"</span>: <span class="string">"Enable pretty-printing for gdb"</span>,</span><br><span class="line">                      <span class="attr">"text"</span>: <span class="string">"-enable-pretty-printing"</span>,</span><br><span class="line">                      <span class="attr">"ignoreFailures"</span>: <span class="literal">true</span></span><br><span class="line">                  &#125;</span><br><span class="line">              ]</span><br><span class="line">          &#125;,</span><br><span class="line">          "pipeTransport": &#123;</span><br><span class="line">              "pipeCwd": "",</span><br><span class="line">              "pipeProgram": "c:\\Windows\\System32\\bash.exe",</span><br><span class="line">              "pipeArgs": [</span><br><span class="line">                  <span class="string">"-c"</span></span><br><span class="line">              ],</span><br><span class="line">              "debuggerPath": "/usr/bin/gdb"</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h1 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h1><ul>
-<li>一键 <code>F5</code> 编译运行<br>编译的时候实际就是通过 <code>cmd</code> 去执行 <code>bash</code> 命令，上面的例子中是先把 <code>debug</code> 下的 <code>.out</code> 删除，然后编译运行，可以直接在 <code>vscode</code> 中看到运行结果</li>
+<li>一键 <code>F5</code> 编译运行<br>编译的时候实际就是通过 <code>cmd</code> 去执行 <code>bash</code> 命令，上面的例子中是先把 <code>debug</code> 下的 <code>.out</code> 删除，然后编译运行，可以直接在 <code>vscode</code> 的终端中看到运行结果</li>
 </ul>
 <h2 id="make-工程"><a href="#make-工程" class="headerlink" title="make 工程"></a><code>make</code> 工程</h2><ul>
 <li>大点的工程都有 <code>makefile</code>，方法和上面的一样，只要改一下 <code>make.bat</code>就行了<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash -c "<span class="built_in">cd</span> src &amp;&amp; make clean &amp;&amp; make %<span class="number">1</span>"</span><br></pre></td></tr></table></figure>
@@ -580,7 +580,7 @@
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">  <span class="attr">"tasks"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          "label": "go", // 显示</span><br><span class="line">          "command": "$&#123;workspaceFolder&#125;/.vscode/make.bat", // make.bat路径</span><br><span class="line">          "args": [</span><br><span class="line">              "/mnt/f/workspaces/go/$&#123;relativeFile&#125;" // make.bat 的入参</span><br><span class="line">          ],</span><br><span class="line">          "problemMatcher": &#123;</span><br><span class="line">              "owner": "go",</span><br><span class="line">              "fileLocation": [</span><br><span class="line">                  "relative",</span><br><span class="line">                  <span class="string">"$&#123;workspaceRoot&#125;"</span></span><br><span class="line">              ],</span><br><span class="line">              "pattern": &#123;</span><br><span class="line">                  "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",</span><br><span class="line">                  "file": 1,</span><br><span class="line">                  "line": 2,</span><br><span class="line">                  "column": 3,</span><br><span class="line">                  "severity": 4,</span><br><span class="line">                  "message": 5</span><br><span class="line">              &#125;</span><br><span class="line">          &#125;,</span><br><span class="line">          "group": &#123;</span><br><span class="line">              "kind": "build",</span><br><span class="line">              "isDefault": true</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  ],</span><br><span class="line">  "sourceFileMap": &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><code>launch.json</code>    </p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">  <span class="attr">"tasks"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          <span class="attr">"label"</span>: <span class="string">"go"</span>,</span><br><span class="line">          <span class="attr">"command"</span>: <span class="string">"$&#123;workspaceFolder&#125;/.vscode/make.bat"</span>,</span><br><span class="line">          <span class="attr">"args"</span>: [</span><br><span class="line">              <span class="string">"$&#123;relativeFile&#125;"</span> // make.bat的参数%<span class="number">1</span></span><br><span class="line">          ],</span><br><span class="line">          <span class="attr">"problemMatcher"</span>: &#123;</span><br><span class="line">              <span class="attr">"owner"</span>: <span class="string">"go"</span>,</span><br><span class="line">              <span class="attr">"fileLocation"</span>: [</span><br><span class="line">                  <span class="string">"relative"</span>,</span><br><span class="line">                  <span class="string">"$&#123;workspaceRoot&#125;"</span></span><br><span class="line">              ],</span><br><span class="line">              <span class="attr">"pattern"</span>: &#123;</span><br><span class="line">                  <span class="attr">"regexp"</span>: <span class="string">"^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$"</span>,</span><br><span class="line">                  <span class="attr">"file"</span>: <span class="number">1</span>,</span><br><span class="line">                  <span class="attr">"line"</span>: <span class="number">2</span>,</span><br><span class="line">                  <span class="attr">"column"</span>: <span class="number">3</span>,</span><br><span class="line">                  <span class="attr">"severity"</span>: <span class="number">4</span>,</span><br><span class="line">                  <span class="attr">"message"</span>: <span class="number">5</span></span><br><span class="line">              &#125;</span><br><span class="line">          &#125;,</span><br><span class="line">          <span class="attr">"group"</span>: &#123;</span><br><span class="line">              <span class="attr">"kind"</span>: <span class="string">"build"</span>,</span><br><span class="line">              <span class="attr">"isDefault"</span>: <span class="literal">true</span></span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">"sourceFileMap"</span>: &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">  <span class="attr">"configurations"</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">          <span class="attr">"name"</span>: <span class="string">"golang"</span>,</span><br><span class="line">          <span class="attr">"type"</span>: <span class="string">"go"</span>,</span><br><span class="line">          <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">          <span class="attr">"mode"</span>: <span class="string">"debug"</span>,</span><br><span class="line">          <span class="attr">"remotePath"</span>: <span class="string">""</span>,</span><br><span class="line">          <span class="attr">"port"</span>: <span class="number">2345</span>,</span><br><span class="line">          <span class="attr">"host"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line">          // "program": "$&#123;relativeFile&#125;.go",</span><br><span class="line">          "program": "$&#123;workspaceRoot&#125;/$&#123;relativeFile&#125;",</span><br><span class="line">          "env": &#123;"gopath":"F:\\workspaces\\golang"&#125;, // $GOPATH路径</span><br><span class="line">          "args": [],</span><br><span class="line">          "showLog": true,</span><br><span class="line">          "trace": true</span><br><span class="line">      &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 
       
@@ -607,8 +607,6 @@
           
             <a href="/tags/vscode/" rel="tag"><i class="fa fa-tag"></i> vscode</a>
           
-            <a href="/tags/go/" rel="tag"><i class="fa fa-tag"></i> go</a>
-          
             <a href="/tags/wsl/" rel="tag"><i class="fa fa-tag"></i> wsl</a>
           
             <a href="/tags/c/" rel="tag"><i class="fa fa-tag"></i> c++</a>
@@ -633,6 +631,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/14/vscode远程开发/" rel="prev" title="vscode 远程开发">
+                vscode 远程开发 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -705,7 +707,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -721,8 +723,6 @@
                     
                   
                     
-                    
-                      
                     
                       
                     
@@ -880,7 +880,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">8k</span>
+    <span title="站点总字数">10k</span>
   
 
   
@@ -891,7 +891,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">7 分钟</span>
+    <span title="站点阅读时长">9 分钟</span>
   
 </div>
 
