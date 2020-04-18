@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-18T18:33:09.103Z</updated>
+  <updated>2020-04-18T18:30:46.314Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,38 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Tips</title>
-    <link href="http://yoursite.com/2020/04/19/tips/"/>
-    <id>http://yoursite.com/2020/04/19/tips/</id>
-    <published>2020-04-18T18:31:34.134Z</published>
-    <updated>2020-04-18T18:33:09.103Z</updated>
-    
-    <content type="html"><![CDATA[<!-- TOC --><ul><li><a href="#todolist">TodoList</a><ul><li><a href="#bbc">BBC</a></li><li><a href="#mig">MIG</a></li></ul></li><li><a href="#notes">Notes</a></li></ul><!-- /TOC --><h1 id="TodoList"><a href="#TodoList" class="headerlink" title="TodoList"></a>TodoList</h1><h2 id="BBC"><a href="#BBC" class="headerlink" title="BBC"></a>BBC</h2><ul><li style="list-style: none"><input type="checkbox"> 策略模板</li><li style="list-style: none"><input type="checkbox"> 单点登录</li><li style="list-style: none"><input type="checkbox"> bbc_dev_status</li><li style="list-style: none"><input type="checkbox" checked> yml 配置文件</li><li style="list-style: none"><input type="checkbox"> alarm_calculae</li><li style="list-style: none"><input type="checkbox"> bbc_logsvr 代码量少</li><li style="list-style: none"><input type="checkbox"> bbccfgbk 注释多</li></ul><h2 id="MIG"><a href="#MIG" class="headerlink" title="MIG"></a>MIG</h2><ul><li style="list-style: none"><input type="checkbox"> web api</li></ul><h1 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h1><ul><li><p>知识本来就是要==消化==掉的，你还不断地累积到一个个笔记里?</p></li><li><p>还是不会写笔记啊，==你又不是要出==书</p></li><li><p>头脑才是最好的笔记本</p></li><li><p>转测的checklist是个好东西</p></li><li><p>cl_event</p></li><li><p>nginx</p></li><li><p><a href="https://blog.csdn.net/qingyuanluofeng/article/details/95533476" target="_blank" rel="noopener">https://blog.csdn.net/qingyuanluofeng/article/details/95533476</a></p></li><li><p><a href="https://blog.csdn.net/tiantao2012/article/details/78332098" target="_blank" rel="noopener">https://blog.csdn.net/tiantao2012/article/details/78332098</a></p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- TOC --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#todolist&quot;&gt;TodoList&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#bbc&quot;&gt;BBC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#mig&quot;&gt;MIG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="Other" scheme="http://yoursite.com/categories/Other/"/>
-    
-    
-      <category term="Other" scheme="http://yoursite.com/tags/Other/"/>
-    
-  </entry>
   
   <entry>
     <title>vscode 远程开发</title>

@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Tips]]></title>
-    <url>%2F2020%2F04%2F19%2Ftips%2F</url>
-    <content type="text"><![CDATA[TodoList BBC MIG Notes TodoListBBC 策略模板 单点登录 bbc_dev_status yml 配置文件 alarm_calculae bbc_logsvr 代码量少 bbccfgbk 注释多 MIG web api Notes 知识本来就是要==消化==掉的，你还不断地累积到一个个笔记里? 还是不会写笔记啊，==你又不是要出==书 头脑才是最好的笔记本 转测的checklist是个好东西 cl_event nginx https://blog.csdn.net/qingyuanluofeng/article/details/95533476 https://blog.csdn.net/tiantao2012/article/details/78332098]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-      <tags>
-        <tag>Other</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[vscode 远程开发]]></title>
     <url>%2F2019%2F07%2F14%2Fvscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%2F</url>
     <content type="text"><![CDATA[场景描述 解决方案 REMOTE-SSH REMOTE VSCODE SFTP ⭐ 场景描述 Windows 下用 vscode 进行开发 Linux 服务器的内核被精简过，而且无法直接连接外网下载安装其他软件，只能从虚拟桌面下载后拷贝到服务器上进行离线安装 项目在远程服务器上，源代码的目录结构与安装部署之后的目录结构差异很大，比如 B 目录在源码中是 A 的子目录，但是安装之后 B 目录的文件将被移动到其他地方，库代码会安装到第三方库路径/usr/lib/python2.7/site-packages/xx下，有的代码会放到 www/xxx cgi 对应的路径下。因此在本地开发后拷贝到服务器上还要找对路径 如果是在本地编辑，编辑之后拷贝到服务器上运行，有时候需要修改的代码只有一点点，又迫切想看到效果，就会直接在服务器上进行修改，很容易出现单边问题 解决方案REMOTE-SSH 下载安装好 remote-ssh 微软发布的远程开发工具套件中的一个，不幸的是这个插件连接服务器后会自动在服务器上下载安装 .vscode-server，但是我们的服务器是无法连接外网的，所以下载失败。 把 vscode 的输出打开，可以看到执行哪个脚本失败，找到这个安装脚本 vscode-remote-install.xxxxx.sh，手动执行里面的代码，在下载 .vscode-server的时候出错，手动通过虚拟桌面把这个文件下载下来，链接如下： 12# 自行将 $COMMIT_ID 替换成 上面得到的数值https://update.code.visualstudio.com/commit:$COMMIT_ID/server-linux-x64/insider 下载完放到服务器 $HOME 目录下后，接着执行脚本中剩下的步骤，最终目录如下 12345678910.vscode-server/├── bin│ └── xxxxx├── data│ ├── logs│ ├── Machine│ ├── machineid│ └── User└── extensions └── ms-python.python-2019.5.18875 好了，离线安装上了，应该可以正常链接了吧，通过 vscode 去链接远程服务器，发现报错 g++ 版本不对，因为这台服务器的内核被精简过，很多软件包都缺失，离线安装新版本太痛苦；而且新的 g++ 又可能因为版本不对导致项目运行不起来 因此，该方案不可行如果能装上还是很不错的，装上之后在 vscode 可以直接检索打开远程机器上的文件夹，就像在本地开发一样。 REMOTE VSCODE 安装使用过程 缺点 每次使用都需要先在本地执行一下 ssh -R 52698:127.0.0.1:52698 learn@192.168.1.215 远程机器上打开文件时需要指定端口 rmate -p 52698 linux中的文件名称，可以通过 alias 解决 只能编辑单个文件 优点编辑单个文件很方便，在当前路径下的文件可以直接在 vscode 上打开该文件，而不像 sftp 要慢慢找到路径再打开文件编辑 SFTP ⭐ 最终解决方案在服务器上对应的文件夹下创建软链就 ok 了，比如安装后是在 site-packages 下，但是可以把代码上传到 /root/source/ 然后创建一个软链到 site-packages 插件配置 sftp.json 12345678910111213141516171819&#123; "name": "xxx", "host": "xxx.xxx.xxx.xxx", // 服务器IP "protocol": "sftp", "port": 22, "username": "root", // 登录用户名 "password": "xxxxxxxx", // 登录密码 // 在工作空间的文件夹上右键上传，就会把文件上传到以下路径 // 如果源代码目录结构为 /A/B/xxx 而.vscode与B是【同级目录】 // 上传后远程服务器路径为 /root/source/B/xxx "remotePath": "/root/source", "uploadOnSave": false, "downloadOnOpen": false, "ignore": [ ".vscode", ".git", ".DS_Store" ]&#125; 创建软链 1234567# 库cd /usr/lib/python2.7/site-packages/ln -s /root/source/B/xxx/lib/python/xxxlib# 如果 xxxlib 中还包含其他目录的代码，也一样创建软链到xxxlib下就可以了cd /root/source/B/xxx/lib/python/xxxlibln -s /root/source/B/source/src/daemon/xxxx 配置之后就可以愉快地在本地打开源代码进行编辑，编辑完成之后右键UPLOAD就可以替换上去了，当然也可以设置本地保存立即上传，最关键的是通过 软链 来解决了项目代码结构和服务器代码结构不一致的问题]]></content>
