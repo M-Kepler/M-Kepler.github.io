@@ -109,18 +109,18 @@
 
 
 
-  <meta name="description" content="重现 功能描述把 test.log 文件每一行按照 , 进行切片，将一行中的所有分片存放到 string 数组中  样例test.log 中有很多行如下字符串 1home,m_kepler,project 目的是按照,切割，把子串存放到 string 数组中 1234string strTmp[3];strTmp[0] = &quot;home&quot;strTmp[1] = &quot;m_kepler&quot;strTmp[2]">
-<meta name="keywords" content="Bug">
+  <meta name="description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过 bat 执行 bash 命令 task.json launch.json   使用说明 make 工程 配置 go     使用场景借助 wsl 在 windows 下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端 网上很多方法，这里不赘述  通过 bat 执行 bash 命令 装上">
+<meta name="keywords" content="vscode,wsl,c++">
 <meta property="og:type" content="article">
-<meta property="og:title" content="记一次Segment fault">
-<meta property="og:url" content="http://yoursite.com/2019/04/14/记一次Segment fault/index.html">
+<meta property="og:title" content="vscode+wsl搭建go和c++开发环境">
+<meta property="og:url" content="http://yoursite.com/2019/04/17/vscode+wsl搭建go和c++开发环境/index.html">
 <meta property="og:site_name" content="M_Kepler">
-<meta property="og:description" content="重现 功能描述把 test.log 文件每一行按照 , 进行切片，将一行中的所有分片存放到 string 数组中  样例test.log 中有很多行如下字符串 1home,m_kepler,project 目的是按照,切割，把子串存放到 string 数组中 1234string strTmp[3];strTmp[0] = &quot;home&quot;strTmp[1] = &quot;m_kepler&quot;strTmp[2]">
+<meta property="og:description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过 bat 执行 bash 命令 task.json launch.json   使用说明 make 工程 配置 go     使用场景借助 wsl 在 windows 下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端 网上很多方法，这里不赘述  通过 bat 执行 bash 命令 装上">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-04-18T18:05:55.412Z">
+<meta property="og:updated_time" content="2020-04-18T18:22:03.743Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="记一次Segment fault">
-<meta name="twitter:description" content="重现 功能描述把 test.log 文件每一行按照 , 进行切片，将一行中的所有分片存放到 string 数组中  样例test.log 中有很多行如下字符串 1home,m_kepler,project 目的是按照,切割，把子串存放到 string 数组中 1234string strTmp[3];strTmp[0] = &quot;home&quot;strTmp[1] = &quot;m_kepler&quot;strTmp[2]">
+<meta name="twitter:title" content="vscode+wsl搭建go和c++开发环境">
+<meta name="twitter:description" content="使用场景 操作步骤 开启 wsl，并配置为 vscode 默认终端 通过 bat 执行 bash 命令 task.json launch.json   使用说明 make 工程 配置 go     使用场景借助 wsl 在 windows 下进行 linux 环境开发 操作步骤开启 wsl，并配置为 vscode 默认终端 网上很多方法，这里不赘述  通过 bat 执行 bash 命令 装上">
 
 
 
@@ -130,7 +130,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/04/14/记一次Segment fault/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/17/vscode+wsl搭建go和c++开发环境/">
 
 
 
@@ -140,7 +140,7 @@
   };
 </script>
 
-  <title>记一次Segment fault | M_Kepler</title>
+  <title>vscode+wsl搭建go和c++开发环境 | M_Kepler</title>
   
 
 
@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/14/记一次Segment fault/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/17/vscode+wsl搭建go和c++开发环境/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="M_Kepler">
@@ -404,7 +404,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">记一次Segment fault
+          <h1 class="post-title" itemprop="name headline">vscode+wsl搭建go和c++开发环境
 
               
             
@@ -431,7 +431,7 @@
                 
               
 
-              <time title="创建时间：2019-04-14 16:25 16:25:38" itemprop="dateCreated datePublished" datetime="2019-04-14T16:25:38+08:00">2019-04-14 16:25</time>
+              <time title="创建时间：2019-04-17 16:05 16:05:28" itemprop="dateCreated datePublished" datetime="2019-04-17T16:05:28+08:00">2019-04-17 16:05</time>
             
 
             
@@ -448,7 +448,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-04-19 02:05 02:05:55" itemprop="dateModified" datetime="2020-04-19T02:05:55+08:00">2020-04-19 02:05</time>
+                <time title="修改时间：2020-04-19 02:22 02:22:03" itemprop="dateModified" datetime="2020-04-19T02:22:03+08:00">2020-04-19 02:22</time>
               
             
           </span>
@@ -465,7 +465,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Other/" itemprop="url" rel="index"><span itemprop="name">Other</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/开发环境/" itemprop="url" rel="index"><span itemprop="name">开发环境</span></a></span>
 
                 
                 
@@ -494,7 +494,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.2k</span>
+                <span title="本文字数">4.3k</span>
               
 
               
@@ -508,7 +508,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 分钟</span>
+                <span title="阅读时长">4 分钟</span>
               
             </div>
           
@@ -528,31 +528,61 @@
       
 
       
-        <h1 id="重现"><a href="#重现" class="headerlink" title="重现"></a>重现</h1><ul>
-<li><p>功能描述<br>把 <code>test.log</code> 文件每一行按照 <code>,</code> 进行切片，将一行中的所有分片存放到 <code>string</code> 数组中</p>
+        <!-- TOC -->
+<ul>
+<li><a href="#使用场景">使用场景</a></li>
+<li><a href="#操作步骤">操作步骤</a><ul>
+<li><a href="#开启-wsl并配置为-vscode-默认终端">开启 <code>wsl</code>，并配置为 <code>vscode</code> 默认终端</a></li>
+<li><a href="#通过-bat-执行-bash-命令">通过 <code>bat</code> 执行 <code>bash</code> 命令</a></li>
+<li><a href="#taskjson"><code>task.json</code></a></li>
+<li><a href="#launchjson"><code>launch.json</code></a></li>
+</ul>
 </li>
-<li><p>样例<br><code>test.log</code> 中有很多行如下字符串</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">home,m_kepler,project</span><br></pre></td></tr></table></figure>
-<p>目的是按照<code>,</code>切割，把子串存放到 string 数组中</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> strTmp[<span class="number">3</span>];</span><br><span class="line">strTmp[<span class="number">0</span>] = <span class="string">"home"</span></span><br><span class="line">strTmp[<span class="number">1</span>] = <span class="string">"m_kepler"</span></span><br><span class="line">strTmp[<span class="number">2</span>] = <span class="string">"project"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>出错的代码<br>这里不用 <code>strtok</code> 是因为 <code>,,</code> 也要算一个数据</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">fstream test;</span><br><span class="line"><span class="keyword">char</span> delim[] = <span class="string">","</span>;</span><br><span class="line"><span class="built_in">string</span> strLine;</span><br><span class="line"><span class="built_in">string</span> szstrTmp [<span class="number">3</span>];</span><br><span class="line"></span><br><span class="line">test.open(<span class="string">"./debug/test.log"</span>, ios::binary | ios::in);</span><br><span class="line"><span class="keyword">if</span>(!test)</span><br><span class="line">    perror(<span class="string">"open"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(getline(test, strLine))</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;    <span class="comment">// error1</span></span><br><span class="line">    <span class="keyword">char</span> *orgstr = strdup(strLine.c_str()); <span class="comment">// error2</span></span><br><span class="line">    <span class="keyword">for</span> (token = strsep(&amp;orgstr, delim); token != <span class="literal">NULL</span>; token = strsep(&amp;orgstr, delim))</span><br><span class="line">    &#123;</span><br><span class="line">        szstrTmp[i] = token;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">free</span>(orgstr);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<li><a href="#使用说明">使用说明</a><ul>
+<li><a href="#make-工程"><code>make</code> 工程</a></li>
+<li><a href="#配置-go">配置 <code>go</code></a></li>
+</ul>
 </li>
 </ul>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><ul>
-<li><p>像下面这样把两个循环条件才出来，运行报错 <code>Segmentation fault (core dumped)</code></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> szstrTmp[<span class="number">3</span>];</span><br><span class="line"><span class="keyword">while</span>(getline(test,line))</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> j =<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        szstrTmp[j] = <span class="string">"aaaa"</span>; <span class="comment">// gdb 调试报错此行</span></span><br><span class="line">        j++;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<!-- /TOC -->
+<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>借助 <code>wsl</code> 在 <code>windows</code> 下进行 <code>linux</code> 环境开发</p>
+<h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><h2 id="开启-wsl，并配置为-vscode-默认终端"><a href="#开启-wsl，并配置为-vscode-默认终端" class="headerlink" title="开启 wsl，并配置为 vscode 默认终端"></a>开启 <code>wsl</code>，并配置为 <code>vscode</code> 默认终端</h2><ul>
+<li><a href="https://www.jianshu.com/p/3e627ff45ccb" target="_blank" rel="noopener">网上很多方法，这里不赘述</a></li>
+</ul>
+<h2 id="通过-bat-执行-bash-命令"><a href="#通过-bat-执行-bash-命令" class="headerlink" title="通过 bat 执行 bash 命令"></a>通过 <code>bat</code> 执行 <code>bash</code> 命令</h2><ul>
+<li><p>装上 <code>WSL</code> 后，可以在 <code>bash</code> 下执行命令，但是如果想在 <code>windows</code> 系统下做开发的话，不能直接执行 <code>bash</code> 命令</p>
 </li>
-<li><p>在 <code>while</code> 循环中使用 <code>strdup</code>，运行报错 <code>munmap_chunk(): invalid pointer</code></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> szstrTmp[<span class="number">3</span>];</span><br><span class="line"><span class="keyword">while</span>(getline(test, line))</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">char</span> *orgstr = strdup(line.c_str());</span><br><span class="line">    <span class="keyword">for</span> (token = strsep(&amp;orgstr, delim), i = <span class="number">0</span>; token != <span class="literal">NULL</span>, i != <span class="number">3</span>; token = strsep(&amp;orgstr, delim), i++)</span><br><span class="line">    &#123;</span><br><span class="line">        szstrTmp[i] = token;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">free</span>(orgstr); <span class="comment">// gbd 调试报错在此行</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li><p>可以通过 <code>cmd</code> 批处理命令来调用 <code>bash</code> 并执行 <code>shell</code> 命令，使用方法如下:</p>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">User_Name</span>&gt;<span class="title">bash</span> -<span class="title">c</span> " <span class="title">ls</span> ~/"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>写个批处理命令，来实现 <code>windows</code> 下用 <code>vscode</code> 写代码，然后在 <code>wsl</code> 下编译运行代码，这里路径有个问题，<code>windows</code>下路径是右斜杠，而<code>linux</code>下是左斜杠，所以利用批处理把右斜杠替换成左斜杠</p>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> cpp_path=%<span class="number">1</span></span><br><span class="line"><span class="built_in">set</span> "cpp_path=<span class="variable">%cpp_path:\=/%</span>"</span><br><span class="line">bash -c "rm -f %<span class="number">2</span> &amp;&amp; g++ --std=c++<span class="number">11</span> -g <span class="variable">%cpp_path%</span> -o %<span class="number">2</span> -lpthread &amp;&amp; clear &amp;&amp; <span class="built_in">time</span> %<span class="number">2</span>"</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h1 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h1><ul>
-<li><p>不使用 <code>strdup</code> 、<code>for</code> 循环里多个条件限制</p>
+<h2 id="task-json"><a href="#task-json" class="headerlink" title="task.json"></a><code>task.json</code></h2><ul>
+<li>下面注释部分按照实际情况改写<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">  <span class="attr">"tasks"</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      "label": "make", // ctrl + shift + b 调出vscode task的时候显示的名称</span><br><span class="line">      "command": "$&#123;workspaceFolder&#125;/.vscode/make.bat", // make.bat的路径</span><br><span class="line">      "args": [</span><br><span class="line">        // 传递给make.bat的参数 %1和%2</span><br><span class="line">        "$&#123;relativeFile&#125;", // 当前打开文件的路径</span><br><span class="line">        "./debug/$&#123;fileBasenameNoExtension&#125;.out" // 编译后文件输出路径</span><br><span class="line">      ],</span><br><span class="line">      "problemMatcher": &#123;</span><br><span class="line">        "owner": "cpp",</span><br><span class="line">        "fileLocation": ["relative", "$&#123;workspaceRoot&#125;"],</span><br><span class="line">        "pattern": &#123;</span><br><span class="line">          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",</span><br><span class="line">          "file": 1,</span><br><span class="line">          "line": 2,</span><br><span class="line">          "column": 3,</span><br><span class="line">          "severity": 4,</span><br><span class="line">          "message": 5</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      "group": &#123;</span><br><span class="line">        "kind": "build",</span><br><span class="line">        "isDefault": true</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  ],</span><br><span class="line">  "sourceFileMap": &#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>修复后的代码</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">fstream test;</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;       <span class="comment">// ++++++</span></span><br><span class="line"><span class="keyword">char</span> delim[] = <span class="string">","</span>;</span><br><span class="line"><span class="built_in">string</span> strLine;</span><br><span class="line"><span class="built_in">string</span> szstrTmp [<span class="number">3</span>];</span><br><span class="line"></span><br><span class="line">test.open(<span class="string">"./debug/test.log"</span>, ios::binary | ios::in);</span><br><span class="line"><span class="keyword">if</span>(!test)</span><br><span class="line">    perror(<span class="string">"open"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(getline(test, strLine))</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// int i = 0;    // error1 // ------</span></span><br><span class="line">    <span class="comment">// char *orgstr = strdup(strLine.c_str()); // error2 // ------</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">char</span> *orgstr = <span class="keyword">const_cast</span>&lt;<span class="keyword">char</span>*&gt;(strLine.c_str());</span><br><span class="line">    <span class="comment">// for (token = strsep(&amp;orgstr, delim), i = 0; token != NULL; token = strsep(&amp;orgstr, delim)) // ------</span></span><br><span class="line">    <span class="keyword">for</span> (token = strsep(&amp;orgstr, delim), i = <span class="number">0</span>; token != <span class="literal">NULL</span>, i &lt; <span class="number">3</span>; token = strsep(&amp;orgstr, delim), i++)  <span class="comment">// ++++++</span></span><br><span class="line">    &#123;</span><br><span class="line">        szstrTmp[i] = token;</span><br><span class="line">        <span class="comment">// i++; // ------</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// free(orgstr); // ------</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+</ul>
+<h2 id="launch-json"><a href="#launch-json" class="headerlink" title="launch.json"></a><code>launch.json</code></h2><ul>
+<li>下面注释部分按照实际情况改写<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">  <span class="attr">"configurations"</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">"name"</span>: <span class="string">"(gdb)"</span>,</span><br><span class="line">      <span class="attr">"type"</span>: <span class="string">"cppdbg"</span>,</span><br><span class="line">      <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">      <span class="attr">"program"</span>: <span class="string">"$&#123;fileBasenameNoExtension&#125;.out"</span>,</span><br><span class="line">      <span class="attr">"args"</span>: [</span><br><span class="line">        // 调试时送给程序的参数相当于gdb中的 set args xxx</span><br><span class="line">        <span class="string">"test.log"</span>,</span><br><span class="line">        <span class="string">"100"</span></span><br><span class="line">      ],</span><br><span class="line">      "stopAtEntry": true, // 设为true时程序将暂停在程序入口处</span><br><span class="line">      "cwd": "/mnt/f/workspaces/c++/debug", // 调试程序时的工作目录</span><br><span class="line">      "environment": [],</span><br><span class="line">      "externalConsole": true,</span><br><span class="line">      "internalConsoleOptions": "openOnSessionStart",</span><br><span class="line">      "sourceFileMap": &#123;</span><br><span class="line">        "/mnt/f/workspaces/c++/": "$&#123;workspaceFolder&#125;" // 路径映射，修改路径为实际路径</span><br><span class="line">      &#125;,</span><br><span class="line">      "windows": &#123;</span><br><span class="line">        "MIMode": "gdb",</span><br><span class="line">        "setupCommands": [</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">"description"</span>: <span class="string">"Enable pretty-printing for gdb"</span>,</span><br><span class="line">            <span class="attr">"text"</span>: <span class="string">"-enable-pretty-printing"</span>,</span><br><span class="line">            <span class="attr">"ignoreFailures"</span>: <span class="literal">true</span></span><br><span class="line">          &#125;</span><br><span class="line">        ]</span><br><span class="line">      &#125;,</span><br><span class="line">      "pipeTransport": &#123;</span><br><span class="line">        "pipeCwd": "",</span><br><span class="line">        "pipeProgram": "c:\\Windows\\System32\\bash.exe",</span><br><span class="line">        "pipeArgs": ["-c"],</span><br><span class="line">        "debuggerPath": "/usr/bin/gdb"</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h1><ul>
+<li>一键 <code>F5</code> 编译运行<br>编译的时候实际就是通过 <code>cmd</code> 去执行 <code>bash</code> 命令，上面的例子中是先把 <code>debug</code> 下的 <code>.out</code> 删除，然后编译运行，可以直接在 <code>vscode</code> 的终端中看到运行结果</li>
+</ul>
+<h2 id="make-工程"><a href="#make-工程" class="headerlink" title="make 工程"></a><code>make</code> 工程</h2><ul>
+<li>大点的工程都有 <code>makefile</code>，方法和上面的一样，只要改一下 <code>make.bat</code>就行了<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash -c "<span class="built_in">cd</span> src &amp;&amp; make clean &amp;&amp; make %<span class="number">1</span>"</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="配置-go"><a href="#配置-go" class="headerlink" title="配置 go"></a>配置 <code>go</code></h2><ul>
+<li><p><code>make.bat</code></p>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash -c "go run %<span class="number">1</span>"</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>task.json</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">  <span class="attr">"tasks"</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      "label": "go", // 显示</span><br><span class="line">      "command": "$&#123;workspaceFolder&#125;/.vscode/make.bat", // make.bat路径</span><br><span class="line">      "args": [</span><br><span class="line">        "/mnt/f/workspaces/go/$&#123;relativeFile&#125;" // make.bat 的入参</span><br><span class="line">      ],</span><br><span class="line">      "problemMatcher": &#123;</span><br><span class="line">        "owner": "go",</span><br><span class="line">        "fileLocation": ["relative", "$&#123;workspaceRoot&#125;"],</span><br><span class="line">        "pattern": &#123;</span><br><span class="line">          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",</span><br><span class="line">          "file": 1,</span><br><span class="line">          "line": 2,</span><br><span class="line">          "column": 3,</span><br><span class="line">          "severity": 4,</span><br><span class="line">          "message": 5</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      "group": &#123;</span><br><span class="line">        "kind": "build",</span><br><span class="line">        "isDefault": true</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  ],</span><br><span class="line">  "sourceFileMap": &#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>launch.json</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">  <span class="attr">"configurations"</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">"name"</span>: <span class="string">"golang"</span>,</span><br><span class="line">      <span class="attr">"type"</span>: <span class="string">"go"</span>,</span><br><span class="line">      <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">      <span class="attr">"mode"</span>: <span class="string">"debug"</span>,</span><br><span class="line">      <span class="attr">"remotePath"</span>: <span class="string">""</span>,</span><br><span class="line">      <span class="attr">"port"</span>: <span class="number">2345</span>,</span><br><span class="line">      <span class="attr">"host"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line">      // "program": "$&#123;relativeFile&#125;.go",</span><br><span class="line">      "program": "$&#123;workspaceRoot&#125;/$&#123;relativeFile&#125;",</span><br><span class="line">      "env": &#123; "gopath": "F:\\workspaces\\golang" &#125;, // $GOPATH路径</span><br><span class="line">      "args": [],</span><br><span class="line">      "showLog": true,</span><br><span class="line">      "trace": true</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 
@@ -578,7 +608,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Bug/" rel="tag"><i class="fa fa-tag"></i> Bug</a>
+            <a href="/tags/vscode/" rel="tag"><i class="fa fa-tag"></i> vscode</a>
+          
+            <a href="/tags/wsl/" rel="tag"><i class="fa fa-tag"></i> wsl</a>
+          
+            <a href="/tags/c/" rel="tag"><i class="fa fa-tag"></i> c++</a>
           
         </div>
       
@@ -591,8 +625,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/04/13/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/04/14/记一次Segment fault/" rel="next" title="记一次Segment fault">
+                <i class="fa fa-chevron-left"></i> 记一次Segment fault
               </a>
             
           </div>
@@ -601,8 +635,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/04/17/vscode+wsl搭建go和c++开发环境/" rel="prev" title="vscode+wsl搭建go和c++开发环境">
-                vscode+wsl搭建go和c++开发环境 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/14/vscode远程开发/" rel="prev" title="vscode 远程开发">
+                vscode 远程开发 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -811,7 +845,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#重现"><span class="nav-number">1.</span> <span class="nav-text">重现</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分析"><span class="nav-number">2.</span> <span class="nav-text">分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#修复"><span class="nav-number">3.</span> <span class="nav-text">修复</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用场景"><span class="nav-number">1.</span> <span class="nav-text">使用场景</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#操作步骤"><span class="nav-number">2.</span> <span class="nav-text">操作步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#开启-wsl，并配置为-vscode-默认终端"><span class="nav-number">2.1.</span> <span class="nav-text">开启 wsl，并配置为 vscode 默认终端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#通过-bat-执行-bash-命令"><span class="nav-number">2.2.</span> <span class="nav-text">通过 bat 执行 bash 命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#task-json"><span class="nav-number">2.3.</span> <span class="nav-text">task.json</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#launch-json"><span class="nav-number">2.4.</span> <span class="nav-text">launch.json</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用说明"><span class="nav-number">3.</span> <span class="nav-text">使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#make-工程"><span class="nav-number">3.1.</span> <span class="nav-text">make 工程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-go"><span class="nav-number">3.2.</span> <span class="nav-text">配置 go</span></a></li></ol></li></ol></div>
             
 
           </div>
