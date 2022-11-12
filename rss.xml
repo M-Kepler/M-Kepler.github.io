@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.huangjinjie.xyz/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>M-Kepler</title>
+    <link>https://blog.huangjinjie.xyz/</link>
+    <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
+    <language>zh-CN</language>
+    <pubDate>Sat, 12 Nov 2022 17:52:54 GMT</pubDate>
+    <lastBuildDate>Sat, 12 Nov 2022 17:52:54 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Markdown</category>
+    <item>
+      <title>博文示例</title>
+      <link>https://blog.huangjinjie.xyz/sources/blog/2017-04-22-my_post.html</link>
+      <guid>https://blog.huangjinjie.xyz/sources/blog/2017-04-22-my_post.html</guid>
+      <source url="https://blog.huangjinjie.xyz/rss.xml">博文示例</source>
+      <category>Markdown</category>
+      <pubDate>Sat, 22 Apr 2017 12:54:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="标题一" tabindex="-1"> 标题一</h1>
+<h2 id="标题二" tabindex="-1"> 标题二</h2>
+<h3 id="标题三" tabindex="-1"> 标题三</h3>
+<h4 id="标题四" tabindex="-1"> 标题四</h4>
+<h5 id="标题五" tabindex="-1"> 标题五</h5>
+<h6 id="标题六" tabindex="-1"> 标题六</h6>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>随笔</title>
+      <link>https://blog.huangjinjie.xyz/sources/note/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99.html</link>
+      <guid>https://blog.huangjinjie.xyz/sources/note/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99.html</guid>
+      <source url="https://blog.huangjinjie.xyz/rss.xml">随笔</source>
+      <pubDate>Sat, 12 Nov 2022 17:51:25 GMT</pubDate>
+      <content:encoded><![CDATA[<p>心即理，知良知，知行合一</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MySQL 笔记</title>
+      <link>https://blog.huangjinjie.xyz/sources/note/%F0%9F%A5%9D%E3%80%90%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/MySQL/00.%20MySQL%20%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://blog.huangjinjie.xyz/sources/note/%F0%9F%A5%9D%E3%80%90%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/MySQL/00.%20MySQL%20%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://blog.huangjinjie.xyz/rss.xml">MySQL 笔记</source>
+      <pubDate>Sat, 12 Nov 2022 17:51:25 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h1 id="mysql-笔记" tabindex="-1"> MySQL 笔记</h1>
+<p><img src="https://baiyp.ren/images/mysql/mysql01.png" alt="alt"></p>
+<h2 id="安装部署" tabindex="-1"> 安装部署</h2>
+<ul>
+<li><a href="https://baiyp.ren/Docker%E5%AE%89%E8%A3%85MySql.html#MySQL%E5%87%86%E5%A4%87%E6%95%B0%E6%8D%AE" target="_blank" rel="noopener noreferrer">测试数据导入</a></li>
+</ul>
+<h2 id="配置" tabindex="-1"> 配置</h2>
+<ul>
+<li>
+<p>查看配置</p>
+<div><pre><code>mysql <span>-uroot</span> <span>-proot</span> <span>-e</span> <span>"show variables like 'log_bin%'"</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+</ul>
+<h2 id="使用" tabindex="-1"> 使用</h2>
+<ul>
+<li>
+<p><a href="https://blog.csdn.net/guoxiaoweitaiyuan/article/details/104535774" target="_blank" rel="noopener noreferrer">怎么递增地修改一个表数据的某个字段</a></p>
+<div><pre><code><span>set</span> <span>@rownum</span><span>=</span><span>0</span><span>;</span>
+<span>update</span> bbc_device <span>set</span> device_list_id<span>=</span><span>(</span><span>select</span> <span>@rownum</span> :<span>=</span> <span>@rownum</span> <span>+</span> <span>1</span> <span>as</span> nid<span>)</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></li>
+<li>
+<p><a href="https://blog.csdn.net/u012604745/article/details/80642015" target="_blank" rel="noopener noreferrer">根据 A 表去更新 B 表</a></p>
+<div><pre><code><span>update</span> bbc_device a <span>join</span> bbc_device_list b <span>on</span> a<span>.</span>device_list_id <span>=</span> b<span>.</span>id <span>set</span> b<span>.</span>device_id<span>=</span>a<span>.</span>id<span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+<li>
+<p>查看连接数</p>
+<div><pre><code><span>show</span> <span>full</span> processlist<span>;</span>
+<span>select</span> <span>*</span> <span>from</span> information_schema<span>.</span>processlist <span>where</span> INFO <span>is</span> <span>not</span> <span>NULL</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></li>
+<li>
+<p>查看表索引</p>
+<div><pre><code><span>SHOW</span> <span>INDEX</span> <span>FROM</span> tb_name<span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+<li>
+<p>显示警告信息</p>
+<div><pre><code><span>show</span> <span>warnings</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+<li>
+<p>增删字段</p>
+<div><pre><code><span>-- 删</span>
+<span>alter</span> <span>table</span> upgrade_plan <span>drop</span> <span>column</span> auto_join<span>;</span>
+
+<span>-- 增</span>
+<span>alter</span> <span>table</span> upgrade_plan <span>add</span> <span>column</span> retry_time <span>int</span> <span>default</span> <span>0</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div></li>
+<li>
+<p>数据库导出</p>
+<div><pre><code>mysqldump <span>-</span>u 用户名 <span>-</span>p 数据库名 <span>></span> 导出的文件名
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+<li>
+<p>数据表导出导入</p>
+<p><a href="https://www.cnblogs.com/xzlive/p/15589204.html" target="_blank" rel="noopener noreferrer">mysql 导入报@@GLOBAL.GTID_PURGED can only be set when @@GLOBAL.GTID_EXECUTED is empty 错误</a></p>
+<div><pre><code><span>-- 导出</span>
+mysqldump <span>-</span>uxxx <span>-</span>pxxx db_name tb1 tb2 tb3 <span>></span> <span>backup</span><span>.</span><span>sql</span>
+
+<span>-- 导入</span>
+mysql <span>-</span>uxxx <span>-</span>pxxx db_name <span>&lt;</span> <span>backup</span><span>.</span><span>sql</span>
+
+<span>-- 批量导入（注意文件顺序）</span>
+<span>for</span> <span>SQL</span> <span>in</span> <span>*</span><span>.</span><span>sql</span><span>;</span> <span>do</span> mysql <span>-</span>uroot <span>-</span>p<span>"xxx"</span> mydb <span>&lt;</span> $<span>SQL</span><span>;</span> done
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></li>
+<li>
+<p>导出 csv</p>
+<div><pre><code><span>-- 导出 csv</span>
+<span>-- ERROR 1290 (HY000) at line 1: The MySQL server is running with the --secure-file-priv option so it cannot execute this statement</span>
+<span>-- 修改 MySQL 配置文件 my.ini，添加 secure_file_priv="/root/hjj"，重启 mysql</span>
+
+<span>-- ERROR 1 (HY000) at line 1: Can't create/write to file'/xxxx/cfg_dict.csv' (Errcode: 13 - Permission denied)</span>
+<span>-- https://blog.csdn.net/weixin_30681615/article/details/102005340</span>
+<span>-- chmod -R 777 /path/to/your/export</span>
+
+<span>select</span> <span>*</span> <span>from</span> test <span>into</span> <span>outfile</span> <span>'/tmp/test.csv'</span> <span>fields</span> <span>terminated</span> <span>by</span> <span>","</span>  <span>escaped</span> <span>by</span> <span>''</span> <span>optionally</span> <span>enclosed</span>  <span>by</span> <span>''</span>   <span>lines</span> <span>terminated</span> <span>by</span> <span>'\n'</span> <span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></li>
+<li>
+<p><a href="https://blog.51cto.com/u_3664660/3213261" target="_blank" rel="noopener noreferrer">desc 看不到表字段注释信息</a></p>
+<p>改用 <code>show full fields from [tablename]</code> 或者 <code>show create table [table_name]</code></p>
+</li>
+<li>
+<p><a href="https://www.learnfk.com/question/mysql/11331573.html" target="_blank" rel="noopener noreferrer">复制一行</a></p>
+<div><pre><code><span>insert</span> <span>into</span> my_table<span>(</span>col1<span>,</span> col2<span>)</span> <span>select</span> col1<span>,</span> col2 <span>from</span> my_table <span>where</span> pk_id<span>=</span><span>[</span>row_id<span>]</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p><code>insert into</code> 多条数据</p>
+<div><pre><code><span>insert</span> <span>into</span> my_table <span>values</span>
+<span>(</span><span>1</span><span>,</span> <span>"xxx"</span><span>,</span> <span>"yyy"</span><span>,</span> <span>"2030-01-02 11:10:09"</span><span>)</span><span>,</span>
+<span>(</span><span>2</span><span>,</span> <span>"xxx"</span><span>,</span> <span>"yyy"</span><span>,</span> <span>"2030-01-02 11:10:09"</span><span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></li>
+<li>
+<p>查看存储过程</p>
+<div><pre><code><span>SHOW</span> <span>PROCEDURE</span> <span>STATUS</span> <span>LIKE</span> <span>'%xxx'</span><span>;</span>
+<span>-- 删除</span>
+<span>DROP</span> <span>PROCEDURE</span> <span>[</span> <span>IF</span> <span>EXISTS</span> <span>]</span> <span>[</span>procedure_name<span>]</span><span>;</span> <span>-- 存储过程名称不要加双引号</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div></li>
+<li>
+<p><a href="https://www.nhooo.com/note/qa019r.html" target="_blank" rel="noopener noreferrer">MySQL 存储过程中“ @”符号的用法是什么</a></p>
+</li>
+<li>
+<p>模糊查找表 <code>show tables like '%log%';</code></p>
+</li>
+</ul>
+<h1 id="架构" tabindex="-1"> 架构</h1>
+<p><img src="https://pic2.zhimg.com/v2-f8d848179f49e357c4e348c68b4e62b5_r.jpg" alt="alt"></p>
+<h1 id="学习过程中的疑问" tabindex="-1"> 学习过程中的疑问</h1>
+<h1 id="排障指南" tabindex="-1"> 排障指南</h1>
+<ul>
+<li>
+<p><code>The server quit without updating PID file（/var/run/mysqld/mysqld.id</code></p>
+<div><pre><code>mysqld: Can<span>'t create/write to file '</span>/tmp/ibxzV7PR' <span>(</span>Errcode: <span>13</span> - Permission denied<span>)</span>
+<span>2021</span>-03-10T16:25:28.308867+08:00 <span>0</span> <span>[</span>ERROR<span>]</span> InnoDB: Unable to create temporary <span>file</span><span>;</span> errno: <span>13</span>
+<span>2021</span>-03-10T16:25:28.308873+08:00 <span>0</span> <span>[</span>ERROR<span>]</span> InnoDB: Plugin initialization aborted with error Generic error
+
+<span># 给 /tmp 加个 777 的权限</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div></li>
+</ul>
+<h1 id="其他" tabindex="-1"> 其他</h1>
+<ul>
+<li>
+<p><code>mysql</code> 最多可以查多少数据</p>
+<p>比如有一亿数据，然后做分页，真的能分页出来吗</p>
+</li>
+<li>
+<p><code>mysql</code> 每秒最多处理 <code>2000</code> 个请求</p>
+</li>
+<li>
+<p>连接池</p>
+<ul>
+<li>
+<p>如果你有 10000 个并发用户，设置一个 10000 的连接池基本等于失了智。1000 仍然很恐怖。即是 100 也太多了。你需要一个 10 来个连接的小连接池，然后让剩下的业务线程都在队列里等待。连接池中的连接数量应该等于你的数据库能够有效同时进行的查询任务数（通常不会高于 2*CPU 核心数）。</p>
+</li>
+<li>
+<p>我们经常见到一些小规模的 web 应用，应付着大约十来个的并发用户，却使用着一个 100 连接数的连接池。这会对你的数据库造成极其不必要的负担</p>
+</li>
+</ul>
+</li>
+</ul>
+<div><pre><code>1. 可用反引号（`）为标识符（库名、表名、字段名、索引、别名）包裹，以避免与关键字重名！中文也可以作为标识符！
+2. 每个库目录存在一个保存当前数据库的选项文件db.opt。
+3. 注释：
+    单行注释 # 注释内容
+    多行注释 /* 注释内容 */
+    单行注释 -- 注释内容        (标准SQL注释风格，要求双破折号后加一空格符（空格、TAB、换行等）)
+4. 模式通配符：
+    _    任意单个字符
+    %    任意多个字符，甚至包括零字符
+    单引号需要进行转义 \'
+5. CMD命令行内的语句结束符可以为 ";", "\G", "\g"，仅影响显示结果。其他地方还是用分号结束。delimiter 可修改当前对话的语句结束符。
+6. SQL对大小写不敏感
+7. 清除已有语句：\c
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li>
+<p><a href="https://www.cnblogs.com/edgedance/p/7090800.html" target="_blank" rel="noopener noreferrer">结果输出到文件</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/qq624202120/article/details/108594107" target="_blank" rel="noopener noreferrer">MySQL 锁的总结 和 一次插入意向锁的死锁还原分析</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/gaogao67/p/11042853.html" target="_blank" rel="noopener noreferrer">MySQL Lock--gap before rec insert intention waiting</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/qq_16681169/article/details/73359670" target="_blank" rel="noopener noreferrer">并发插入引发的死锁问题排查</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/lpp_dd/article/details/83183816" target="_blank" rel="noopener noreferrer">在一个事务中，先插入再查询，能查到数据吗</a></p>
+</li>
+<li>
+<p><a href="https://www.jianshu.com/p/2b258bfe00e5" target="_blank" rel="noopener noreferrer">mysql for update 死锁问题</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/Kidezyq/p/9239484.html?utm_source=debugrun&amp;utm_medium=referral" target="_blank" rel="noopener noreferrer">For update 带来的思考</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/u013905744/article/details/102897226" target="_blank" rel="noopener noreferrer">重复插入相同数据导致 deadlock 问题：Deadlock found when trying to get lock； try</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/wuyu6394232/article/details/99061955" target="_blank" rel="noopener noreferrer">意向锁导致死锁</a></p>
+</li>
+</ul>
+<h1 id="参考资料" tabindex="-1"> 参考资料</h1>
+<ul>
+<li>
+<p><a href="https://blog.csdn.net/hxpjava1/article/details/79407961" target="_blank" rel="noopener noreferrer"><code>MySQL</code> 的锁</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/lyq-biu/p/10859273.html" target="_blank" rel="noopener noreferrer">开启远程访问</a></p>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://baiyp.ren/images/mysql/mysql01.png" type="image/png"/>
+    </item>
+    <item>
+      <title>★ 20 张图带你彻底搞懂 MySQL MVCC 原理</title>
+      <link>https://blog.huangjinjie.xyz/sources/note/%F0%9F%A5%9D%E3%80%90%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/MySQL/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/%E2%98%85%2020%20%E5%BC%A0%E5%9B%BE%E5%B8%A6%E4%BD%A0%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82%20MySQL%20MVCC%20%E5%8E%9F%E7%90%86.html</link>
+      <guid>https://blog.huangjinjie.xyz/sources/note/%F0%9F%A5%9D%E3%80%90%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/MySQL/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/%E2%98%85%2020%20%E5%BC%A0%E5%9B%BE%E5%B8%A6%E4%BD%A0%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82%20MySQL%20MVCC%20%E5%8E%9F%E7%90%86.html</guid>
+      <source url="https://blog.huangjinjie.xyz/rss.xml">★ 20 张图带你彻底搞懂 MySQL MVCC 原理</source>
+      <pubDate>Sat, 12 Nov 2022 17:51:25 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>
+<ul>
+<li></li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>本文由 <a href="http://ksria.com/simpread/" target="_blank" rel="noopener noreferrer">简悦 SimpRead</a> 转码， 原文地址 <a href="https://mp.weixin.qq.com/s/l40astGsfghnzXSl0VeUKQ" target="_blank" rel="noopener noreferrer">mp.weixin.qq.com</a></p>
+</blockquote>
+<h1 id="★-20-张图带你彻底搞懂-mysql-mvcc-原理" tabindex="-1"> ★ 20 张图带你彻底搞懂 MySQL MVCC 原理</h1>
+<h2 id="前言" tabindex="-1"> 前言</h2>
+<p>MySQL MVCC 实现原理是一道非常高频的面试题，最近我一直在面试，能够清晰准确回答这个问题的人不多，今天我们一起来聊聊。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBBuWtBL6kBoQR6hoIh5JoVllUPPf1YCMyAKWmuMich5X0H3Xr0zHsRsA/640?wx_fmt=png" alt="alt"></p>
+<h2 id="_1-相关数据库知识点回顾" tabindex="-1"> 1. 相关数据库知识点回顾</h2>
+<h3 id="_1-1-什么是数据库事务-为什么要有事务" tabindex="-1"> 1.1 什么是数据库事务，为什么要有事务</h3>
+<p>事务，由一个有限的数据库操作序列构成，这些操作要么全部执行, 要么全部不执行，是一个不可分割的工作单位。</p>
+<blockquote>
+<p>假如 A 转账给 B 100 元，先从 A 的账户里扣除 100 元，再在 B 的账户上加上 100 元。如果扣完 A 的 100 元后，还没来得及给 B 加上，银行系统异常了，最后导致 A 的余额减少了，B 的余额却没有增加。所以就需要事务，将 A 的钱回滚回去，就是这么简单。</p>
+</blockquote>
+<p><strong>为什么要有事务呢？</strong> 就是为了保证数据的最终一致性。</p>
+<h3 id="_1-2-事务包括哪几个特性" tabindex="-1"> 1.2 事务包括哪几个特性？</h3>
+<p>事务四个典型特性，即 ACID，原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。</p>
+<ul>
+<li>
+<p>原子性：事务作为一个整体被执行，包含在其中的对数据库的操作要么全部都执行，要么都不执行。</p>
+</li>
+<li>
+<p>一致性：指在事务开始之前和事务结束以后，数据不会被破坏，假如 A 账户给 B 账户转 10 块钱，不管成功与否，A 和 B 的总金额是不变的。</p>
+</li>
+<li>
+<p>隔离性：多个事务并发访问时，事务之间是相互隔离的，一个事务不应该被其他事务干扰，多个并发事务之间要相互隔离。。</p>
+</li>
+<li>
+<p>持久性：表示事务完成提交后，该事务对数据库所作的操作更改，将持久地保存在数据库之中。</p>
+</li>
+</ul>
+<h3 id="_1-3-事务并发存在的问题" tabindex="-1"> 1.3 事务并发存在的问题</h3>
+<p>事务并发会引起<strong>脏读、不可重复读、幻读</strong>问题。</p>
+<h4 id="_1-3-1-脏读" tabindex="-1"> 1.3.1 脏读</h4>
+<blockquote>
+<p>如果一个事务读取到了另一个未提交事务修改过的数据，我们就称发生了脏读现象。</p>
+</blockquote>
+<p>假设现在有两个事务 A、B：</p>
+<ul>
+<li>
+<p>假设现在 A 的余额是 100，事务 A 正在准备查询 Jay 的余额</p>
+</li>
+<li>
+<p>事务 B 先扣减 Jay 的余额，扣了 10，但是还没提交</p>
+</li>
+<li>
+<p>最后 A 读到的余额是 90，即扣减后的余额</p>
+</li>
+</ul>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBoRjCl7d8eKnrRtbK8mfeDuYksadBvY7Nydicp6yrlJJQBM1RBMMfLBw/640?wx_fmt=png" alt="alt">脏读</p>
+<p>因为事务 A 读取到事务 B <strong>未提交的数据</strong>, 这就是脏读。</p>
+<h4 id="_1-3-2-不可重复读" tabindex="-1"> 1.3.2 不可重复读</h4>
+<blockquote>
+<p>同一个事务内，前后多次读取，读取到的数据内容不一致</p>
+</blockquote>
+<p>假设现在有两个事务 A 和 B：</p>
+<ul>
+<li>
+<p>事务 A 先查询 Jay 的余额，查到结果是 100</p>
+</li>
+<li>
+<p>这时候事务 B 对 Jay 的账户余额进行扣减，扣去 10 后，提交事务</p>
+</li>
+<li>
+<p>事务 A 再去查询 Jay 的账户余额发现变成了 90</p>
+</li>
+</ul>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBaxI9DQRicD4EJibVyvJCR2ViaBWLU4weHYdEykPiavf1VEOLKyhKKLsFxQ/640?wx_fmt=png" alt="alt"> 不可重复读</p>
+<p>事务 A 被事务 B 干扰到了！在事务 A 范围内，两个相同的查询，读取同一条记录，却返回了不同的数据，这就是<strong>不可重复读</strong>。</p>
+<h4 id="_1-3-3-幻读" tabindex="-1"> 1.3.3 幻读</h4>
+<blockquote>
+<p>如果一个事务先根据某些搜索条件查询出一些记录，在该事务未提交时，另一个事务写入了一些符合那些搜索条件的记录（如 insert、delete、update），就意味着发生了<strong>幻读</strong>。</p>
+</blockquote>
+<p>假设现在有两个事务 A、B：</p>
+<ul>
+<li>
+<p>事务 A 先查询 id 大于 2 的账户记录，得到记录 id=2 和 id=3 的两条记录</p>
+</li>
+<li>
+<p>这时候，事务 B 开启，插入一条 id=4 的记录，并且提交了</p>
+</li>
+<li>
+<p>事务 A 再去执行相同的查询，却得到了 id=2,3,4 的 3 条记录了。</p>
+</li>
+</ul>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBGTQicHibriaCofS4yUia0FUsOPjichI1PzMMMiaTQFdqbgNiaHpBdicxNmugJA/640?wx_fmt=png" alt="alt">幻读</p>
+<p>事务 A 查询一个范围的结果集，另一个并发事务 B 往这个范围中插入新的数据，并提交事务，然后事务 A 再次查询相同的范围，两次读取到的结果集却不一样了，这就是幻读。</p>
+<h3 id="_1-4-四大隔离级别" tabindex="-1"> 1.4 四大隔离级别</h3>
+<p>为了解决并发事务存在的<strong>脏读、不可重复读、幻读</strong>等问题，数据库大叔设计了四种隔离级别。分别是<strong>读未提交，读已提交，可重复读，串行化（Serializable）</strong>。</p>
+<h4 id="_1-4-1-读未提交" tabindex="-1"> 1.4.1 读未提交</h4>
+<p>读未提交隔离级别，只限制了两个数据<strong>不能同时修改</strong>，但是修改数据的时候，即使事务<strong>未提交</strong>，都是可以被别的事务读取到的，这级别的事务隔离有<strong>脏读、重复读、幻读</strong>的问题；</p>
+<h4 id="_1-4-2-读已提交" tabindex="-1"> 1.4.2 读已提交</h4>
+<p>读已提交隔离级别，当前事务只能读取到其他事务<strong>提交</strong>的数据，所以这种事务的隔离级别<strong>解决了脏读</strong>问题，但还是会存在<strong>重复读、幻读</strong>问题；</p>
+<h4 id="_1-4-3-可重复读" tabindex="-1"> 1.4 3 可重复读</h4>
+<p>可重复读隔离级别，限制了读取数据的时候，不可以进行修改，所以<strong>解决了重复读</strong>的问题，但是读取范围数据的时候，是可以插入数据，所以还会存在<strong>幻读</strong>问题；</p>
+<h4 id="_1-4-4-串行化" tabindex="-1"> 1.4.4 串行化</h4>
+<p>事务最高的隔离级别，在该级别下，所有事务都是进行<strong>串行化顺序</strong>执行的。可以避免脏读、不可重复读与幻读所有并发问题。但是这种事务隔离级别下，事务执行很耗性能。</p>
+<h4 id="_1-4-5-四大隔离级别-都会存在哪些并发问题呢" tabindex="-1"> 1.4.5 四大隔离级别，都会存在哪些并发问题呢</h4>
+<table><thead><tr><th>隔离级别</th><th>脏读</th><th>不可重复读</th><th>幻读</th></tr></thead><tbody><tr><td>读未提交</td><td>√</td><td>√</td><td>√</td></tr><tr><td>读已提交</td><td>×</td><td>√</td><td>√</td></tr><tr><td>可重复读</td><td>×</td><td>×</td><td>√</td></tr><tr><td>串行化</td><td>×</td><td>×</td><td>×</td></tr></tbody></table>
+<h3 id="_1-5-数据库是如何保证事务的隔离性的呢" tabindex="-1"> 1.5 数据库是如何保证事务的隔离性的呢？</h3>
+<p>数据库是通过<strong>加锁</strong>，来实现事务的隔离性的。这就好像，如果你想一个人静静，不被别人打扰，你就可以在房门上加上一把锁。</p>
+<p>加锁确实好使，可以保证隔离性。比如<strong>串行化隔离级别就是加锁实现的</strong>。但是频繁的加锁，导致读数据时，没办法修改，修改数据时，没办法读取，大大<strong>降低了数据库性能</strong>。</p>
+<p><strong>那么，如何解决加锁后的性能问题的？</strong></p>
+<p>答案就是,<strong>MVCC 多版本并发控制</strong>！它实现读取数据不用加锁，可以让读取数据同时修改。修改数据时同时可读取。</p>
+<h2 id="_2-什么是-mvcc" tabindex="-1"> 2. 什么是 MVCC？</h2>
+<p>MVCC，即 <strong>Multi-Version  Concurrency Control （多版本并发控制）</strong>。它是一种并发控制的方法，一般在数据库管理系统中，实现对数据库的并发访问，在编程语言中实现事务内存。</p>
+<blockquote>
+<p>通俗的讲，数据库中同时存在多个版本的数据，并不是整个数据库的多个版本，而是某一条记录的多个版本同时存在，在某个事务对其进行操作的时候，需要查看这一条记录的隐藏列事务版本 id，比对事务 id 并根据事物隔离级别去判断读取哪个版本的数据。</p>
+</blockquote>
+<p>数据库隔离级别读<strong>已提交、可重复读</strong> 都是基于 MVCC 实现的，相对于加锁简单粗暴的方式，它用更好的方式去处理读写冲突，能有效提高数据库并发性能。</p>
+<h2 id="_3-mvcc-实现的关键知识点" tabindex="-1"> 3. MVCC 实现的关键知识点</h2>
+<h3 id="_3-1-事务版本号" tabindex="-1"> 3.1 事务版本号</h3>
+<blockquote>
+<p>事务每次开启前，都会从数据库获得一个<strong>自增长</strong>的事务 ID，可以从事务 ID 判断事务的执行先后顺序。这就是事务版本号。</p>
+</blockquote>
+<h3 id="_3-2-隐式字段" tabindex="-1"> 3.2 隐式字段</h3>
+<p>对于 InnoDB 存储引擎，每一行记录都有两个隐藏列 <strong>trx_id</strong>、<strong>roll_pointer</strong>，如果表中没有主键和非 NULL 唯一键时，则还会有第三个隐藏的主键列 <strong>row_id</strong>。</p>
+<table><thead><tr><th>列名</th><th>是否必须</th><th>描述</th></tr></thead><tbody><tr><td>row_id</td><td>否</td><td>单调递增的行 ID，不是必需的，占用 6 个字节。</td></tr><tr><td>trx_id</td><td>是</td><td>记录操作该数据事务的事务 ID</td></tr><tr><td>roll_pointer</td><td>是</td><td>这个隐藏列就相当于一个指针，指向回滚段的 undo 日志</td></tr></tbody></table>
+<h3 id="_3-3-undo-log" tabindex="-1"> 3.3 undo log</h3>
+<p>undo log，<strong>回滚日志</strong>，用于记录数据被修改前的信息。在表记录修改之前，会先把数据拷贝到 undo log 里，如果事务回滚，即可以通过 undo log 来还原数据。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_gif/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxB7QCNKsd8asKib4R9CM0uXjuPia7xrYlpZ3VvibGRUGGxQAJLWvLIibQBjQ/640?wx_fmt=gif" alt="alt"></p>
+<p>可以这样认为，当 delete 一条记录时，undo log 中会记录一条对应的 insert 记录，当 update 一条记录时，它记录一条对应相反的 update 记录。</p>
+<p>undo log 有什么<strong>用途</strong>呢？</p>
+<ol>
+<li>
+<p>事务回滚时，保证原子性和一致性。</p>
+</li>
+<li>
+<p>用于 MVCC <strong>快照读</strong>。</p>
+</li>
+</ol>
+<h3 id="_3-4-版本链" tabindex="-1"> 3.4 版本链</h3>
+<p>多个事务并行操作某一行数据时，不同事务对该行数据的修改会产生多个版本，然后通过回滚指针（roll_pointer），连成一个链表，这个链表就称为<strong>版本链</strong>。如下：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBeia1anA1L8sJpk264dotFJXROnATaExLajtqzDeCrSJle6CH830rkAg/640?wx_fmt=png" alt="alt"></p>
+<p>其实，通过版本链，我们就可以看出<strong>事务版本号、表格隐藏的列和 undo log</strong> 它们之间的关系。我们再来小分析一下。</p>
+<ul>
+<li>
+<p>假设现在有一张 core_user 表，表里面有一条数据, id 为 1，名字为孙权：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBvIC5uBpI0uPPK6BSRfibOa8VHibFrsA3yvSM5pjswlibLhKHfuc1coIBQ/640?wx_fmt=png" alt="alt"></p>
+</li>
+<li>
+<p>现在开启一个事务 A：对 core_user 表执行<code>update core_user set name =&quot;曹操&quot; where id=1</code>, 会进行如下流程操作</p>
+</li>
+<li>
+<p>首先获得一个事务 ID： trx_id = 100</p>
+</li>
+<li>
+<p>把 core_user 表修改前的数据, 拷贝到 undo log</p>
+</li>
+<li>
+<p>修改 core_user 表中，id=1 的数据，名字改为曹操</p>
+</li>
+<li>
+<p>把修改后的数据事务 trx_id = 101 改成当前事务版本号，并把 <strong>roll_pointer</strong> 指向 undo log 数据地址。</p>
+</li>
+</ul>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBCPAjUqqkQcCIZd320aDhqEP8hTbr8iaxpOMibomyd04FzWiagvLYGUBicg/640?wx_fmt=png" alt="alt"></p>
+<h3 id="_3-5-快照读和当前读" tabindex="-1"> 3.5 快照读和当前读</h3>
+<p><strong>快照读：</strong> 读取的是记录数据的可见版本（有旧的版本）。不加锁, 普通的 select 语句都是快照读, 如：</p>
+<div><pre><code><span>select</span> <span>*</span> <span>from</span> core_user <span>where</span> id <span>></span> <span>2</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><p><strong>当前读</strong>：读取的是记录数据的最新版本，显式加锁的都是当前读</p>
+<div><pre><code><span>select</span> <span>*</span> <span>from</span> core_user <span>where</span> id <span>></span> <span>2</span> <span>for</span> <span>update</span><span>;</span>
+<span>select</span> <span>*</span> <span>from</span> account <span>where</span> id <span>></span> <span>2</span> <span>lock</span> <span>in</span> <span>share</span> <span>mode</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h3 id="_3-6-read-view" tabindex="-1"> 3.6 Read View</h3>
+<ul>
+<li>
+<p><strong>Read View 是什么呢？</strong> 它就是事务执行 SQL 语句时，产生的读视图。实际上在 innodb 中，每个 SQL 语句执行前都会得到一个 Read View。</p>
+</li>
+<li>
+<p><strong>Read View 有什么用呢？</strong> 它主要是用来做可见性判断的，即判断当前事务可见哪个版本的数据~</p>
+</li>
+</ul>
+<p>Read View 是如何保证可见性判断的呢？我们先看看 Read view 的几个重要属性</p>
+<ul>
+<li>
+<p>m_ids: 当前系统中那些活跃 (未提交) 的读写事务 ID, 它数据结构为一个 List。</p>
+</li>
+<li>
+<p>min_limit_id: 表示在生成 Read View 时，当前系统中活跃的读写事务中最小的事务 id，即 m_ids 中的最小值。</p>
+</li>
+<li>
+<p>max_limit_id: 表示生成 Read View 时，系统中应该分配给下一个事务的 id 值。</p>
+</li>
+<li>
+<p>creator_trx_id: 创建当前 Read View 的事务 ID</p>
+</li>
+</ul>
+<p><strong>Read view 匹配条件规则</strong>如下：</p>
+<ol>
+<li>
+<p>如果数据事务 ID <code>trx_id &lt; min_limit_id</code>，表明生成该版本的事务在生成 Read View 前，已经提交 (因为事务 ID 是递增的)，所以该版本可以被当前事务访问。</p>
+</li>
+<li>
+<p>如果<code>trx_id&gt;= max_limit_id</code>，表明生成该版本的事务在生成 ReadView 后才生成，所以该版本不可以被当前事务访问。</p>
+</li>
+<li>
+<p>如果 <code>min_limit_id =&lt;trx_id&lt; max_limit_id</code>, 需腰分 3 种情况讨论</p>
+</li>
+</ol>
+<blockquote>
+<ul>
+<li>
+<p>（1）. 如果<code>m_ids</code>包含<code>trx_id</code>, 则代表 Read View 生成时刻，这个事务还未提交，但是如果数据的<code>trx_id</code>等于<code>creator_trx_id</code>的话，表明数据是自己生成的，因此是<strong>可见</strong>的。</p>
+</li>
+<li>
+<p>（2）如果<code>m_ids</code>包含<code>trx_id</code>，并且<code>trx_id</code>不等于<code>creator_trx_id</code>，则 Read   View 生成时，事务未提交，并且不是自己生产的，所以当前事务也是<strong>看不见</strong>的；</p>
+</li>
+<li>
+<p>（3）. 如果<code>m_ids</code>不包含<code>trx_id</code>，则说明你这个事务在 Read View 生成之前就已经提交了，修改的结果，当前事务是能看见的。</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="_4-mvcc-实现原理分析" tabindex="-1"> 4. MVCC 实现原理分析</h2>
+<h3 id="_4-1-查询一条记录-基于-mvcc-是怎样的流程" tabindex="-1"> 4.1 查询一条记录，基于 MVCC，是怎样的流程</h3>
+<ol>
+<li>
+<p>获取事务自己的版本号，即事务 ID</p>
+</li>
+<li>
+<p>获取 Read View</p>
+</li>
+<li>
+<p>查询得到的数据，然后 Read View 中的事务版本号进行比较。</p>
+</li>
+<li>
+<p>如果不符合 Read View 的可见性规则， 即就需要 Undo log 中历史快照;</p>
+</li>
+<li>
+<p>最后返回符合规则的数据</p>
+</li>
+</ol>
+<p>InnoDB 实现 MVCC，是通过<code>Read View+ Undo Log</code> 实现的，Undo Log 保存了历史快照，Read View 可见性规则帮助判断当前版本的数据是否可见。</p>
+<h3 id="_4-2-读已提交-rc-隔离级别-存在不可重复读问题的分析历程" tabindex="-1"> 4.2 读已提交（RC）隔离级别，存在不可重复读问题的分析历程</h3>
+<ul>
+<li>
+<p>创建 core_user 表，插入一条初始化数据, 如下：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBbofuhWPa5tCzfejtFIb7Pl0kq08Nvsuemexdhva6iaq0icd9RqpDkWYw/640?wx_fmt=png" alt="alt"></p>
+</li>
+<li>
+<p>隔离级别设置为读已提交（RC），事务 A 和事务 B 同时对 core_user 表进行查询和修改操作。</p>
+<div><pre><code>事务A: <span>select</span> <span>*</span> fom core_user <span>where</span> id <span>=</span> <span>1</span>
+事务B: <span>update</span> core_user <span>set</span> name <span>=</span> <span>"曹操"</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div></li>
+</ul>
+<p>执行流程如下：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBwzxFHXYmX62jtOpAMDvLgibYK8jsICRxzj9QsaYjooV6xpQe04mJiceQ/640?wx_fmt=png" alt="alt"></p>
+<p>最后事务 A 查询到的结果是，<strong>name = 曹操</strong>的记录，我们<strong>基于 MVCC</strong>，来分析一下执行流程：</p>
+<p>(1). A 开启事务，首先得到一个事务 ID 为 100</p>
+<p>(2).B 开启事务，得到事务 ID 为 101</p>
+<p>(3). 事务 A 生成一个 Read View，read view 对应的值如下</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m_ids</td>
+<td>100, 101</td>
+</tr>
+<tr>
+<td>max_limit_id</td>
+<td>102</td>
+</tr>
+<tr>
+<td>min_limit_id</td>
+<td>100</td>
+</tr>
+<tr>
+<td>creator_trx_id</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p>然后回到版本链：开始从版本链中挑选可见的记录：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBl5kT4uBTAlQiacPmeXPWQ5wAo0Ja7kAmgxELtFOA5UCbdmNFw49cvibQ/640?wx_fmt=png" alt="alt">版本链</p>
+<p>由图可以看出，最新版本的列 name 的内容是<code>孙权</code>，该版本的<code>trx_id</code>值为 100。开始执行 read view 可见性规则校验：</p>
+<div><pre><code>min_limit_id<span>(</span><span>100</span><span>)</span> <span>=</span><span>&lt;</span> trx_id（<span>100</span>）<span>&lt;</span> <span>102</span><span>;</span>
+creator_trx_id <span>=</span> trx_id <span>=</span> <span>100</span><span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>由此可得，trx_id=100 的这个记录，当前事务是可见的。所以查到是 name 为<code>孙权</code>的记录。</p>
+<p>（4). 事务 B 进行修改操作，把名字改为曹操。把原数据拷贝到 undo log, 然后对数据进行修改，标记事务 ID 和上一个数据版本在 undo log 的地址。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBCPAjUqqkQcCIZd320aDhqEP8hTbr8iaxpOMibomyd04FzWiagvLYGUBicg/640?wx_fmt=png" alt="alt"></p>
+<p>(5) 提交事务</p>
+<p>(6) 事务 A 再次执行查询操作，<strong>新生成一个 Read View</strong>，Read View 对应的值如下</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m_ids</td>
+<td>100</td>
+</tr>
+<tr>
+<td>max_limit_id</td>
+<td>102</td>
+</tr>
+<tr>
+<td>min_limit_id</td>
+<td>100</td>
+</tr>
+<tr>
+<td>creator_trx_id</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p>然后再次回到版本链：从版本链中挑选可见的记录：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBCPAjUqqkQcCIZd320aDhqEP8hTbr8iaxpOMibomyd04FzWiagvLYGUBicg/640?wx_fmt=png" alt="alt"></p>
+<p>从图可得，最新版本的列 name 的内容是<code>曹操</code>，该版本的<code>trx_id</code>值为 101。开始执行 Read View 可见性规则校验：</p>
+<div><pre><code>min_limit_id<span>(</span><span>100</span><span>)</span> <span>=</span><span>&lt;</span> trx_id<span>(</span><span>101</span><span>)</span> <span>&lt;</span> max_limit_id<span>(</span><span>102</span><span>)</span><span>;</span>
+但是<span>,</span>trx_id<span>=</span><span>101</span>，不属于m_ids集合
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>因此，<code>trx_id=101</code>这个记录，对于当前事务是可见的。所以 SQL 查询到的是 name 为<code>曹操</code>的记录。</p>
+<p>综上所述，在<strong>读已提交（RC）隔离级别</strong>下，同一个事务里，两个相同的查询，读取同一条记录（id=1），却返回了不同的数据（<strong>第一次查出来是孙权，第二次查出来是曹操那条记录</strong>），因此 RC 隔离级别，存在<strong>不可重复读</strong>并发问题。</p>
+<h3 id="_4-3-可重复读-rr-隔离级别-解决不可重复读问题的分析" tabindex="-1"> 4.3 可重复读（RR）隔离级别，解决不可重复读问题的分析</h3>
+<p>在 RR 隔离级别下，是如何解决不可重复读问题的呢？我们一起再来看下，</p>
+<p>还是 4.2 小节那个流程，还是这个事务 A 和事务 B，如下：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBJlHnrlYXfesV0jFcvYIibnqR3uLlqLmZJduPp2o14OPeuSArazKR2zA/640?wx_fmt=png" alt="alt"></p>
+<h4 id="_4-3-1-不同隔离级别下-read-view-的工作方式不同" tabindex="-1"> 4.3.1 不同隔离级别下，Read View 的工作方式不同</h4>
+<p>实际上，各种事务隔离级别下的 Read view 工作方式，是不一样的，RR 可以解决不可重复读问题，就是跟 <strong>Read view 工作方式有关</strong>。</p>
+<ul>
+<li>
+<p>在读已提交（RC）隔离级别下，同一个事务里面，<strong>每一次查询都会产生一个新的 Read View 副本</strong>，这样就可能造成同一个事务里前后读取数据可能不一致的问题（不可重复读并发问题）。</p>
+<table>
+<thead>
+<tr>
+<th>begin</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>select * from core_user where id = 1</code></td>
+<td>生成一个 Read View</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<td><code>select * from core_user where id = 1</code></td>
+<td>生成一个 Read View</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>在可重复读（RR）隔离级别下，<strong>一个事务里只会获取一次 read view</strong>，都是副本共用的，从而保证每次查询的数据都是一样的。</p>
+<table>
+<thead>
+<tr>
+<th>begin</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>select * from core_user where id = 1</code></td>
+<td>生成一个 Read View</td>
+</tr>
+<tr>
+<td>/</td>
+<td></td>
+</tr>
+<tr>
+<td>/</td>
+<td></td>
+</tr>
+<tr>
+<td><code>select * from core_user where id = 1</code></td>
+<td>公用一个 Read View 副本</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h4 id="_4-3-2-实例分析" tabindex="-1"> 4.3.2 实例分析</h4>
+<p>我们穿越下，回到<strong>刚 4.2 的例子</strong>，然后执行第 2 个查询的时候：</p>
+<p>事务 A 再次执行查询操作，复用老的 Read View 副本，Read View 对应的值如下</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m_ids</td>
+<td>100, 101</td>
+</tr>
+<tr>
+<td>max_limit_id</td>
+<td>102</td>
+</tr>
+<tr>
+<td>min_limit_id</td>
+<td>100</td>
+</tr>
+<tr>
+<td>creator_trx_id</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p>然后再次回到版本链：从版本链中挑选可见的记录：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBCPAjUqqkQcCIZd320aDhqEP8hTbr8iaxpOMibomyd04FzWiagvLYGUBicg/640?wx_fmt=png" alt="alt"></p>
+<p>从图可得，最新版本的列 name 的内容是<code>曹操</code>，该版本的<code>trx_id</code>值为 101。开始执行 read view 可见性规则校验：</p>
+<div><pre><code>min_limit_id<span>(</span><span>100</span><span>)</span> <span>=</span><span>&lt;</span> trx_id<span>(</span><span>101</span><span>)</span> <span>&lt;</span> max_limit_id<span>(</span><span>102</span><span>)</span><span>;</span>
+因为m_ids{<span>100</span><span>,</span><span>101</span>}包含trx_id<span>(</span><span>101</span><span>)</span>，
+并且creator_trx_id <span>(</span><span>100</span><span>)</span> 不等于trx_id（<span>101</span>）
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><p>所以，<code>trx_id=101</code>这个记录，对于当前事务是<strong>不可见</strong>的。这时候呢，版本链<code>roll_pointer</code>跳到下一个版本，<code>trx_id=100</code>这个记录，再次校验是否可见：</p>
+<div><pre><code>min_limit_id<span>(</span><span>100</span><span>)</span> <span>=</span><span>&lt;</span> trx_id<span>(</span><span>100</span><span>)</span> <span>&lt;</span> max_limit_id<span>(</span><span>102</span><span>)</span><span>;</span>
+因为m_ids{<span>100</span><span>,</span><span>101</span>}包含trx_id<span>(</span><span>100</span><span>)</span>，
+并且creator_trx_id <span>(</span><span>100</span><span>)</span> 等于trx_id（<span>100</span>）
+
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><p>所以，<code>trx_id=100</code>这个记录，对于当前事务是<strong>可见</strong>的，所以两次查询结果，都是 <strong>name = 孙权</strong>的那个记录。即在可重复读（RR）隔离级别下，复用老的 Read View 副本，解决了<strong>不可重复读</strong>的问题。</p>
+<h3 id="_4-4-网络江湖传说-mvcc-是否解决了幻读问题呢" tabindex="-1"> 4.4 网络江湖传说，MVCC 是否解决了幻读问题呢？</h3>
+<p>网络江湖有个传说，说 MVCC 的 RR 隔离级别，解决了幻读问题，我们来一起分析一下。</p>
+<h4 id="_4-4-1-rr-级别下-一个快照读的例子-不存在幻读问题" tabindex="-1"> 4.4.1 RR 级别下，一个快照读的例子，不存在幻读问题</h4>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBibv0iaYRwwml3xW8Mib7ZRSCzicAaibx6iaerGDnPvOjOy49vJuUPr6ow47w/640?wx_fmt=png" alt="alt"></p>
+<p>由图可得，步骤 2 和步骤 6 查询结果集没有变化，<strong>看起来 RR 级别是已经解决幻读问题啦</strong>~</p>
+<h4 id="_4-4-2-rr-级别下-一个当前读的例子" tabindex="-1"> 4.4.2 RR 级别下，一个当前读的例子</h4>
+<p>假设现在有个<code>account表</code>，表中有 4 条数据，RR 级别。</p>
+<ul>
+<li>
+<p>开启事务 A，执行<strong>当前读</strong>，查询 id&gt;2 的所有记录。</p>
+</li>
+<li>
+<p>再开启事务 B，插入 id=5 的一条数据。</p>
+</li>
+</ul>
+<p>流程如下：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxB90AhKdDUn12K9SEajicD8H4DloDYjHesLdkyRoXDZHvg0UiaVe57gO3g/640?wx_fmt=png" alt="alt"></p>
+<p>显然，事务 B 执行插入操作时，阻塞了~ 因为事务 A 在执行<code>select ... lock in share mode</code>（当前读）的时候，不仅在 id = 3,4 这 2 条记录上加了锁，而且在<code>id &gt; 2</code>这个范围上也加了<strong>间隙锁</strong>。</p>
+<p>因此，我们可以发现，RR 隔离级别下，加锁的 select, update, delete 等语句，会使用间隙锁 + 临键锁，锁住索引记录之间的范围，避免范围间插入记录，以<strong>避免产生幻影行记录</strong>，那就是说 RR 隔离级别解决了幻读问题？</p>
+<h4 id="_4-4-3-这种特殊场景-似乎有幻读问题" tabindex="-1"> 4.4.3 这种特殊场景，似乎有幻读问题</h4>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxB7yibXicxmPjLU7TjiaE59xT72iaxJvY15MNFuJNJV4gOIW5aB1jH5Cticng/640?wx_fmt=png" alt="alt"></p>
+<p>其实，上图事务 A 中，多加了<code>update account set balance=200 where id=5;</code>这步操作，同一个事务，相同的 sql，查出的结果集不同了，这个结果，就符合了幻读的定义~</p>
+<p>这个问题，亲爱的朋友，你觉得它算幻读问题吗，所以 RR 隔离级别，还是存在幻读问题吧？欢迎大家评论区留言哈。</p>
+<h2 id="参考资料" tabindex="-1"> 参考资料</h2>
+<p>数据库基础（四）Innodb MVCC 实现原理: <a href="https://zhuanlan.zhihu.com/p/52977862" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/52977862</a></p>
+]]></content:encoded>
+      <enclosure url="https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzkkRHibH0jLK3GSCicOrOdxBBuWtBL6kBoQR6hoIh5JoVllUPPf1YCMyAKWmuMich5X0H3Xr0zHsRsA/640?wx_fmt=png" type="image/"/>
+    </item>
+  </channel>
+</rss>
