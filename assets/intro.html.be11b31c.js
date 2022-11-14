@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as t,c,a as e}from"./app.98d34456.js";const n={},r=e("blockquote",null,[e("p",null,"[MDF] \u535A\u5BA2\u4E2A\u4EBA\u4ECB\u7ECD\uFF08\u70B9\u51FB\u5934\u50CF\u8FDB\u5165\uFF09")],-1),_=[r];function s(l,a){return t(),c("div",null,_)}const m=o(n,[["render",s],["__file","intro.html.vue"]]);export{m as default};
