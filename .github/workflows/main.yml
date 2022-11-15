@@ -3,8 +3,8 @@ name: docs build
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
-      - main
+      # [MDF] 修改为你的分支名称
+      - vuepress-template
 
 jobs:
   blog-build:
@@ -43,19 +43,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 这是文档部署到的分支名称
-          branch: gh-pages
+          # 这是文档部署的分支名称（一般是用来保存所生成的静态文件）
+          branch: vuepress-publish
           folder: docs/.vuepress/dist
-
-      ### [MDF] 没有服务器的话，请删除本区块代码，防止报错 ###
-      # 将页面推送到服务器，timeout 时间从默认的 1 分钟调整到 10 分钟。
-      # - name: 📂 Sync files
-      #   uses: SamKirkland/FTP-Deploy-Action@4.3.2
-      #   with:
-      #     local-dir: docs/.vuepress/dist/
-      #     server: ${{ secrets.ftp_host }}
-      #     username: ${{ secrets.ftp_username }}
-      #     password: ${{ secrets.ftp_password }}
-      #     port: ${{ secrets.ftp_port }} # 建议更改默认的 21 端口
-      #     timeout: 600000
-      #### 没有服务器的话，请删除本区块代码，防止报错 ###

@@ -1,86 +1,46 @@
 import { sidebar } from "vuepress-theme-hope";
 
 // [MDF] 侧边栏
-// 精选图标：https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html#iconfont-%E7%B2%BE%E9%80%89%E5%9B%BE%E6%A0%87
+//（和 json 的层级结构类似），按定义顺序排布，默认用目录下的 README.md 作为首页
+// 侧边栏配置：https://vuepress-theme-hope.github.io/v2/zh/guide/layout/sidebar.html
 export default sidebar([
-  "/DailyRoutine",
-  "/Fitness",
-  "/Read",
+  // "/sources/Read", // 也可以直接把文章放到侧栏上
   {
-    text: "🚀 代码",
+    text: "🍒️ 代码",
     icon: "",
-    prefix: "/code/",
+    prefix: "sources/code/",
     link: "",
     collapsable: true,
+    // 侧边栏可嵌套和分组
     children: [
       "README.md",
       {
         text: "Basic",
         icon: "emmet",
         collapsable: true,
-        children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md"],
+        children: ["Markdown.md"],
       },
       {
         text: "FrondEnd",
         icon: "app",
         collapsable: true,
-        children: ["Vue.md", "HTML.md", "JavaScript.md", "Python.md"],
+        children: ["Python.md"],
       },
     ],
   },
   {
-    text: "🧰 软件应用",
+    text: "🌱 笔记",
     icon: "",
-    prefix: "/apps/",
+    prefix: "/sources/note/",
     link: "",
     collapsable: true,
     children: "structure",
   },
   {
-    text: "🌐 页面开发",
+    text: "📚 博客",
     icon: "",
-    prefix: "/web/",
+    prefix: "/sources/blog/",
     link: "",
-    collapsable: true,
-    children: "structure",
-  },
-  {
-    text: "🏗️ 网站部署",
-    icon: "",
-    prefix: "/deploy/",
-    link: "",
-    collapsable: true,
-    children: "structure",
-  },
-  {
-    text: "🐋 Linux 服务",
-    icon: "",
-    prefix: "/services/",
-    link: "",
-    collapsable: true,
-    children: "structure",
-  },
-  {
-    text: "🪟 系统问题",
-    icon: "",
-    prefix: "/windows/",
-    link: "",
-    collapsable: true,
-    children: "structure",
-  },
-  {
-    text: "🛖 生活",
-    icon: "",
-    prefix: "/family/",
-    link: "",
-    collapsable: true,
-    children: "structure",
-  },
-  {
-    text: "博客文章",
-    icon: "blog",
-    prefix: "/_posts/",
-    link: "/blog",
     collapsable: true,
     children: "structure",
   },

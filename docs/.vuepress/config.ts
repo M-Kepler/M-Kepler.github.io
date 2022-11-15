@@ -27,16 +27,24 @@ export default defineUserConfig({
   // 配置参考：https://vuepress.github.io/zh/reference/theme-api.html#templatebuild
   templateBuild: path.resolve(__dirname, "templateBuild.html"),
 
-  // 禁止文件夹生成静态文件，参考 [VuePress 文档]（https://v2.vuepress.vuejs.org/zh/guide/page.html#routing）
+  markdown: {
+    // 表示右侧目录展示的层级数
+    toc: {
+      level: [1, 2, 3, 4, 5, 6]
+    }
+  },
+
+  // 禁止文件夹生成静态文件
+  // 参考 [VuePress 文档]（https://v2.vuepress.vuejs.org/zh/guide/page.html#routing）
   pagePatterns: ["**/*.md", "!_temp", "!.vuepress", "!node_modules"],
 
   plugins: [
-    // algolia 全文搜索：没设置爬虫的话，需删除 docsearchPlugin 区块以使用节点搜索
-    docsearchPlugin({
-      indexName: "newzone",
-      appId: "M4EXXEZIEG",
-      apiKey: "fd8891a9c4cc21e0ef4f11bf44f7a11e",
-    }),
+    // [MDF] algolia 全文搜索：没设置爬虫的话，需删除 docsearchPlugin 区块以使用节点搜索
+    // docsearchPlugin({
+    //   indexName: "newzone",
+    //   appId: "M4EXXEZIEG",
+    //   apiKey: "fd8891a9c4cc21e0ef4f11bf44f7a11e",
+    // }),
     // 本地搜索：默认情况下，该插件会将页面标题和小标题作为搜索索引。
     searchPlugin({
       // 你的选项
@@ -46,4 +54,16 @@ export default defineUserConfig({
       id: "G-RWKZTY2P9R",
     }),
   ],
+
+  // 解决微信公众号图片无法展示
+  // https://www.mdnice.com/writing/dc41ed410a9f48028cb6a5ee48df3c5d
+  head: [
+    [
+    'meta',
+    {
+      name: 'referrer',
+      content: 'no-referrer'
+    }
+  ]
+]
 });

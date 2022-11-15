@@ -6,43 +6,20 @@ export default navbar([
   {
     text: "博客",
     icon: "blog",
-    link: "/blog"
+    link: "/sources/blog"
   },
   {
     text: "代码",
     icon: "code",
-    prefix: "/",
+    prefix: "/sources/code",
     children: [
-      "code/Markdown",
-      "code/AutoHotkey",
-      "code/Electron",
+      "/Markdown",
       {
-        text: "页面开发",
+        text: "开发",
         icon: "vue",
         prefix: "",
         children: [
-          "web/VuePress",
-          "web/docsify",
-          "deploy/VPS",
-        ],
-      },
-    ],
-  },
-  {
-    text: "应用",
-    icon: "app",
-    prefix: "/",
-    children: [
-      "apps/Applist",
-      "apps/AppNotes",
-      "apps/Chrome",
-      {
-        text: "服务/系统",
-        icon: "any",
-        prefix: "",
-        children: [
-          "services/NAS",
-          "windows/faq",
+          "/Python"
         ],
       },
     ],
@@ -50,12 +27,14 @@ export default navbar([
   {
     text: "生活",
     icon: "emmet",
-    prefix: "/family/",
+    prefix: "/sources/life/",
     children: [
-      "Diet",
-      "Shoppinglist",
-      "Coupon",
+      "Diet"
     ],
   },
-  { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
+  {
+    text: "工具收藏",
+    icon: "tool",
+    link: "https://nav.newzone.top/"
+  },
 ]);
