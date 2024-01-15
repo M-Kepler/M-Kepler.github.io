@@ -1,0 +1,11 @@
+/* 版面宽度 */
+body .markdown-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* 适配 markdown ==== 高亮语法 */
+.mark {
+  background-color: yellow;
+}
+

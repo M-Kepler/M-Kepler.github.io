@@ -41,7 +41,7 @@ walkSync(dosPath, function (filePath, stat) {
       // 如果最后的string和原来的一样
       return;
     }
-    var relativeFilePathArr = relativeFilePath.split("\\"); //这里可以看情况改
+    var relativeFilePathArr = relativeFilePath.split(path.sep); //这里可以看情况改
 
     for (var i = 0; i < relativeFilePathArr.length; i++) {
       if (baseDirArr[i] == relativeFilePathArr[i]) {
