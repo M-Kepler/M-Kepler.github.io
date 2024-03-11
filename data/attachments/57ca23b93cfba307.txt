@@ -1,0 +1,18 @@
+INFO     mypy.lib.douyin.get_hot_video:get_hot_video.py:276 🟢 —来自：音乐榜单的第31个音乐《可能（副歌）》
+INFO     mypy.lib.douyin.get_hot_video:get_hot_video.py:278 🟢 music_id: 7101614389048838145
+ERROR    mypy.lib.douyin.get_hot_video:get_hot_video.py:88 🔴 获取 cookie 失败: {'msg': 'cid expired or have reached the max,contact QQ: 838210720'}
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 86, in _get_web_cookie
+    return resp['data'][0]['cookie']
+KeyError: 'data'
+ERROR    mypy.lib.douyin.get_hot_video:get_hot_video.py:290 🔴 获取热门视频失败: 'data'
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 281, in handle
+    video_url = self._get_douyin_hot_music_video()
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 197, in _get_douyin_hot_music_video
+    jd, res = self._get_douyin_music_video()
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 153, in _get_douyin_music_video
+    cookie_str=self._get_web_cookie())
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 86, in _get_web_cookie
+    return resp['data'][0]['cookie']
+KeyError: 'data'
