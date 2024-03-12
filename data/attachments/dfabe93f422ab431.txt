@@ -1,4 +1,0 @@
-INFO     mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:511 🟢 处理前 md5: 2803d4eb4e022feab6000c05f72e4655
-INFO     mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:513 🟢 正在处理...
-INFO     mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:525 🟢 处理后 md5: efab22953ad95458e7220c53e51d8d39
-INFO     mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:527 🟢 处理完成

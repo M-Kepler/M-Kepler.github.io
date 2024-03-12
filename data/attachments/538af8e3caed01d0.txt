@@ -1,1 +1,0 @@
-DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:150 🔵 ffmpeg -i /home/runner/work/Python/Python/mypy/assets/media/ted_video.mp4 -q:v 3 -vf select=eq(pict_type\,I) -frames:v 1 -f image2 -loglevel quiet -y /home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_ffmpeg_helper/coverage.jpg

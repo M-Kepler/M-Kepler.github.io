@@ -1,2 +1,0 @@
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:168 🔵 正在执行命令: ['date', '+%Y%m%d']
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:168 🔵 正在执行命令: ['date', '+%Y%m%d']
