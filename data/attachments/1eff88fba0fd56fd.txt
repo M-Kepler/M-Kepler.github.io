@@ -1,0 +1,5 @@
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:31 🟢 -----> 正在处理 《/home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_video_handler_app/ppt_video.webm》 和 《/home/runner/work/Python/Python/mypy/assets/media/ppt_bgm.mp3》
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:38 🟢 -----> 正在进行视频加速
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:170 🔵 正在执行命令: ['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_video_handler_app/ppt_video.webm']
+INFO     mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:101 🟢 视频时长为: 144.998000s
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:44 🟢 -----> 正在添加背景音乐

@@ -1,0 +1,11 @@
+INFO     mypy.lib.douyin.get_hot_video:get_hot_video.py:287 🟢 —来自：音乐榜单的第34个音乐《Hush》
+INFO     mypy.lib.douyin.get_hot_video:get_hot_video.py:289 🟢 music_id: 7203594428416526368
+ERROR    mypy.lib.douyin.get_hot_video:get_hot_video.py:301 🔴 获取热门视频失败: [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/lib/douyin/_out/test_get_hot_douyin/config/cookie/cookie_17688150852.txt'
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 292, in handle
+    video_url = self._get_douyin_hot_music_video()
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 208, in _get_douyin_hot_music_video
+    jd, res = self._get_douyin_music_video()
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/get_hot_video.py", line 161, in _get_douyin_music_video
+    with open(cookie_filepath, mode='r', encoding='utf-8') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/lib/douyin/_out/test_get_hot_douyin/config/cookie/cookie_17688150852.txt'
