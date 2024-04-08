@@ -1,1 +1,0 @@
-INFO     mypy.lib.youtube.y2_srt_handler:y2_srt_handler.py:59 🟢 ----- 下载字幕 -----
