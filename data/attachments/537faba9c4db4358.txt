@@ -1,0 +1,105 @@
+INFO     mypy.apps.youtu2douyin.main:main.py:21 🟢 运行模式: once
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:212 🟢 ====================================================================================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:213 🟢 channel: https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA name: TED-Ed
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:214 🟢 ====================================================================================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:40 🟢 new video《This person isn't actually screaming - Noah Charney》found, id: teJAmgiMVIo, publish date: 2024-04-04 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:224 🟢 频道 [TED-Ed] 发现 1 个新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:40 🟢 new video《Changing the future, one student voice at a time #shorts》found, id: RSbi3BC-N9k, publish date: 2023-10-06 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:233 🟢 频道 [TED-Ed] 发现 1 个新 shorts
+INFO     mypy.lib.youtube.video_handler:video_handler.py:181 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:182 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:193 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:169 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/MdM6osj5Jlg/MdM6osj5Jlg.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/MdM6osj5Jlg/MdM6osj5Jlg', 'https://youtube.com/watch?v=MdM6osj5Jlg']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_srt_handler:y2_srt_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:197 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:208 🟢 ----- 处理后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/MdM6osj5Jlg.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:211 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:106 🔵 ----- 视频信息: {'id': 'MdM6osj5Jlg', 'url': 'https://youtube.com/watch?v=MdM6osj5Jlg', 'title': 'Do you ever feel isolated amongst your peers? #shorts', 'publish_date': '2023-09-18 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:113 🟢 立即发布监控到的第一个视频《你有没有在同龄人中感到孤立？》
+INFO     mypy.apps.youtu2douyin.publish_handler:publish_handler.py:24 🟢 -----> 发布到抖音
+INFO     mypy.lib.douyin.publisher:publisher.py:716 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publisher:publisher.py:368 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.publisher:publisher.py:437 🟢 设置视频简介为: 你有没有在同龄人中感到孤立？#TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.douyin.publisher:publisher.py:142 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:331 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:206 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:314 🟢 【立即发布】
+INFO     mypy.lib.douyin.publisher:publisher.py:152 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:444 🟢 发布信息填写完毕，进行发布
+WARNING  mypy.lib.douyin.publisher:publisher.py:446 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:129 🟢 《Do you ever feel isolated amongst your peers? #shorts》发布到 [douyin] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/MdM6osj5Jlg.mp4》已处理，删除该视频文件
+INFO     mypy.lib.youtube.video_handler:video_handler.py:181 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:182 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:193 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:169 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k', 'https://youtube.com/watch?v=RSbi3BC-N9k']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_srt_handler:y2_srt_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:197 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:208 🟢 ----- 处理后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:211 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:106 🔵 ----- 视频信息: {'id': 'RSbi3BC-N9k', 'url': 'https://youtube.com/watch?v=RSbi3BC-N9k', 'title': 'Changing the future, one student voice at a time #shorts', 'publish_date': '2023-10-06 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.publish_handler:publish_handler.py:24 🟢 -----> 发布到抖音
+INFO     mypy.lib.douyin.publisher:publisher.py:716 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publisher:publisher.py:368 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.publisher:publisher.py:437 🟢 设置视频简介为: 改变未来，一次一个学生的声音#TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.douyin.publisher:publisher.py:142 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:331 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:206 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:314 🟢 【立即发布】
+INFO     mypy.lib.douyin.publisher:publisher.py:152 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:444 🟢 发布信息填写完毕，进行发布
+WARNING  mypy.lib.douyin.publisher:publisher.py:446 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:129 🟢 《Changing the future, one student voice at a time #shorts》发布到 [douyin] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4》已处理，删除该视频文件
+INFO     mypy.lib.youtube.video_handler:video_handler.py:181 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:182 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:193 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:169 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/4HZCPTiyAVY/4HZCPTiyAVY.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/4HZCPTiyAVY/4HZCPTiyAVY', 'https://youtube.com/watch?v=4HZCPTiyAVY']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_srt_handler:y2_srt_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:197 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:208 🟢 ----- 处理后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/4HZCPTiyAVY.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:211 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:106 🔵 ----- 视频信息: {'id': '4HZCPTiyAVY', 'url': 'https://youtube.com/watch?v=4HZCPTiyAVY', 'title': 'What is earwax — and should you get rid of it? - Henry C. Ou', 'publish_date': '2024-04-02 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.publish_handler:publish_handler.py:24 🟢 -----> 发布到抖音
+INFO     mypy.lib.douyin.publisher:publisher.py:716 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publisher:publisher.py:368 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.publisher:publisher.py:437 🟢 设置视频简介为: 什么是耳垢——你应该摆脱它吗？#TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.douyin.publisher:publisher.py:142 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:331 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:206 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:314 🟢 【立即发布】
+INFO     mypy.lib.douyin.publisher:publisher.py:152 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:444 🟢 发布信息填写完毕，进行发布
+WARNING  mypy.lib.douyin.publisher:publisher.py:446 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:129 🟢 《What is earwax — and should you get rid of it? - Henry C. Ou》发布到 [douyin] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/4HZCPTiyAVY.mp4》已处理，删除该视频文件
+INFO     mypy.lib.youtube.video_handler:video_handler.py:181 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:182 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:193 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:169 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/teJAmgiMVIo/teJAmgiMVIo.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/teJAmgiMVIo/teJAmgiMVIo', 'https://youtube.com/watch?v=teJAmgiMVIo']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_srt_handler:y2_srt_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:197 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:208 🟢 ----- 处理后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/teJAmgiMVIo.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:211 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:106 🔵 ----- 视频信息: {'id': 'teJAmgiMVIo', 'url': 'https://youtube.com/watch?v=teJAmgiMVIo', 'title': "This person isn't actually screaming - Noah Charney", 'publish_date': '2024-04-04 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.publish_handler:publish_handler.py:24 🟢 -----> 发布到抖音
+INFO     mypy.lib.douyin.publisher:publisher.py:716 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publisher:publisher.py:368 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.publisher:publisher.py:437 🟢 设置视频简介为: 这个人实际上并没有尖叫#TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.douyin.publisher:publisher.py:142 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:331 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:206 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:314 🟢 【立即发布】
+INFO     mypy.lib.douyin.publisher:publisher.py:152 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:444 🟢 发布信息填写完毕，进行发布
+WARNING  mypy.lib.douyin.publisher:publisher.py:446 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:129 🟢 《This person isn't actually screaming - Noah Charney》发布到 [douyin] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/teJAmgiMVIo.mp4》已处理，删除该视频文件
