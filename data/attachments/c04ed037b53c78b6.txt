@@ -1,2 +1,0 @@
-INFO     __file__:subtitle2speech.py:99 🟢 working in /tmp/tmpxx487ym1
-INFO     __file__:subtitle2speech.py:93 🟢 转换完成，文件保存到: /home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech.mp3
