@@ -1,0 +1,2 @@
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:219 🔵 正在执行命令: ['echo', '$test_run_cmd_with_env']
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:239 🔵 output: $test_run_cmd_with_env
