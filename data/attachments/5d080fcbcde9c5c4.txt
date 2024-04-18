@@ -1,0 +1,11 @@
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:148 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:52 🟢 -----> 视频上传完毕
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:54 🟢 -----> 设置标题
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:56 🟢 -----> 设置简介
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:58 🟢 -----> 添加话题
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:65 🟢 -----> 添加地点
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:73 🟢 -----> 开始发布
+WARNING  mypy.lib.xiaohongshu.publisher:publisher.py:75 🟠 -----> 测试模式，不点击发布按钮

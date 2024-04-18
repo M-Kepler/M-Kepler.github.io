@@ -1,0 +1,44 @@
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'system', 'content': '你是一个数学家'}
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'user', 'content': '1888 乘以 3212等于多少'}
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 1
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 888
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 乘
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 以
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 3
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 212
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 等于
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 605
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 785
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 6
+DEBUG    mypy.lib.llm.core.helper:helper.py:68 🔵 收到的完成数据: 1888 乘以 3212 等于 6057856
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'assistant', 'content': '1888 乘以 3212 等于 6057856'}
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'user', 'content': '继续减去 1314 后是多少'}
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 3.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 6.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 12.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 605
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 785
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 6
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  -
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 131
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 4
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  =
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据:  
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 605
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 654
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 2
+DEBUG    mypy.lib.llm.core.helper:helper.py:68 🔵 收到的完成数据: 6057856 - 1314 = 6056542
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'assistant', 'content': '6057856 - 1314 = 6056542'}
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 605
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 654
+DEBUG    mypy.lib.llm.core.helper:helper.py:70 🔵 流响应数据: 2
+DEBUG    mypy.lib.llm.core.helper:helper.py:68 🔵 收到的完成数据: 6056542
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'assistant', 'content': '6056542'}

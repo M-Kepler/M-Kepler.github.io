@@ -1,0 +1,1 @@
+WARNING  mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:39 🟠 在 /home/runner/work/Python/Python/config/cookie/baidu 下未找到 cookie
