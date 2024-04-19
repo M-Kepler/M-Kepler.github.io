@@ -1,0 +1,2 @@
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'user', 'content': 'https://zhuanlan.zhihu.com/p/144192472?utm_id=0\n    参考这个链接提到的科室，给出 3 个护理相关的PPT主题，比如 肿瘤科护士长年终总结\n    每行一个主题，并且不需要对输出内容进行编号\n    '}
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'assistant', 'content': '1. 肿瘤科护理团队建设与协作\n2. 护理质量控制与持续改进\n3. 护士长在肿瘤科护理管理中的作用与挑战'}

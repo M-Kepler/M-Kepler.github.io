@@ -1,0 +1,4 @@
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:157 🔵 func start at: 1713507635.1808777
+WARNING  /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:160 🟠 func exception: <class 'Exception'> at 1713507635.1814334
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:157 🔵 func start at: 1713507636.1828055
+WARNING  /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:160 🟠 func exception: <class 'Exception'> at 1713507636.1831763
