@@ -1,0 +1,1 @@
+DEBUG    mypy.lib.llm.core.helper:helper.py:41 🔵 提问 AI: {'role': 'user', 'content': '明明是太阳晒我，为什么说我晒太阳'}

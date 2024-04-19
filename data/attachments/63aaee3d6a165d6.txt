@@ -1,0 +1,4 @@
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:31 🔵 通过 PDF 转图片，再把图片合成视频
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:219 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video/ppt.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:85 🔵 PDF 转成图片输出到: /tmp/tmpvc1p2nz1
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:463 🔵 创建一个临时文件: /tmp/tmp61j2my7a 来存储所有视频文件的列表参数
