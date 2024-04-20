@@ -1,1 +1,0 @@
-INFO     mypy.lib.video.video_handle_app:video_handle_app.py:32 🟢 -----> 正在处理《/home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_video_handler_app/ppt_video.webm》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt_bgm.mp3》

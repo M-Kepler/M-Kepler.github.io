@@ -1,1 +1,0 @@
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:219 🔵 正在执行命令: ['pdftoppm', '-jpeg', '/home/runner/work/Python/Python/mypy/assets/media/ppt_pdf.pdf', '/home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2image_by_pdftoppm/slide']
