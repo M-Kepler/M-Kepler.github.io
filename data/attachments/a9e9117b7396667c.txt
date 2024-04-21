@@ -1,0 +1,89 @@
+INFO     mypy.apps.baidu2douyin.main:main.py:15 🟢 ====================
+INFO     mypy.apps.baidu2douyin.main:main.py:16 🟢 正在生成 PPT...
+INFO     mypy.apps.baidu2douyin.main:main.py:17 🟢 ====================
+DEBUG    mypy.lib.llm.api:api.py:51 🔵 本轮 AI 对话由 KimiHelper 提供服务
+DEBUG    mypy.lib.llm.api:api.py:57 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:58 🔵 提问 AI: https://zhuanlan.zhihu.com/p/144192472?utm_id=0
+            参考这个链接提到的科室，给出 2 个护理相关的PPT主题，比如 肿瘤科护士长年终总结
+            每行一个主题，并且不需要对输出内容进行编号
+DEBUG    mypy.lib.llm.api:api.py:59 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:63 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:64 🔵 AI 回复: 1. 急诊科护理团队建设与协作
+2. 老年病科护理风险评估与管理
+DEBUG    mypy.lib.llm.api:api.py:65 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:57 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:58 🔵 提问 AI: 我说了，不需要序号
+DEBUG    mypy.lib.llm.api:api.py:59 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:63 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:64 🔵 AI 回复: 急诊科护理团队建设与协作
+老年病科护理风险评估与管理
+DEBUG    mypy.lib.llm.api:api.py:65 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:47 🟢 AI 生成了以下 PPT 主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	急诊科护理团队建设与协作
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	老年病科护理风险评估与管理
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:81 🟢 正在使用 [/home/runner/work/Python/Python/mypy/tests/apps/baidu2douyin/config/cookie/baidu/cookie_15907877344.json]，当前账号排序: [1]
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 正在填入主题内容
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 正在填入主题内容
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 点击生成 PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 点击生成 PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 已选择 PPT 主题，正在生成
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [老年病科护理风险评估与管理], 正在生成，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 已选择 PPT 主题，正在生成
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [急诊科护理团队建设与协作], 正在生成，请等待...
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:100 🔴 Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/baidu/baidu_aigc.py", line 86, in gen_ppt
+    await new_page.wait_for_selector("#wkChatWrap")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 7812, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 373, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:44 🔴 任务: [老年病科护理风险评估与管理 PPT], 执行失败
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:100 🔴 Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/baidu/baidu_aigc.py", line 86, in gen_ppt
+    await new_page.wait_for_selector("#wkChatWrap")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 7812, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 373, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:44 🔴 任务: [急诊科护理团队建设与协作 PPT], 执行失败
+INFO     mypy.apps.baidu2douyin.main:main.py:22 🟢 ====================
+INFO     mypy.apps.baidu2douyin.main:main.py:23 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:main.py:24 🟢 ====================
+INFO     mypy.apps.ppt2douyin.main:main.py:15 🟢 ====================
+INFO     mypy.apps.ppt2douyin.main:main.py:16 🟢 pptx 转成视频
+INFO     mypy.apps.ppt2douyin.main:main.py:17 🟢 ====================
+WARNING  mypy.apps.ppt2douyin.ppt2video:ppt2video.py:84 🟠 /home/runner/work/Python/Python/mypy/tests/apps/baidu2douyin 下未发现待处理 ['.ppt', '.pptx'] 后缀文件
+INFO     mypy.apps.ppt2douyin.main:main.py:20 🟢 ====================
+INFO     mypy.apps.ppt2douyin.main:main.py:21 🟢 视频处理和发布
+INFO     mypy.apps.ppt2douyin.main:main.py:22 🟢 ====================
+WARNING  mypy.apps.ppt2douyin.video2douyin:video2douyin.py:74 🟠 /home/runner/work/Python/Python/mypy/tests/apps/baidu2douyin 下未发现待处理 ['.webm', '.mp4'] 后缀文件

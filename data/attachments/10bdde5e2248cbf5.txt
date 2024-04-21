@@ -1,0 +1,121 @@
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:149 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+ERROR    mypy.lib.xiaohongshu.publisher:publisher.py:86 🔴 ❌❌❌《ted.mp4》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publisher.py", line 50, in publish_mission
+    await file_input_locator.wait_for(state="visible")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 17086, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 667, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+
+WARNING  mypy.lib.xiaohongshu.publisher:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+.
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+ERROR    mypy.lib.xiaohongshu.publisher:publisher.py:86 🔴 ❌❌❌《ted.mp4》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publisher.py", line 50, in publish_mission
+    await file_input_locator.wait_for(state="visible")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 17086, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 667, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+
+WARNING  mypy.lib.xiaohongshu.publisher:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+.
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+ERROR    mypy.lib.xiaohongshu.publisher:publisher.py:86 🔴 ❌❌❌《ted.mp4》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publisher.py", line 50, in publish_mission
+    await file_input_locator.wait_for(state="visible")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 17086, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 667, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+
+WARNING  mypy.lib.xiaohongshu.publisher:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+.
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+ERROR    mypy.lib.xiaohongshu.publisher:publisher.py:86 🔴 ❌❌❌《ted.mp4》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publisher.py", line 50, in publish_mission
+    await file_input_locator.wait_for(state="visible")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 17086, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 667, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+
+WARNING  mypy.lib.xiaohongshu.publisher:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible
+.
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:40 🟢 登陆中
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:44 🟢 登陆成功
+INFO     mypy.lib.xiaohongshu.publisher:publisher.py:46 🟢 视频上传中
+ERROR    mypy.lib.xiaohongshu.publisher:publisher.py:86 🔴 ❌❌❌《ted.mp4》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publisher.py", line 50, in publish_mission
+    await file_input_locator.wait_for(state="visible")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 17086, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 667, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".upload-input") to be visible

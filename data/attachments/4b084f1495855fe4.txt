@@ -1,0 +1,110 @@
+DEBUG    mypy.lib.llm.api:api.py:51 🔵 本轮 AI 对话由 KimiHelper 提供服务
+DEBUG    mypy.lib.llm.api:api.py:57 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:58 🔵 提问 AI: https://zhuanlan.zhihu.com/p/144192472?utm_id=0
+            参考这个链接提到的科室，给出 2 个护理相关的PPT主题，比如 肿瘤科护士长年终总结
+            每行一个主题，并且不需要对输出内容进行编号
+DEBUG    mypy.lib.llm.api:api.py:59 🔵 --------------------------------------------------
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 3.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 6.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+WARNING  mypy.lib.llm.core.helper:before_sleep.py:65 Retrying mypy.lib.llm.core.helper.OpenAIBaseHelper.chat in 12.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'Your account co2mu8o3r072r8fgnkv0<ak-erfxkb8jg5g111fix4h1> request reached max requset: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}.
+DEBUG    mypy.lib.llm.api:api.py:63 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:64 🔵 AI 回复: 1. 心血管内科护理团队年终总结与展望
+2. 儿科护理实践与创新案例分享
+DEBUG    mypy.lib.llm.api:api.py:65 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:57 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:58 🔵 提问 AI: 我说了，不需要序号
+DEBUG    mypy.lib.llm.api:api.py:59 🔵 --------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:63 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG    mypy.lib.llm.api:api.py:64 🔵 AI 回复: 明白了，以下是两个护理相关的PPT主题：
+
+1. 急诊科护理团队协作与应急处理案例分析
+2. 老年病科护理质量改进与患者满意度提升策略
+DEBUG    mypy.lib.llm.api:api.py:65 🔵 ++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:47 🟢 AI 生成了以下 PPT 主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	明白了，以下是两个护理相关的PPT主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	1. 急诊科护理团队协作与应急处理案例分析
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:49 🟢 	2. 老年病科护理质量改进与患者满意度提升策略
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:81 🟢 正在使用 [/home/runner/work/Python/Python/mypy/tests/lib/baidu/config/cookie/baidu/cookie_15907877344.json]，当前账号排序: [1]
+WARNING  mypy.lib.baidu.baidu_aigc:baidu_aigc.py:33 🟠 未提供 prompt，结束任务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 正在填入主题内容
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 正在填入主题内容
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 正在填入主题内容
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 点击生成 PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 点击生成 PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 已选择 PPT 主题，正在生成
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 已选择 PPT 主题，正在生成
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 点击生成 PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [1. 急诊科护理团队协作与应急处理案例分析], 正在生成，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [2. 老年病科护理质量改进与患者满意度提升策略], 正在生成，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 已选择 PPT 主题，正在生成
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:40 🟢 任务: [明白了，以下是两个护理相关的PPT主题：], 正在生成，请等待...
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:100 🔴 Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/baidu/baidu_aigc.py", line 86, in gen_ppt
+    await new_page.wait_for_selector("#wkChatWrap")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 7812, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 373, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:44 🔴 任务: [1. 急诊科护理团队协作与应急处理案例分析 PPT], 执行失败
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:100 🔴 Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/baidu/baidu_aigc.py", line 86, in gen_ppt
+    await new_page.wait_for_selector("#wkChatWrap")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 7812, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 373, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:44 🔴 任务: [2. 老年病科护理质量改进与患者满意度提升策略 PPT], 执行失败
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:100 🔴 Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/baidu/baidu_aigc.py", line 86, in gen_ppt
+    await new_page.wait_for_selector("#wkChatWrap")
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 7812, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 373, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 600000ms exceeded.
+Call log:
+waiting for locator("#wkChatWrap") to be visible
+
+ERROR    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:44 🔴 任务: [明白了，以下是两个护理相关的PPT主题：], 执行失败
