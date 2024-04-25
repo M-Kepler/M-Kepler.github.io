@@ -1,0 +1,72 @@
+INFO     mypy.apps.ppt2douyin.main:main.py:15 🟢 ============================================================
+INFO     mypy.apps.ppt2douyin.main:main.py:16 🟢 pptx 转成视频
+INFO     mypy.apps.ppt2douyin.main:main.py:17 🟢 ============================================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:88 🟢 -----> 正在把 /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx 转换成视频
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:31 🔵 通过 PDF 转图片，再把图片合成视频
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:234 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:85 🔵 PDF 转成图片输出到: /tmp/tmpbhw92nux
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:463 🔵 创建一个临时文件: /tmp/tmpczzzcb7j 来存储所有视频文件的列表参数
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:88 🟢 -----> 正在把 /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/泌尿外科护士长竞聘.pptx 转换成视频
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:31 🔵 通过 PDF 转图片，再把图片合成视频
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:234 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/泌尿外科护士长竞聘.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:85 🔵 PDF 转成图片输出到: /tmp/tmpwrqzal85
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:463 🔵 创建一个临时文件: /tmp/tmp_pgvcyp1 来存储所有视频文件的列表参数
+INFO     mypy.apps.ppt2douyin.main:main.py:20 🟢 ============================================================
+INFO     mypy.apps.ppt2douyin.main:main.py:21 🟢 视频处理和发布
+INFO     mypy.apps.ppt2douyin.main:main.py:22 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_app:publish_app.py:89 🟢 -----> 发布配置:
+INFO     mypy.lib.playwright.publish_app:publish_app.py:90 🟢 配置项                  值
+-------------------  ---------------------------------------
+description          '@XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长'
+collection_name      护士长竞聘
+latest_publish_time  0331-2324
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:32 🟢 -----> 正在处理《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt_bgm.mp3》
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:105 🟢 -----> 开始发布到抖音
+INFO     mypy.lib.playwright.publish_app:publish_app.py:186 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_app.py:26 🟢 -----> 发布视频
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:112 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:113 🟢 开始执行发布任务
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:114 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:76 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.video_publisher:video_publisher.py:30 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:362 🟢 设置视频简介为: 泌尿外科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+WARNING  mypy.lib.douyin.publisher:publisher.py:118 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:275 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:150 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:262 🟢 【定时发布】时间设置为: 2024-04-26 11:28:00
+WARNING  mypy.lib.playwright.publish_helper:publish_helper.py:90 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:110 🟢 -----> /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.mp4 发布成功
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:115 🟢 -----> 清理临时文件
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.jpg
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.pdf
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:124 🟢 
+继续处理下一个视频...
+
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:32 🟢 -----> 正在处理《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt_bgm.mp3》
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:105 🟢 -----> 开始发布到抖音
+INFO     mypy.lib.playwright.publish_app:publish_app.py:186 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_app.py:26 🟢 -----> 发布视频
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:112 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:113 🟢 开始执行发布任务
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:114 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:76 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.video_publisher:video_publisher.py:30 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publisher:publisher.py:362 🟢 设置视频简介为: 消化内科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+WARNING  mypy.lib.douyin.publisher:publisher.py:118 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:275 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:150 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:262 🟢 【定时发布】时间设置为: 2024-04-26 19:17:00
+WARNING  mypy.lib.playwright.publish_helper:publish_helper.py:90 🟠 -----> 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:110 🟢 -----> /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4 发布成功
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:115 🟢 -----> 清理临时文件
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.pdf
+WARNING  mypy.utils.file:file.py:180 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:124 🟢 
+继续处理下一个视频...
+
+WARNING  mypy.lib.video.video_handle_app:video_handle_app.py:71 🟠 当前目录下未发现视频，退出
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:126 🟢 处理完成，一共处理了 2 个视频

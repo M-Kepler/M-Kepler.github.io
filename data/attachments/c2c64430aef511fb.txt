@@ -1,0 +1,21 @@
+INFO     mypy.lib.playwright.publish_app:publish_app.py:89 🟢 -----> 发布配置:
+INFO     mypy.lib.playwright.publish_app:publish_app.py:90 🟢 配置项                  值
+-------------------  -------------------------
+title                我是标题，不设置的话，默认用文件名作为标题
+description          '#TED #教育 #科普 #四六级 #英语口语'
+collection_name      TED-ED（中英字幕）
+latest_publish_time  0331-2321
+publish_mod          0
+INFO     mypy.lib.playwright.publish_app:publish_app.py:186 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_app.py:22 🟢 -----> 发布图文
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:112 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:113 🟢 开始执行发布任务
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:114 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:76 🟢 -----> 当前登录账号为 “PPT320210”
+INFO     mypy.lib.douyin.image_publisher:image_publisher.py:66 🟢 设置背景音乐为 《未必》
+INFO     mypy.lib.douyin.publisher:publisher.py:362 🟢 设置视频简介为: 我是标题，不设置的话，默认用文件名作为标题 #TED #教育 #科普 #四六级 #英语口语
+WARNING  mypy.lib.douyin.publisher:publisher.py:118 🟠 未发现可选合集
+INFO     mypy.lib.douyin.publisher:publisher.py:275 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publisher:publisher.py:150 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publisher:publisher.py:258 🟢 【立即发布】
+WARNING  mypy.lib.playwright.publish_helper:publish_helper.py:90 🟠 -----> 测试模式，不点击发布按钮
