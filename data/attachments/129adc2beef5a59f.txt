@@ -1,0 +1,5 @@
+ERROR    mypy.lib.mqs.pylib.producer_consumer:producer_consumer.py:55 🔴 Producer error: 'int' object has no attribute 'mission'
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/mqs/pylib/producer_consumer.py", line 52, in _producer_wrapper
+    producer_idx, item.mission)
+AttributeError: 'int' object has no attribute 'mission'

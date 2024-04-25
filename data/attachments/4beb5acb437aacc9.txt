@@ -1,0 +1,25 @@
+INFO     mypy.lib.playwright.publish_app:publish_app.py:89 🟢 -----> 发布配置:
+INFO     mypy.lib.playwright.publish_app:publish_app.py:90 🟢 配置项                  值
+-------------------  -------------------------
+title                我是标题，不设置的话，默认用文件名作为标题
+description          '#TED #教育 #科普 #四六级 #英语口语'
+collection_name      TED-ED（中英字幕）
+latest_publish_time  0331-2321
+publish_mod          0
+INFO     mypy.lib.playwright.publish_app:publish_app.py:187 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_app.py:21 🟢 -----> 发布图文
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:113 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:114 🟢 开始执行发布任务
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:115 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_helper:publish_helper.py:76 🟢 -----> 当前登录账号为 “PPT320210”
+ERROR    mypy.lib.playwright.publish_helper:publish_helper.py:136 🔴 ❌❌❌《我是标题，不设置的话，默认用文件名作为标题》发布异常 ❌❌❌
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/image_publisher.py", line 64, in fill_publish_content
+    await self.add_bgm(page)
+  File "/home/runner/work/Python/Python/mypy/lib/douyin/image_publisher.py", line 52, in add_bgm
+    selected_card = random.choice(music_cards)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/random.py", line 290, in choice
+    raise IndexError('Cannot choose from an empty sequence') from None
+IndexError: Cannot choose from an empty sequence

@@ -1,0 +1,28 @@
+INFO     mypy.apps.baidu2douyin.main:main.py:24 🟢 ============================================================
+INFO     mypy.apps.baidu2douyin.main:main.py:25 🟢 正在生成 PPT...
+INFO     mypy.apps.baidu2douyin.main:main.py:26 🟢 ============================================================
+DEBUG    mypy.lib.llm.api:api.py:76 🔵 本轮 AI 对话由 KimiHelper 提供服务
+DEBUG    mypy.lib.llm.api:api.py:82 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:83 🔵 提问 AI: https://zhuanlan.zhihu.com/p/144192472?utm_id=0
+            参考这个链接提到的科室，给出 2 个护理相关的PPT主题，比如 肿瘤科护士长年终总结
+            每行一个主题，并且不需要对输出内容进行编号
+DEBUG    mypy.lib.llm.api:api.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:88 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:89 🔵 AI 回复: 
+1. 肿瘤科护理团队建设与管理
+2. 急诊科护士应对突发公共卫生事件的策略与实践
+DEBUG    mypy.lib.llm.api:api.py:90 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:82 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:83 🔵 提问 AI: 我说了，不需要序号
+DEBUG    mypy.lib.llm.api:api.py:84 🔵 ------------------------------------------------------------
+WARNING  mypy.lib.llm.api:api.py:97 🟠 chat with [<mypy.lib.llm.kimi.helper.KimiHelper object at 0x7faa92fa44f0>] error: [RetryError[<Future at 0x7faa93162dc0 state=finished raised RateLimitError>]]
+DEBUG    mypy.lib.llm.api:api.py:82 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:83 🔵 提问 AI: 我说了，不需要序号
+DEBUG    mypy.lib.llm.api:api.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:88 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.llm.api:api.py:89 🔵 AI 回复: 
+1. 肿瘤科护理团队建设与管理
+2. 急诊科护士应对突发公共卫生事件的策略与实践
+DEBUG    mypy.lib.llm.api:api.py:90 🔵 ------------------------------------------------------------
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:89 🟢 获取到以下 PPT 主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:123 🟢 正在使用 [/home/runner/work/Python/Python/mypy/tests/apps/baidu2douyin/config/cookie/baidu/cookie_15907877344.json]，当前账号排序: [1]
