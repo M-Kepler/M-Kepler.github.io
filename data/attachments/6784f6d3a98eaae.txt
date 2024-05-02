@@ -1,1 +1,0 @@
-INFO     __file__:subtitle2speech.py:118 🟢 working in /tmp/tmpq6tszavb

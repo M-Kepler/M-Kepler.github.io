@@ -1,0 +1,62 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:118 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:main.py:20 🟢 ============================================================
+INFO     mypy.apps.ppt2douyin.main:main.py:21 🟢 正在把当前目录下的 pptx 转成 image_article
+INFO     mypy.apps.ppt2douyin.main:main.py:22 🟢 ============================================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:117 🟢 开始转换《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》
+INFO     mypy.lib.ppt.ppt_handler:ppt_handler.py:61 🟢 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 库转成图片，输出到: /tmp/tmpjs_utxb9
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:234 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpjs_utxb9', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+ERROR    mypy.apps.ppt2douyin.ppt2video:ppt2video.py:101 🔴 PPT 格式转换异常: Unable to get page count.
+I/O Error: Couldn't open file '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/<e6><b6><88><e5><8c><96><e5><86><85><e7><a7><91><e6><8a><a4><e5><a3><ab><e9><95><bf><e7><ab><9e><e8><81><98>.pdf': No such file or directory.
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 602, in pdfinfo_from_path
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 99, in _ppt_trans
+    self._ppt_handler(ppt_path, output_path)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 49, in ppt2image_group
+    ppt2image(ppt_path, tmp_output_dir)
+  File "/home/runner/work/Python/Python/mypy/lib/ppt/ppt_handler.py", line 69, in ppt2image
+    pdf_handler.pdf2image(image_dir=output_path,
+  File "/home/runner/work/Python/Python/mypy/lib/pdf/pdf_handler.py", line 51, in pdf2image
+    images = convert_from_path(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 611, in pdfinfo_from_path
+    raise PDFPageCountError(
+pdf2image.exceptions.PDFPageCountError: Unable to get page count.
+I/O Error: Couldn't open file '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/<e6><b6><88><e5><8c><96><e5><86><85><e7><a7><91><e6><8a><a4><e5><a3><ab><e9><95><bf><e7><ab><9e><e8><81><98>.pdf': No such file or directory.
+
+ERROR    mypy.apps.ppt2douyin.main:main.py:34 🔴 Unable to get page count.
+I/O Error: Couldn't open file '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/<e6><b6><88><e5><8c><96><e5><86><85><e7><a7><91><e6><8a><a4><e5><a3><ab><e9><95><bf><e7><ab><9e><e8><81><98>.pdf': No such file or directory.
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 602, in pdfinfo_from_path
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/main.py", line 23, in main
+    ppt_transfer.batch_ppt2transfer()
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 118, in batch_ppt2transfer
+    self._ppt_trans(ppt_file)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 102, in _ppt_trans
+    raise ex
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 99, in _ppt_trans
+    self._ppt_handler(ppt_path, output_path)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 49, in ppt2image_group
+    ppt2image(ppt_path, tmp_output_dir)
+  File "/home/runner/work/Python/Python/mypy/lib/ppt/ppt_handler.py", line 69, in ppt2image
+    pdf_handler.pdf2image(image_dir=output_path,
+  File "/home/runner/work/Python/Python/mypy/lib/pdf/pdf_handler.py", line 51, in pdf2image
+    images = convert_from_path(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/pdf2image/pdf2image.py", line 611, in pdfinfo_from_path
+    raise PDFPageCountError(
+pdf2image.exceptions.PDFPageCountError: Unable to get page count.
+I/O Error: Couldn't open file '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/<e6><b6><88><e5><8c><96><e5><86><85><e7><a7><91><e6><8a><a4><e5><a3><ab><e9><95><bf><e7><ab><9e><e8><81><98>.pdf': No such file or directory.

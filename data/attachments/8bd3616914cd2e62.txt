@@ -1,0 +1,2 @@
+INFO     mypy.apps.tiktok2douyin.main:main.py:18 🟢 开始下载视频
+INFO     mypy.apps.tiktok2douyin.main:main.py:24 🟢 开始发布视频
