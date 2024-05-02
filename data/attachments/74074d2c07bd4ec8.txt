@@ -1,0 +1,13 @@
+INFO     mypy.apps.tiktok2douyin.main:main.py:18 🟢 开始下载视频
+INFO     mypy.apps.tiktok2douyin.main:main.py:24 🟢 开始发布视频
+INFO     mypy.lib.douyin.publish_app:publish_app.py:130 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:113 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:114 🟢 [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:115 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:77 🟢 当前登录账号为 [PPT320210]
+INFO     mypy.lib.douyin.publish_app:video_publish_helper.py:37 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:358 🟢 设置视频简介为: c罗X动画团队4周工作动画由Tman制作 
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:271 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:146 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:254 🟢 【立即发布】
+WARNING  mypy.lib.douyin.publish_app:publish_helper.py:91 🟠 测试模式，不点击发布按钮

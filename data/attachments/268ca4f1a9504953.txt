@@ -1,2 +1,0 @@
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:66 🔵 PDF 转成图片输出到: /tmp/tmpiy8lw4q6
-DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:463 🔵 创建一个临时文件: /tmp/tmpujon13q2 来存储所有视频文件的列表参数
