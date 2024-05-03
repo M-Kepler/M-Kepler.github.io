@@ -1,0 +1,2 @@
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: echo $test_run_cmd_with_env
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:257 🔵 output: 1a2b

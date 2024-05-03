@@ -1,2 +1,0 @@
-INFO     mypy.lib.playwright.publish_config:publish_config.py:119 🟢 -----> 配置如下 <-----
-WARNING  mypy.lib.playwright.publish_config:publish_config.py:165 🟠 跳过不合法的平台配置: [bad]

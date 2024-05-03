@@ -1,0 +1,3 @@
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:76 🔵 PDF 转成图片输出到: /tmp/tmpdoa_gbi2
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:463 🔵 创建一个临时文件: /tmp/tmphh9b5q1l 来存储所有视频文件的列表参数
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:156 🔵 ffmpeg -f concat -safe 0 -i /tmp/tmphh9b5q1l -c copy -y /home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2video.mp4

@@ -1,0 +1,219 @@
+INFO     mypy.apps.youtu2douyin.main:main.py:29 🟢 运行模式: once
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:228 🟢 ============================================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:229 🟢 channel: [TED-Ed]
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:230 🟢 ============================================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:41 🟢 new video《How to increase your happiness》found, id: m4Ics03xzUQ, publish date: 2024-05-02 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:240 🟢 频道 [TED-Ed] 发现 1 条新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:41 🟢 new video《Changing the future, one student voice at a time #shorts》found, id: RSbi3BC-N9k, publish date: 2023-10-06 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:249 🟢 频道 [TED-Ed] 发现 1 条新 shorts
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:259 🔵 检测到 2 条新视频
+INFO     mypy.lib.youtube.video_handler:video_handler.py:183 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:184 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:195 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k', 'https://youtube.com/watch?v=RSbi3BC-N9k']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:199 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:213 🟢 ----- 剪辑后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:216 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:116 🔵 ----- 视频信息: {'id': 'RSbi3BC-N9k', 'url': 'https://youtube.com/watch?v=RSbi3BC-N9k', 'title': 'Changing the future, one student voice at a time #shorts', 'publish_date': '2023-10-06 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:123 🟢 立即发布监控到的第一条视频《改变未来，一次一个学生的声音》
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:87 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:113 🟢 ============================================================
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:114 🟢 [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:115 🟢 ============================================================
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:77 🟢 当前登录账号为 [医护PPT代做]
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:36 🟢 视频上传中
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:45 🟢 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 当前登录账号为 [PPT320210]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 设置视频简介为: 改变未来，一次一个学生的声音 #TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.playwright.publish_handler:log.py:109 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:109 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 测试模式，不点击发布按钮
+ERROR    mypy.lib.xiaohongshu.publish_helper:publish_helper.py:136 🔴 ❌❌❌《改变未来，一次一个学生的声音》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publish_helper.py", line 74, in fill_publish_content
+    await page.locator(self._playwright_cfg.title_loc).fill(_publish_title)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 15144, in fill
+    await self._impl_obj.fill(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 205, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 527, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.fill: Timeout 180000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+
+ERROR    mypy.lib.xiaohongshu.publish_helper:publish_helper.py:158 🔴 ❌❌❌《改变未来，一次一个学生的声音》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publish_helper.py", line 74, in fill_publish_content
+    await page.locator(self._playwright_cfg.title_loc).fill(_publish_title)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 15144, in fill
+    await self._impl_obj.fill(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 205, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 527, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.fill: Timeout 180000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 148, in do_publish
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/_asyncio.py", line 71, in __anext__
+    do = self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 156, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 137, in publish_mission
+    raise PublishFail(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.PublishFail: Locator.fill: Timeout 180000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:63 🟠 [/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4] 发布到 [xiaohongshu] 失败原因: [Locator.fill: Timeout 180000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+]
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:144 🟢 《Changing the future, one student voice at a time #shorts》发布到 [douyin] 成功
+ERROR    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🔴 《Changing the future, one student voice at a time #shorts》发布到 [xiaohongshu] 失败
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:153 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4》已处理，删除该视频文件
+INFO     mypy.lib.youtube.video_handler:video_handler.py:183 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:184 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:195 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/m4Ics03xzUQ/m4Ics03xzUQ.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/m4Ics03xzUQ/m4Ics03xzUQ', 'https://youtube.com/watch?v=m4Ics03xzUQ']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:199 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:213 🟢 ----- 剪辑后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/m4Ics03xzUQ.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:216 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:116 🔵 ----- 视频信息: {'id': 'm4Ics03xzUQ', 'url': 'https://youtube.com/watch?v=m4Ics03xzUQ', 'title': 'How to increase your happiness', 'publish_date': '2024-05-02 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:87 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: xiaohongshu], [publish_file: m4Ics03xzUQ.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - ============================================================
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:113 🟢 ============================================================
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:114 🟢 [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.xiaohongshu.publish_helper:publish_helper.py:115 🟢 ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 当前登录账号为 [PPT320210]
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 获取并上传封面
+ERROR    mypy.lib.xiaohongshu.publish_helper:publish_helper.py:80 🔴 账号登录状态已失效，正在跳出: Page.goto: net::ERR_TIMED_OUT at https://creator.xiaohongshu.com/creator/home
+Call log:
+navigating to "https://creator.xiaohongshu.com/creator/home", waiting until "load"
+
+ERROR    mypy.lib.xiaohongshu.publish_helper:publish_helper.py:136 🔴 ❌❌❌《如何增加你的幸福感》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 74, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 8638, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 500, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_TIMED_OUT at https://creator.xiaohongshu.com/creator/home
+Call log:
+navigating to "https://creator.xiaohongshu.com/creator/home", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 123, in publish_mission
+    is_login = await self._check_login_status(page)
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 81, in _check_login_status
+    raise CheckLoginStatusExp from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp
+ERROR    mypy.lib.xiaohongshu.publish_helper:publish_helper.py:158 🔴 ❌❌❌《如何增加你的幸福感》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 74, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 8638, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_page.py", line 500, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_TIMED_OUT at https://creator.xiaohongshu.com/creator/home
+Call log:
+navigating to "https://creator.xiaohongshu.com/creator/home", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 123, in publish_mission
+    is_login = await self._check_login_status(page)
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 81, in _check_login_status
+    raise CheckLoginStatusExp from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 148, in do_publish
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/_asyncio.py", line 71, in __anext__
+    do = self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 156, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 137, in publish_mission
+    raise PublishFail(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.PublishFail
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 设置视频简介为: 如何增加你的幸福感 #TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.playwright.publish_handler:log.py:109 🟠 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:106 🟢 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:109 🟠 [platform: douyin], [publish_file: m4Ics03xzUQ.mp4] - 测试模式，不点击发布按钮
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:63 🟠 [/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/m4Ics03xzUQ.mp4] 发布到 [xiaohongshu] 失败原因: []
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:144 🟢 《How to increase your happiness》发布到 [douyin] 成功
+ERROR    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:140 🔴 《How to increase your happiness》发布到 [xiaohongshu] 失败
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:153 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/m4Ics03xzUQ.mp4》已处理，删除该视频文件
