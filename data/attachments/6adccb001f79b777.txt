@@ -1,3 +1,0 @@
-INFO     mypy.lib.playwright.publish_config:publish_config.py:120 🟢 -----> 配置如下 <-----
-INFO     mypy.lib.xiaohongshu.publish_app:publish_app.py:130 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
-WARNING  mypy.lib.xiaohongshu.publish_app:publish_app.py:22 🟠 TODO 还不支持发布aa图文
