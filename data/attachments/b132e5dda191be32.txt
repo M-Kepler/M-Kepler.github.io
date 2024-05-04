@@ -1,0 +1,74 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:120 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:175 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:21 🟢 正在把当前目录下的 PPT 转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:175 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:144 🟢 开始转换《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:43 🟢 正在生成封面...
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:61 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 库转成图片，输出到: /tmp/tmp6k0qtzsx
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp6k0qtzsx', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:71 🔵 转换后的图片列表:
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000001.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000002.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000003.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000004.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000005.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000006.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000007.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000008.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000009.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000010.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000011.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000012.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000013.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000014.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000015.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000016.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000017.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000018.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000019.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000020.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000021.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000022.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000023.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000024.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000025.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000026.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000027.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000028.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000029.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000030.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000031.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000032.jpg
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:76 🔵 /tmp/tmp6k0qtzsx/slide_000000033.jpg
+ERROR    mypy.apps.ppt2douyin.ppt2video:ppt2video.py:128 🔴 PPT 格式转换异常: [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg'
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 126, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 44, in make_ppt2video
+    self.make_ppt2image_article(ppt_path=ppt_path,
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 66, in make_ppt2image_article
+    image_stitch_helper.make_coverage(
+  File "/home/runner/work/Python/Python/mypy/lib/image/image_stitch.py", line 201, in make_coverage
+    toImage.save(output_filepath)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/PIL/Image.py", line 2456, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg'
+ERROR    mypy.apps.ppt2douyin.main:main.py:35 🔴 [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg'
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/main.py", line 23, in main
+    ppt_transfer.batch_ppt2transfer()
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 145, in batch_ppt2transfer
+    self._ppt_trans(ppt_file)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 129, in _ppt_trans
+    raise ex
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 126, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 44, in make_ppt2video
+    self.make_ppt2image_article(ppt_path=ppt_path,
+  File "/home/runner/work/Python/Python/mypy/apps/ppt2douyin/ppt2video.py", line 66, in make_ppt2image_article
+    image_stitch_helper.make_coverage(
+  File "/home/runner/work/Python/Python/mypy/lib/image/image_stitch.py", line 201, in make_coverage
+    toImage.save(output_filepath)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/PIL/Image.py", line 2456, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg'
