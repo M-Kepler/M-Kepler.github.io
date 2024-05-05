@@ -1,4 +1,0 @@
-DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:38 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 把 PDF 转图片，再把图片合成视频, 输出到: /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pptx']
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:63 🔵 PDF 转成图片输出到: /tmp/tmpgggpuqg7
-INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:449 🟢 文件夹 /tmp/tmpgggpuqg7 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4

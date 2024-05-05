@@ -1,0 +1,69 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:113 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.xiaohongshu.publish_app:publish_app.py:130 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:113 🟢 ============================================================
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:114 🟢 [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:115 🟢 ============================================================
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:77 🟢 当前登录账号为 [医护PPT代做]
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:36 🟢 视频上传中
+INFO     mypy.lib.xiaohongshu.publish_app:publish_helper.py:45 🟢 视频上传完毕
+ERROR    mypy.lib.xiaohongshu.publish_app:publish_helper.py:136 🔴 ❌❌❌《ted》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publish_helper.py", line 74, in fill_publish_content
+    await page.locator(self._playwright_cfg.title_loc).fill(_publish_title)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 15144, in fill
+    await self._impl_obj.fill(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 205, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 527, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+
+ERROR    mypy.lib.xiaohongshu.publish_app:publish_helper.py:158 🔴 ❌❌❌《ted》发布异常
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/Python/Python/mypy/lib/xiaohongshu/publish_helper.py", line 74, in fill_publish_content
+    await page.locator(self._playwright_cfg.title_loc).fill(_publish_title)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/async_api/_generated.py", line 15144, in fill
+    await self._impl_obj.fill(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 205, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 527, in fill
+    await self._channel.send("fill", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 513, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 148, in do_publish
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/_asyncio.py", line 71, in __anext__
+    do = self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 156, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/Python/Python/mypy/lib/playwright/publish_helper.py", line 137, in publish_mission
+    raise PublishFail(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.PublishFail: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"publish-container\"]/div/div[3]/div[2]/div[3]/input")

@@ -1,2 +1,0 @@
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:63 🔵 PDF 转成图片输出到: /tmp/tmpbhhravxj
-INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:449 🟢 文件夹 /tmp/tmpbhhravxj 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2video.mp4

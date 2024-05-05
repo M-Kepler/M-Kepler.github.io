@@ -1,0 +1,15 @@
+INFO     mypy.lib.youtube.video_handler:video_handler.py:183 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:184 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ
+INFO     mypy.lib.youtube.video_handler:video_handler.py:195 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA/B0lkyu2NFnA.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA/B0lkyu2NFnA', 'https://www.youtube.com/shorts/B0lkyu2NFnA']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:115 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fbd386f1af0 state=finished raised NoTranscriptFound>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:199 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:213 🟢 ----- 剪辑后视频路径: /home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:216 🟢 ===== 获取封面 =====
