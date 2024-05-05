@@ -1,8 +1,0 @@
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
-DEBUG    mypy.lib.image.image_stitch:image_stitch.py:49 🔵 conn_images width: 2667, height: 6000
