@@ -1,0 +1,24 @@
+INFO     mypy.apps.tiktok2douyin.main:main.py:18 🟢 开始下载视频
+INFO     mypy.apps.tiktok2douyin.main:main.py:24 🟢 开始发布视频
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:86 🟢 -----> 开始发布到 ['xiaohongshu', 'douyin'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 当前登录账号为 [医护PPT代做]
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 当前登录账号为 [PPT320210]
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 设置标题为: c罗X动画团队4周工作动画由Tman制作
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 设置简介为: c罗X动画团队4周工作动画由Tman制作 
+WARNING  mypy.lib.playwright.publish_handler:log.py:114 🟠 [platform: xiaohongshu], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 设置视频简介为: c罗X动画团队4周工作动画由Tman制作 
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:111 🟢 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:114 🟠 [platform: douyin], [publish_file: c罗X动画团队4周工作动画由Tman制作.mp4] - 测试模式，不点击发布按钮
