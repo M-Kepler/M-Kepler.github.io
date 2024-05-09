@@ -1,1 +1,1 @@
-[{"values":["test"],"name":"ENV"}]
+[{"values":["test"],"name":"ENV"},{"values":["1"],"name":"IN_GITHUBACTION"}]

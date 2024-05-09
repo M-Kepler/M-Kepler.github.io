@@ -1,0 +1,2 @@
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:520 🔵 正在把图片序列转换成视频，输出到: /tmp/tmp4l330fiy
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:539 🟢 文件夹 /home/runner/work/Python/Python/mypy/assets/media/ppt_slide_images 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_ffmpeg_pro/test_image2video/test_image2video.mp4

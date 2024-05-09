@@ -1,0 +1,4 @@
+INFO     conftest:conftest.py:121 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['pdftoppm', '-jpeg', '/home/runner/work/Python/Python/mypy/assets/media/pdf.pdf', '/home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2image_by_pdftoppm/slide']
+ERROR    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:261 🔴 命令: ['pdftoppm', '-jpeg', '/home/runner/work/Python/Python/mypy/assets/media/pdf.pdf', '/home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2image_by_pdftoppm/slide'] 执行失败，输出: I/O Error: Couldn't open file '/home/runner/work/Python/Python/mypy/assets/media/pdf.pdf': No such file or directory.
+NoneType: None

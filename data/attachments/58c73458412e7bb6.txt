@@ -1,0 +1,1 @@
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:61 🔵 PDF 转成图片输出到: /tmp/tmpoe84w_l9

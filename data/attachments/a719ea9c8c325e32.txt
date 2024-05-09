@@ -1,0 +1,4 @@
+DEBUG    mypy.lib.llm.api:api.py:76 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+WARNING  mypy.lib.llm.api:api.py:96 🟠 向 [KimiHelper] 提问失败: RetryError[<Future at 0x7f579743e970 state=finished raised RateLimitError>]，尝试下一个提供商
+DEBUG    mypy.lib.llm.api:api.py:76 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+WARNING  mypy.lib.llm.api:api.py:96 🟠 向 [KimiHelper] 提问失败: 未输入问题，请先用 api.ask_helper.add_ask_message 添加问题，尝试下一个提供商

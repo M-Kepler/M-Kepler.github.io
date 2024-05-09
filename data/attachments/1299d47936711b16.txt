@@ -1,0 +1,1 @@
+INFO     conftest:conftest.py:121 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/image/_out/test_image_stitch

@@ -1,0 +1,2 @@
+INFO     conftest:conftest.py:121 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_video_handler_app
+INFO     mypy.lib.video.video_handle_app:video_handle_app.py:32 🟢 -----> 正在处理《/home/runner/work/Python/Python/mypy/tests/lib/video/_out/test_video_handler_app/ppt_video.webm》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt_bgm.mp3》
