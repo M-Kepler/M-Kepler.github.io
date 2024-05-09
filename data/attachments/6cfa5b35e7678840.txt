@@ -1,0 +1,94 @@
+INFO     mypy.apps.youtu2douyin.main:main.py:35 🟢 运行模式: once
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:182 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:236 🟢 channel: [TED-Ed]
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:182 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:41 🟢 new video《If you're an adult mayfly you'll probably die before the end of this video - Luke M. Jacobus》found, id: -4YCwyHdC58, publish date: 2024-05-07 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:247 🟢 频道 [TED-Ed] 发现 1 条新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:41 🟢 new video《Changing the future, one student voice at a time #shorts》found, id: RSbi3BC-N9k, publish date: 2023-10-06 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:256 🟢 频道 [TED-Ed] 发现 1 条新 shorts
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:266 🔵 检测到 2 条新视频
+INFO     mypy.lib.youtube.video_handler:video_handler.py:206 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:207 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:218 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k', 'https://youtube.com/watch?v=RSbi3BC-N9k']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:222 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:236 🟢 ----- 剪辑后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:239 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:117 🔵 ----- 视频信息: {'id': 'RSbi3BC-N9k', 'url': 'https://youtube.com/watch?v=RSbi3BC-N9k', 'title': 'Changing the future, one student voice at a time #shorts', 'publish_date': '2023-10-06 00:00:00', 'published': []}
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:124 🟢 立即发布监控到的第一条视频《改变未来，一次一个学生的声音》
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:86 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 当前登录账号为 [医护PPT代做]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 设置标题为: 改变未来，一次一个学生的声音
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 设置简介为: 改变未来，一次一个学生的声音 #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #TED
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #四六级
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #英语口语
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 设置视频简介为: 改变未来，一次一个学生的声音 #TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:145 🟢 《Changing the future, one student voice at a time #shorts》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:145 🟢 《Changing the future, one student voice at a time #shorts》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:154 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4》已处理，删除该视频文件
+INFO     mypy.lib.youtube.video_handler:video_handler.py:206 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:207 🟢 输出路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:218 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:164 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/-4YCwyHdC58/-4YCwyHdC58.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/-4YCwyHdC58/-4YCwyHdC58', 'https://youtube.com/watch?v=-4YCwyHdC58']
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:168 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:222 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:236 🟢 ----- 剪辑后视频路径: /home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/-4YCwyHdC58.mp4
+INFO     mypy.lib.youtube.video_handler:video_handler.py:239 🟢 ===== 获取封面 =====
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:117 🔵 ----- 视频信息: {'id': '-4YCwyHdC58', 'url': 'https://youtube.com/watch?v=-4YCwyHdC58', 'title': "If you're an adult mayfly you'll probably die before the end of this video - Luke M. Jacobus", 'publish_date': '2024-05-07 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:86 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 当前登录账号为 [医护PPT代做]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 设置标题为: 如果你是一只成年蜉蝣，你可能会在视频结束
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 设置简介为: 如果你是一只成年蜉蝣，你可能会在视频结束前死去 #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 添加话题: #TED
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 添加话题: #四六级
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 添加话题: #英语口语
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 添加话题: #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: xiaohongshu], [publish_file: -4YCwyHdC58.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 设置视频简介为: 如果你是一只成年蜉蝣，你可能会在视频结束前死去 #TED #四六级 #英语口语 #雅思
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 【立即发布】
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: -4YCwyHdC58.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:145 🟢 《If you're an adult mayfly you'll probably die before the end of this video - Luke M. Jacobus》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:145 🟢 《If you're an adult mayfly you'll probably die before the end of this video - Luke M. Jacobus》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:154 🟠 《/home/runner/work/Python/Python/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/-4YCwyHdC58.mp4》已处理，删除该视频文件

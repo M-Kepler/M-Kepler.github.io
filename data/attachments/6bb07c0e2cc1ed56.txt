@@ -1,0 +1,4 @@
+INFO     conftest:conftest.py:121 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech
+INFO     __file__:subtitle2speech.py:140 🟢 working on /tmp/tmpnqt2az5t
+DEBUG    __file__:subtitle2speech.py:88 🔵 待处理 subtitle 总行数: 16
+INFO     __file__:subtitle2speech.py:134 🟢 转换完成，文件保存到: /home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech.mp3
