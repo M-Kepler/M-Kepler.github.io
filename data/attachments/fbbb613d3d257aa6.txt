@@ -1,0 +1,124 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:113 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:182 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:26 🟢 正在把当前目录下的 PPT 转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:182 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:158 🟢 开始转换《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:43 🟢 正在生成封面...
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:63 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 库转成图片，输出到: /tmp/tmpu1bgi1p7
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpu1bgi1p7', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:38 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 把 PDF 转图片，再把图片合成视频, 输出到: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:61 🔵 PDF 转成图片输出到: /tmp/tmpfxrk0u_c
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:490 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpfj_roa8f
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:509 🟢 文件夹 /tmp/tmpfxrk0u_c 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:158 🟢 开始转换《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/泌尿外科护士长竞聘.pptx》
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:43 🟢 正在生成封面...
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:63 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 库转成图片，输出到: /tmp/tmp6vgip_uf
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp6vgip_uf', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/泌尿外科护士长竞聘.pptx']
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:38 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 把 PDF 转图片，再把图片合成视频, 输出到: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/泌尿外科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:61 🔵 PDF 转成图片输出到: /tmp/tmps8dvinkg
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:490 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpoltc6_99
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:509 🟢 文件夹 /tmp/tmps8dvinkg 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:160 🟢 转换完成，结果输出在 /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:182 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:31 🟢 内容处理和发布
+INFO     mypy.apps.ppt2douyin.main:log.py:182 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:41 🟢 -----> 正在合并音视频《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt/ppt_bgm.mp3》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:101 🔵 [ffmpeg] 命令: ['-i', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4', '-ss', '130', '-t', '39', '-i', '/home/runner/work/Python/Python/mypy/assets/media/ppt/ppt_bgm.mp3', '-filter_complex', '[0]setpts=0.6785714285714286*PTS[s0];[1]volume=volume=0.5[s1];[s1]afade=d=1:st=0:t=in[s2];[s2]afade=d=1:st=37:t=out[s3]', '-map', '[s0]', '-map', '[s3]', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:53 🟢 -----> 正在进行视频剪辑
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:31 🟢 -----> 横屏转成竖屏
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['ffmpeg', '-i', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video_merge_audio_and_video.mp4', '-vf', 'split[a][b]; [a]crop=(ih/16*9):ih,scale=iw/10:-1,gblur=sigma=5,scale=720:1280[1]; [b]scale=720:(720*ih/iw)[2]; [1][2]overlay=0:(H-h)/2', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video_merge_audio_and_video_with_h2v.mp4', '-y']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:73 🟢 视频剪辑完成
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:127 🟢 -----> 开始发布: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.mp4
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:86 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 设置标题为: 泌尿外科护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 设置简介为: 泌尿外科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 添加@: @XiaomaomiXWLY
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 添加话题: #护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 添加话题: #护士懂护士
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 添加话题: #护士
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 添加话题: #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 【定时发布】时间设置为: 2024-05-15 11:27:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: xiaohongshu], [publish_file: 泌尿外科护士长竞聘.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 设置视频简介为: 泌尿外科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 合集《护士长竞聘》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 【定时发布】时间设置为: 2024-05-15 11:27:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: 泌尿外科护士长竞聘.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:129 🍊🍊🍊 -----> /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.mp4 发布成功
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:131 🟢 -----> 清理临时文件
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.jpg
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.pdf
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘_ppt2video.mp4
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/泌尿外科护士长竞聘.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:140 🟢 
+继续处理下一个视频...
+
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:41 🟢 -----> 正在合并音视频《/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4》和 《/home/runner/work/Python/Python/mypy/assets/media/ppt/ppt_bgm.mp3》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:101 🔵 [ffmpeg] 命令: ['-i', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4', '-ss', '131', '-t', '39', '-i', '/home/runner/work/Python/Python/mypy/assets/media/ppt/ppt_bgm.mp3', '-filter_complex', '[0]setpts=0.5757575757575757*PTS[s0];[1]volume=volume=0.5[s1];[s1]afade=d=1:st=0:t=in[s2];[s2]afade=d=1:st=37:t=out[s3]', '-map', '[s0]', '-map', '[s3]', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:53 🟢 -----> 正在进行视频剪辑
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:31 🟢 -----> 横屏转成竖屏
+DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['ffmpeg', '-i', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video.mp4', '-vf', 'split[a][b]; [a]crop=(ih/16*9):ih,scale=iw/10:-1,gblur=sigma=5,scale=720:1280[1]; [b]scale=720:(720*ih/iw)[2]; [1][2]overlay=0:(H-h)/2', '/home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video_with_h2v.mp4', '-y']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:73 🟢 视频剪辑完成
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:127 🟢 -----> 开始发布: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:86 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 视频上传完毕
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 设置标题为: 消化内科护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 设置简介为: 消化内科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 添加@: @XiaomaomiXWLY
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 添加话题: #护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 添加话题: #护士懂护士
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 添加话题: #护士
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 添加话题: #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 【定时发布】时间设置为: 2024-05-15 19:18:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: xiaohongshu], [publish_file: 消化内科护士长竞聘.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 设置视频简介为: 消化内科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 合集《护士长竞聘》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:110 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 【定时发布】时间设置为: 2024-05-15 19:18:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:129 🍊🍊🍊 -----> /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4 发布成功
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:131 🟢 -----> 清理临时文件
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.jpg
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.pdf
+WARNING  mypy.utils.file:file.py:200 🟠 正在删除: /home/runner/work/Python/Python/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:140 🟢 
+继续处理下一个视频...
+
+WARNING  mypy.apps.ppt2douyin.video_handler:video_handler.py:89 🟠 当前目录下未发现视频，退出
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:142 🟢 处理完成，一共处理了 2 个视频
