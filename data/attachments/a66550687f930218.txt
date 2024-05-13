@@ -1,0 +1,4 @@
+INFO     __file__:subtitle2speech.py:140 🟢 working on /tmp/tmpgys0_lm0
+DEBUG    __file__:subtitle2speech.py:88 🔵 待处理 subtitle 总行数: 316
+INFO     __file__:subtitle2speech.py:134 🟢 转换完成，文件保存到: /home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:101 🔵 [ffmpeg] 命令: ['-i', '/home/runner/work/Python/Python/mypy/assets/media/ted/ted_audio.mp4', '-i', '/home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3', '-map', '0', '-map', '1', '/home/runner/work/Python/Python/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp4']

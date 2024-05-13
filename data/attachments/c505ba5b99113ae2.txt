@@ -1,2 +1,0 @@
-INFO     mypy.apps.youtu2douyin.tools:tools.py:26 🟢 new video《If you're an adult mayfly you'll probably die before the end of this video - Luke M. Jacobus》found, id: -4YCwyHdC58, publish date: 2024-05-07 00:00:00
-INFO     mypy.apps.youtu2douyin.tools:tools.py:26 🟢 new video《Do you ever feel isolated amongst your peers? #shorts》found, id: MdM6osj5Jlg, publish date: 2023-09-18 00:00:00

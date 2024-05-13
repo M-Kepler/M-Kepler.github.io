@@ -1,6 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video
-DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:38 🔵 通过 libreoffice 把 PPT 转成 PDF，再通过 pdf2image 把 PDF 转图片，再把图片合成视频, 输出到: /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video/test_ppt2video.mp4
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video', '/home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video/ppt.pptx']
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:61 🔵 PDF 转成图片输出到: /tmp/tmp7wo20vbr
-DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:490 🔵 正在把图片序列转换成视频，输出到: /tmp/tmp502jcw9u
-INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:509 🟢 文件夹 /tmp/tmp7wo20vbr 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt2video/test_ppt2video.mp4

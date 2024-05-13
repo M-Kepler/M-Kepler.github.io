@@ -1,0 +1,45 @@
+INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao
+INFO     mypy.lib.audio.gequbao:gequbao.py:79 🟢 歌曲列表如下:
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 1 - 遇见 - 孙燕姿
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 2 - 遇见 - 孙燕姿
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 3 - 遇见 - 孙燕姿
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 4 - 遇见（cover 孙燕姿）（翻自 孙... - 江小笙LGta
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 5 - 遇见（Cover 孙燕姿）（翻自 孙... - 米饭艺面
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 6 - 遇见（翻自 孙燕姿） - 徐磊
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 7 - 遇见（翻自 孙燕姿） - 罗海洋
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 8 - 遇见（翻自 孙燕姿） - 付昊喆
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 9 - 遇见（翻自 孙燕姿） - 锦璃
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 10 - 遇见（翻自 孙燕姿） - 小屁桃儿
+INFO     mypy.lib.audio.gequbao:gequbao.py:149 🟢 找到 10 首歌曲
+INFO     mypy.lib.audio.gequbao:gequbao.py:136 🟢 遇见 - 孙燕姿 下载成功
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/遇见 - 孙燕姿.mp3 already exists.
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/遇见 - 孙燕姿.mp3 already exists.
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（cover 孙燕姿）（翻自 孙... - 江小笙LGta
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（Cover 孙燕姿）（翻自 孙... - 米饭艺面
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（翻自 孙燕姿） - 徐磊
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（翻自 孙燕姿） - 罗海洋
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（翻自 孙燕姿） - 付昊喆
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（翻自 孙燕姿） - 锦璃
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 遇见（翻自 孙燕姿） - 小屁桃儿
+INFO     mypy.lib.audio.gequbao:gequbao.py:79 🟢 歌曲列表如下:
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 1 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 2 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 3 - 刀马旦 - 周杰伦,李玟
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 4 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 5 - 刀马旦 - 周杰伦,李玟
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 6 - 刀马旦 (Live) - 李玟,黄龄
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 7 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 8 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 9 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:81 🟢 10 - 刀马旦 - 李玟,周杰伦
+INFO     mypy.lib.audio.gequbao:gequbao.py:149 🟢 找到 10 首歌曲
+INFO     mypy.lib.audio.gequbao:gequbao.py:136 🟢 刀马旦 - 李玟,周杰伦 下载成功
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/刀马旦 - 李玟,周杰伦.mp3 already exists.
+INFO     mypy.lib.audio.gequbao:gequbao.py:136 🟢 刀马旦 - 周杰伦,李玟 下载成功
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/刀马旦 - 李玟,周杰伦.mp3 already exists.
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/刀马旦 - 周杰伦,李玟.mp3 already exists.
+WARNING  mypy.lib.audio.gequbao:gequbao.py:152 🟠 跳过翻唱歌曲 刀马旦 (Live) - 李玟,黄龄
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/刀马旦 - 李玟,周杰伦.mp3 already exists.
+WARNING  mypy.lib.audio.gequbao:gequbao.py:127 🟠 song /home/runner/work/Python/Python/mypy/tests/lib/audio/_out/test_gequbao/刀马旦 - 李玟,周杰伦.mp3 already exists.
+ERROR    mypy.lib.audio.gequbao:gequbao.py:116 🔴 get https://www.gequbao.com/api/play_url?id=556585&json=1 error: <Response [429]>
+ERROR    mypy.lib.audio.gequbao:gequbao.py:116 🔴 get https://www.gequbao.com/api/play_url?id=584266&json=1 error: <Response [429]>

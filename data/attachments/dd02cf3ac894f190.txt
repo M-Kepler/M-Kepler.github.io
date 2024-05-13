@@ -1,0 +1,3 @@
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:61 🔵 PDF 转成图片输出到: /tmp/tmp8ll0gjn0
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:491 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpo2out339
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:510 🟢 文件夹 /tmp/tmp8ll0gjn0 下的图片成功转成视频： /home/runner/work/Python/Python/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2video.mp4

@@ -1,0 +1,15 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:112 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.douyin.publish_app:publish_app.py:130 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:112 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:113 🟢 [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:114 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:77 🟢 当前登录账号为 [ScieProX]
+INFO     mypy.lib.douyin.publish_app:video_publish_helper.py:37 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:358 🟢 设置视频简介为: ted @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:71 🟢 -----> 可选合集:
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:73 🟢 1. HKRN/RN备考
+WARNING  mypy.lib.douyin.publish_app:publish_helper.py:79 🟠 合集《护士长竞聘》不存在
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:271 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:146 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:258 🟢 【定时发布】时间设置为: 2024-05-13 19:10:00
+WARNING  mypy.lib.douyin.publish_app:publish_helper.py:90 🟠 测试模式，不点击发布按钮
