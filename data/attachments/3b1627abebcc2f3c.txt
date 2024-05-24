@@ -1,0 +1,216 @@
+INFO     mypy.apps.youtu2douyin.tools:tools.py:104 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/channel_record.json 中的 videos 为较新的记录
+INFO     mypy.apps.youtu2douyin.tools:tools.py:81 🟢 new video《Why don't "tough" and "dough" rhyme? - Arika Okrent》found, id: XFhY4Vy3IHc, publish date: 2024-05-23 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:81 🟢 new video《Changing the future, one student voice at a time #shorts》found, id: RSbi3BC-N9k, publish date: 2023-10-06 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:81 🟢 new video《Pediatric Nursing NCLEX Questions and Answers | NCLEX Review》found, id: VqO6t3_9-PE, publish date: 2024-05-20 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:81 🟢 new video《Infant Reflexes Nursing Review in 48 Seconds #shorts #nursing #nclex》found, id: Ibn2M1UN2Tk, publish date: 2024-05-21 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:119 🟢 更新频道视频内容到倒数第 1 个视频成功
+INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: once
+INFO     mypy.apps.youtu2douyin.tools:tools.py:44 🟢 开始对 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/channel_record.json 视频列表按照 publish_date 进行降序排序
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:191 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:294 🟢 handing channel: [TED-Ed] [https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA]
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:191 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:306 🟢 频道 [TED-Ed] 发现 0 条新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:315 🟢 频道 [TED-Ed] 发现 0 条新 shorts
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:164 🟢 -----> 开始下载第 1/2 个视频: https://youtube.com/watch?v=RSbi3BC-N9k
+INFO     mypy.lib.youtube.video_handler:video_handler.py:278 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:290 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=RSbi3BC-N9k']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k_en.srt
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:259 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:304 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k.mp4', '-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/logo.png', '-filter_complex', '[0]drawbox=0:ih-140:0:0:black@0.6:t=fill[s0];[s0]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k_zh.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=11\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=10\\,Alignment\\\\=2[s1];[s1]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k/RSbi3BC-N9k_en.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=3\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=8\\,Alignment\\\\=2[s2];[s2]eq=contrast=1.2:saturation=1.2[s3];[1]scale=iw*50/100:ih*50/100[s4];[s4]colorkey=white:0.05:1.0[s5];[s3][s5]overlay=eof_action=repeat:x=main_w-overlay_w-20:y=20[s6];[s6]crop=x=in_w-3:y=in_h-3[s7];[s7]trim=start=6[s8];[s8]setpts=PTS-STARTPTS[s9];[s9]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=77.14285714285714:text=改变未来，一次一个学\n生的声音:x=(w-tw)/2:y=(h-th)/2[s10];[0:a]atrim=start=6[s11];[s11]asetpts=PTS-STARTPTS[s12]', '-map', '[s10]', '-map', '[s12]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:317 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:82 🔵 ----- 视频信息: {'id': 'RSbi3BC-N9k', 'url': 'https://youtube.com/watch?v=RSbi3BC-N9k', 'title': 'Changing the future, one student voice at a time #shorts', 'publish_date': '2023-10-06 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 视频上传中...
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 设置标题为: 改变未来，一次一个学生的声音
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 设置简介为: 改变未来，一次一个学生的声音 #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #TED
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #四六级
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #英语口语
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 添加话题: #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 【定时发布】时间设置为: 2024-05-24 21:26:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: xiaohongshu], [publish_file: RSbi3BC-N9k.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 设置视频简介为: 改变未来，一次一个学生的声音 #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 所选合集《TED-ED（中英字幕）》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 【定时发布】时间设置为: 2024-05-24 21:26:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: RSbi3BC-N9k.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Changing the future, one student voice at a time #shorts》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Changing the future, one student voice at a time #shorts》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:130 🟠 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/RSbi3BC-N9k.mp4》已处理，删除该视频文件
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:164 🟢 -----> 开始下载第 2/2 个视频: https://youtube.com/watch?v=XFhY4Vy3IHc
+INFO     mypy.lib.youtube.video_handler:video_handler.py:278 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:290 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=XFhY4Vy3IHc']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc_en.srt
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:259 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:304 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc.mp4', '-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/logo.png', '-filter_complex', '[0]drawbox=0:ih-140:0:0:black@0.6:t=fill[s0];[s0]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc_zh.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=16\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=18\\,Alignment\\\\=2[s1];[s1]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc/XFhY4Vy3IHc_en.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=3\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=13\\,Alignment\\\\=2[s2];[s2]eq=contrast=1.2:saturation=1.2[s3];[1]scale=iw*50/100:ih*50/100[s4];[s4]colorkey=white:0.05:1.0[s5];[s3][s5]overlay=eof_action=repeat:x=main_w-overlay_w-20:y=20[s6];[s6]crop=x=in_w-3:y=in_h-3[s7];[s7]trim=start=6[s8];[s8]setpts=PTS-STARTPTS[s9];[s9]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=137.14285714285714:text=为什么不“艰难”和“\n面团”押韵？:x=(w-tw)/2:y=(h-th)/2[s10];[0:a]atrim=start=6[s11];[s11]asetpts=PTS-STARTPTS[s12]', '-map', '[s10]', '-map', '[s12]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:317 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc.mp4
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:82 🔵 ----- 视频信息: {'id': 'XFhY4Vy3IHc', 'url': 'https://youtube.com/watch?v=XFhY4Vy3IHc', 'title': 'Why don\'t "tough" and "dough" rhyme? - Arika Okrent', 'publish_date': '2024-05-23 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 视频上传中...
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 设置标题为: 为什么不“艰难”和“面团”押韵？
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 设置简介为: 为什么不“艰难”和“面团”押韵？ #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 添加话题: #TED
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 添加话题: #四六级
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 添加话题: #英语口语
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 添加话题: #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 【定时发布】时间设置为: 2024-05-25 11:34:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: xiaohongshu], [publish_file: XFhY4Vy3IHc.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 设置视频简介为: 为什么不“艰难”和“面团”押韵？ #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 所选合集《TED-ED（中英字幕）》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 【定时发布】时间设置为: 2024-05-25 11:34:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: XFhY4Vy3IHc.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Why don't "tough" and "dough" rhyme? - Arika Okrent》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Why don't "tough" and "dough" rhyme? - Arika Okrent》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:130 🟠 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/XFhY4Vy3IHc.mp4》已处理，删除该视频文件
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:191 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:294 🟢 handing channel: [RegisteredNurseRN] [https://www.youtube.com/channel/UCPyMN8DzkFl2__xnTEiGZ1w]
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:191 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:306 🟢 频道 [RegisteredNurseRN] 发现 0 条新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:164 🟢 -----> 开始下载第 1/2 个视频: https://youtube.com/watch?v=Ibn2M1UN2Tk
+INFO     mypy.lib.youtube.video_handler:video_handler.py:278 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w
+INFO     mypy.lib.youtube.video_handler:video_handler.py:290 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk/Ibn2M1UN2Tk.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk/Ibn2M1UN2Tk', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=Ibn2M1UN2Tk']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7ffad2575df0 state=finished raised NoTranscriptFound>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:259 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:304 🟢 ===== 视频剪辑 =====
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk/Ibn2M1UN2Tk.mp4', '-filter_complex', '[0]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=77.14285714285714:text=婴儿反射护理评论在4\n8秒内:x=(w-tw)/2:y=(h-th)/2[s0]', '-map', '[s0]', '-map', '0:a', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:317 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk.mp4
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:82 🔵 ----- 视频信息: {'id': 'Ibn2M1UN2Tk', 'url': 'https://youtube.com/watch?v=Ibn2M1UN2Tk', 'title': 'Infant Reflexes Nursing Review in 48 Seconds #shorts #nursing #nclex', 'publish_date': '2024-05-21 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 视频上传中...
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 设置标题为: 婴儿反射护理评论在48秒内
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 设置简介为: 婴儿反射护理评论在48秒内 #HKRN #护士懂护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 添加话题: #HKRN
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 添加话题: #护士懂护士
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 设置视频简介为: 婴儿反射护理评论在48秒内 #HKRN #护士懂护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 添加话题: #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 所选合集《HKRN/USRN学习资料》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 【定时发布】时间设置为: 2024-05-24 21:44:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: xiaohongshu], [publish_file: Ibn2M1UN2Tk.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 【定时发布】时间设置为: 2024-05-24 21:44:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: Ibn2M1UN2Tk.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Infant Reflexes Nursing Review in 48 Seconds #shorts #nursing #nclex》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Infant Reflexes Nursing Review in 48 Seconds #shorts #nursing #nclex》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:130 🟠 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/Ibn2M1UN2Tk.mp4》已处理，删除该视频文件
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:164 🟢 -----> 开始下载第 2/2 个视频: https://youtube.com/watch?v=VqO6t3_9-PE
+INFO     mypy.lib.youtube.video_handler:video_handler.py:278 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w
+INFO     mypy.lib.youtube.video_handler:video_handler.py:290 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=VqO6t3_9-PE']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE_en.srt
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:259 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:304 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:106 🟢 字幕时间线可能重叠，需要整理字幕时间线
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE.mp4', '-filter_complex', '[0]drawbox=0:ih-140:0:0:black@0.6:t=fill[s0];[s0]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE_zh.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=16\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=18\\,Alignment\\\\=2[s1];[s1]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE/VqO6t3_9-PE_en.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=3\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=13\\,Alignment\\\\=2[s2];[s2]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=137.14285714285714:text=小儿护理NCLEX问\n题和答案| NCLE\nX评论:x=(w-tw)/2:y=(h-th)/2[s3]', '-map', '[s3]', '-map', '0:a', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:317 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE.mp4
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:82 🔵 ----- 视频信息: {'id': 'VqO6t3_9-PE', 'url': 'https://youtube.com/watch?v=VqO6t3_9-PE', 'title': 'Pediatric Nursing NCLEX Questions and Answers | NCLEX Review', 'publish_date': '2024-05-20 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布到 ['douyin', 'xiaohongshu'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - [XiaohongshuPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 当前登录账号为 [医护PPT代做&HKRN报名指导]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 视频上传中
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 视频上传中...
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 当前登录账号为 [ScieProX]
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 设置视频简介为: 小儿护理NCLEX问题和答案| NCLEX评论 #HKRN #护士懂护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 1. HKRN/RN备考
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 所选合集《HKRN/USRN学习资料》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 【定时发布】时间设置为: 2024-05-25 11:29:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: douyin], [publish_file: VqO6t3_9-PE.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 设置标题为: 小儿护理NCLEX问题和答案| NCLE
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 设置简介为: 小儿护理NCLEX问题和答案| NCLE #HKRN #护士懂护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 添加话题: #HKRN
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 添加话题: #护士懂护士
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 添加话题: #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:119 🟢 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 【定时发布】时间设置为: 2024-05-25 11:29:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:122 🟠 [platform: xiaohongshu], [publish_file: VqO6t3_9-PE.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Pediatric Nursing NCLEX Questions and Answers | NCLEX Review》发布到 [douyin] 成功
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:119 🟢 《Pediatric Nursing NCLEX Questions and Answers | NCLEX Review》发布到 [xiaohongshu] 成功
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:130 🟠 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w/VqO6t3_9-PE.mp4》已处理，删除该视频文件

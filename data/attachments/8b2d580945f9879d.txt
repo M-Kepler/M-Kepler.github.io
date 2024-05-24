@@ -1,2 +1,0 @@
-INFO     mypy.lib.playwright.publish_config:publish_config.py:112 🟢 -----> 配置如下 <-----
-INFO     mypy.lib.xiaohongshu.publish_app:publish_app.py:130 🟢 正在使用 [cookie_17688150852.json] 发布作品，当前账号排序: [1]

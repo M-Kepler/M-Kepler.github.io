@@ -1,5 +1,0 @@
-INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:163 🟢 ----- 下载视频 -----
-DEBUG    /home/runner/work/Python/Python/mypy/utils/tools.py:tools.py:237 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_ytdlp_helper/GSaYtNZnqR8.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/Python/Python/mypy/tests/lib/youtube/_out/test_ytdlp_helper/GSaYtNZnqR8', 'https://www.youtube.com/shorts/GSaYtNZnqR8']
-INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:167 🟢 ----- 下载字幕 -----
-INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
-INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:169 🟢 ----- 整理字幕内容 -----

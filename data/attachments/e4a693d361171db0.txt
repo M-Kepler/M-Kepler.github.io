@@ -1,1 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/Python/Python/mypy/tests/lib/ppt/_out/test_ppt_editor
