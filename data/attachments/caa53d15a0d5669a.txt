@@ -1,0 +1,8 @@
+INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:28 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp12vfnq7_
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:509 🔵 把 /tmp/tmp12vfnq7_ 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:518 🔵 正在把图片序列转换成视频，输出到: /tmp/tmp8jbq7_e8
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:537 🟢 文件夹 /tmp/tmp12vfnq7_ 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4

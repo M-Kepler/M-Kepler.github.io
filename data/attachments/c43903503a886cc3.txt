@@ -1,4 +1,0 @@
-INFO     __file__:subtitle2speech.py:140 🟢 working on /tmp/tmp6s5fi8dm
-INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /tmp/tmp6s5fi8dm/tmp.srt
-DEBUG    __file__:subtitle2speech.py:88 🔵 待处理 subtitle 总行数: 316
-INFO     __file__:subtitle2speech.py:134 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3
