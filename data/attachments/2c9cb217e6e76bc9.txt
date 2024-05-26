@@ -1,5 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech
-INFO     __file__:subtitle2speech.py:141 🟢 working on /tmp/tmpyvft8fwg
-INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /tmp/tmpyvft8fwg/tmp.srt
-DEBUG    __file__:subtitle2speech.py:89 🔵 待处理 subtitle 总行数: 16
-INFO     __file__:subtitle2speech.py:135 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech.mp3

@@ -1,0 +1,23 @@
+INFO     mypy.tools.y2_downloader:y2_downloader.py:96 🟢 开始下载《WWII - Balkans Campaign, Every Day (1940-1941) / 巴爾幹戰役》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:280 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg
+INFO     mypy.lib.youtube.video_handler:video_handler.py:291 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/z7bUu-RUcMg/z7bUu-RUcMg.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/z7bUu-RUcMg/z7bUu-RUcMg', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=z7bUu-RUcMg']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/z7bUu-RUcMg/z7bUu-RUcMg_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/z7bUu-RUcMg/z7bUu-RUcMg_en.srt
+INFO     mypy.tools.y2_downloader:y2_downloader.py:102 🍊🍊🍊 视频《WWII - Balkans Campaign, Every Day (1940-1941) / 巴爾幹戰役》下载完成
+INFO     mypy.tools.y2_downloader:y2_downloader.py:96 🟢 开始下载《WWII - Normandy landings (D-Day), Every Minute / 諾曼第登陸，每分鐘(1944.6.6)》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:279 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:280 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg
+INFO     mypy.lib.youtube.video_handler:video_handler.py:291 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:143 🟢 ----- 下载视频 -----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['yt-dlp', '--format', 'bv+ba', '--merge-output-format', 'mp4', '--output', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/peQ-CsY19Ag/peQ-CsY19Ag.mp4', '--write-thumbnail', '--convert-thumbnail', 'jpg', '--output', 'thumbnail:/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UCjM3x3pxlBbjfoq4yu9Wgbg/peQ-CsY19Ag/peQ-CsY19Ag', '--quiet', '--no-warnings', '--verbose', 'https://youtube.com/watch?v=peQ-CsY19Ag']
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7ff40069adf0 state=finished raised NoTranscriptFound>]
+INFO     mypy.tools.y2_downloader:y2_downloader.py:102 🍊🍊🍊 视频《WWII - Normandy landings (D-Day), Every Minute / 諾曼第登陸，每分鐘(1944.6.6)》下载完成
