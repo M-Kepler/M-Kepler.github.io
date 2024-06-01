@@ -1,3 +1,0 @@
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:77 🟠 输入视频强制使用 30 帧率
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:86 🟠 绿幕视频帧率为: 30, 替换视频帧率为: 25.0
-DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:149 🔵 在第 0.0s 处开始出现绿幕

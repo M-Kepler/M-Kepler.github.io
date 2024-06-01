@@ -1,1 +1,0 @@
-INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:86 🟢 调整字幕每一行文本长度

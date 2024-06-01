@@ -1,1 +1,0 @@
-INFO     mypy.lib.github.action:action.py:46 🟢 github action dispatch mypy_event_type.test_app 204
