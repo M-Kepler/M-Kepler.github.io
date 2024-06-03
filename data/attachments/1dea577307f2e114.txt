@@ -1,0 +1,1 @@
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:48 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle_handler/test_merge_subtitle_text_oneline.srt

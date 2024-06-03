@@ -1,0 +1,480 @@
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才移民计划有什么利弊吗？全方位分析》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《2024年香港移民身份的5种途径！》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划通过率因素分析，哪些人更容易拿到香港移民身份？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才移民不简单，新型骗局要注意！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfcfe09d0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=A8WVGxXHUuU》下载完成
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港移民身份的好处有哪些？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd0832b0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=L2CNGaNtkKE》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划移民香港是个坑吗？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd335a30 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfc5ad520 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=Q5RoxIW7y8Q》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划如何获批的8个角度分析！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=pe8kVCbOoCo》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《内地13所高校本科毕业生，可直接落户香港身份！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd080d60 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd3357f0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=yVSAy94GhYw》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《内地13所高校本科毕业生，可直接落户香港！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=vQ19_OeNvJc》下载完成
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《已有北京/上海/广州/深圳户口，如何再办理一个香港身份？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14c4dac0 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfe2fcf70 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=YmHG71itvYw》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《2024年香港优才计划的申请条件说明！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=AAG5DDleuLk》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划大学名单有哪些？内地9所高校多加30分！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14d70700 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14d38a90 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=1xlPhLMufH4》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划3个常见打分误区，一次性说明白！》
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd0f2700 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=DtcWfVnAK_o》下载完成
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfcfe0e80 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《2024年香港优才计划加分项汇总，80分起申请，符合这些条件多加95分！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=4n4oLeYnl5I》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《移民香港有诀窍，2024年香港优才计划线上申请的5条良心建议！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=yvV6vNRmh2s》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划人才清单51项专业是什么？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14cbfbe0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd251550 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=UJctmAePFB4》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《2024香港优才计划获批高分秘籍，这6类人申请很容易！》
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=MMNNBSIuIjM》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划打分200分，为什么还会找中介申请？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfc5aff40 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd1398e550 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=A8Mt3GTpcyU》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=Jc4HHCZrzyo》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《注意香港优才计划申请的5个细节，香港身份才能拿到手！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《不常住香港，香港身份应该冲哪个？香港高才通和优才计划全分析》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd7b1880 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd70ec10 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=-5alvds9nRs》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港人才引进落户政策解读！香港优才/高才/专才/进修计划哪个适合你？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=KqyVm05Ucf8》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划对孩子高考升学有什么用？》
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd335220 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14c7e6d0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=8M9h7hoxdSs》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《开学如何让孩子赢在起跑线？讲讲一个香港身份对孩子的教育优势》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=GJ6OBBtRWek》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港身份竟然帮我赚了500万？香港身份优势明显，比如出行、税务、营商、子女教育等等，但是如何赚500万呢？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd22e5e0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14bdc0a0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd0d9be0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=00Yb1u18ROM》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《孩子有一个香港身份，参加华侨生联考升学有多爽？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd149d0d90 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=KBXCVV6Vsjw》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=clI2S2lWk2w》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《30天内如何快速拿香港身份？分享一个香港移民捷径》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《为什么他们都在为家庭规划香港身份？孩子黄金年龄别错过了！！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=fmyVUoKdu-o》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《为什么他们都在为家庭规划香港身份？第三身份真香赢在起跑线！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14d12580 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=UlX0Q1t2ti4》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《不是所有人都适合香港移民！办理香港身份有多种方式，但这几类人不建议申请》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfcf340d0 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd0f2850 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14cbfb20 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=9h-AhGUwPM8》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=2W5ftC10Jhg》下载完成
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才三大消费陷阱，想通过优才拿香港身份注意了》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《拿香港身份，选择香港高才通计划还是香港优才计划？一个快速，一个灵活，如果你同时符合两者申请条件，讲讲该如何选择》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=tXx69bytGNU》下载完成
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《为什么劝你们放弃香港身份？想通过香港优才拿到香港永居身份，这几点是你要做到的》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14a120d0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=XTVqEdPMo3o》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《有钱人移民香港?对于中产精英来说，第二身份配置越来越普遍，讲讲要怎么拿含金量高的香港身份！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd0a1e20 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14a124f0 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd70efd0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=28wVBE2_RwE》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划申请有技巧，这些方法教你提高成功获批率，快速拿到香港身份》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=h0u8e0UREuU》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=kSFFJfU8qfE》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《为什么有了上海户口还想要一个香港身份？这些香港身份好处是你不知道的》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《移民香港的方法：香港身份和内地户口可以同时保留？讲讲操作方法》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfc5ad6d0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=YQO8uZn2fBM》下载完成
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd7b5ee0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港新推出高才通计划，和香港优才有点类似，那自己更适合香港高才还是香港优才来拿香港身份？哪个更快？》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd280f10 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=B9Qkxpw9_F4》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《HK香港身份对孩子教育的6大好处，很多家长提前为孩子规划好内地、香港、出国三条捷径，一个香港身份搞定》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=q6Ugk_CiftM》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《拿到香港永居身份没有想象中那么难！通过香港优才拿身份、续签转永居是非常灵活的，关键点都在视频里了》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd3359a0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=QQIy0W9EpS8》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:85 🟢 开始下载《香港优才计划别急申请，看完再做决定！》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd1398e700 state=finished raised TranscriptsDisabled>]
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd14c4bc10 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdcfd3358b0 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=iw_yL_iP1p4》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=rMFikQh3BIc》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=ndBEXPNSr44》下载完成
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fdd0cbed400 state=finished raised TranscriptsDisabled>]
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:109 🍊🍊🍊 视频《https://youtube.com/watch?v=HgVJ5MGv0fE》下载完成

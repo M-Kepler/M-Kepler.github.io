@@ -1,0 +1,2 @@
+INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_ytdlp_helper
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
