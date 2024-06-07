@@ -1,0 +1,1 @@
+WARNING  mypy.lib.xiaohongshu.publish_app:publish_app.py:113 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/lib/xiaohongshu/config/cookie/xiaohongshu 下未找到 cookie
