@@ -1,2 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/convertio/_out/test_convertio_helper
-DEBUG    mypy.lib.convertio.convertio_helper:convertio_helper.py:46 🔵 通过 convertio 把 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx 转换成 pdf 完成

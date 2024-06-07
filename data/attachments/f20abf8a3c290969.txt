@@ -1,1 +1,0 @@
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:66 🟠 文件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_video_clip_helper/test_replace_green_screen_22_crop.jpg.mp4 已存在，无需转换

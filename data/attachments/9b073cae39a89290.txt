@@ -1,2 +1,0 @@
-INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:33 🟢 -----> 横屏转成竖屏
-DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:235 🔵 正在执行命令: ['ffmpeg', '-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_video_maked.mp4', '-vf', 'split[a][b]; [a]crop=(ih/16*9):ih,scale=iw/10:-1,gblur=sigma=5,scale=720:1280[1]; [b]scale=720:(720*ih/iw)[2]; [1][2]overlay=0:(H-h)/2', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_video_clip_helper/test_make_h2v.mp4', '-y']
