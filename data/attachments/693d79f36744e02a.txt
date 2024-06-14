@@ -1,1 +1,0 @@
-INFO     test_llm:test_llm.py:30 🟢 你好！我是Assistant，一个AI助手。我可以帮助你回答问题、提供信息和建议。如果你有任何问题，请随时问我。
