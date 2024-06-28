@@ -1,0 +1,4 @@
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp88n__ewe
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:517 🔵 把 /tmp/tmp88n__ewe 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:526 🔵 正在把图片序列转换成视频，输出到: /tmp/tmp72ac2ity
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:545 🟢 文件夹 /tmp/tmp88n__ewe 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2video.mp4

@@ -1,0 +1,2 @@
+DEBUG    mypy.lib.llm.api:api.py:80 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+DEBUG    mypy.lib.llm.api:api.py:76 🔵 问答结束, 返回结果

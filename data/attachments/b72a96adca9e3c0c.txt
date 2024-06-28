@@ -1,0 +1,21 @@
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:149 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:149 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_PL-CDIidnoXnBqgBVbf5y9Qm4y4ZKHHYUS
+INFO     mypy.lib.youtube.video_handler:video_handler.py:284 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_PL-CDIidnoXnBqgBVbf5y9Qm4y4ZKHHYUS
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.video_handler:video_handler.py:296 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:127 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:114 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7fc3fc18f610 state=finished raised NoTranscriptFound>]
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_PL-CDIidnoXnBqgBVbf5y9Qm4y4ZKHHYUS/z7bUu-RUcMg/z7bUu-RUcMg_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_downloader/_out/channel_PL-CDIidnoXnBqgBVbf5y9Qm4y4ZKHHYUS/z7bUu-RUcMg/z7bUu-RUcMg_en.srt
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:178 🍊🍊🍊 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载完成
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:178 🍊🍊🍊 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载完成
