@@ -1,2 +1,0 @@
-DEBUG    mypy.apps.ppt2douyin.ppt2video:ppt2video.py:163 🔵 开始使用多进程处理文件夹下的 ppt 文件，并等待所有文件处理完成
-INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:170 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/test_batch_ppt2transfer/_out 目录下

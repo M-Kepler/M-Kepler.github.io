@@ -1,0 +1,19 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:120 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.douyin.publish_app:publish_app.py:130 🟢 正在使用 [cookie_asdf.json] 发布作品，当前账号排序: [1]
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 (https)深圳 代理地址
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:119 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:120 🟢 [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:121 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:83 🟢 当前登录账号为 [啊斯顿非更]
+DEBUG    mypy.lib.douyin.publish_app:publish_helper.py:339 🔵 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/assets/video/vertical_video.mp4
+INFO     mypy.lib.douyin.publish_app:video_publish_helper.py:38 🟢 获取并上传封面
+WARNING  mypy.lib.douyin.publish_app:video_publish_helper.py:43 🟠 封面 /home/runner/work/github-runner/github-runner/mypy/assets/video/vertical_video.jpg 不存在，默认用第一秒作为封面了
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:394 🟢 设置视频简介为: vertical_video @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:64 🟢 -----> 可选合集:
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 1. 护士长竞聘
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 2. HKRN/RN备考
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:130 🟢 设置到合集: 护士长竞聘
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:264 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:139 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:247 🟢 【立即发布】
+WARNING  mypy.lib.douyin.publish_app:publish_helper.py:96 🟠 测试模式，不点击发布按钮

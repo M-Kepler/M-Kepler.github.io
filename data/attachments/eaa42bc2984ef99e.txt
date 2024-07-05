@@ -1,5 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler
-INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:50 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_original_video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_bgm.mp3》
-DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:100 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_original_video.mp4', '-ss', '99', '-t', '37', '-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_bgm.mp3', '-filter_complex', '[0]setpts=0.15930310202965428*PTS[s0];[s0]fps=fps=30[s1];[1]volume=volume=0.5[s2];[s2]afade=d=1:st=0:t=in[s3];[s3]afade=d=1:st=35:t=out[s4]', '-map', '[s1]', '-map', '[s4]', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_original_video_merge_audio_and_video.mp4']
-INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:72 🟢 -----> 开始进行视频剪辑 <-----
-INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:92 🟢 -----> 视频剪辑完成 <-----

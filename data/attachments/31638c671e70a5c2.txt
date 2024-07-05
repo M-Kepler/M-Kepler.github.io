@@ -1,2 +1,0 @@
-INFO     conftest:conftest.py:119 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/playwright/_out/test_publish_ini_config
-INFO     mypy.lib.playwright.publish_config:publish_config.py:117 🟢 -----> 配置如下 <-----

@@ -1,2 +1,0 @@
-DEBUG    mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:66 🔵 提示词为: ['\nGoals:\n- https://zhuanlan.zhihu.com/p/144192472?utm_id=0 参考这个链接提到的科室，给出护理相关的PPT主题\n\nConstrains:\n- 只需要输出 3 行\n- 不需要带上数字编号\n']
-DEBUG    mypy.lib.llm.api:api.py:80 🔵 本轮 AI 对话由 [KimiHelper] 提供服务

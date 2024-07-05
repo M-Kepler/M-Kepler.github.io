@@ -1,1 +1,0 @@
-INFO     mypy.apps.youtu2douyin.tools:tools.py:44 🟢 开始对 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/test_youtu_video_tools/test_sort_video_infos/config/playlist_record.json 视频列表按照 publish_date 进行降序排序
