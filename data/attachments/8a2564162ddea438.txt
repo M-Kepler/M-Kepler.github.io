@@ -1,0 +1,17 @@
+INFO     conftest:conftest.py:115 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:286 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ
+INFO     mypy.lib.youtube.video_handler:video_handler.py:297 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:128 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+WARNING  mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:115 🟠 字幕下载失败，该视频可能没有字幕: RetryError[<Future at 0x7f30f8e7a520 state=finished raised NoTranscriptFound>]
+INFO     mypy.lib.youtube.video_handler:video_handler.py:303 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:266 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:311 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:397 🟢 -----> 添加标题到视频
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA/B0lkyu2NFnA.mp4', '-filter_complex', '[0]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=77.14285714285714:text=膝盖解剖:x=(w-tw)/2:y=(h-th)/2[s0]', '-map', '[s0]', '-map', '0:a', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:324 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCWFHv4Iyw6hXP6HIrb2gzgQ/B0lkyu2NFnA.mp4

@@ -1,0 +1,77 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:120 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:108 🟢 正在把当前目录下的 PPT 转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:161 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》转换成 image_article
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:98 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:67 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:27 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmplpnb4oop', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmplpnb4oop
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:179 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:114 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:79 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘》到 ['douyin'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 正在使用 [cookie_asdf.json] 发布作品，当前账号排序: [1]
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 (https)深圳 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - [DouyinImagesPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 当前登录账号为 [啊斯顿非更]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:120 🔵 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 准备上传文件: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/000000000000000.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000000.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000001.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000002.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000003.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000004.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000005.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000006.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000007.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000008.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000009.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000010.jpg']
+CRITICAL mypy.lib.playwright.publish_handler:log.py:132 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 发生异常: Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 341, in upload
+    await page.click(upload_locator)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:132 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 《消化内科护士长竞聘》发布异常: Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+ERROR    mypy.lib.playwright.common:common.py:140 🔴 Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 138, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 147, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 134, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/image_publish_helper.py", line 47, in upload
+    await super().upload(page, upload_url, upload_locator, upload_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 348, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 341, in upload
+    await page.click(upload_locator)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+CRITICAL mypy.lib.playwright.publish_handler:log.py:132 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 《消化内科护士长竞聘》发布异常: Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:62 🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘] 发布到 [douyin] 失败，原因: [Timeout 120000ms exceeded while waiting for event "filechooser"
+=========================== logs ===========================
+waiting for event "filechooser"
+============================================================]
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:191 🟢 发布结果: [['douyin', False, 'Timeout 120000ms exceeded while waiting for event "filechooser"\n=========================== logs ===========================\nwaiting for event "filechooser"\n============================================================']], 删除文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:194 🟢 处理完成，一共处理了 1 个图文
+INFO     mypy.apps.ppt2douyin.main:main.py:38 🟢 -----> 微信通知发布结果 <-----
+INFO     mypy.apps.ppt2douyin.main:main.py:54 🟢 -----> 开始归档已发布文件 <-----

@@ -1,0 +1,16 @@
+INFO     conftest:conftest.py:115 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler
+WARNING  mypy.lib.music.music:music.py:24 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:douyin_music.py:33 🟢 一共发现 91 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:85 🔵 下载任务数量: 91
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:86 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:93 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:94 🔵 生产者数量: 5, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:96 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:97 🔵 ------------------------------------------------------------
+INFO     mypy.lib.mqs.pylib.downloader:downloader.py:107 🟢 下载任务结束
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:49 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/ppt_original_video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/_out/music/LoveU2（1.1倍速版）.m4a》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:161 🔵 正在把 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/_out/music/LoveU2（1.1倍速版）.m4a] 转换成 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/_out/music/LoveU2（1.1倍速版）.mp3]
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/ppt_original_video.mp4', '-stream_loop', '3', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/_out/music/LoveU2（1.1倍速版）.mp3', '-filter_complex', '[0]setpts=0.19027870520208706*PTS[s0];[s0]fps=fps=30[s1];[1]volume=volume=0.5[s2];[s2]afade=d=1:st=0:t=in[s3];[s3]afade=d=1:st=42:t=out[s4]', '-map', '[s1]', '-map', '[s4]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/ppt_original_video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:71 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:91 🟢 -----> 视频剪辑完成 <-----

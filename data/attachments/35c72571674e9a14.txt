@@ -1,0 +1,63 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:120 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:108 🟢 正在把当前目录下的 PPT 转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:161 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:98 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:47 🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:27 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmptg1ja0wv
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:538 🔵 把 /tmp/tmptg1ja0wv 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:547 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpppar_csx
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:566 🟢 文件夹 /tmp/tmptg1ja0wv 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:179 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:114 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:195 🟢 ========================================
+WARNING  mypy.lib.music.music:music.py:24 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:douyin_music.py:33 🟢 一共发现 91 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:85 🔵 下载任务数量: 91
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:86 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:93 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:94 🔵 生产者数量: 5, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:96 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:97 🔵 ------------------------------------------------------------
+INFO     mypy.lib.mqs.pylib.downloader:downloader.py:107 🟢 下载任务结束
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:49 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/music/走在人生的路上（剪辑版）.m4a》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:161 🔵 正在把 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/music/走在人生的路上（剪辑版）.m4a] 转换成 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/music/走在人生的路上（剪辑版）.mp3]
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:99 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video.mp4', '-ss', '2', '-t', '44', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/music/走在人生的路上（剪辑版）.mp3', '-filter_complex', '[0]setpts=0.6515151515151515*PTS[s0];[s0]fps=fps=30[s1];[1]volume=volume=0.5[s2];[s2]afade=d=1:st=0:t=in[s3];[s3]afade=d=1:st=42:t=out[s4]', '-map', '[s1]', '-map', '[s4]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:71 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:284 🟢 -----> 开始把视频嵌入绿幕
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:73 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/video/green_screen_background/22_crop.mp4 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:79 🔵 输出视频分辨率为: (1080, 1920)
+WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:83 🟠 输入视频强制使用 30 帧率
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:154 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:utils.py:98 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4 正常
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:91 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:79 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4》到 ['douyin'] 平台
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 正在使用 [cookie_asdf.json] 发布作品，当前账号排序: [1]
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 (https)深圳 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 当前登录账号为 [啊斯顿非更]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:120 🔵 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 设置视频简介为: 消化内科护士长竞聘 @XiaomaomiXWLY #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 1. 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 2. HKRN/RN备考
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 设置到合集: 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:123 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 【定时发布】时间设置为: 2024-07-07 17:36:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:126 🟠 [platform: douyin], [publish_file: 消化内科护士长竞聘.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:139 🟢 -----> 清理 消化内科护士长竞聘.mp4 临时文件
+WARNING  mypy.utils.file:file.py:212 🟠 正在删除文件名 消化内科护士长竞聘.mp4 同前缀的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:148 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:149 🟢 处理完成，一共处理了 1 个视频
+INFO     mypy.apps.ppt2douyin.main:main.py:38 🟢 -----> 微信通知发布结果 <-----
+INFO     mypy.apps.ppt2douyin.main:main.py:54 🟢 -----> 开始归档已发布文件 <-----
