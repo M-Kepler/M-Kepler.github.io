@@ -1,0 +1,2 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_video_clip_helper
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:317 🟢 -----> 拼接片头

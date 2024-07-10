@@ -1,1 +1,0 @@
-DEBUG    mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:28 🔵 {'anonymous': '', 'check_count': 6, 'fail_count': 0, 'https': False, 'last_status': True, 'last_time': '2024-07-06 11:46:46', 'proxy': '58.20.248.139:9002', 'region': '中国 湖南 郴州 联通', 'source': 'freeProxy11'}
