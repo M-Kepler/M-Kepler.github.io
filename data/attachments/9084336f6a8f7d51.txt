@@ -1,0 +1,18 @@
+DEBUG    test_slider_captcha:test_slider_captcha.py:27 🔵 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:test_slider_captcha.py:28 🟢 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:base.py:238 🟢 开始处理滑块验证码...
+WARNING  test_slider_captcha:captcha_img_handler.py:132 🟠 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+ERROR    test_slider_captcha:base.py:262 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/slider_captcha/base.py", line 260, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/slider_captcha/base.py", line 195, in _drag_to_breach
+    move_distance = self._captcha_img_handler.get_track_list(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/slider_captcha/captcha_img_handler.py", line 152, in get_track_list
+    calc_distance = self._calc_distance()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/slider_captcha/captcha_img_handler.py", line 133, in _calc_distance
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/slider_captcha/captcha_img_handler.py", line 130, in _calc_distance
+    return res.x.values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO     test_slider_captcha:base.py:147 🟢 ---------- 验证码验证通过 ----------

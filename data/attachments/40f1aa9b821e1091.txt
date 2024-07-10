@@ -1,0 +1,515 @@
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:35 🟢 正在生成 PPT...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:121 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:main.py:45 🟢 发布 1 天，每天发布 3 个话题，一共 3 个
+DEBUG    mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:66 🔵 提示词为: 
+Role:
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+Goals:
+https://zhuanlan.zhihu.com/p/144192472 参考这个链接提到的科室，给出相关文章题目标题
+
+(一)爱国卫生与健康生活方式。
+1.食品营养与合理膳食相关主题。如食物多样、均衡饮食、反浪费促健康、减油、增豆、加奶、食育、营养食谱与配餐、慢性病食养、使用公筷公勺、提倡分餐制、食物中毒等食源性疾病防治等。
+2.近视防控等眼健康相关主题。如近视定义、危险因素、临床表现、培养健康用眼行为、日间户外活动、近视筛查、眼保健、环境与眼健康等。
+3.心理健康相关主题。如提高心理健康意识、使用科学方法缓解压力、预防心理行为问题和精神障碍发生、寻求专业帮助、关怀和理解精神障碍患者等。
+4.爱国卫生与其他健康生活方式。如环境卫生治理、改厕适宜技术、病媒生物防制、科学消毒、公共场所及饮用水卫生等,三减三健、适量运动、戒烟限酒、合理用药、科学就医、安全与急救、无偿献血等文明健康绿色环保生活方式。
+(二)重点人群健康:
+1.老年人健康相关主题。如积极老龄观和健康老龄化理念、医养结合、养生保健、体卫融合、老年常见病和慢性病防治、老年人跌倒等伤害预防、康复护理、生命教育等。
+2.妇女健康相关主题。如青春期保健、婚前孕前保健、孕产期保健、孕产妇高危管理、产后保健、更年期保健、生殖保健与生育调节、生殖道感染/性传播疾病防治、官颈癌和乳腺癌防控等。
+3.儿童青少年健康相关主题。如出生缺陷防治、母乳喂养与科学育儿、儿童保健、儿童性发育与青春期保健、青少年健康管理、预防肥胖、防治龋齿、脊柱健康、预防过敏性疾病、儿童孤独症筛查千预、防范意外伤害等。
+(三)重大疾病防治。
+1.心脑血管疾病防治相关主题。如心血管病高危患者筛查、危险因素干预、健康生活方式防治心血管病的方法和推广、心血管急危重症家庭急救常识、先心病的早期识别和家庭健康管理、心脏术后康复等。
+2.癌症防治相关主题。如癌症病因预防、防癌查、康复等。
+3.传染病防控相关主题。如各类传染病的传播途径、防护措施、预防接种等。
+(四)中医药。
+1.中医药科普相关主题。如中医药基本知识、中医养生保健的理念和方法、常见疾病的中医药预防和保健、重点人群的中医药养生保健、中医药常识等。
+
+Constrains:
+- 只需要输出 3 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+DEBUG    mypy.lib.llm.api:api.py:83 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:132 🟢 获取到以下 PPT 主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:134 🟢 《心脏术后的康复护理与健康管理》
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:134 🟢 《中医药在儿童孤独症筛查与干预中的应用》
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:134 🟢 《妇女更年期保健与生殖健康维护》
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:139 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/AmaQC.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 6/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取到缺口距离: 389
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取到缺口距离: 389
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 获取到缺口距离: 389
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_JxZ0Y1hgKF4illalNkgEbEd759K6J291_DNei-XEqLIeHWZewUZTUbZAsFVkJZ-4GTlFOh89LPx2k64JnoDGHoduTrbmPgrdVpLkA69XVAPU6BB44_MAQExceLc8c2aGOLOD3DZlA-EWOKSnwp8krA=='}, 'code': 0, 'msg': ''}
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - ---------- 验证码验证通过 ----------
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 填入主题内容: [中医药在儿童孤独症筛查与干预中的应用
+基于这个主题，帮我写一篇PPT]
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 7/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 8/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/O3EQr.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:123 🟠 [ppt_topic: 妇女更年期保健与生殖健康维护] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc:log.py:129 ❌ [ppt_topic: 妇女更年期保健与生殖健康维护] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 尝试获取块验证码: 9/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 等待验证码图片下载完成就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/O3EQr.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/mD0nA.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取到缺口距离: 503
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取到缺口距离: 503
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 获取到缺口距离: 503
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_ppl2tTD3KcxtFhmGG2XQfgily-JanBlyURe_vN1ZwmEYz2FqkWp_J2usgmSFbP9gYA_yuQGEGHM_wRn9-j4vvlerrlkk2Gkx_wHJcvMkHnpc_NjOJvX2DZergenWwn9tf8pR5emWEmcDW85GYCtp6Q=='}, 'code': 0, 'msg': ''}
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - ---------- 验证码验证通过 ----------
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_BBIMRaWh9e8hJIzUyoHn-eEhHZWONw66YZRS8tbqBIDTWVSovaNXtA7X5-UZLTuAgcIlrPOyyGRSBWu6_q56yrIrvT1x6rf880G9KaGnVTQ9C8lgZcbJeaUkuHFd3-95GvjLKsyRh80-sJBuGvVbJg=='}, 'code': 0, 'msg': ''}
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - ---------- 验证码验证通过 ----------
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心脏术后的康复护理与健康管理] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 填入主题内容: [心脏术后的康复护理与健康管理
+基于这个主题，帮我写一篇PPT]
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 妇女更年期保健与生殖健康维护] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 填入主题内容: [妇女更年期保健与生殖健康维护
+基于这个主题，帮我写一篇PPT]
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc:log.py:132 🍊🍊🍊 [ppt_topic: 中医药在儿童孤独症筛查与干预中的应用] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 妇女更年期保健与生殖健康维护] - 生成完成，正在导出
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心脏术后的康复护理与健康管理] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc:log.py:132 🍊🍊🍊 [ppt_topic: 妇女更年期保健与生殖健康维护] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/妇女更年期保健与生殖健康维护.pptx
+Level 25 mypy.lib.baidu.baidu_aigc:log.py:132 🍊🍊🍊 [ppt_topic: 心脏术后的康复护理与健康管理] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/心脏术后的康复护理与健康管理.pptx
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:55 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:121 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:117 🟢 正在把当前目录下的 PPT 转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:161 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/心脏术后的康复护理与健康管理.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:98 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/心脏术后的康复护理与健康管理.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:47 🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:27 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/心脏术后的康复护理与健康管理.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpgia452cr
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:603 🔵 把 /tmp/tmpgia452cr 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:612 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpa13qsst2
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:631 🟢 文件夹 /tmp/tmpgia452cr 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:161 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/妇女更年期保健与生殖健康维护.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:98 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/妇女更年期保健与生殖健康维护.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:47 🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:27 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/妇女更年期保健与生殖健康维护.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp28hv1rcu
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:603 🔵 把 /tmp/tmp28hv1rcu 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:612 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpduy4htpi
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:631 🟢 文件夹 /tmp/tmp28hv1rcu 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:161 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:98 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:47 🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:27 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.ppt.ppt_handler_linux:ppt_handler_linux.py:58 🔵 [linux] 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:36 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp8171i87b
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:603 🔵 把 /tmp/tmp8171i87b 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:612 🔵 正在把图片序列转换成视频，输出到: /tmp/tmp_488krv4
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:631 🟢 文件夹 /tmp/tmp8171i87b 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt2video:ppt2video.py:179 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:123 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+WARNING  mypy.lib.music.music:music.py:24 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:douyin_music.py:33 🟢 一共发现 91 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:85 🔵 下载任务数量: 91
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:86 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:93 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:94 🔵 生产者数量: 5, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:96 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:97 🔵 ------------------------------------------------------------
+INFO     mypy.lib.mqs.pylib.downloader:downloader.py:107 🟢 下载任务结束
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:49 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/我的纸飞机（片段2）.m4a》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:234 🔵 视频时长(45s) >= bgm 时长(27.35s)，循环播放 bgm 2 次
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:123 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video.mp4', '-stream_loop', '2', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/我的纸飞机（片段2）.m4a', '-filter_complex', '[0]setpts=0.8333333333333334*PTS[s0];[s0]fps=fps=30[s1];[1]atrim=duration=45[s2];[s2]volume=volume=0.5[s3];[s3]afade=d=1:st=0:t=in[s4];[s4]afade=d=1:st=44:t=out[s5]', '-map', '[s1]', '-map', '[s5]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:75 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:284 🟢 -----> 开始把视频嵌入绿幕
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:73 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/video/green_screen_background/22_crop.mp4 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:79 🔵 输出视频分辨率为: (1080, 1920)
+WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:83 🟠 输入视频强制使用 30 帧率
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:154 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:utils.py:104 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4 正常
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:95 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:75 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 当前登录账号为 [专做护理PPT]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 设置视频简介为: 中医药在儿童孤独症筛查与干预中的应用 #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 1. 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 2. 儿科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 3. NCLEX复习讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 4. 护理技能视频
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 5. 解剖和生理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 6. 产科护理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 7. 护理药理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 8. 药物管理护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 9. 护理讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 10. 内外科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 11. 健康评估
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 12. 护理基础
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 13. HKRN/NCLEX学习策略
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 14. 香港医院篇
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 15. 香港City walk
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 设置到合集: 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 【定时发布】时间设置为: 2024-07-11 17:28:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 中医药在儿童孤独症筛查与干预中的应用.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:122 🟢 -----> 清理 中医药在儿童孤独症筛查与干预中的应用.mp4 临时文件
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video_merge_audio_and_video.mp3
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用.pdf
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用.jpg
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 中医药在儿童孤独症筛查与干预中的应用 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/中医药在儿童孤独症筛查与干预中的应用.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:131 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:49 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/如果那通电话有接通（1.3x）.m4a》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:234 🔵 视频时长(45s) >= bgm 时长(19.643991s)，循环播放 bgm 3 次
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:123 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video.mp4', '-stream_loop', '3', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/如果那通电话有接通（1.3x）.m4a', '-filter_complex', '[0]setpts=0.6428571428571428*PTS[s0];[s0]fps=fps=30[s1];[1]atrim=duration=45[s2];[s2]volume=volume=0.5[s3];[s3]afade=d=1:st=0:t=in[s4];[s4]afade=d=1:st=44:t=out[s5]', '-map', '[s1]', '-map', '[s5]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:75 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:284 🟢 -----> 开始把视频嵌入绿幕
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:73 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/video/green_screen_background/22_crop.mp4 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:79 🔵 输出视频分辨率为: (1080, 1920)
+WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:83 🟠 输入视频强制使用 30 帧率
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:154 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:utils.py:104 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4 正常
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:95 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:75 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 当前登录账号为 [专做护理PPT]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 设置视频简介为: 妇女更年期保健与生殖健康维护 #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 1. 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 2. 儿科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 3. NCLEX复习讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 4. 护理技能视频
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 5. 解剖和生理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 6. 产科护理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 7. 护理药理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 8. 药物管理护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 9. 护理讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 10. 内外科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 11. 健康评估
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 12. 护理基础
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 13. HKRN/NCLEX学习策略
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 14. 香港医院篇
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 15. 香港City walk
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 设置到合集: 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 【定时发布】时间设置为: 2024-07-11 21:55:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 妇女更年期保健与生殖健康维护.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:122 🟢 -----> 清理 妇女更年期保健与生殖健康维护.mp4 临时文件
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护.pdf
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护.jpg
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护_ppt2video_merge_audio_and_video.mp3
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 妇女更年期保健与生殖健康维护 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/妇女更年期保健与生殖健康维护.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:131 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:49 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/最美的风景在路上（剪辑版）.m4a》
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:234 🔵 视频时长(45s) >= bgm 时长(38.770998s)，循环播放 bgm 2 次
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:123 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video.mp4', '-stream_loop', '2', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/music/最美的风景在路上（剪辑版）.m4a', '-filter_complex', '[0]setpts=0.9375*PTS[s0];[s0]fps=fps=30[s1];[1]atrim=duration=45[s2];[s2]volume=volume=0.5[s3];[s3]afade=d=1:st=0:t=in[s4];[s4]afade=d=1:st=44:t=out[s5]', '-map', '[s1]', '-map', '[s5]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video_merge_audio_and_video.mp4']
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:75 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:284 🟢 -----> 开始把视频嵌入绿幕
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:73 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/video/green_screen_background/22_crop.mp4 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:79 🔵 输出视频分辨率为: (1080, 1920)
+WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:83 🟠 输入视频强制使用 30 帧率
+DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:154 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:utils.py:104 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4 正常
+INFO     mypy.apps.ppt2douyin.video_handler:video_handler.py:95 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:75 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 当前登录账号为 [专做护理PPT]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 设置视频简介为: 心脏术后的康复护理与健康管理 #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 1. 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 2. 儿科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 3. NCLEX复习讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 4. 护理技能视频
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 5. 解剖和生理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 6. 产科护理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 7. 护理药理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 8. 药物管理护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 9. 护理讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 10. 内外科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 11. 健康评估
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 12. 护理基础
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 13. HKRN/NCLEX学习策略
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 14. 香港医院篇
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 15. 香港City walk
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 设置到合集: 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 【定时发布】时间设置为: 2024-07-12 11:44:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 心脏术后的康复护理与健康管理.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:122 🟢 -----> 清理 心脏术后的康复护理与健康管理.mp4 临时文件
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理.pdf
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video_merge_audio_and_video_replaced_video_filepath.mp4
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video_merge_audio_and_video.mp3
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理.jpg
+WARNING  mypy.utils.file:file.py:213 🟠 正在删除文件名前缀为 心脏术后的康复护理与健康管理 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/心脏术后的康复护理与健康管理_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:131 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.video2douyin:video2douyin.py:132 🟢 处理完成，一共处理了 3 个视频
+INFO     mypy.apps.ppt2douyin.main:main.py:41 🟢 -----> 微信通知发布结果 <-----
+INFO     mypy.lib.wechat.pushplus:pushplus.py:30 🍊🍊🍊 微信消息: 自动发布 PPT 完成 推送成功
+INFO     mypy.apps.ppt2douyin.main:main.py:57 🟢 -----> 开始归档已发布文件 <-----
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['aliyunpan', 'who']
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:232 🔵 设置环境变量: {'ALIYUNPAN_CONFIG_DIR': '/home/runner/work/github-runner/github-runner/mypy/3party/_3party_runtime/03.aliyunpan/config'}
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:272 🔵 output: 当前帐号UID: d575b53f61b8429babb74cd67c55e7bf, 昵称: huangjinjie, 用户名: , 当前使用网盘：备份盘
+
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['aliyunpan', 'upload', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin//中医药在儿童孤独症筛查与干预中的应用.pptx', '/01.mypy/apps/baidu2douyin/20240710']
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:232 🔵 设置环境变量: {'ALIYUNPAN_CONFIG_DIR': '/home/runner/work/github-runner/github-runner/mypy/3party/_3party_runtime/03.aliyunpan/config'}
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:272 🔵 output: 
+[0] 当前文件上传最大并发量为: 10, 上传分片大小为: 10.00MB
+[1] 加入上传队列: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx
+[1] 2024-07-10 23:33:24 准备上传: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx => /01.mypy/apps/baidu2douyin/20240710/中医药在儿童孤独症筛查与干预中的应用.pptx
+[1] 2024-07-10 23:33:24 正在检测和创建云盘文件夹: /01.mypy/apps/baidu2douyin/20240710
+[1] 2024-07-10 23:33:24 正在计算文件SHA1: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/中医药在儿童孤独症筛查与干预中的应用.pptx
+[1] 2024-07-10 23:33:24 检测秒传中, 请稍候...
+[1] 2024-07-10 23:33:24 秒传失败，开始正常上传文件
+
+[1] ↑ 0B/3.60MB(0.00%) 0B/s(0B/s) in 1s ............
+[1] ↑ 192.00KB/3.60MB(5.21%) 191.98KB/s(192.14KB/s) in 2s ............
+[1] ↑ 1.69MB/3.60MB(46.85%) 1.50MB/s(864.41KB/s) in 3s ............
+[1] ↑ 3.60MB/3.60MB(100.00%) 1.71MB/s(1.91MB/s) in 4s ............
+[1] 2024-07-10 23:34:24 上传文件成功, 保存到网盘路径: /01.mypy/apps/baidu2douyin/20240710/中医药在儿童孤独症筛查与干预中的应用.pptx
+[1] 2024-07-10 23:34:24 文件上传结果： 成功！ 耗时 7秒
+
+上传结束, 时间: 7秒, 数据总量: 3.60MB
+
+INFO     mypy.apps.ppt2douyin.main:main.py:75 🟢 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin//中医药在儿童孤独症筛查与干预中的应用.pptx》已归档到网盘: /01.mypy/apps/baidu2douyin/20240710

@@ -1,0 +1,3 @@
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:603 🔵 把 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_slide_images 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_pro/test_images2video/test_images2video.mp4
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:612 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpipq770dy
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:631 🟢 文件夹 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_slide_images 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_pro/test_images2video/test_images2video.mp4

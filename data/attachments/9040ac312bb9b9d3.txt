@@ -1,1 +1,0 @@
-WARNING  mypy.lib.video.utils:utils.py:92 🟠 视频文件 /home/runner/work/github-runner/github-runner/mypy/assets/media/test.jpg 可能损坏，无法读取帧

@@ -1,0 +1,118 @@
+INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: manual
+INFO     mypy.apps.youtu2douyin.main:main.py:39 🟢 video_url: https://www.youtube.com/watch?v=mAxFB3vbt7c
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《One of the world’s oldest condiments - Dan Kwartler》found, id: mAxFB3vbt7c, publish date: 2024-03-12 00:00:00
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:168 🟢 -----> 开始下载第 1/1 个视频: https://youtube.com/watch?v=mAxFB3vbt7c
+INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:286 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA
+INFO     mypy.lib.youtube.video_handler:video_handler.py:297 🟢 ===== 下载视频资源 =====
+INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:128 🟢 ----- 下载视频 -----
+INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:34 🟢 ----- 下载字幕 -----
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c/mAxFB3vbt7c_zh.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c/mAxFB3vbt7c_en.srt
+INFO     mypy.lib.youtube.video_handler:video_handler.py:303 🟢 ===== 获取封面 =====
+INFO     mypy.lib.youtube.video_handler:video_handler.py:266 🟢 封面图片上添加标题
+INFO     mypy.lib.youtube.video_handler:video_handler.py:311 🟢 ===== 视频剪辑 =====
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:104 🟢 字幕时间线可能重叠，需要整理字幕时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:104 🟢 字幕时间线可能重叠，需要整理字幕时间线
+INFO     mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:453 🟢 -----> 添加标题到视频
+DEBUG    mypy.lib.video.ffmpeg_pro:ffmpeg_pro.py:123 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c/mAxFB3vbt7c.mp4', '-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/logo.png', '-filter_complex', '[0]drawbox=0:ih-140:0:0:black@0.6:t=fill[s0];[s0]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c/mAxFB3vbt7c_zh.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=16\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=18\\,Alignment\\\\=2[s1];[s1]subtitles=filename=/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c/mAxFB3vbt7c_en.srt:fontsdir=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:force_style=BorderStyle\\\\=0\\,BackColour\\\\=&H80000000\\,Outline\\\\=0\\,OutlineColour\\\\=&H80000000\\,Shadow\\\\=0\\,MarginV\\\\=3\\,Fontname\\\\=MiSans-Medium\\,Fontsize\\\\=13\\,Alignment\\\\=2[s2];[s2]eq=contrast=1.2:saturation=1.2[s3];[1]scale=iw*50/100:ih*50/100[s4];[s4]colorkey=white:0.05:1.0[s5];[s3][s5]overlay=eof_action=repeat:x=main_w-overlay_w-20:y=20[s6];[s6]crop=x=in_w-3:y=in_h-3[s7];[s7]trim=start=6[s8];[s8]setpts=PTS-STARTPTS[s9];[s9]drawtext=box=1:boxborderw=30:boxcolor=#02c1b1f6@0.6:enable=between(t\\,0\\,2):fontcolor=white:fontfile=/home/runner/work/github-runner/github-runner/mypy/assets/font/MiSans-Medium.ttf:fontsize=137.14285714285714:text=世界上最古老的调味品\n之一-Dan Kwa\nrtler:x=(w-tw)/2:y=(h-th)/2[s10];[0:a]atrim=start=6[s11];[s11]asetpts=PTS-STARTPTS[s12]', '-map', '[s10]', '-map', '[s12]', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4']
+INFO     mypy.lib.youtube.video_handler:video_handler.py:324 🟢 -----> 剪辑后视频路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4
+DEBUG    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:71 🔵 ----- 视频信息: {'id': 'mAxFB3vbt7c', 'url': 'https://youtube.com/watch?v=mAxFB3vbt7c', 'title': 'One of the world’s oldest condiments - Dan Kwartler', 'publish_date': '2024-03-12 00:00:00', 'published': []}
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:75 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4》到 ['douyin', 'wechat'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/wechat/cookie_large.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/cookie/wechat/cookie_large.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - [WechatPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 当前登录账号为 [专做护理PPT]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 获取并上传封面
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 设置视频简介为: 世界上最古老的调味品之一-Dan Kwartler #TED #四六级 #英语口语 #雅思
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 1. 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 2. 儿科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 3. NCLEX复习讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 4. 护理技能视频
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 5. 解剖和生理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 6. 产科护理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 7. 护理药理学
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 8. 药物管理护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 9. 护理讲座
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 10. 内外科护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 11. 健康评估
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 12. 护理基础
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 13. HKRN/NCLEX学习策略
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 14. 香港医院篇
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 15. 香港City walk
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 所选合集《TED-ED（中英字幕）》不存在
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 【定时发布】时间设置为: 2024-07-11 11:17:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: mAxFB3vbt7c.mp4] - 测试模式，不点击发布按钮
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - 账号登录状态已失效，正在跳出: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - 《世界上最古老的调味品之一-Dan Kwartler》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+ERROR    mypy.lib.playwright.common:common.py:141 🔴 Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 81, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 72, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 68, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10493, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 139, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 147, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 131, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/publish_helper.py", line 85, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: wechat], [publish_file: mAxFB3vbt7c.mp4] - 《世界上最古老的调味品之一-Dan Kwartler》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:58 🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4] 发布到 [wechat] 失败，原因: [Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+]
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:113 🟢 《One of the world’s oldest condiments - Dan Kwartler》发布到 [douyin] 成功
+ERROR    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:110 🔴 《One of the world’s oldest condiments - Dan Kwartler》发布到 [wechat] 失败
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:124 🟠 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UCsooa4yRKGN_zEE8iknghZA/mAxFB3vbt7c.mp4》已处理，删除该视频文件
