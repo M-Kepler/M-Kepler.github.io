@@ -1,0 +1,4 @@
+DEBUG    test_slider_captcha:test_slider_captcha.py:27 🔵 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:test_slider_captcha.py:28 🟢 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:base.py:238 🟢 开始处理滑块验证码...
+INFO     test_slider_captcha:base.py:147 🟢 ---------- 验证码验证通过 ----------
