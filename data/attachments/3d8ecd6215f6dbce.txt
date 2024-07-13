@@ -1,4 +1,0 @@
-INFO     mypy.lib.youtube.video_handler:video_handler.py:285 🟢 ===== 获取视频 =====
-INFO     mypy.lib.youtube.video_handler:video_handler.py:286 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_video_handler/_out/channel_UCPyMN8DzkFl2__xnTEiGZ1w
-INFO     mypy.lib.youtube.video_handler:video_handler.py:297 🟢 ===== 下载视频资源 =====
-INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:128 🟢 ----- 下载视频 -----

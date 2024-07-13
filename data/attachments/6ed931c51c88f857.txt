@@ -1,0 +1,7 @@
+INFO     test_slider_captcha:test_slider_captcha.py:28 🟢 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:base.py:238 🟢 开始处理滑块验证码...
+DEBUG    mypy.lib.playwright.captcha.slider_captcha.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    mypy.lib.playwright.captcha.slider_captcha.qcloud:qcloud.py:77 🔵 拦截到验证码请求，开始下载验证码
+DEBUG    mypy.lib.playwright.captcha.slider_captcha.qcloud:qcloud.py:77 🔵 拦截到验证码请求，开始下载验证码
+INFO     mypy.lib.playwright.captcha.slider_captcha.qcloud:qcloud.py:89 🟢 验证码图片保存成功
+INFO     test_slider_captcha:base.py:147 🟢 ---------- 验证码验证通过 ----------

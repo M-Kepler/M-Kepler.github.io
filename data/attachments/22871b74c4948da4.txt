@@ -1,0 +1,33 @@
+WARNING  mypy.lib.douyin.publish_app:publish_app.py:120 🟠 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.douyin.publish_app:publish_app.py:123 🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_config:publish_config.py:121 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.douyin.publish_app:publish_app.py:147 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:120 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:121 🟢 [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:122 🟢 ============================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:83 🟢 当前登录账号为 [专做护理PPT]
+DEBUG    mypy.lib.douyin.publish_app:publish_helper.py:341 🔵 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_video_maked.mp4
+INFO     mypy.lib.douyin.publish_app:video_publish_helper.py:38 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:396 🟢 设置视频简介为: ppt_video_maked #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:64 🟢 -----> 可选合集:
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 1. 护士长竞聘
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 2. 儿科护理
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 3. NCLEX复习讲座
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 4. 护理技能视频
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 5. 解剖和生理学
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 6. 产科护理学
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 7. 护理药理学
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 8. 药物管理护理
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 9. 护理讲座
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 10. 内外科护理
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 11. 健康评估
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 12. 护理基础
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 13. HKRN/NCLEX学习策略
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 14. 香港医院篇
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:66 🟢 15. 香港City walk
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:130 🟢 设置到合集: 护士长竞聘
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:266 🟢 可见范围设置为: 公开
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:139 🟢 视频可下载权限设置为: 不允许
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:249 🟢 【立即发布】
+WARNING  mypy.lib.douyin.publish_app:publish_helper.py:96 🟠 测试模式，不点击发布按钮
