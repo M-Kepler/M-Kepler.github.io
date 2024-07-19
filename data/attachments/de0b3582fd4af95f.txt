@@ -1,0 +1,16 @@
+INFO     test_llm:log.py:192 🟢 ========================================
+INFO     test_llm:test_llm.py:124 🟢 1. **开场**：在宁静的湖边，清晨的阳光洒在波光粼粼的水面上，钓鱼爱好者约翰正在准备他的装备。他挑选了一根轻盈的碳纤维钓竿，确保灵敏度和力量的完美结合。
+
+2. **技巧分享**：约翰解释说，选择正确的饵料至关重要。他演示如何根据鱼类季节和环境，使用活虫或者人造饵来吸引鱼儿。轻轻抛投，饵料在水中激起涟漪，引诱潜在的猎物。
+
+3. **耐心等待**：他坐在岸边，教导观众耐心的重要性。钓鱼不只是投掷线，更是与自然的对话，要学会静心观察鱼漂的微妙动作，判断何时是提竿的最佳时机。
+
+4. **收获时刻**：当鱼竿突然下沉时，约翰展示如何保持冷静，稳住手腕，缓慢而有力地收线。一条肥美的鲈鱼跃出水面，观众能感受到那份成就感。
+
+5. **总结与结尾**：结束语中，约翰鼓励大家享受这个过程，无论收获多少，钓鱼更多的是带给我们的乐趣和对大自然的亲近。下次钓鱼之旅，记得带上这些基本技巧，祝大家都有个愉快的钓鱼体验。
+INFO     test_llm:log.py:192 🟢 ========================================
+INFO     test_llm:log.py:192 🟢 ========================================
+INFO     test_llm:test_llm.py:133 🟢 ```json
+[["fishing techniques", "angling tips", "beginner's guide"], ["bait selection", "lure fishing", "matching the hatch"], ["patience and reading signs", "stillwater fishing", "fish behavior"], ["catching fish", "reeling in技巧", "landed catch"], ["outdoor adventure", "nature connection", "relaxing hobby"]]
+```
+INFO     test_llm:log.py:192 🟢 ========================================
