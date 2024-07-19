@@ -1,0 +1,10 @@
+INFO     mypy.apps.youtu2douyin.tools:tools.py:101 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/channel_record.json 中的 videos 为较新的记录
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Why are scientists shooting mushrooms into space? - Shannon Odell》found, id: 5-J1t0rAlOU, publish date: 2024-07-18 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《The weirdest (and coolest) tongues in the animal kingdom - Cella Wright》found, id: dzX8hvoGtT8, publish date: 2024-07-16 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Changing the future, one student voice at a time #shorts》found, id: RSbi3BC-N9k, publish date: 2023-10-06 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Do you ever feel isolated amongst your peers? #shorts》found, id: MdM6osj5Jlg, publish date: 2023-09-18 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Med-Surg Nursing Respiratory System NCLEX Questions and Answers》found, id: jLmty-pb9tU, publish date: 2024-07-08 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Junctional Rhythms Made Easy EKG Interpretation Nursing NCLEX ECG Review》found, id: mRndqug9INg, publish date: 2024-07-01 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《My Wife's a Nurse, OF COURSE She...  #nursing #nurse #funny》found, id: C7yDXmfKKSI, publish date: 2024-07-17 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《White Coat Syndrome (Hypertension) Is Real! High Blood Pressure at Doctor But Normal at Home》found, id: iSeHhZ_oGXE, publish date: 2024-07-10 00:00:00
+INFO     mypy.apps.youtu2douyin.tools:tools.py:116 🟢 更新频道视频内容到倒数第 2 个视频成功

@@ -1,0 +1,66 @@
+DEBUG    test_slider_captcha:test_slider_captcha.py:25 🔵 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:test_slider_captcha.py:26 🟢 ----- test_slider_captcha_handler -----
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 1/20 次
+DEBUG    test_slider_captcha:baidu.py:102 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:baidu.py:60 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:baidu.py:46 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 2/20 次
+DEBUG    test_slider_captcha:baidu.py:102 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:baidu.py:60 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:baidu.py:46 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 3/20 次
+DEBUG    test_slider_captcha:baidu.py:102 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:baidu.py:60 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:baidu.py:46 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 4/20 次
+DEBUG    test_slider_captcha:baidu.py:102 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:baidu.py:60 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:baidu.py:73 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:base.py:106 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:baidu.py:46 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 5/20 次
+DEBUG    test_slider_captcha:base.py:125 🔵 验证码已触发
+DEBUG    test_slider_captcha:base.py:245 🔵 等待滑动验证码展示事件就绪信号
+INFO     test_slider_captcha:base.py:247 🟢 开始处理滑块验证码...
+DEBUG    test_slider_captcha:base.py:169 🔵 刷新验证码
+DEBUG    test_slider_captcha:baidu.py:73 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:base.py:106 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:baidu.py:160 🔵 拦截到获取验证码 URL
+DEBUG    test_slider_captcha:base.py:261 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:baidu.py:126 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:baidu.py:126 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:baidu.py:144 🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/Fhk6b.jpg
+DEBUG    test_slider_captcha:base.py:106 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:264 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:265 🔵 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    test_slider_captcha:base.py:195 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:132 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:96 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:29 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:158 🔵 获取到缺口距离: 511
+DEBUG    test_slider_captcha:base.py:261 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:106 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:264 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:265 🔵 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    test_slider_captcha:base.py:195 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:132 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:96 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:29 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:158 🔵 获取到缺口距离: 511
+DEBUG    test_slider_captcha:base.py:142 🔵 判断验证码验证结果
+DEBUG    test_slider_captcha:base.py:261 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:106 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:264 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:265 🔵 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    test_slider_captcha:base.py:195 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:132 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:96 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:29 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:158 🔵 获取到缺口距离: 511
+DEBUG    test_slider_captcha:base.py:147 🔵 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_4u6ZnzZpkgirHGaccJPebmM9dgSK7JkKGp_W4uV-YBi8GtoWx8GufxLXQTHdGhdXfGUlWEdWCq0Z2fH6tarvYzrK-PiAmj-qN7JY5qkyJDZk8f9C8g4nMrV3kJFypEqJ9-gT3jamHtC_nnxT3AYWjQ=='}, 'code': 0, 'msg': ''}
+INFO     test_slider_captcha:base.py:149 🟢 ---------- 验证码验证通过 ----------
+INFO     test_slider_captcha:base.py:230 🟢 清理掉所有的等待事件
+DEBUG    test_slider_captcha:base.py:86 🔵 取消 is_captcha_showed 等待事件
+DEBUG    test_slider_captcha:base.py:86 🔵 取消 is_captcha_downloaded 等待事件
+DEBUG    test_slider_captcha:base.py:86 🔵 取消 is_slide_captcha 等待事件
+DEBUG    test_slider_captcha:base.py:259 🔵 验证码已经验证通过，退出循环

@@ -1,2 +1,0 @@
-INFO     mypy.lib.video.video_clip_helper:video_clip_helper.py:284 🟢 -----> 开始把视频嵌入绿幕
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:66 🟠 文件 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_video_maked_replaced_video_filepath.mp4 已存在，无需转换
