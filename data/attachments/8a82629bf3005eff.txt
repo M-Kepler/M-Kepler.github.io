@@ -1,0 +1,229 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:118 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:117 🟢 正在把当前目录下的 PPT 转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:166 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》转换成 image_article
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp8if_j88z', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp8if_j88z
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpy6n9h_30', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpy6n9h_30
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmps4y16_1v', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmps4y16_1v
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpjmje3jfk', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpjmje3jfk
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpx2f8f0e9', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpx2f8f0e9
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmprw6kfbtb', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmprw6kfbtb
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpjduhk5n7', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpjduhk5n7
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpzbn81plx', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpzbn81plx
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp90cutwhq', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp90cutwhq
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:73 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpe5cauqpu', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpe5cauqpu
+ERROR    mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:147 🔴 PPT 格式转换异常: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR    mypy.apps.ppt2douyin.main:main.py:134 🔴 RetryError[<Future at 0x7fc3e4553520 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 148, in _ppt_trans
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 145, in _ppt_trans
+    self._ppt_handler(ppt_path, output_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 75, in make_ppt2image_article
+    ppt2image(ppt_path=ppt_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/ppt/ppt_handler.py", line 77, in ppt2image
+    pdf_handler.pdf2images(image_dir=output_dir,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pdf/pdf_handler.py", line 43, in pdf2images
+    _, file_ext = os.path.splitext(self._input_pdf_path)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/posixpath.py", line 118, in splitext
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/main.py", line 119, in main
+    ppt_transfer.batch_ppt2transfer()
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/ppt2douyin/ppt_transfer.py", line 167, in batch_ppt2transfer
+    self._ppt_trans(ppt_file)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x7fc3e4553520 state=finished raised TypeError>]
