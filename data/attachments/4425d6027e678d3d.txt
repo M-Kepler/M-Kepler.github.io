@@ -1,0 +1,168 @@
+DEBUG    mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:70 🔵 提示词为: 
+Role:
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+Goals:
+https://zhuanlan.zhihu.com/p/144192472 给出护理相关文章题目标题，比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理等
+
+Constrains:
+- 只需要输出 2 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:136 🟢 获取到以下 PPT 主题：
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:138 🟢 《心内科护理年中工作总结》
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:138 🟢 《儿科护理不良事件分析与预防策略》
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:143 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/config/cookie/baidu/cookie_small.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 判断图片是否为正的验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 尝试获取块验证码: 6/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/Ftpuq.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取到缺口距离: 508
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取到缺口距离: 508
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/6cj42.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取到缺口距离: 606
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 获取到缺口距离: 508
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取到缺口距离: 606
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_ma6BjzvDfPfE56MavW49avuJyLnSeUSy97QuwpqnyNa5x9-fke5xLRup5uc5iNmE9DXxwuwI5uXK23VBHcc25SFw1VZClwEJ5SMflk8nN6m-G6iMHsjqoIW3POEmqnOa83dYO5kmLmTvHHwVLQzAUJPeXOmqtKQLM2xlIWjnoy4y9I_OQua4Pup6Om4Ct-KNmLD2iZCCn-SXZ2CqKTdqFQ=='}, 'code': 0, 'msg': ''}
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 心内科护理年中工作总结] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 点击 AI 生成按钮
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 获取到缺口距离: 606
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_4MeoBXRkqg-g1r6BlUYqGH8KFm0i7UtVwWP0iWQUJfNOMVWB-7nLWQJZvhS-oWM-UEk47Lqyceo621l4BIEP6IksfAqvqGjtOJdmaaEg6EDx3Ho5t5czPRKO527XC6AF_E1bbsN_T2Dzm-b-N3Xy6-twhaJrm5BXKlfDWN8ciF3v67jdsdH9i1GRho151tmD2IkRp21KzHBBJvmYjr1gHQ=='}, 'code': 0, 'msg': ''}
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:117 🔵 [ppt_topic: 儿科护理不良事件分析与预防策略] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 点击 AI 生成按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 填入主题内容: [心内科护理年中工作总结
+PPT]
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 填入主题内容: [儿科护理不良事件分析与预防策略
+PPT]
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 儿科护理不良事件分析与预防策略] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc:log.py:132 🍊🍊🍊 [ppt_topic: 儿科护理不良事件分析与预防策略] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/儿科护理不良事件分析与预防策略.pptx
+INFO     mypy.lib.baidu.baidu_aigc:log.py:120 🟢 [ppt_topic: 心内科护理年中工作总结] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc:log.py:132 🍊🍊🍊 [ppt_topic: 心内科护理年中工作总结] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/心内科护理年中工作总结.pptx
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:143 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/config/cookie/baidu/cookie_large.json]，当前账号排序: [2]
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:123 🟠 [ppt_topic: 心内科护理年中工作总结] - 文件已存在，无需生成
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:123 🟠 [ppt_topic: 儿科护理不良事件分析与预防策略] - 文件已存在，无需生成
+INFO     mypy.lib.baidu.baidu_aigc_ppt:baidu_aigc_ppt.py:143 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/config/cookie/baidu/cookie_asdf.json]，当前账号排序: [3]
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:123 🟠 [ppt_topic: 心内科护理年中工作总结] - 文件已存在，无需生成
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:123 🟠 [ppt_topic: 儿科护理不良事件分析与预防策略] - 文件已存在，无需生成

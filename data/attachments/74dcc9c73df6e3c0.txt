@@ -1,3 +1,0 @@
-DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
-WARNING  mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:69 🟠 文件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pdf 已存在，无需转换
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpykj8ov15
