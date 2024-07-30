@@ -1,0 +1,59 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/mqs/pylib/_out/test_downloader
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:84 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:85 🔵 下载任务数量: 40
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:86 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:93 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:94 🔵 生产者数量: 5, 每个生产者负责 9 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:96 🔵 消费者数量: 9
+DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:97 🔵 ------------------------------------------------------------
+ERROR    mypy.lib.mqs.pylib.producer_consumer:producer_consumer.py:54 🔴 Producer error: 
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_transports/default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_async/connection.py", line 99, in handle_async_request
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_async/connection.py", line 76, in handle_async_request
+    stream = await self._connect(request)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_async/connection.py", line 154, in _connect
+    stream = await stream.start_tls(**kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_backends/anyio.py", line 80, in start_tls
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/mqs/pylib/producer_consumer.py", line 49, in _producer_wrapper
+    async for item in producer_func:
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/mqs/pylib/downloader.py", line 45, in produce
+    response = await client.get(url=url,
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1801, in get
+    return await self.request(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_transports/default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+INFO     mypy.lib.mqs.pylib.downloader:downloader.py:107 🟢 下载任务结束

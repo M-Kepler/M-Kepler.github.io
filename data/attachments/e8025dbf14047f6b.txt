@@ -1,0 +1,5 @@
+INFO     __file__:subtitle2speech.py:111 🟢 working on /tmp/tmppk70xvgg
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /tmp/tmppk70xvgg/tmp.srt
+DEBUG    __file__:subtitle2speech.py:59 🔵 待处理 subtitle 总行数: 316
+INFO     __file__:subtitle2speech.py:105 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:81 🔵 ffmpeg 命令: ['-i', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ted/ted_video.mp4', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3', '-map', '0', '-map', '1', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp4']

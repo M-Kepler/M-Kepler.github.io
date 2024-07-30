@@ -1,0 +1,5 @@
+INFO     mypy.apps.ppt2douyin.main:main.py:55 🟢 -----> 开始归档已发布文件 <-----
+DEBUG    mypy.apps.ppt2douyin.main:main.py:56 🔵 发布结果: [['mypy/apps/baidu2douyin/_out/医院护理团队的组织架构与职能.mp4', '平台 douyin 的发布结果: True'], ['mypy/apps/baidu2douyin/_out/护理管理提升护理服务质量的策略与实践.mp4', '平台 douyin 的发布结果: True'], ['mypy/apps/baidu2douyin/_out/护理人员在不同科室中的专业角色与挑战.mp4', '平台 douyin 的发布结果: True']]
+WARNING  mypy.apps.ppt2douyin.main:main.py:65 🟠 文件 mypy/apps/baidu2douyin//医院护理团队的组织架构与职能.pptx 不存在, 无法归档
+WARNING  mypy.apps.ppt2douyin.main:main.py:65 🟠 文件 mypy/apps/baidu2douyin//护理管理提升护理服务质量的策略与实践.pptx 不存在, 无法归档
+WARNING  mypy.apps.ppt2douyin.main:main.py:65 🟠 文件 mypy/apps/baidu2douyin//护理人员在不同科室中的专业角色与挑战.pptx 不存在, 无法归档
