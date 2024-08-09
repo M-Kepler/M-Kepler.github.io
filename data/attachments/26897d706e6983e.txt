@@ -1,5 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_ytdlp_helper
-INFO     mypy.lib.youtube.ytdlp_helper:ytdlp_helper.py:128 🟢 ----- 下载视频 -----
-INFO     mypy.lib.youtube.y2_subtitle_handler:y2_subtitle_handler.py:32 🟢 ----- 下载字幕 -----
-INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_ytdlp_helper/GSaYtNZnqR8_zh.srt
-INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 ----- 把同一时间的字幕合并到同一行输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_ytdlp_helper/GSaYtNZnqR8_en.srt
