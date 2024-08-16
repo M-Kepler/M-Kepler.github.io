@@ -1,0 +1,90 @@
+INFO     mypy.lib.playwright.publish_config:publish_config.py:122 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:117 🟢 正在把当前目录下的 PPT 转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:166 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》转换成 image_article
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:100 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:69 🟢 PPT 转换成图片，并进行拼图
+DEBUG    mypy.lib.ppt.ppt_handler:ppt_handler.py:25 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:75 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpi6dh3klx', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/消化内科护士长竞聘.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpi6dh3klx
+INFO     mypy.apps.ppt2douyin.ppt_transfer:ppt_transfer.py:183 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:123 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:105 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 消化内科护士长竞聘] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_large.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_middle.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_large.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_large.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/config/cookie/douyin/cookie_large.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 从文件标题解析出话题: #竞聘 #护士长 #内科
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - [DouyinImagesPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 当前登录账号为 [医护PPT代做]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 消化内科护士长竞聘] - 准备上传文件: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/000000000000000.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000000.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000001.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000002.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000003.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000004.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000005.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000006.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000007.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000008.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000009.jpg', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘/slide_000000010.jpg']
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 发生异常: Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 342, in upload
+    await page.click(upload_locator)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9619, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 777, in click
+    return await self._main_frame.click(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 488, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+
+
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 《消化内科护士长竞聘》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+
+ERROR    mypy.lib.playwright.common:common.py:170 🔴 Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 168, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 161, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 148, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/image_publish_helper.py", line 47, in upload
+    await super().upload(page, upload_url, upload_locator, upload_filepath)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 349, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 342, in upload
+    await page.click(upload_locator)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9619, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 777, in click
+    return await self._main_frame.click(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 488, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 消化内科护士长竞聘] - 《消化内科护士长竞聘》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:82 🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘] 发布到 [douyin] 失败，原因: [Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".container--157qa")
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:180 🟢 发布结果: [['douyin', False, 'Page.click: Timeout 120000ms exceeded.\nCall log:\nwaiting for locator(".container--157qa")\n']], 删除文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/消化内科护士长竞聘
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:183 🟢 处理完成，一共处理了 1 个图文
