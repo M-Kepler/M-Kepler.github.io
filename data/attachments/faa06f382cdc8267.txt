@@ -1,0 +1,1 @@
+WARNING  mypy.lib.baidu.baidu_aigc:baidu_aigc.py:157 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/config/cookie/baidu 下未找到 cookie

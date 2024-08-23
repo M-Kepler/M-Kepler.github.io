@@ -1,0 +1,4 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_helper
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:104 🟢 需要整理字幕时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:104 🟢 需要整理字幕时间线
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:199 🔵 视频时长(359.442417s) >= bgm 时长(202.866939s)，循环播放 bgm 2 次

@@ -1,0 +1,1927 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:36 🟢 正在生成 ...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:main.py:46 🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《神经内科偏瘫患者康复护理的实践与思考》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/m8Hza.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 524
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 524
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 524
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_8pWnSqQ9DhDM0lR1YvLcdFyoEtrTBT9w_bIfHH8WdieIirOwOQWeI-qi0JCT1gs7GI5TDu5b8LAEix33mv82fiWyd-7Iwiyg-uM7CzaHWFctFvgIsr5O8zjC7rjPSDrxBVpyqgUD2aL-_vlIHcnbEqs8o9vJgUsJ-qYL6uTAuBxky21S0Pj9mE4iXTfa1BO-M1Hlw-gx1LmDQ--VuAHDnA=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 判断图片是否为正的验证码，刷新页面
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".item-icon.gen-ppt")
+  -   locator resolved to <span class="item-icon gen-ppt"></span>
+  - attempting click action
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #1
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #57
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #58
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #59
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #60
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #61
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #62
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #63
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #64
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #65
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #66
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #67
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #68
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #69
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #70
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #71
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #72
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #73
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #74
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #75
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #76
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #77
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #78
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #79
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #80
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #81
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #82
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #83
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #84
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #85
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #86
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #87
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #88
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #89
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #90
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #91
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #92
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #93
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #94
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #95
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #96
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #97
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #98
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #99
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #100
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #101
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #102
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #103
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #104
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #105
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #106
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #107
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #108
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #109
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #110
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #111
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #112
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #113
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #114
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #115
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #116
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #117
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #118
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #119
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #120
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #121
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #122
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #123
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #124
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #125
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #126
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #127
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #128
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #129
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #130
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #131
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #132
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #133
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #134
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #135
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #136
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #137
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #138
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #139
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #140
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #141
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #142
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #143
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #144
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #145
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #146
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #147
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #148
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #149
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #150
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #151
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #152
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #153
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #154
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #155
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #156
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #157
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #158
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #159
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #160
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #161
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #162
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #163
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #164
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #165
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #166
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #167
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #168
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #169
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #170
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #171
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #172
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #173
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #174
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #175
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #176
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #177
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #178
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #179
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #180
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #181
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #182
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #183
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #184
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #185
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #186
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #187
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #188
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #189
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #190
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #191
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #192
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #193
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #194
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #195
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #196
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #197
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #198
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #199
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #200
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #201
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #202
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #203
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #204
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #205
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #206
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #207
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #208
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #209
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #210
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #211
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #212
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #213
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #214
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #215
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #216
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #217
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #218
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #219
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #220
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #221
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #222
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #223
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #224
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #225
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #226
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #227
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #228
+  -   waiting 500ms
+  -   waiting for element to be visible, enabled and stable
+  -   element is visible, enabled and stable
+  -   scrolling into view if needed
+  -   done scrolling
+  -   <div class="passMod_dialog-mask">↵        </div> from <div class="b02e52dee6 b1d956e1c5">…</div> subtree intercepts pointer events
+  - retrying click action, attempt #229
+  -   waiting 500ms
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - prompt: 神经内科偏瘫患者康复护理的实践与思考 执行失败: RetryError[<Future at 0x7fb9a4b1e190 state=finished raised TimeoutError>]
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised RetryError: RetryError[<Future at 0x7fb9a4b1e190 state=finished raised TimeoutError>].
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/9rTp2.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/9rTp2.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 436
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_IzCMtqui-Dkaurbv7S6SGdXcdE3Ia4dN1u_yXn0YevBB7nkoPNYbMpNmLbpyuKC-fE7m2LS1BlMnAIH5dVlvuLGZ60cpjeRVU-K7hlD1ZApaTFi42Z2wqmdQL4RZKlxN0NwS7ClhXYSvQVjeMFd5oQFc0mRVTAi3J320_ArA0Q7ygp3PvBlAXMwh4I4kTT3QijIUjk5ZoVvLPX9xYvcg0g=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - prompt: 神经内科偏瘫患者康复护理的实践与思考 执行失败: RetryError[<Future at 0x7fb9a4159880 state=finished raised TimeoutError>]
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised RetryError: RetryError[<Future at 0x7fb9a4159880 state=finished raised TimeoutError>].
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/lWpbC.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 493
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 493
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 获取到缺口距离: 493
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_A6DJsZc8pImGNN-Azk74NWezU5U9Z8YoH1MkJhKbHZiywDzsgucihEupScn8G4zMzBywuEM3pZ4N7C8jGRyjy2szRu2GO40um2Y1iA8AQVYRutXCzP_oYBHV8oTZ4FRYLTdC7iAojPD_rXtpDIkSpunP7KCdzXBCFGCH4JDVCoHuUR9iTSzG2ycV_343o-beJpvsDM1MZVG8WiFFQ--akQ=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 填入主题内容: [神经内科偏瘫患者康复护理的实践与思考
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - 正在等待 AI 生成信息...
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者康复护理的实践与思考] - prompt: 神经内科偏瘫患者康复护理的实践与思考 执行失败: RetryError[<Future at 0x7fb99d6ade50 state=finished raised TimeoutError>]
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:86 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:148 🟢 正在把当前目录下的文件转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+WARNING  mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:197 🟠 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt 下未发现待处理 ['.ppt', '.pptx', '.doc', '.docx'] 后缀文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:154 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:184 🟢 处理完成，一共处理了 0 个图文
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config

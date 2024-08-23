@@ -1,0 +1,2 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc
+WARNING  mypy.lib.baidu.baidu_aigc:baidu_aigc.py:157 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/config/cookie/baidu 下未找到 cookie
