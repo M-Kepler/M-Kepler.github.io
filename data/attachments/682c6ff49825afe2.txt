@@ -1,0 +1,678 @@
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:36 🟢 正在生成 ...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:main.py:46 🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 767
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 767
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 767
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_RK2t2FguwchIU6aD_49tBY5LyDHtoD5W35GWUMhEeNO4CXsTCl8-tbRXwzf4NAo1ytm2TWheOIqa_gv5Wy4wLEQQfIkak16mPDRbFkufx1IW5G9TpXMYpWdJekAbU0IzmDKqq-8xvN_vPmMd_TCmj4r0jVoRLoWEybAoCLEtSHtAYsAEauXVUNWKQIRtORCWFMuK70NQanDnUTDSpP2SEDqVX1UP7-QanROlxy0-SnI='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 531
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_3baZ2NNQnSY1YgAN62CJZGAPgeuV6-2KwtDGzU8DmNoRDan9ONf3rd9C1PJxsB1mzWxAPqdBgwTl2S3tvERLqdIqe3IWBumlnWB0H2RfE_8m-h6f6STSerMChviJ4UYdVWe7QDquzNinBXW-4VklnKkEk_AXupib09RrUe6oumWjh4u5VmfnQFSIozAf8dnpbtp4ygs9OnLXCwoc6GnItajIGM0tQKvBQY58Qj8JbRY='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 6/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/cFtBh.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 7/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 435
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 8/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 435
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_3NJkgxChVyjbkz1rwUR8Xgh7HWZxlPrAzAop6h0ijiTntkn7x1pcaPuyxf_Oa66Ec2kqajqpEah1HSFpD_scWtuVyocBk4_brA2hxtMsLf-7veM6d7QFD_8dRWrlCxohTKVoizBAPNc66E1PD95FfEhctbC9r0gc6eevbqM_CJIsENzti-bQ2lhiSU-IJZWP054bGsN-93kvmAVTEqPwJH80_xvJVLWLyofyGASmq0Q='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - prompt: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践 执行失败: RetryError[<Future at 0x7f73ea613dc0 state=finished raised TimeoutError>]
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised RetryError: RetryError[<Future at 0x7f73ea613dc0 state=finished raised TimeoutError>].
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 414
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 6/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 414
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 7/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 414
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_bEi22TDBr75mikKeuEE8Eu2YajBtCDIZyizPd_lpYZwBPXCJ7jMIy5X-5o0Vjhi_4-zG7by0KWLffjlFKzA8ac2vWkK8Fveyvaq-GQdTPUy6GdiaNBzTTJRAh2BMte5fd7cr1MFrXFXcXOE5vfR-qoRcyxSNRxU8cWU2LOT7XXNaMFHYygK86suIZWywphb2td_OXJXOsM78sijsY2ampfXPRHveNynYCCHneyyQV5k='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 8/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 562
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 9/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 415
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 10/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 415
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_4bjuC5mOjePRF7pbQ0pHdZMitTcbyoN0S5bgxvJd4FsFp4vRqID_rnnd0i_MJEC6XB9400h2rLpDb_NYoy1Z-0RBkr-Tzem182Ehz00J9qDfPrmlZMrvhwVrRWOwAvLVP6pjKMitiLAj6CvPY6fbcsVp62bqNuFmrSonk53-XIn1nw37GWEH6XteioVmT9Y1NCCQI4325AJU9D4ZEJz5zb8c8mwdlHlyBO_2ZAnH0z0='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 11/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 12/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 624
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 13/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_wh75GPYox2bJy0zMXre7AbwxCexlpkkpajKh8hV8j_yGJGpQX_bIRVmq7M-5J1v1_vCKjFU5g1F-qSBKdCDvvBd-mKiX1TCLPZCqxuvB6AKmFODhhC0q-qfdMWVM3WNd84ttHlaAHKVgtkY-Cxhi5ob-gwZQGVVrchOXrFmVebUliIRbUnuwQhMPII023cVL-_a1-3V5F8qWW_Ose3WdojHw8BxMtZGBwOOlix-_RsM='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 14/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 15/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 9
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 16/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 595
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 17/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 595
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': False, 'v': '1', 'stk': '1_f3dYkOtTNxDE63geTtHq9Hk-k_C0ZSDmPWuM4IniNnEfrc961aoCdysAR2gU7F618YYR4yUj_GyOz-w1wwVraLFSPAKF5q8HD1JxAz6ytuzkamlGFDLrP2Yra1iiOb1b1Yybe1yXGbYqkidhg7qf0RwHjYYD2GJL61hdWghdAicIMkI3Iv3DC_J-Nmenr4RZplsNjUneQNJzkxtrSG9l5fmlZIkM7GKawzevWbMmvds='}, 'code': 0, 'msg': 'success'}
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/moTtY.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 18/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 590
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 19/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 590
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_3jLFNrnoG75Sqk2dgD5xK_YCrGST50qV2u7OLvy4ZNrYsTXcV9254bVzmiiJKfL_pVqjB3OaE1SFxE8pj1uZW3CHsJrB43WKLhkhpbOKbEwnyLVS4BQg7uE4SK-bLC_bTRqPQ5OTPTMQP4DTmc8N_yX6WIOkPbPj7oqgFYiLtZCDOjxHvYnbpGmUbWYrV6Xjr4CpqxOWotsXwZSktIywqg36-Zoa5W0zmjd-J42ik8A='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - prompt: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践 执行失败: RetryError[<Future at 0x7f73f0d7ad60 state=finished raised TimeoutError>]
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised RetryError: RetryError[<Future at 0x7f73f0d7ad60 state=finished raised TimeoutError>].
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 尝试获取块验证码: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/obDSZ.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 577
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 577
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 获取到缺口距离: 577
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_IYsHYZ3HUnfFduUT4CbAJdOokMI_cxvmRIpaY8OL60WEFJgc77woee3fugDK1eCYR1WNXgnjZ7b-ZElzNtHW_pWMURciKyCSbw3qEY9Aj_idd59XWPtK19DEa2KsfHLcXHum_wxN-u5PQag5zubnDAcwNMgoWMhWBgbguqsw9VjjcwfGtRyPY4MZ_j18EDHfQuybIhGtpVtGTSdnb9SRzBV78vavlW-gQ1P5gkiQp8A='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".ppt-tools") to be visible
+.
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 填入主题内容: [心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - 正在等待 AI 生成信息...
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践] - prompt: 心内科护理团队在急性心肌梗死患者护理中的质量管理与创新实践 执行失败: RetryError[<Future at 0x7f73f07597c0 state=finished raised TimeoutError>]
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:86 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:167 🟢 正在把当前目录下的文件转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+WARNING  mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:207 🟠 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt 下未发现待处理 ['.ppt', '.pptx', '.doc', '.docx'] 后缀文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:173 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+WARNING  mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:53 🟠 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt 下未发现待处理 ['.webm', '.mp4'] 后缀文件
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config

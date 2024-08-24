@@ -1,0 +1,120 @@
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/AZXmr.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取到缺口距离: 459
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取到缺口距离: 459
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 获取到缺口距离: 459
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_rPiZOBl65Ab5iP-l9LiQm1s7TQSvDUptXJYJS8AIojbuNg7B26UR85OgInXz7xnvzOayFg1EHj67HjypBI6iG8TjYDd_70SnjTFaXLNvyy_4cyHSfwH7bR6VjIZb-ACDUc30znWJeMt7VCCaBcaQ9LSx5RtUDur6mNvUfs-PqmgIqpMNevH8i2prmdv7ENopHiJseAEyxVVB4jGvU1xS7eGGuD9WxgzW9YVX-HsZ63A='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 填入主题内容: [急诊科护理质量改善项目PDCA循环在急性创伤患者护理中的应用
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 正在等待 AI 生成信息...
+Level 25 mypy.lib.baidu.baidu_aigc_helper:log.py:132 🍊🍊🍊 [ppt_topic: 急诊科护理质量改善项目：PDCA循环在急性创伤患者护理中的应用] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/急诊科护理质量改善项目PDCA循环在急性创伤患者护理中的应用.docx

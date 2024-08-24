@@ -1,4 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_ppt2video_with_content_summary
-DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_slide_images', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_content_summary.json'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_ppt2video_with_content_summary
-DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_ppt2video_with_content_summary/ppt_slide_images
-DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_ppt2video_with_content_summary/ppt_content_summary.json
