@@ -1,0 +1,3 @@
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video
+WARNING  mypy.lib.ppt.ppt_handler:ppt_handler.py:29 🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4] 已经存在，不需要转换
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pptx

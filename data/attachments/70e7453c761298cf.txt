@@ -1,0 +1,166 @@
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_publish2douyin
+INFO     mypy.lib.wechat.video.publish_app:publish_app.py:123 🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/wechat/cookie_large.json
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.wechat.video.publish_app:publish_app.py:146 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/wechat/cookie_large.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.wechat.video.publish_app:publish_helper.py:59 🔵 从文件标题解析出话题: #ted
+INFO     mypy.lib.wechat.video.publish_app:publish_helper.py:133 🟢 ============================================================
+INFO     mypy.lib.wechat.video.publish_app:publish_helper.py:134 🟢 [WechatPublishHelper] 开始执行发布任务
+INFO     mypy.lib.wechat.video.publish_app:publish_helper.py:135 🟢 ============================================================
+ERROR    mypy.lib.wechat.video.publish_app:publish_helper.py:98 🔴 账号登录状态已失效，正在跳出: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 86, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 82, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10475, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+ERROR    mypy.lib.wechat.video.publish_app:publish_helper.py:161 🔴 《ted》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 86, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 82, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10475, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+ERROR    mypy.lib.playwright.common:common.py:170 🔴 Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 86, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 82, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10475, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 168, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+ERROR    mypy.lib.wechat.video.publish_app:publish_helper.py:172 🔴 《ted》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 86, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 82, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10475, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 170, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 454, in wrapper
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 460, in wrapper
+    await async_func(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".finder-nickname")
+
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_publish2douyin/config
