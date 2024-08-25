@@ -1,0 +1,349 @@
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《神经内科偏瘫患者护理质量管理与改进措施》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/5RQUM.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/5RQUM.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/5RQUM.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/5RQUM.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 607
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 5/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 607
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 6/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 607
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_aSrp2JRVgJabzx_y2nc1QxtDr9xpEAgM7zgwRHSlIIpzLt39M9yw8WAfoYH-5R97PKDGY4w-qw9vSKiBbuZvvR4ucysuK1acWU5ZprdocVy2NYVSdb79s4hrvgu-TPwDkgUto8uxbzkZWk4yd-1CXBL96OfBCebTjBiQ2rme0ccBrKZFVGceteelkqN3B-ZJdQkSKYrVMuCdgSTkJ65H4g=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 填入主题内容: [神经内科偏瘫患者护理质量管理与改进措施
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - prompt: 神经内科偏瘫患者护理质量管理与改进措施 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/q3uS7.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/q3uS7.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 567
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 567
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 567
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_FT48sQuFI9vQvpVxJkU4tBmyuDOoko5x3XbxemUwPBtDjCR6O7ow9eQe7XxGNVv8qKBDDkDb3lFDOziQxC-lJ_HxbwktM7iaS93QZ8DpmUtVTYDFP50ygG1RrcBgno81HjuffTvomrugf07ptSBwqleFmeZZud0SE1GAfT8csDtrEWuvV9_98ZtZWdHsuuh3sKrEIfaCuE8mplw-3YiQLw=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 填入主题内容: [神经内科偏瘫患者护理质量管理与改进措施
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - prompt: 神经内科偏瘫患者护理质量管理与改进措施 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/NZyKB.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:123 🟠 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动失败，刷新验证码重试
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/NZyKB.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 519
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 519
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 获取到缺口距离: 519
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_4h1LxO2aOOsXu_G81_6yl82KdIKEvIMAuh9tUO3xL5JK0lJKvkYUpo9SZOP58SSKluh6MY_l-ZueE0KQlLgz-anIt6F2CJnhhaTa-789c8Ebigg22F2h-ilsP6zcvsRFGX-ATL8629qZg65u26g64OPJ4WMZ6MjJUkNUQqLmVzRUwNWRBFwMMKG0zyltHcrApwWyaqN1zUQW14_a8RP1iw=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 填入主题内容: [神经内科偏瘫患者护理质量管理与改进措施
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 正在等待 AI 生成信息...
+Level 25 mypy.lib.baidu.baidu_aigc_helper:log.py:132 🍊🍊🍊 [ppt_topic: 神经内科偏瘫患者护理质量管理与改进措施] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/神经内科偏瘫患者护理质量管理与改进措施.docx
