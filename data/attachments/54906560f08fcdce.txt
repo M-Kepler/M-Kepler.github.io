@@ -1,3 +1,0 @@
-DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_publish2douyin
-WARNING  mypy.lib.xiaohongshu.publish_app:publish_app.py:116 🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/xiaohongshu 下未找到 cookie
-DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_publish2douyin/config

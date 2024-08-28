@@ -1,0 +1,292 @@
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:36 🟢 正在生成 ...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:main.py:46 🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《心内科护理团队在急性心肌梗死患者中的快速反应与护理干预》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 判断图片是否为正的验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 4/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/Dk26Y.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 470
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 470
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 470
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_E34_YtxX-BA6c9AdNEQCPHzsuQweXgpKdYWIl1Og37NBHtmRvEHKga7zX1jEp25x41h93YSotfkJodP05LCBYcEbYkQciwyi_DSvcSHmlv6BH2LuNWcs1fWnHh55LXlEOEyzjtWWZOCGD892e9r7d3yTKDRZML_QC6Z_UOpY0i2UhO2z1JkIHsp4RX53IMHo3Stud-4OVJkDwhf6uuQROw=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 填入主题内容: [心内科护理团队在急性心肌梗死患者中的快速反应与护理干预
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - prompt: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/2INnb.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 506
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 506
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 506
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_Q0QJO3LXIKbJZLrEgkaFGHSIxohEfhEiTmM4v5zagVrU6yv4JxGpbzialYbK0nbgJpPhphUwAitzsEJlEN3AnFT7qe6BDtt1GAm_hg3JX0PcsBQ8QLjz6fVriKNzUJEJOAO7HU18VQrJPFDLSmH3SfgUrELNUF5Hof-WvxRwKbLtEUZoVqKXRsGkDA-cgRTFbqI2nz1ZFiNzbytWqD-JZQ=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 填入主题内容: [心内科护理团队在急性心肌梗死患者中的快速反应与护理干预
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - prompt: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/UjaEe.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 427
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 427
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取到缺口距离: 427
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_lr3tRz_mj4CK9ktF3BYJ7_NCJ8hc3jzPZic7Tba9g80gK8uaU6-_WGufmiikgXmkAqC40Sl5tvwn8LdYuTAQphJH1cwBVUkqxrMgauoAOcrMkt4FizP-fY_Fz-5Bz6F8NAdr6K-jV45gMJY98iTFFPqj2qpzQEZg-hrGmBRRbq5raPvqqPp9nTc13tLpQIBGNxJW24uFYbU0pSm6OiHxxg=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 点击【智能文档】按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 填入主题内容: [心内科护理团队在急性心肌梗死患者中的快速反应与护理干预
+doc]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 正在等待 AI 生成信息...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:129 ❌ [ppt_topic: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预] - prompt: 心内科护理团队在急性心肌梗死患者中的快速反应与护理干预 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".el-button.btn.btn-copy-ai.el-button--default") to be visible
+
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:86 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:169 🟢 正在把当前目录下的文件转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+WARNING  mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:207 🟠 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc 下未发现待处理 ['.ppt', '.pptx', '.doc', '.docx'] 后缀文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:175 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:184 🟢 处理完成，一共处理了 0 个图文
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/doc/config

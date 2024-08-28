@@ -1,1 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_handler
