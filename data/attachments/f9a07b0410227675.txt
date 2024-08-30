@@ -1,0 +1,55 @@
+DEBUG    test_slider_captcha:test_slider_captcha.py:25 🔵 ----- test_slider_captcha_handler -----
+INFO     test_slider_captcha:test_slider_captcha.py:26 🟢 ----- test_slider_captcha_handler -----
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 1/20 次
+DEBUG    test_slider_captcha:baidu.py:102 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:baidu.py:60 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:baidu.py:73 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:base.py:108 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:baidu.py:46 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:baidu.py:93 🔵 尝试获取块验证码: 2/20 次
+DEBUG    test_slider_captcha:base.py:127 🔵 验证码已触发
+DEBUG    test_slider_captcha:base.py:250 🔵 等待滑动验证码展示事件就绪信号
+INFO     test_slider_captcha:base.py:252 🟢 开始处理滑块验证码...
+DEBUG    test_slider_captcha:base.py:171 🔵 刷新验证码
+DEBUG    test_slider_captcha:baidu.py:73 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:base.py:108 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:baidu.py:161 🔵 拦截到获取验证码 URL
+DEBUG    test_slider_captcha:base.py:266 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:baidu.py:126 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:baidu.py:126 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:baidu.py:145 🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/8Hl19.jpg
+DEBUG    test_slider_captcha:base.py:108 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:269 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:270 🔵 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 463
+DEBUG    test_slider_captcha:base.py:266 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:108 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:269 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:270 🔵 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 463
+DEBUG    test_slider_captcha:base.py:144 🔵 判断验证码验证结果
+DEBUG    test_slider_captcha:base.py:266 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:108 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:base.py:269 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:base.py:270 🔵 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 463
+DEBUG    test_slider_captcha:base.py:149 🔵 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_VFixpL1u5zowmjdfBt4uQHvGrRxYIVY3WlNGEi0QVJYek6faA7oL-IuEnkAnqQUMq7SziD1-P19Ho2UfvqXODZG7MAtpxi0U5zkBIyWNd05WQQtwhCOA1c52f6o_wr_IBDtiVjG5uyG0pgUPiq_wzeN3v03igGhrMOyZpGkYR2_sXd0zmOClvBpa2UI4uKh2'}, 'code': 0, 'msg': 'success'}
+INFO     test_slider_captcha:base.py:151 🟢 ---------- 验证码验证通过 ----------
+INFO     test_slider_captcha:base.py:232 🟢 清理掉所有的等待事件
+DEBUG    test_slider_captcha:base.py:88 🔵 取消 is_captcha_showed 等待事件
+DEBUG    test_slider_captcha:base.py:88 🔵 取消 is_captcha_downloaded 等待事件
+DEBUG    test_slider_captcha:base.py:88 🔵 取消 is_slide_captcha 等待事件
+DEBUG    test_slider_captcha:base.py:240 🔵 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/_out/captcha_save_dir
+DEBUG    test_slider_captcha:base.py:264 🔵 验证码已经验证通过，退出循环
