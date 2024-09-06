@@ -1,0 +1,3 @@
+INFO     mypy.apps.youtu2douyin.tools:tools.py:101 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/channel_record.json 中的 videos 为较新的记录
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《What does appendix pain feel like? - David R. Flum》found, id: 8CUEPNcGtWs, publish date: None
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《The surprising reason zebras have stripes - Cella Wright》found, id: QJB0nmEjbDY, publish date: None

@@ -1,0 +1,6 @@
+INFO     mypy.lib.crawler.hrxz.crawle_category:crawle_category.py:333 🟢 分类: ['PPT素材', 'PPT按钮'] 地址: https://www.hrxz.com/pptls/223-0-0-0-0.html
+INFO     mypy.lib.crawler.hrxz.crawle_category:crawle_category.py:159 🟢 总共有 1 页数据
+INFO     mypy.lib.crawler.hrxz.crawle_category:crawle_category.py:170 🟢 -----> 正在爬取: https://www.hrxz.com/pptls/223-0-0-0-0.html
+INFO     mypy.lib.crawler.hrxz.crawle_category:crawle_category.py:101 🟢 开始处理《PPT操作按钮图标素材》下载页面
+DEBUG    mypy.lib.crawler.hrxz.crawle_category:crawle_category.py:79 🔵 开始获取并识别验证码
+INFO     mypy.utils.http:http.py:75 🟢 《/tmp/tmp5vlpozep/hrxz.com-y0uik4fzw5i138247.zip》下载成功

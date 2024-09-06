@@ -1,0 +1,223 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:36 🟢 正在生成 ...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:main.py:46 🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个
+DEBUG    mypy.lib.baidu.baidu_aigc:baidu_aigc.py:92 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:132 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:134 🟢 《神经内科偏瘫患者护理质量改善项目》
+INFO     mypy.lib.baidu.baidu_aigc:baidu_aigc.py:169 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:234 🟢 -----> 开始执行生成任务: ['神经内科偏瘫患者护理质量改善项目']
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/G6FCz.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取到缺口距离: 455
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取到缺口距离: 455
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 获取到缺口距离: 455
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_nAC5Ek9JSNa-6_bqmHajpQPf3MvU7r38e-5aPQD7_BTiyMzOnrUrnwDHm1e00NhfGXc84fQK9u_JOssEyKHFOAQ12BBautHfjqqkE-Tvuz9LuylYVsGLk1SbRNp0DEhaq8L2yq_sWCe51-zhy_GZ924XHtU5GmR9Z6DpIDKHCBHwoSR1BhXZTTLr0nJPEsJtOkiPW7aH6PrwmO3vxLliXw=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:117 🔵 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 验证码已经验证通过，退出循环
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 点击 AI 生成PPT按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 填入主题内容: [神经内科偏瘫患者护理质量改善项目
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 正在等待 AI 生成信息...
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:120 🟢 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc_helper:log.py:132 🍊🍊🍊 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.baidu2douyin.main:main.py:86 🟢 正在处理 PPT 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:157 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:168 🟢 正在把当前目录下的文件转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:237 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx》转换成 image_article
+INFO     mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:156 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx》 中的敏感信息
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:133 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:78 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp58_sm_vu', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp58_sm_vu
+INFO     mypy.apps.ppt2douyin.ppt_converter:ppt_converter.py:255 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.apps.ppt2douyin.main:main.py:174 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:192 🟢 ========================================
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:123 🟠 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_large.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_middle.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_large.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    jieba:__init__.py:113 🔵 Building prefix dict from the default dictionary ...
+DEBUG    jieba:__init__.py:146 🔵 Dumping model to file cache /tmp/jieba.cache
+DEBUG    jieba:__init__.py:164 🔵 Loading model cost 0.981 seconds.
+DEBUG    jieba:__init__.py:166 🔵 Prefix dict has been built successfully.
+DEBUG    mypy.lib.playwright.publish_handler:log.py:117 🔵 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 从文件标题解析出话题: #神经内科 #偏瘫 #护理
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - [DouyinImagesPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:120 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - ============================================================
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 账号登录状态已失效，正在跳出: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 《神经内科偏瘫患者护理质量改善项目》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+
+ERROR    mypy.lib.playwright.common:common.py:169 🔴 Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    user_name = await self._get_logined_username(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 86, in _get_logined_username
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 82, in _get_logined_username
+    user_name = await page.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 10475, in inner_text
+    await self._impl_obj.inner_text(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 904, in inner_text
+    return await self._main_frame.inner_text(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 167, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:129 ❌ [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目] - 《神经内科偏瘫患者护理质量改善项目》发布异常: Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:61 🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目] 发布到 [douyin] 失败，原因: [Page.inner_text: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".rNsML")
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:181 🟢 发布结果: [['douyin', False, 'Page.inner_text: Timeout 120000ms exceeded.\nCall log:\nwaiting for locator(".rNsML")\n']], 删除文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:184 🟢 处理完成，一共处理了 1 个图文
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config
