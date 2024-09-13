@@ -1,6 +1,0 @@
-DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:73 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/image/green_screen_background/2.jpg 绿幕素材
-DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:79 🔵 输出视频分辨率为: (1894, 3251)
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:83 🟠 输入视频强制使用 30 帧率
-WARNING  mypy.lib.video.video_clip_helper:video_clip_helper.py:92 🟠 绿幕视频帧率为: 30, 替换视频帧率为: 30.303030303030305
-DEBUG    mypy.lib.video.video_clip_helper:video_clip_helper.py:154 🔵 在第 0.0s 处开始出现绿幕
-INFO     mypy.lib.video.utils:utils.py:97 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_video_clip_helper/test_replace_green_screen_2.jpg.mp4 正常

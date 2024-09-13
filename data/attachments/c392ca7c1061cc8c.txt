@@ -1,5 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/music/_out/test_gequbao
-INFO     mypy.lib.music.gequbao:gequbao.py:75 🟢 歌曲列表如下:
-INFO     mypy.lib.music.gequbao:gequbao.py:145 🟢 找到 0 首歌曲
-INFO     mypy.lib.music.gequbao:gequbao.py:75 🟢 歌曲列表如下:
-INFO     mypy.lib.music.gequbao:gequbao.py:145 🟢 找到 0 首歌曲
