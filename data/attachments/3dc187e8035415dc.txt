@@ -1,0 +1,4 @@
+INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: manual
+INFO     mypy.apps.youtu2douyin.main:main.py:39 🟢 video_url: https://www.youtube.com/watch?v=A8WVGxXHUuU
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:397 🟠 未发现 [香港VVI] 的频道配置，将使用默认配置: {'channel_url': '', 'channel_name': '', 'enable': True, 'with_videos': True, 'with_shorts': True, 'publish_cfg': {}, 'videos': [], 'shorts': []}
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《香港优才移民计划有什么利弊吗？全方位分析》found, id: A8WVGxXHUuU, publish date: None

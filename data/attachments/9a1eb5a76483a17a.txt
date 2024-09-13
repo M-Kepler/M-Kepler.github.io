@@ -1,0 +1,6 @@
+DEBUG    mypy.utils.file:file.py:396 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2image
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:133 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:78 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:tools.py:245 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2image', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2image/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:41 🔵 通过 pdf2image 库转成图片，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2image
+DEBUG    mypy.utils.file:file.py:409 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2image/ppt.pptx
