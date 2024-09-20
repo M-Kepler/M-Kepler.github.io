@@ -1,2 +1,0 @@
-INFO     mypy.apps.youtu2douyin.tools:tools.py:101 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/channel_record.json 中的 videos 为较新的记录
-INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《The deadliest thing in your kitchen - George Zaidan》found, id: NKgXBjkKI_E, publish date: None
