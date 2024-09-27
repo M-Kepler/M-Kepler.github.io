@@ -1,9 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/tiktok/_out/test_tiktok_downloader
-ERROR    mypy.lib.tiktok.tiktok_downloader:tiktok_downloader.py:156 🔴 local variable 'download_url_hd' referenced before assignment
-Traceback (most recent call last):
-  File "/home/runner/work/github-runner/github-runner/mypy/lib/tiktok/tiktok_downloader.py", line 154, in _get_video_info
-    return self._parse_video_html(response.content)
-  File "/home/runner/work/github-runner/github-runner/mypy/lib/tiktok/tiktok_downloader.py", line 142, in _parse_video_html
-    'download_url_hd': download_url_hd,
-UnboundLocalError: local variable 'download_url_hd' referenced before assignment
-ERROR    mypy.lib.tiktok.tiktok_downloader:tiktok_downloader.py:173 🔴 获取 tiktok 视频失败

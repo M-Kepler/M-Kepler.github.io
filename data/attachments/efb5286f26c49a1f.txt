@@ -1,2 +1,0 @@
-DEBUG    test_tools:test_tools.py:133 🔵 original_str: 香港优才计划通过率因素分析，哪些人更容易拿到香港移民身份？
-DEBUG    test_tools:test_tools.py:134 🔵 result: 香港优才计划通过率因素分析，哪些人更容易拿到香港移民身份？

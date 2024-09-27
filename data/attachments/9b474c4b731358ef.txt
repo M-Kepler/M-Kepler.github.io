@@ -1,8 +1,0 @@
-INFO     mypy.apps.youtu2douyin.tools:tools.py:101 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/playlist_record.json 中的 videos 为较新的记录
-INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Grammar challenge: 'Wish' & the past perfect》found, id: 0LQw4Px7J_g, publish date: None
-WARNING  mypy.lib.youtube.core.base:base.py:106 🟠 playlist has no shorts
-INFO     mypy.apps.youtu2douyin.tools:tools.py:116 🟢 更新频道视频内容到倒数第 1 个视频成功
-INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: once
-INFO     mypy.apps.youtu2douyin.channel_loop:log.py:192 🟢 ========================================
-INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:296 🟢 开始处理频道: [Grammar Challenge] [https://www.youtube.com/playlist?list=PLcetZ6gSk96_vxv0CWJGr7ySXLHnMXUpC]
-INFO     mypy.apps.youtu2douyin.channel_loop:log.py:192 🟢 ========================================

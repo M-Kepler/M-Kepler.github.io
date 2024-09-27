@@ -1,3 +1,0 @@
-INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: manual
-INFO     mypy.apps.youtu2douyin.main:main.py:39 🟢 video_url: https://www.youtube.com/watch?v=WCh7oZrQOx4
-INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Next Generation NCLEX News: A CHANGE You’ll LOVE | Lab Values for NCLEX Changes》found, id: WCh7oZrQOx4, publish date: None
