@@ -1,0 +1,2 @@
+INFO     mypy.lib.github.action:action.py:67 🟢 发现 5 个工件
+WARNING  mypy.lib.github.action:action.py:97 🟠 正在删除 1521533010 工件

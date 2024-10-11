@@ -1,0 +1,4 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/github/_out/test_action
+INFO     mypy.lib.github.action:action.py:67 🟢 发现 4 个工件
+INFO     mypy.lib.github.action:action.py:88 🟢 正在下载工件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/github/_out/test_action/test_download_artifact/artifact_1521406435.zip ...
+ERROR    mypy.utils.http:http.py:85 🔴 request to https://api.github.com/repos/wordsworth-mk/github-runner/actions/artifacts/1521406435/zip error, response: {"message":"Artifact has expired","documentation_url":"https://docs.github.com/rest/actions/artifacts#download-an-artifact","status":"410"}

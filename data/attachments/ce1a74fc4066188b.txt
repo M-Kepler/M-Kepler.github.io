@@ -1,0 +1,23 @@
+INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/tiktok/_out/test_tiktok_downloader
+ERROR    mypy.lib.tiktok.tiktok_downloader:tiktok_downloader.py:156 🔴 argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/tiktok/tiktok_downloader.py", line 154, in _get_video_info
+    return self._parse_video_html(response.content)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/tiktok/tiktok_downloader.py", line 103, in _parse_video_html
+    video_author = soup.find('h2', class_='white-text',
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 2006, in find
+    l = self.find_all(name, attrs, recursive, string, 1, _stacklevel=3,
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 2035, in find_all
+    return self._find_all(name, attrs, string, limit, generator,
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 841, in _find_all
+    found = strainer.search(i)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 2325, in search
+    found = self.search_tag(markup)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 2288, in search_tag
+    if not self._matches(attr_value, match_against):
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/bs4/element.py", line 2357, in _matches
+    return match_against(markup)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/tiktok/tiktok_downloader.py", line 104, in <lambda>
+    style=lambda value: '18px' in value).b.text.strip()
+TypeError: argument of type 'NoneType' is not iterable
+ERROR    mypy.lib.tiktok.tiktok_downloader:tiktok_downloader.py:173 🔴 获取 tiktok 视频失败

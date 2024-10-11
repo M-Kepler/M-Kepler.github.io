@@ -1,0 +1,48 @@
+INFO     mypy.apps.youtu2douyin.tools:tools.py:101 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/config/playlist_record.json 中的 videos 为较新的记录
+INFO     mypy.apps.youtu2douyin.tools:tools.py:78 🟢 new video《Grammar challenge: 'Wish' & the past perfect》found, id: 0LQw4Px7J_g, publish date: None
+WARNING  mypy.lib.youtube.core.base:base.py:106 🟠 playlist has no shorts
+INFO     mypy.apps.youtu2douyin.tools:tools.py:116 🟢 更新频道视频内容到倒数第 1 个视频成功
+INFO     mypy.apps.youtu2douyin.main:main.py:37 🟢 运行模式: once
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:192 🟢 ========================================
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:300 🟢 开始处理频道: [Grammar Challenge] [https://www.youtube.com/playlist?list=PLcetZ6gSk96_vxv0CWJGr7ySXLHnMXUpC]
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:192 🟢 ========================================
+WARNING  mypy.apps.youtu2douyin.channel_loop:channel_loop.py:199 🟠 解析日期字符串异常: time data 'None' does not match format '%Y-%m-%d %H:%M:%S'
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:311 🟢 频道 [Grammar Challenge] 发现 0 条新 video
+INFO     mypy.apps.youtu2douyin.channel_loop:channel_loop.py:168 🟢 -----> 开始下载第 1/1 个视频: https://youtube.com/watch?v=0LQw4Px7J_g
+INFO     mypy.lib.youtube.y2_video_handler:y2_video_handler.py:285 🟢 ===== 获取视频 =====
+INFO     mypy.lib.youtube.y2_video_handler:y2_video_handler.py:286 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_PLcetZ6gSk96_vxv0CWJGr7ySXLHnMXUpC
+ERROR    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:179 🔴 ERROR: [youtube] 0LQw4Px7J_g: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1626, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1761, in __extract_info
+    ie_result = ie.extract(url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/common.py", line 741, in extract
+    ie_result = self._real_extract(url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/youtube.py", line 4468, in _real_extract
+    self.raise_no_formats(reason, expected=True)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/common.py", line 1275, in raise_no_formats
+    raise ExtractorError(msg, expected=expected, video_id=video_id)
+yt_dlp.utils.ExtractorError: [youtube] 0LQw4Px7J_g: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/youtu2douyin/channel_loop.py", line 175, in _download_video_and_publish
+    video_title, video_fullpath = video_handler.get_video(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/y2_video_handler.py", line 292, in get_video
+    y2_api = YtdlpHelper(video_url=self._video_url,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/ytdlp_helper.py", line 75, in __init__
+    self._title, self._video_id, self._publish_date = get_video_info(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/ytdlp_helper.py", line 62, in get_video_info
+    info_dict = ydl.extract_info(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1615, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1644, in wrapper
+    self.report_error(str(e), e.format_traceback())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1092, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1031, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: [youtube] 0LQw4Px7J_g: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+ERROR    mypy.apps.youtu2douyin.channel_loop:channel_loop.py:180 🔴 视频 https://youtube.com/watch?v=0LQw4Px7J_g 获取异常: ERROR: [youtube] 0LQw4Px7J_g: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
