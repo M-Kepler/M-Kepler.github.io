@@ -1,6 +1,0 @@
-DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
-WARNING  mypy.lib.llm.api:api.py:90 🟠 向 [KimiHelper] 提问失败: Request timed out.，尝试下一个提供商
-DEBUG    mypy.lib.llm.api:api.py:93 🔵 [{'role': 'user', 'content': '质量管理'}]
-DEBUG    mypy.lib.llm.api:api.py:72 🔵 本轮 AI 对话由 [KimiHelper] 提供服务
-WARNING  mypy.lib.llm.api:api.py:90 🟠 向 [KimiHelper] 提问失败: Request timed out.，尝试下一个提供商
-DEBUG    mypy.lib.llm.api:api.py:93 🔵 [{'role': 'user', 'content': '不良事件'}]

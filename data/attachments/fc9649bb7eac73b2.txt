@@ -1,2 +1,0 @@
-WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 2.0 seconds as it raised TestExp: test retry in async.
-WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 2.0 seconds as it raised TestExp: test retry in async.

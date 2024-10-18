@@ -1,2 +1,0 @@
-INFO     mypy.lib.youtube.y2_video_handler:y2_video_handler.py:285 🟢 ===== 获取视频 =====
-INFO     mypy.lib.youtube.y2_video_handler:y2_video_handler.py:286 🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_video_handler/test_srt_over_length/_out/channel_UCg9M55Rj7LwYZfr90yHJvaw

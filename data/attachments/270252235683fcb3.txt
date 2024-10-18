@@ -1,9 +1,0 @@
-INFO     conftest:conftest.py:117 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/mqs/pylib/_out/test_downloader
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:88 🔵 ------------------------------------------------------------
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:89 🔵 下载任务数量: 40
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:90 🔵 ------------------------------------------------------------
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:97 🔵 ------------------------------------------------------------
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:98 🔵 生产者数量: 5, 每个生产者负责 9 个任务
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:100 🔵 消费者数量: 9
-DEBUG    mypy.lib.mqs.pylib.downloader:downloader.py:101 🔵 ------------------------------------------------------------
-INFO     mypy.lib.mqs.pylib.downloader:downloader.py:111 🟢 下载任务结束
