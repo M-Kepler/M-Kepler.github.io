@@ -1,0 +1,5 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/music/_out/test_gequbao[0m
+INFO     mypy.lib.music.gequbao:log.py:82 [92m🟢 歌曲列表如下:[0m
+INFO     mypy.lib.music.gequbao:log.py:82 [92m🟢 找到 0 首歌曲[0m
+INFO     mypy.lib.music.gequbao:log.py:82 [92m🟢 歌曲列表如下:[0m
+INFO     mypy.lib.music.gequbao:log.py:82 [92m🟢 找到 0 首歌曲[0m

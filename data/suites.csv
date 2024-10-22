@@ -1,0 +1,691 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 22 13:04:08 GMT 2024","Tue Oct 22 13:04:16 GMT 2024","7650","lib.llm","test_llm","TestLLM","","","test_multi_chat[flow_response-KimiHelper]","
+        多轮对话
+        "
+"passed","Tue Oct 22 12:53:17 GMT 2024","Tue Oct 22 12:53:51 GMT 2024","34288","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[douyin_image_article]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:27:39 GMT 2024","Tue Oct 22 13:27:39 GMT 2024","1","lib.weixin","test_pushplus","","","","test_send_weixin_notify","
+    测试发微信通知
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","54","utils","test_file","","","","test_create_backups","
+    测试创建多个文件备份
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","298","lib.image","test_image_stitch","","","","test_make_coverage[2_lines]","
+    创建大图小图的封面
+    "
+"passed","Tue Oct 22 13:15:32 GMT 2024","Tue Oct 22 13:15:32 GMT 2024","0","lib.twitter","test_twitter_helper","","","","test_twitter_handler",""
+"passed","Tue Oct 22 13:12:10 GMT 2024","Tue Oct 22 13:12:13 GMT 2024","3529","lib.playwright","test_common","","","","test_get_fingerprint","
+    测试浏览器指纹（看是否被识别为被自动化软件控制）
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","115","lib.image","test_image_handler","","","","test_cv2_imread","
+    测试 cv2.cvtColor 中文路径问题
+    "
+"passed","Tue Oct 22 13:08:03 GMT 2024","Tue Oct 22 13:08:07 GMT 2024","3545","lib.llm","test_llm_api","","","","test_llm_api[kimi]","
+    测试 llm API（封装了全部已对接的 LLM）
+    "
+"passed","Tue Oct 22 13:10:29 GMT 2024","Tue Oct 22 13:10:50 GMT 2024","21026","lib.music","test_music","","","","test_random_music","
+    测试从音乐文件夹下随机选择一首歌曲
+    "
+"passed","Tue Oct 22 13:02:22 GMT 2024","Tue Oct 22 13:02:27 GMT 2024","4205","lib.html","test_html_converter","","","","test_html_converter[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","
+    测试 html 转成 markdown 或 pdf
+    "
+"passed","Tue Oct 22 12:28:56 GMT 2024","Tue Oct 22 12:28:56 GMT 2024","1","apps.youtu2douyin","test_youtu_video_tools","","","","test_sort_video_infos[channel]","
+    测试视频信息排序
+    "
+"passed","Tue Oct 22 13:02:15 GMT 2024","Tue Oct 22 13:02:22 GMT 2024","7047","lib.html","test_html_converter","","","","test_html_converter[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","
+    测试 html 转成 markdown 或 pdf
+    "
+"skipped","Tue Oct 22 13:12:13 GMT 2024","Tue Oct 22 13:12:13 GMT 2024","0","lib.powerpoint","test_powerpoint_helper","","","","test_ppt2pdf_by_powerpoint",""
+"passed","Tue Oct 22 12:17:38 GMT 2024","Tue Oct 22 12:19:21 GMT 2024","102604","apps.ppt2douyin","test_ppt_video_handler","","","","test_make_video[middle]","
+    测试 PPT 生成视频
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","163","utils","test_file","","","","test_copy_file_context[dir]","
+    测试临时文件拷贝上下文管理器
+    "
+"passed","Tue Oct 22 11:54:01 GMT 2024","Tue Oct 22 11:58:14 GMT 2024","252639","apps.baidu2douyin","test_baidu2douyin","","","","test_baidu2douyin[doc2video]","
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","157","lib.image","test_image_handler","","","","test_image_crop_with_video","
+    测试截取视频第一帧，并对该图片进行裁剪
+    "
+"broken","Tue Oct 22 12:27:48 GMT 2024","Tue Oct 22 12:27:48 GMT 2024","454","apps.web2douyin","test_web2douyin","","","","test_web2douyin[zhihu_zhuanlan-https://zhuanlan.zhihu.com/p/711679452]","
+    测试网页内容发不到 douyin
+    "
+"passed","Tue Oct 22 13:29:20 GMT 2024","Tue Oct 22 13:29:21 GMT 2024","1002","utils","test_tools","","","","test_time_spen_deco",""
+"passed","Tue Oct 22 12:43:46 GMT 2024","Tue Oct 22 12:43:47 GMT 2024","973","lib.douyin","test_douyin_hot_hub","","","","test_douyin_hot[hot_music_chart]","
+    爬取 douyin 热门音乐
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_file","","","","test_safe_filename[eng]",""
+"passed","Tue Oct 22 13:13:45 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","100240","lib.subtitle","test_subtitle2speech","","","","test_subtitle2speech_with_video","
+    测试 youtube 视频字幕配音
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","47","utils","test_tools","","","","test_run_cmd_with_result",""
+"passed","Tue Oct 22 13:02:27 GMT 2024","Tue Oct 22 13:02:30 GMT 2024","3604","lib.html","test_html_converter","","","","test_html_converter[dingxiangyishegn_web-https://dxy.com/article/50056]","
+    测试 html 转成 markdown 或 pdf
+    "
+"passed","Tue Oct 22 12:43:26 GMT 2024","Tue Oct 22 12:43:43 GMT 2024","17612","lib.crawler","test_hrxz","","","","test_download_category","
+    测试下载整个分类
+    "
+"passed","Tue Oct 22 12:43:05 GMT 2024","Tue Oct 22 12:43:16 GMT 2024","10927","lib.convertio","test_convertio_helper","","","","test_convertio_ppt2pdf","
+    测试通过 convertio 接口将 ppt 转为 pdf
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_safe_filename[cn]",""
+"skipped","Tue Oct 22 13:12:08 GMT 2024","Tue Oct 22 13:12:08 GMT 2024","0","lib.playwright","test_common","","","","test_launch_browser[dont_open_browser]","
+    运行浏览器
+    "
+"passed","Tue Oct 22 13:11:15 GMT 2024","Tue Oct 22 13:11:43 GMT 2024","28065","lib.playwright.captcha.puzzle","test_slider_captcha","","","","test_slider_captcha_handler[baidu]",""
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","0","utils","test_http","","","","test_make_url[/api/v1/user-param_dict0-/api/v1/user?age=24&city=shenzhen]",""
+"passed","Tue Oct 22 13:12:31 GMT 2024","Tue Oct 22 13:12:33 GMT 2024","1454","lib.ppt","test_ppt_editor","","","","test_ppt_editor_replace_txt","
+    替换 PPT 中的敏感文字
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_convert_seconds","
+    把秒转换成可读性的时长
+    "
+"passed","Tue Oct 22 13:10:58 GMT 2024","Tue Oct 22 13:11:11 GMT 2024","12934","lib.pdf","test_pdf_handler","","","","test_pdf2video","
+    PDF 转成图片，组合成视频
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","40","lib.image","test_image_handler","","","","test_image_overlay[top-center]","
+    测试图片叠加
+    "
+"broken","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","347","utils","test_tools","","","","test_translate_string[input_en]",""
+"passed","Tue Oct 22 13:27:35 GMT 2024","Tue Oct 22 13:27:35 GMT 2024","28","lib.video","test_video_utils","","","","test_is_video_usable[video]",""
+"broken","Tue Oct 22 13:28:59 GMT 2024","Tue Oct 22 13:29:00 GMT 2024","724","lib.youtube","test_y2_handler","","","","test_y2_video_handler","
+    测试 ytdlp 下载视频，并且合并音视频和字幕
+    "
+"skipped","Tue Oct 22 13:12:13 GMT 2024","Tue Oct 22 13:12:13 GMT 2024","0","lib.powerpoint","test_powerpoint_helper","","","","test_ppt2video_by_powerpoint",""
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_publish_time_generator[\u25b2 \u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u4e0b\u4e00\u4e2a\u53d1\u5e03\u65f6\u95f4\u5f88\u8fd1]",""
+"passed","Tue Oct 22 13:21:43 GMT 2024","Tue Oct 22 13:21:43 GMT 2024","370","lib.video","test_ffmpeg_helper","","","","test_m4a2mp3","
+    音频 m4a 格式转 mp3
+    "
+"passed","Tue Oct 22 13:06:36 GMT 2024","Tue Oct 22 13:07:03 GMT 2024","26544","lib.llm","test_llm","TestLLM","","","test_video_script[KimiHelper]","
+        测试生成视频脚本
+        "
+"broken","Tue Oct 22 13:29:01 GMT 2024","Tue Oct 22 13:29:04 GMT 2024","2927","lib.youtube","test_y2_subtitle_handler","","","","test_y2_srt_handler","
+    测试下载youtu字幕
+    "
+"passed","Tue Oct 22 12:25:33 GMT 2024","Tue Oct 22 12:26:13 GMT 2024","39748","apps.web2douyin","test_web2douyin","","","","test_web2douyin[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","
+    测试网页内容发不到 douyin
+    "
+"broken","Tue Oct 22 13:27:39 GMT 2024","Tue Oct 22 13:28:18 GMT 2024","39398","lib.youtube","test_y2_downloader","","","","test_y2_downloader[video]","
+    测试 youtu 下载工具
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_list_files_by_ext_sort_by_name",""
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_dt2str",""
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","38","lib.image","test_image_handler","","","","test_cv2_imwrite","
+    测试 cv2.imwrite 中文路径问
+    "
+"failed","Tue Oct 22 12:43:16 GMT 2024","Tue Oct 22 12:43:26 GMT 2024","9975","lib.crawler","test_hrxz","","","","test_hrxz","
+    测试下载 hrsz 网站的 PPT
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_file","","","","test_safe_filename[with_empty]",""
+"passed","Tue Oct 22 11:58:14 GMT 2024","Tue Oct 22 12:01:23 GMT 2024","188751","apps.ppt2douyin","test_ppt2douyin","","","","test_ppt2douyin_mission","
+    测试发布 PPT 导出的原始视频
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_cer","","","","test_cer_generate",""
+"passed","Tue Oct 22 13:29:21 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","3004","utils","test_tools","","","","test_analyze_optimize",""
+"passed","Tue Oct 22 13:10:25 GMT 2024","Tue Oct 22 13:10:28 GMT 2024","3313","lib.mqs.pylib","test_producer_consumer","","","","test_async_count","
+    生产者、消费者测试
+    "
+"passed","Tue Oct 22 13:26:13 GMT 2024","Tue Oct 22 13:27:04 GMT 2024","50440","lib.video","test_video_clip_helper","","","","test_replace_green_screen[image]","
+    视频填充到素材的绿幕中
+    "
+"passed","Tue Oct 22 13:11:11 GMT 2024","Tue Oct 22 13:11:12 GMT 2024","429","lib.pdf","test_pdf_handler","","","","test_pdf2doc","
+    测试 pdf 转 doc
+    "
+"passed","Tue Oct 22 13:22:47 GMT 2024","Tue Oct 22 13:22:47 GMT 2024","75","lib.video","test_ffprobe_helper","","","","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/assets/media/ted/ted_video.mp4-False]",""
+"passed","Tue Oct 22 12:26:49 GMT 2024","Tue Oct 22 12:27:48 GMT 2024","58821","apps.web2douyin","test_web2douyin","","","","test_web2douyin[dingxiangyishegn_web-https://dxy.com/article/50056]","
+    测试网页内容发不到 douyin
+    "
+"broken","Tue Oct 22 12:51:11 GMT 2024","Tue Oct 22 12:53:17 GMT 2024","125101","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[weixin_now]","
+    测试定时发布、立即发布
+    "
+"broken","Tue Oct 22 12:56:17 GMT 2024","Tue Oct 22 12:56:18 GMT 2024","1158","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[weixin_vertical_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:09:41 GMT 2024","Tue Oct 22 13:10:00 GMT 2024","19584","lib.markdown","test_markdown_converter","","","","test_html2pdf_themes[without_common_css]","
+    测试 markdown css 主题
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:20 GMT 2024","3017","utils","test_progress","","","","test_progress",""
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_assert_file_not_exists",""
+"passed","Tue Oct 22 13:09:18 GMT 2024","Tue Oct 22 13:09:18 GMT 2024","301","lib.markdown","test_markdown_converter","","","","test_markdown2html","
+    测试 markdown 转换成 html
+    "
+"passed","Tue Oct 22 13:13:43 GMT 2024","Tue Oct 22 13:13:45 GMT 2024","1634","lib.subtitle","test_subtitle2speech","","","","test_subtitle2speech","
+    测试字幕转语音
+    "
+"broken","Tue Oct 22 12:19:21 GMT 2024","Tue Oct 22 12:19:23 GMT 2024","2141","apps.tiktok2douyin","test_tiktok2douyin","","","","test_tiktok2douyin","
+    发布 tiktok 视频到 douyin （暂无剪辑流程）
+    "
+"passed","Tue Oct 22 12:46:35 GMT 2024","Tue Oct 22 12:49:07 GMT 2024","151356","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[douyin_now]","
+    测试定时发布、立即发布
+    "
+"passed","Tue Oct 22 13:23:23 GMT 2024","Tue Oct 22 13:25:14 GMT 2024","111303","lib.video","test_video_clip_helper","","","","test_mix_with_green_screen[image]","
+    视频塞到绿幕素材中，并处理音频
+    "
+"passed","Tue Oct 22 13:17:56 GMT 2024","Tue Oct 22 13:20:18 GMT 2024","141690","lib.video","test_ffmpeg_helper","","","","test_overlay_image","
+    图片水印
+    "
+"broken","Tue Oct 22 12:56:21 GMT 2024","Tue Oct 22 12:56:21 GMT 2024","188","lib.github","test_action","","","","test_download_artifact","
+    测试下载工件
+    "
+"passed","Tue Oct 22 12:01:23 GMT 2024","Tue Oct 22 12:02:20 GMT 2024","56817","apps.ppt2douyin","test_ppt2douyin","","","","test_ppt2douyin[ppt2image_article]","
+    测试 PPT 发布到 douyin
+    "
+"passed","Tue Oct 22 13:27:37 GMT 2024","Tue Oct 22 13:27:39 GMT 2024","1327","lib.weather","test_xinzhi","","","","test_xinzhi_weather",""
+"broken","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","5","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[xiaohongshu_vertical_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_random_time_generator",""
+"passed","Tue Oct 22 12:29:20 GMT 2024","Tue Oct 22 12:35:32 GMT 2024","372038","lib.baidu","test_baidu_aigc","","","","test_baidu_aigc[ppt]","
+    测试 baidu 生成 PPT / DOC
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","25","utils","test_tools","","","","test_run_cmd_with_env",""
+"passed","Tue Oct 22 12:56:21 GMT 2024","Tue Oct 22 12:56:21 GMT 2024","93","lib.github","test_package","","","","test_package","
+    "
+"skipped","Tue Oct 22 13:12:13 GMT 2024","Tue Oct 22 13:12:13 GMT 2024","0","lib.powerpoint","test_powerpoint_helper","","","","test_ppt2image_by_powerpoint",""
+"broken","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","5","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[xiaohongshu_ppt_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","41","utils","test_http","","","","test_post",""
+"passed","Tue Oct 22 13:12:33 GMT 2024","Tue Oct 22 13:12:51 GMT 2024","17649","lib.ppt","test_ppt_handler","","","","test_ppt2video[by_powerpoint]","
+    PPT 转视频
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_dt","","","","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5927\u4e8e\u5f53\u524d\u65f6\u95f4]",""
+"passed","Tue Oct 22 13:03:16 GMT 2024","Tue Oct 22 13:03:27 GMT 2024","10646","lib.llm","test_llm","TestLLM","","","test_iq[KimiHelper]",""
+"skipped","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","2","lib","test_log","","","","test_logger_filename","
+    日志输出中，文件名是否正确
+    "
+"passed","Tue Oct 22 13:29:01 GMT 2024","Tue Oct 22 13:29:01 GMT 2024","178","lib.youtube","test_y2_handler","","","","test_y2_video_playlist",""
+"passed","Tue Oct 22 13:11:15 GMT 2024","Tue Oct 22 13:11:15 GMT 2024","55","lib.playwright.captcha.puzzle","test_captcha_img_handler","","","","test_calc_distance",""
+"passed","Tue Oct 22 13:27:35 GMT 2024","Tue Oct 22 13:27:37 GMT 2024","2671","lib.weather","test_hefeng","","","","test_hefeng_weather",""
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","1","utils","test_ini_config","","","","test_ini_config","
+    ini 配置选项直接映射到类属性上
+    "
+"broken","Tue Oct 22 13:29:12 GMT 2024","Tue Oct 22 13:29:13 GMT 2024","759","lib.youtube","test_y2_video_handler","","","","test_srt_over_length","
+    测试字幕文件中，某行太长的情况
+    "
+"passed","Tue Oct 22 13:11:15 GMT 2024","Tue Oct 22 13:11:15 GMT 2024","55","lib.playwright.captcha.font","test_font_captcha_helper","","","","test_ocr_captcha_helper","
+    测试简单的文字验证码
+    "
+"passed","Tue Oct 22 11:37:53 GMT 2024","Tue Oct 22 11:46:25 GMT 2024","511630","apps.baidu2douyin","test_baidu2douyin","","","","test_baidu2douyin[ppt2image_article]","
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    "
+"passed","Tue Oct 22 11:50:05 GMT 2024","Tue Oct 22 11:54:01 GMT 2024","236666","apps.baidu2douyin","test_baidu2douyin","","","","test_baidu2douyin[doc2image_article]","
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    "
+"passed","Tue Oct 22 13:10:50 GMT 2024","Tue Oct 22 13:10:50 GMT 2024","1","lib.music","test_music","","","","test_select_music",""
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_get_content_md5",""
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:43 GMT 2024","41788","lib.subtitle","test_ppt2video_with_content_summary","","","","test_ppt2video_with_content_summary",""
+"passed","Tue Oct 22 13:15:32 GMT 2024","Tue Oct 22 13:17:00 GMT 2024","88066","lib.video","test_ffmpeg_helper","","","","test_ffmpeg_pro","
+    1. 合并音视频
+    2. 添加中英文字幕
+    3. 调整视频清晰度
+    4. 裁剪视频边缘
+    5. 裁剪视频片头片尾
+    6. 视频前两秒添加文字标题
+    7. 添加水印
+    8. 添加 bgm
+    "
+"passed","Tue Oct 22 13:12:13 GMT 2024","Tue Oct 22 13:12:31 GMT 2024","17958","lib.ppt","test_ppt2video","","","","test_ppt2video","
+    PPT 转视频
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:45 GMT 2024","444","lib.image","test_image_stitch","","","","test_make_coverage[3_lines]","
+    创建大图小图的封面
+    "
+"passed","Tue Oct 22 13:09:14 GMT 2024","Tue Oct 22 13:09:18 GMT 2024","4068","lib.llm","test_llm_api","","","","test_chat_with_history[kimi]","
+    支持选择聊天记录继续聊
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","25","utils","test_tools","","","","test_run_cmd_without_result",""
+"passed","Tue Oct 22 13:02:45 GMT 2024","Tue Oct 22 13:02:46 GMT 2024","863","lib.image","test_image_stitch","","","","test_batch_conn_images_to_one[2_lines]","
+    n 张图片垂直拼图
+    "
+"passed","Tue Oct 22 13:29:25 GMT 2024","Tue Oct 22 13:29:29 GMT 2024","4006","utils","test_tools","","","","test_async_retry_decorator","
+    会打印 retry 日志
+    "
+"passed","Tue Oct 22 12:26:13 GMT 2024","Tue Oct 22 12:26:49 GMT 2024","36091","apps.web2douyin","test_web2douyin","","","","test_web2douyin[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","
+    测试网页内容发不到 douyin
+    "
+"passed","Tue Oct 22 13:15:28 GMT 2024","Tue Oct 22 13:15:28 GMT 2024","275","lib.tts","test_edge_tts_helper","","","","test_edge_tts_helper","
+    通过 edge 读出文字
+    "
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","1","lib.subtitle","test_subtitle_handler","","","","test_save_srt","
+    保存 srt 字幕文件
+    "
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","113","lib","test_log","","","","test_log_adapter","
+    日志支持添加前缀
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","35","lib.image","test_image_handler","","","","test_image_overlay[top-left]","
+    测试图片叠加
+    "
+"broken","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","0","utils","test_tools","","","","test_translate_string[input_zh]",""
+"passed","Tue Oct 22 12:43:43 GMT 2024","Tue Oct 22 12:43:46 GMT 2024","2445","lib.douyin","test_douyin_hot_hub","","","","test_douyin_hot[custom_music_char]","
+    爬取 douyin 热门音乐
+    "
+"passed","Tue Oct 22 13:17:38 GMT 2024","Tue Oct 22 13:17:56 GMT 2024","18269","lib.video","test_ffmpeg_helper","","","","test_speedup_add_bgm","
+    视频加速，并添加 bgm
+    "
+"passed","Tue Oct 22 12:44:05 GMT 2024","Tue Oct 22 12:46:35 GMT 2024","150397","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[douyin_timing]","
+    测试定时发布、立即发布
+    "
+"passed","Tue Oct 22 13:02:48 GMT 2024","Tue Oct 22 13:02:53 GMT 2024","4772","lib.libreoffice","test_libreoffice_helper","","","","test_batch_transfer[ppt2images]","
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    "
+"passed","Tue Oct 22 13:22:47 GMT 2024","Tue Oct 22 13:22:47 GMT 2024","75","lib.video","test_ffprobe_helper","","","","test_get_video_duration[get_video_duration]","
+    获取视频长度
+    "
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","3","lib.rich","test_rich_helper","","","","test_print_table","
+    rich 打印表格
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","1","utils","test_json_config","","","","test_json_config_list_update",""
+"broken","Tue Oct 22 12:56:15 GMT 2024","Tue Oct 22 12:56:16 GMT 2024","1049","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[weixin_image_article]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:02:45 GMT 2024","Tue Oct 22 13:02:45 GMT 2024","563","lib.image","test_image_stitch","","","","test_make_coverage[4_lines]","
+    创建大图小图的封面
+    "
+"broken","Tue Oct 22 12:27:52 GMT 2024","Tue Oct 22 12:28:17 GMT 2024","25391","apps.youtu2douyin","test_youtu2douyin","","","","test_upd_channel_to_latest","
+    更新频道记录的视频到最新
+    "
+"passed","Tue Oct 22 12:27:48 GMT 2024","Tue Oct 22 12:27:51 GMT 2024","2528","apps.youtu2douyin","test_youtu2douyin","","","","test_y2douyin_manual[no_channel_cfg]","
+    测试手动触发 youtube 视频发布
+    "
+"passed","Tue Oct 22 13:04:16 GMT 2024","Tue Oct 22 13:05:05 GMT 2024","49360","lib.llm","test_llm","TestLLM","","","test_multi_chat[direct_response-KimiHelper]","
+        多轮对话
+        "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:25 GMT 2024","1002","utils","test_tools","","","","test_retry_deco",""
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","20","lib.proxy","test_proxy_pool","","","","test_proxy_pool","
+    测试获取代理 IP
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","1","utils","test_http","","","","test_parse_url",""
+"broken","Tue Oct 22 13:29:13 GMT 2024","Tue Oct 22 13:29:14 GMT 2024","728","lib.youtube","test_ytdlp_helper","","","","test_get_yt_video_info","
+    测试 ytdlp 获取 youtu 视频信息
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_file","","","","test_assert_file_exists",""
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","2","lib.image","test_image_handler","","","","test_display_img_from_base64","
+    测试 base64 图片展示
+    "
+"passed","Tue Oct 22 13:12:51 GMT 2024","Tue Oct 22 13:12:51 GMT 2024","16","lib.ppt","test_ppt_handler","","","","test_ppt2video[by_libreoffice]","
+    PPT 转视频
+    "
+"passed","Tue Oct 22 12:09:58 GMT 2024","Tue Oct 22 12:14:49 GMT 2024","291516","apps.ppt2douyin","test_ppt_publish_helper","","","","test_ppt_publish_helper","
+    测试批量发布 PPT 导出并制作后的视频、图文
+    "
+"passed","Tue Oct 22 13:02:46 GMT 2024","Tue Oct 22 13:02:47 GMT 2024","820","lib.image","test_image_stitch","","","","test_batch_conn_images_to_one[3_lines]","
+    n 张图片垂直拼图
+    "
+"skipped","Tue Oct 22 13:12:08 GMT 2024","Tue Oct 22 13:12:08 GMT 2024","0","lib.playwright","test_common","","","","test_launch_browser[open_browser]","
+    运行浏览器
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","42","lib.image","test_image_handler","","","","test_image_overlay[bottom-center]","
+    测试图片叠加
+    "
+"broken","Tue Oct 22 12:56:14 GMT 2024","Tue Oct 22 12:56:15 GMT 2024","1148","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[douyin_ppt_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 12:28:59 GMT 2024","Tue Oct 22 12:29:15 GMT 2024","16031","lib.aliyunpan","test_aliyunpan","","","","test_aliyunpan","
+    测试 aliyunpan 文件上传和下载
+    "
+"passed","Tue Oct 22 13:02:07 GMT 2024","Tue Oct 22 13:02:15 GMT 2024","8409","lib.html","test_html_converter","","","","test_html_converter[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","
+    测试 html 转成 markdown 或 pdf
+    "
+"passed","Tue Oct 22 13:29:20 GMT 2024","Tue Oct 22 13:29:20 GMT 2024","0","utils","test_tools","","","","test_get_py_executable_path",""
+"passed","Tue Oct 22 13:02:31 GMT 2024","Tue Oct 22 13:02:35 GMT 2024","4115","lib.html","test_html_converter","","","","test_weixin2pdf","
+    测试微信文章转成 pdf
+    # XXX 微信可以转成 markdown，但是无法转成 pdf
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_make_chunk",""
+"passed","Tue Oct 22 13:11:43 GMT 2024","Tue Oct 22 13:11:58 GMT 2024","14045","lib.playwright.captcha.puzzle","test_slider_captcha","","","","test_slider_captcha_handler[qcloud]",""
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","2","utils","test_file","","","","test_delete_files_with_prefix","
+    测试按前缀删除文件
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","0","utils","test_json_config","","","","test_json_config_write",""
+"passed","Tue Oct 22 12:43:47 GMT 2024","Tue Oct 22 12:44:05 GMT 2024","17597","lib.douyin","test_douyin_music","","","","test_download_douyin_hot50_music","
+    测试下载抖音 top50 热门歌曲
+    "
+"passed","Tue Oct 22 13:07:03 GMT 2024","Tue Oct 22 13:07:35 GMT 2024","32373","lib.llm","test_llm","TestLLM","","","test_chat_with_file[KimiHelper]","
+        测试阅读文章
+        "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","325","utils","test_http","","","","test_get",""
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","144","lib.image","test_image_handler","","","","test_image_watermark[large]","
+    测试给文档图片加上水印
+    "
+"passed","Tue Oct 22 13:03:27 GMT 2024","Tue Oct 22 13:04:08 GMT 2024","41357","lib.llm","test_llm","TestLLM","","","test_ppt_topic[KimiHelper]","
+        测试生成 PPT 题目
+        "
+"broken","Tue Oct 22 12:49:07 GMT 2024","Tue Oct 22 12:51:11 GMT 2024","124190","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[weixin_timing]","
+    测试定时发布、立即发布
+    "
+"passed","Tue Oct 22 13:17:00 GMT 2024","Tue Oct 22 13:17:29 GMT 2024","28982","lib.video","test_ffmpeg_helper","","","","test_draw_text[vertical]","
+    测试视频前两秒添加文字标题
+    "
+"broken","Tue Oct 22 13:02:30 GMT 2024","Tue Oct 22 13:02:31 GMT 2024","554","lib.html","test_html_converter","","","","test_html_converter[zhihu_zhuanlan-https://zhuanlan.zhihu.com/p/711679452]","
+    测试 html 转成 markdown 或 pdf
+    "
+"broken","Tue Oct 22 13:29:04 GMT 2024","Tue Oct 22 13:29:05 GMT 2024","762","lib.youtube","test_y2_video_handler","","","","test_video_handler[SciePro]","
+    测试 youtu 视频剪辑
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","0","utils","test_tools","","","","test_dot_dict",""
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","136","lib.image","test_image_handler","","","","test_image_watermark[middle]","
+    测试给文档图片加上水印
+    "
+"broken","Tue Oct 22 12:53:51 GMT 2024","Tue Oct 22 12:56:13 GMT 2024","141622","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[douyin_vertical_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"skipped","Tue Oct 22 13:12:10 GMT 2024","Tue Oct 22 13:12:10 GMT 2024","0","lib.playwright","test_common","","","","test_launch_browser_no_headless","
+    测试非无痕浏览器
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_random_string",""
+"passed","Tue Oct 22 12:43:47 GMT 2024","Tue Oct 22 12:43:47 GMT 2024","876","lib.douyin","test_douyin_hot_hub","","","","test_douyin_hot[soar_music_chart]","
+    爬取 douyin 热门音乐
+    "
+"passed","Tue Oct 22 13:12:08 GMT 2024","Tue Oct 22 13:12:10 GMT 2024","1863","lib.playwright","test_common","","","","test_launch_with_proxy","
+    使用代理 IP 运行浏览器
+    前提是安装了 3party/ 下的 proxy_pool
+    "
+"passed","Tue Oct 22 12:02:20 GMT 2024","Tue Oct 22 12:07:15 GMT 2024","295560","apps.ppt2douyin","test_ppt2douyin","","","","test_ppt2douyin[ppt2video]","
+    测试 PPT 发布到 douyin
+    "
+"passed","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","107","lib.github","test_action","","","","test_list_artifacts","
+    列出全部工件
+    "
+"passed","Tue Oct 22 12:07:15 GMT 2024","Tue Oct 22 12:07:58 GMT 2024","43156","apps.ppt2douyin","test_ppt2douyin","","","","test_ppt2douyin[doc2image_article]","
+    测试 PPT 发布到 douyin
+    "
+"broken","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","5","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[xiaohongshu_image_article]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"passed","Tue Oct 22 13:02:48 GMT 2024","Tue Oct 22 13:02:48 GMT 2024","0","lib.jieba","test_jieba_helper","","","","test_parse_topic",""
+"passed","Tue Oct 22 12:24:58 GMT 2024","Tue Oct 22 12:25:33 GMT 2024","34948","apps.web2douyin","test_web2douyin","","","","test_web2douyin[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","
+    测试网页内容发不到 douyin
+    "
+"passed","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:21 GMT 2024","232","lib.github","test_action","","","","test_delete_artifact","
+    测试删除工件
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","64","utils","test_file","","","","test_copy_file_context[multi_file]","
+    测试临时文件拷贝上下文管理器
+    "
+"passed","Tue Oct 22 12:29:15 GMT 2024","Tue Oct 22 12:29:20 GMT 2024","5101","lib.baidu","test_baidu_aigc","","","","test_gen_ppt_topic","
+    测试生成 PPT 题目
+    "
+"passed","Tue Oct 22 13:22:47 GMT 2024","Tue Oct 22 13:23:23 GMT 2024","35698","lib.video","test_video_clip_helper","","","","test_add_opening","
+    拼接片头
+    "
+"passed","Tue Oct 22 13:12:33 GMT 2024","Tue Oct 22 13:12:33 GMT 2024","635","lib.ppt","test_ppt_editor","","","","test_ppt_editor_change_font","
+    测试修改 PPT 文字样式
+    "
+"passed","Tue Oct 22 13:05:05 GMT 2024","Tue Oct 22 13:06:36 GMT 2024","91144","lib.llm","test_llm","TestLLM","","","test_xiaohongshu[KimiHelper]","
+        测试生成小红书文章
+        "
+"passed","Tue Oct 22 13:21:43 GMT 2024","Tue Oct 22 13:21:43 GMT 2024","113","lib.video","test_ffmpeg_utils","","","","test_get_coverage","
+    获取第一帧作为封面
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","39","lib.image","test_image_handler","","","","test_image_overlay[bottom-left]","
+    测试图片叠加
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","16","utils","test_file","","","","test_copy_file_context[one_file]","
+    测试临时文件拷贝上下文管理器
+    "
+"passed","Tue Oct 22 13:10:50 GMT 2024","Tue Oct 22 13:10:53 GMT 2024","3021","lib.pdf","test_pdf_handler","","","","test_pdf2image_by_pdftoppm","
+    测试通过 poppler/pdftoppm 工具进行转换
+    "
+"broken","Tue Oct 22 13:29:09 GMT 2024","Tue Oct 22 13:29:10 GMT 2024","955","lib.youtube","test_y2_video_handler","","","","test_video_handler[RegisteredNurseRN]","
+    测试 youtu 视频剪辑
+    "
+"broken","Tue Oct 22 13:29:15 GMT 2024","Tue Oct 22 13:29:15 GMT 2024","635","lib.youtube","test_ytdlp_helper","","","","test_ytdlp_helper","
+    测试 ytdlp 下载 youtu 视频资源
+    "
+"passed","Tue Oct 22 13:11:58 GMT 2024","Tue Oct 22 13:12:05 GMT 2024","7266","lib.playwright","test_common","","","","test_cookies","
+    测试 cookie 的设置和获取
+    "
+"passed","Tue Oct 22 12:28:58 GMT 2024","Tue Oct 22 12:28:59 GMT 2024","1113","doc","test_doc_helper","","","","test_doc2images","
+    docx 转 PDF 再转成多张图片
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_get_week_start_day",""
+"passed","Tue Oct 22 13:08:07 GMT 2024","Tue Oct 22 13:09:14 GMT 2024","66778","lib.llm","test_llm_api","","","","test_chat_with_history[try_all]","
+    支持选择聊天记录继续聊
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","48","lib.image","test_image_handler","","","","test_convert_to_portrait","
+    横屏图片转竖屏
+    "
+"passed","Tue Oct 22 12:09:31 GMT 2024","Tue Oct 22 12:09:58 GMT 2024","26867","apps.ppt2douyin","test_ppt_convert","","","","test_batch_ppt_convert[random]","
+    测试 PPT 转成 视频 / 图片
+    "
+"passed","Tue Oct 22 12:08:00 GMT 2024","Tue Oct 22 12:08:18 GMT 2024","18449","apps.ppt2douyin","test_ppt2douyin","","","","test_handle_publish_result","
+    测试发布结果的处理
+    "
+"passed","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","179","lib.github","test_action","","","","test_get_artifacts","
+    获取工件信息
+    "
+"passed","Tue Oct 22 13:02:42 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","311","lib.image","test_image_handler","","","","test_add_title[vertical]","
+    图片上添加标题
+    "
+"broken","Tue Oct 22 12:27:51 GMT 2024","Tue Oct 22 12:27:52 GMT 2024","128","apps.youtu2douyin","test_youtu2douyin","","","","test_y2douyin_manual[rn_channel]","
+    测试手动触发 youtube 视频发布
+    "
+"passed","Tue Oct 22 13:22:47 GMT 2024","Tue Oct 22 13:22:47 GMT 2024","84","lib.video","test_ffprobe_helper","","","","test_get_video_duration[get_audio_duration]","
+    获取视频长度
+    "
+"passed","Tue Oct 22 13:10:28 GMT 2024","Tue Oct 22 13:10:29 GMT 2024","632","lib.music","test_gequbao","","","","test_download","
+    从歌曲宝下载音乐
+    "
+"broken","Tue Oct 22 13:28:18 GMT 2024","Tue Oct 22 13:28:58 GMT 2024","40132","lib.youtube","test_y2_downloader","","","","test_y2_downloader[playlist]","
+    测试 youtu 下载工具
+    "
+"passed","Tue Oct 22 13:02:35 GMT 2024","Tue Oct 22 13:02:42 GMT 2024","7473","lib.image","test_image2video_helper","","","","test_images2video","
+    测试图片组合成视频
+    "
+"passed","Tue Oct 22 13:11:12 GMT 2024","Tue Oct 22 13:11:15 GMT 2024","3677","lib.pexels","test_pexels","","","","test_pexels_get_videos","
+    测试通过 API 从 pexels 网站下载视频
+    "
+"passed","Tue Oct 22 12:09:25 GMT 2024","Tue Oct 22 12:09:28 GMT 2024","2991","apps.ppt2douyin","test_ppt_convert","","","","test_batch_ppt_convert[doc2image_article]","
+    测试 PPT 转成 视频 / 图片
+    "
+"passed","Tue Oct 22 13:15:28 GMT 2024","Tue Oct 22 13:15:32 GMT 2024","3952","lib.tts","test_edge_tts_helper","","","","test_sample_all_voice","
+    测试所有 voice
+    "
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","1","lib.subtitle","test_subtitle_handler","","","","test_subtitles2text","
+    字幕提取到 txt
+    "
+"passed","Tue Oct 22 13:27:04 GMT 2024","Tue Oct 22 13:27:24 GMT 2024","19748","lib.video","test_video_clip_helper","","","","test_replace_green_screen[video]","
+    视频填充到素材的绿幕中
+    "
+"passed","Tue Oct 22 12:08:18 GMT 2024","Tue Oct 22 12:08:45 GMT 2024","27088","apps.ppt2douyin","test_ppt_convert","","","","test_batch_ppt_convert[ppt2image_article]","
+    测试 PPT 转成 视频 / 图片
+    "
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","2","lib.rich","test_rich_helper","","","","test_print_markdown","
+    rich 打印 markdown
+    "
+"passed","Tue Oct 22 13:25:14 GMT 2024","Tue Oct 22 13:26:13 GMT 2024","59448","lib.video","test_video_clip_helper","","","","test_mix_with_green_screen[video]","
+    视频塞到绿幕素材中，并处理音频
+    "
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","74","lib.ppt","test_ppt_handler","","","","test_is_valid_pptx","
+    测试判断文件是不是有效的 ppt 文件
+    "
+"passed","Tue Oct 22 13:10:53 GMT 2024","Tue Oct 22 13:10:58 GMT 2024","5399","lib.pdf","test_pdf_handler","","","","test_pdf2image_by_pylib","
+    测试通过 ppt2image 库进行转换
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","36","lib.image","test_image_handler","","","","test_image_overlay[top-right]","
+    测试图片叠加
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u5f53\u524d\u65f6\u95f4\u5f88\u8fd1]",""
+"passed","Tue Oct 22 13:20:18 GMT 2024","Tue Oct 22 13:21:43 GMT 2024","84447","lib.video","test_ffmpeg_helper","","","","test_add_subtitle_and_draw_box","
+    测试添加字幕，并给字幕绘制半透明背景框
+    "
+"passed","Tue Oct 22 13:17:29 GMT 2024","Tue Oct 22 13:17:38 GMT 2024","9159","lib.video","test_ffmpeg_helper","","","","test_draw_text[horizontal]","
+    测试视频前两秒添加文字标题
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_all_dirs",""
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_get_cookie_dir",""
+"passed","Tue Oct 22 12:56:20 GMT 2024","Tue Oct 22 12:56:20 GMT 2024","111","lib.github","test_action","","","","test_githubaction_trigger","
+    测试通过 github API 触发流水线
+    "
+"passed","Tue Oct 22 13:12:05 GMT 2024","Tue Oct 22 13:12:08 GMT 2024","3115","lib.playwright","test_common","","","","test_localstorage","
+    测试 localstorage 的设置和获取
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","1","utils","test_json_config","","","","test_json_config_dict_update",""
+"passed","Tue Oct 22 12:07:58 GMT 2024","Tue Oct 22 12:08:00 GMT 2024","1545","apps.ppt2douyin","test_ppt2douyin","","","","test_ppt2douyin[doc2video]","
+    测试 PPT 发布到 douyin
+    "
+"broken","Tue Oct 22 12:53:17 GMT 2024","Tue Oct 22 12:53:17 GMT 2024","5","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[xiaohongshu_timing]","
+    测试定时发布、立即发布
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_get_safe_name",""
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","0","utils","test_tools","","","","test_is_chinese_punctuation_only",""
+"broken","Tue Oct 22 13:28:58 GMT 2024","Tue Oct 22 13:28:59 GMT 2024","281","lib.youtube","test_y2_downloader","","","","test_y2_downloader[channel]","
+    测试 youtu 下载工具
+    "
+"passed","Tue Oct 22 13:13:01 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","5","lib.rich","test_rich_helper","","","","test_print_ini_config","
+    rich 打印 ini 配置
+    "
+"passed","Tue Oct 22 13:29:00 GMT 2024","Tue Oct 22 13:29:01 GMT 2024","1206","lib.youtube","test_y2_handler","","","","test_y2_video_channel",""
+"passed","Tue Oct 22 13:07:35 GMT 2024","Tue Oct 22 13:08:03 GMT 2024","27970","lib.llm","test_llm_api","","","","test_llm_api[try_all]","
+    测试 llm API（封装了全部已对接的 LLM）
+    "
+"passed","Tue Oct 22 13:09:22 GMT 2024","Tue Oct 22 13:09:41 GMT 2024","18751","lib.markdown","test_markdown_converter","","","","test_html2pdf_themes[with_common_css]","
+    测试 markdown css 主题
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_list_files_by_ext","
+    测试按文件修改时间排序
+    "
+"broken","Tue Oct 22 12:28:56 GMT 2024","Tue Oct 22 12:28:58 GMT 2024","1146","apps.youtu2douyin","test_youtu_video_tools","","","","test_sort_video_infos[playlist]","
+    测试视频信息排序
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_safe_filename[length]",""
+"passed","Tue Oct 22 12:09:28 GMT 2024","Tue Oct 22 12:09:31 GMT 2024","3020","apps.ppt2douyin","test_ppt_convert","","","","test_batch_ppt_convert[doc2video]","
+    测试 PPT 转成 视频 / 图片
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_parse_args",""
+"passed","Tue Oct 22 12:14:49 GMT 2024","Tue Oct 22 12:17:38 GMT 2024","168841","apps.ppt2douyin","test_ppt_video_handler","","","","test_make_video[large]","
+    测试 PPT 生成视频
+    "
+"passed","Tue Oct 22 13:09:18 GMT 2024","Tue Oct 22 13:09:22 GMT 2024","4192","lib.markdown","test_markdown_converter","","","","test_markdown2pdf","
+    测试 markdown 转换成 pdf
+    "
+"broken","Tue Oct 22 12:53:17 GMT 2024","Tue Oct 22 12:53:17 GMT 2024","5","lib.douyin","test_douyin_publish_app","","","","test_publish2douyin[xiaohongshu_now]","
+    测试定时发布、立即发布
+    "
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","1","utils","test_tools","","","","test_obj2json",""
+"passed","Tue Oct 22 13:29:24 GMT 2024","Tue Oct 22 13:29:24 GMT 2024","0","utils","test_tools","","","","test_clear_string_char",""
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","40","lib.image","test_image_handler","","","","test_image_overlay[center-center]","
+    测试图片叠加
+    "
+"passed","Tue Oct 22 13:02:53 GMT 2024","Tue Oct 22 13:03:07 GMT 2024","14513","lib.libreoffice","test_libreoffice_helper","","","","test_batch_transfer[ppt2pdf]","
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","0","utils","test_json_config","","","","test_json_config_read",""
+"passed","Tue Oct 22 13:03:10 GMT 2024","Tue Oct 22 13:03:16 GMT 2024","6374","lib.llm","test_llm","TestLLM","","","test_who_are_you[KimiHelper]",""
+"passed","Tue Oct 22 11:37:13 GMT 2024","Tue Oct 22 11:37:53 GMT 2024","40256","apps.ai_chat","test_ai_chat","","","","test_ai_chat","
+    测试与 AI 聊天
+    "
+"passed","Tue Oct 22 13:27:35 GMT 2024","Tue Oct 22 13:27:35 GMT 2024","58","lib.video","test_video_utils","","","","test_is_video_usable[image]",""
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_cer","","","","test_cer_verify",""
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","5","lib.subtitle","test_subtitle_handler","","","","test_merge_subtitle_text_oneline","
+    同一时间线的字幕合并成一行
+    "
+"broken","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:28 GMT 2024","2558","lib.tiktok","test_tiktok_downloader","","","","test_tiktok_downloader","
+    无水印下载 tiktok 视频
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","199","lib.image","test_image_handler","","","","test_add_title[horizontal]","
+    图片上添加标题
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_dt","","","","test_truncate_date",""
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","14","lib.image","test_image_handler","","","","test_image_crop_with_img","
+    图片裁剪
+    "
+"passed","Tue Oct 22 13:10:00 GMT 2024","Tue Oct 22 13:10:25 GMT 2024","24306","lib.mqs.pylib","test_downloader","","","","test_downloader","
+    测试通过协程进行下载任务的并发
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","1","utils","test_file","","","","test_safe_path_join",""
+"passed","Tue Oct 22 13:27:24 GMT 2024","Tue Oct 22 13:27:35 GMT 2024","11109","lib.video","test_video_clip_helper","","","","test_make_h2v","
+    横屏转竖屏
+    "
+"passed","Tue Oct 22 11:46:25 GMT 2024","Tue Oct 22 11:50:05 GMT 2024","220018","apps.baidu2douyin","test_baidu2douyin","","","","test_baidu2douyin[ppt2video]","
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    "
+"passed","Tue Oct 22 13:15:28 GMT 2024","Tue Oct 22 13:15:28 GMT 2024","0","lib.tts","test_chattts_helper","","","","test_chattts_helper","
+    测试 chatttts
+    "
+"passed","Tue Oct 22 12:56:21 GMT 2024","Tue Oct 22 13:02:07 GMT 2024","346177","lib.html","test_html_converter","","","","test_html_converter[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","
+    测试 html 转成 markdown 或 pdf
+    "
+"passed","Tue Oct 22 13:29:29 GMT 2024","Tue Oct 22 13:29:29 GMT 2024","2","utils","test_zip","","","","test_zip","
+    测试 zip 压缩和解压
+    "
+"passed","Tue Oct 22 13:22:47 GMT 2024","Tue Oct 22 13:22:47 GMT 2024","81","lib.video","test_ffprobe_helper","","","","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/assets/media/ted/ted.mp4-True]",""
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","2","lib.subtitle","test_subtitle_handler","","","","test_fix_subtitle_timeline","
+    修正字幕时间线（有些字母时间线会重合）
+    "
+"passed","Tue Oct 22 13:02:43 GMT 2024","Tue Oct 22 13:02:43 GMT 2024","34","lib.image","test_image_handler","","","","test_image_overlay[bottom-right]","
+    测试图片叠加
+    "
+"passed","Tue Oct 22 13:03:07 GMT 2024","Tue Oct 22 13:03:10 GMT 2024","2570","lib.libreoffice","test_libreoffice_helper","","","","test_batch_transfer[doc2pdf]","
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    "
+"passed","Tue Oct 22 13:02:44 GMT 2024","Tue Oct 22 13:02:44 GMT 2024","110","lib.image","test_image_handler","","","","test_image_watermark[test]","
+    测试给文档图片加上水印
+    "
+"broken","Tue Oct 22 12:28:18 GMT 2024","Tue Oct 22 12:28:31 GMT 2024","13026","apps.youtu2douyin","test_youtu2douyin","","","","test_y2douyin_once[playlist]","
+    检测一次 youtube 的频道
+    "
+"broken","Tue Oct 22 13:29:05 GMT 2024","Tue Oct 22 13:29:06 GMT 2024","972","lib.youtube","test_y2_video_handler","","","","test_video_handler[SlideSkills]","
+    测试 youtu 视频剪辑
+    "
+"passed","Tue Oct 22 13:21:43 GMT 2024","Tue Oct 22 13:22:47 GMT 2024","63433","lib.video","test_ffmpeg_utils","","","","test_video2image","
+    每一帧视频转成图片
+    "
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","1","lib.subtitle","test_subtitle_handler","","","","test_adjust_srt_text_length","
+    字幕很长，超出视频屏幕大小的情况
+    "
+"skipped","Tue Oct 22 11:37:53 GMT 2024","Tue Oct 22 11:37:53 GMT 2024","0","apps.auto_course","test_auto_course","","","","test_auto_course","
+    网课助手
+    "
+"skipped","Tue Oct 22 11:58:14 GMT 2024","Tue Oct 22 11:58:14 GMT 2024","1","apps.douyin2douyin","test_douyin2douyin","","","","test_douyin2douyin","
+    测试 douyin 视频搬运（防查重处理）
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_dt","","","","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5c0f\u4e8e\u5f53\u524d\u65f6\u95f4]",""
+"passed","Tue Oct 22 13:12:51 GMT 2024","Tue Oct 22 13:13:01 GMT 2024","10112","lib.ppt","test_ppt_handler","","","","test_ppt2image","
+    测试 PPT 转成图片
+    "
+"broken","Tue Oct 22 12:56:18 GMT 2024","Tue Oct 22 12:56:19 GMT 2024","1068","lib.douyin","test_douyin_publish_app","","","","test_douyin_publish_app[weixin_ppt_video]","
+    测试图文发布、横屏视频、竖屏视频发布
+    "
+"broken","Tue Oct 22 13:29:07 GMT 2024","Tue Oct 22 13:29:08 GMT 2024","933","lib.youtube","test_y2_video_handler","","","","test_video_handler[TedEd]","
+    测试 youtu 视频剪辑
+    "
+"passed","Tue Oct 22 12:09:58 GMT 2024","Tue Oct 22 12:09:58 GMT 2024","189","apps.ppt2douyin","test_ppt_convert","","","","test_add_image_watermark","
+    测试给图文中的图片添加水印
+    "
+"passed","Tue Oct 22 13:02:47 GMT 2024","Tue Oct 22 13:02:48 GMT 2024","809","lib.image","test_image_stitch","","","","test_batch_conn_images_to_one[4_lines]","
+    n 张图片垂直拼图
+    "
+"broken","Tue Oct 22 13:29:10 GMT 2024","Tue Oct 22 13:29:11 GMT 2024","1021","lib.youtube","test_y2_video_handler","","","","test_video_handler[vertical_video]","
+    测试 youtu 视频剪辑
+    "
+"passed","Tue Oct 22 12:19:23 GMT 2024","Tue Oct 22 12:24:58 GMT 2024","335473","apps.web2douyin","test_web2douyin","","","","test_web2douyin[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","
+    测试网页内容发不到 douyin
+    "
+"passed","Tue Oct 22 12:08:45 GMT 2024","Tue Oct 22 12:09:25 GMT 2024","39226","apps.ppt2douyin","test_ppt_convert","","","","test_batch_ppt_convert[ppt2video]","
+    测试 PPT 转成 视频 / 图片
+    "
+"passed","Tue Oct 22 13:29:16 GMT 2024","Tue Oct 22 13:29:16 GMT 2024","0","utils","test_file","","","","test_shutil_copytree","
+    测试拷贝目录下的文件和文件夹
+    "
+"passed","Tue Oct 22 13:29:17 GMT 2024","Tue Oct 22 13:29:17 GMT 2024","0","utils","test_http","","","","test_make_url[/a/b/c-param_dict1-/a/b/c?age=4&city=beijing]",""
+"passed","Tue Oct 22 13:15:25 GMT 2024","Tue Oct 22 13:15:25 GMT 2024","2","lib","test_log","","","","test_log_success",""
+"skipped","Tue Oct 22 12:44:05 GMT 2024","Tue Oct 22 12:44:05 GMT 2024","0","lib.douyin","test_douyin_publish_app","","","","test_title_with_at","
+    测试标题包含艾特和话题
+    "
+"broken","Tue Oct 22 12:27:51 GMT 2024","Tue Oct 22 12:27:51 GMT 2024","134","apps.youtu2douyin","test_youtu2douyin","","","","test_y2douyin_manual[teded_channel]","
+    测试手动触发 youtube 视频发布
+    "
+"passed","Tue Oct 22 12:35:32 GMT 2024","Tue Oct 22 12:43:05 GMT 2024","452684","lib.baidu","test_baidu_aigc","","","","test_baidu_aigc[doc]","
+    测试 baidu 生成 PPT / DOC
+    "
+"broken","Tue Oct 22 12:28:31 GMT 2024","Tue Oct 22 12:28:56 GMT 2024","25223","apps.youtu2douyin","test_youtu2douyin","","","","test_y2douyin_once[channel]","
+    检测一次 youtube 的频道
+    "
+"passed","Tue Oct 22 12:28:56 GMT 2024","Tue Oct 22 12:28:56 GMT 2024","500","apps.youtu2douyin","test_youtu_video_tools","","","","test_get_video_publish_date",""

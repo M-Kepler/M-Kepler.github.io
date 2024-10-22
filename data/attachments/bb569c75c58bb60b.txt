@@ -1,0 +1,84 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 文件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/config/ppt_topic_history.json 已存在[0m
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:86 [94m🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+[0m
+DEBUG    mypy.lib.llm.api:log.py:86 [94m🔵 本轮 AI 对话由 [KimiHelper] 提供服务[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 获取到以下主题：[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 《神经内科偏瘫患者康复护理质量改善项目》[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1][0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:82 [92m🟢 -----> 开始执行生成任务: ['神经内科偏瘫患者康复护理质量改善项目'][0m
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:146 ❌ [ppt_topic: 神经内科偏瘫患者康复护理质量改善项目] - prompt: 神经内科偏瘫患者康复护理质量改善项目 执行失败: Page.goto: Timeout 120000ms exceeded.
+Call log:
+navigating to "https://wenku.baidu.com/", waiting until "load"
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.goto: Timeout 120000ms exceeded.
+Call log:
+navigating to "https://wenku.baidu.com/", waiting until "load"
+.
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:146 ❌ [ppt_topic: 神经内科偏瘫患者康复护理质量改善项目] - prompt: 神经内科偏瘫患者康复护理质量改善项目 执行失败: Page.goto: Timeout 120000ms exceeded.
+Call log:
+navigating to "https://wenku.baidu.com/", waiting until "load"
+
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.goto: Timeout 120000ms exceeded.
+Call log:
+navigating to "https://wenku.baidu.com/", waiting until "load"
+.
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:146 ❌ [ppt_topic: 神经内科偏瘫患者康复护理质量改善项目] - prompt: 神经内科偏瘫患者康复护理质量改善项目 执行失败: Page.goto: Timeout 120000ms exceeded.
+Call log:
+navigating to "https://wenku.baidu.com/", waiting until "load"

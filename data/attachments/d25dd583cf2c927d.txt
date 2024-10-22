@@ -1,0 +1,1 @@
+INFO     test_log:log.py:82 [92m🟢 test message for logging[0m

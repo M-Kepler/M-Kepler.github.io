@@ -1,0 +1,3 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/markdown/_out/test_markdown_converter[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/test.md'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/markdown/_out/test_markdown_converter/test_markdown2html[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/markdown/_out/test_markdown_converter/test_markdown2html/test.md[0m

@@ -1,0 +1,2 @@
+DEBUG    test_tools:log.py:86 [94m🔵 original_str: Cristiano Ronaldo X Anime team ⚽⚡ 4 weeks of work • Animated by @brknsergio & Tman #cristianoedit #cristianoronaldo #sasukeedit #vegetaedit #zoroedit #brknsergio.mp4[0m
+DEBUG    test_tools:log.py:86 [94m🔵 result: Cristiano Ronaldo X Anime team 4 weeks of work Animated by Tman[0m

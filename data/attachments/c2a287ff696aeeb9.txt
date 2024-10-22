@@ -1,0 +1,21 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_original_video.mp4', '/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_bgm.mp3'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_original_video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_bgm.mp3》，并加速到 35s[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加 bgm[0m
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:86 [94m🔵 视频时长(35s) < bgm 时长(202.866939s)，截取音乐的中间部分[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加演讲语音[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 把标题添加到视频中间[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加水印: /home/runner/work/github-runner/github-runner/mypy/assets/account/large/logo.png[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 开始进行视频剪辑 <-----[0m
+INFO     mypy.lib.video.video_clip_helper:log.py:82 [92m🟢 -----> 拼接片头[0m
+INFO     mypy.lib.video.video_clip_helper:log.py:82 [92m🟢 -----> 开始把视频嵌入到绿幕素材: /home/runner/work/github-runner/github-runner/mypy/assets/account/large/green_screen_background/1.mp4[0m
+DEBUG    mypy.lib.video.video_clip_helper:log.py:86 [94m🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/assets/account/large/green_screen_background/1.mp4 绿幕素材[0m
+DEBUG    mypy.lib.video.video_clip_helper:log.py:86 [94m🔵 输出视频分辨率为: (2160, 2854)[0m
+WARNING  mypy.lib.video.video_clip_helper:log.py:90 [93m🟠 输入视频强制使用 30 帧率[0m
+DEBUG    mypy.lib.video.video_clip_helper:log.py:86 [94m🔵 在第 0.0s 处开始出现绿幕[0m
+INFO     mypy.lib.video.utils:log.py:82 [92m🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_original_video_merge_audio_and_video_with_opening_with_green_sceen_mixed.mp4 正常[0m
+INFO     mypy.lib.video.video_clip_helper:log.py:82 [92m🟢 -----> 横屏转成竖屏[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:86 [94m🔵 正在执行命令: ['ffmpeg', '-i', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_original_video_merge_audio_and_video_with_opening_with_green_screen.mp4', '-vf', 'split[a][b]; [a]crop=(ih/16*9):ih,scale=iw/10:-1,gblur=sigma=5,scale=720:1280[1]; [b]scale=720:(720*ih/iw)[2]; [1][2]overlay=0:(H-h)/2', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_original_video_merge_audio_and_video_with_opening_with_green_screen_with_h2v.mp4', '-y'][0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 视频剪辑完成 <-----[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_original_video.mp4[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_video_handler/large/ppt_bgm.mp3[0m

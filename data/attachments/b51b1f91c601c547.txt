@@ -1,0 +1,1 @@
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 湖南(http) 代理地址[0m

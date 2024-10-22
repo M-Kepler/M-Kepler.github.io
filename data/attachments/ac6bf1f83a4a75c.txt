@@ -1,0 +1,154 @@
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app[0m
+INFO     mypy.lib.weixin.video.publish_app:log.py:82 [92m🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/weixin/cookie_large.json[0m
+INFO     mypy.lib.playwright.publish_config:log.py:82 [92m🟢 -----> 配置如下 <-----[0m
+INFO     mypy.lib.weixin.video.publish_app:log.py:82 [92m🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/weixin/cookie_large.json] 发布作品[0m
+DEBUG    mypy.lib.proxy_pool.proxy_pool_helper:log.py:86 [94m🔵 {'anonymous': '', 'check_count': 2, 'fail_count': 0, 'https': True, 'last_status': True, 'last_time': '2024-10-22 20:54:44', 'proxy': '47.115.173.217:8989', 'region': '中国 广东 深圳 阿里云/电信/联通/移动/铁通/教育网', 'source': 'freeProxy11'}[0m
+DEBUG    mypy.lib.weixin.video.publish_app:log.py:86 [94m🔵 从文件标题解析出话题: #ppt #slide #images[0m
+INFO     mypy.lib.weixin.video.publish_app:log.py:82 [92m🟢 ============================================================[0m
+INFO     mypy.lib.weixin.video.publish_app:log.py:82 [92m🟢 [WeixinPublishHelper] 开始执行发布任务[0m
+INFO     mypy.lib.weixin.video.publish_app:log.py:82 [92m🟢 ============================================================[0m
+ERROR    mypy.lib.weixin.video.publish_app:log.py:94 [91m🔴 账号登录状态已失效，正在跳出: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 94, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8969, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+ERROR    mypy.lib.weixin.video.publish_app:log.py:94 [91m🔴 《ppt_slide_images》发布异常: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 94, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8969, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+ERROR    mypy.lib.playwright.common:log.py:94 [91m🔴 Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 94, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8969, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 173, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+ERROR    mypy.lib.weixin.video.publish_app:log.py:94 [91m🔴 《ppt_slide_images》发布异常: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 94, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8969, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 170, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 456, in wrapper
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 462, in wrapper
+    await async_func(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 146, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 99, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.goto: net::ERR_EMPTY_RESPONSE at https://channels.weixin.qq.com/platform
+Call log:
+navigating to "https://channels.weixin.qq.com/platform", waiting until "load"
+
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app/config[0m

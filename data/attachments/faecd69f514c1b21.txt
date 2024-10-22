@@ -1,0 +1,2 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_video_clip_helper[0m
+INFO     mypy.lib.video.video_clip_helper:log.py:82 [92m🟢 -----> 拼接片头[0m

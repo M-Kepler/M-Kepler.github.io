@@ -1,0 +1,142 @@
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app[0m
+WARNING  mypy.lib.douyin.publish_app:log.py:90 [93m🟠 /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_large.json'][0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json[0m
+INFO     mypy.lib.playwright.publish_config:log.py:82 [92m🟢 -----> 配置如下 <-----[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json] 发布作品[0m
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 深圳(https) 代理地址[0m
+DEBUG    mypy.lib.douyin.publish_app:log.py:86 [94m🔵 从文件标题解析出话题: #vertical #video[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 ============================================================[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 [DouyinVideoPublishHelper] 开始执行发布任务[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 ============================================================[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 当前登录账号为 [啊斯顿非更 🅥][0m
+DEBUG    mypy.lib.douyin.publish_app:log.py:86 [94m🔵 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/assets/video/vertical_video.mp4[0m
+INFO     mypy.lib.douyin.publish_app:log.py:82 [92m🟢 获取并上传封面[0m
+WARNING  mypy.lib.douyin.publish_app:log.py:90 [93m🟠 封面 /home/runner/work/github-runner/github-runner/mypy/assets/video/vertical_video.jpg 不存在，默认用第一秒作为封面了[0m
+ERROR    mypy.lib.douyin.publish_app:log.py:94 [91m🔴 上传封面失败: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".cover-lTOzOo")
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/video_publish_helper.py", line 51, in _set_coverage
+    await page.click(self._playwright_cfg.coverage_select_loc)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9851, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 828, in click
+    return await self._main_frame.click(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 488, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".cover-lTOzOo")
+
+ERROR    mypy.lib.douyin.publish_app:log.py:94 [91m🔴 《vertical_video》发布异常: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 152, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/video_publish_helper.py", line 109, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 478, in fill_publish_content
+    await self._set_description(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 383, in _set_description
+    await page.wait_for_selector(self._douyin_publish_cfg.description_loc)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8158, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+ERROR    mypy.lib.playwright.common:log.py:94 [91m🔴 Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 173, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 152, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/video_publish_helper.py", line 109, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 478, in fill_publish_content
+    await self._set_description(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 383, in _set_description
+    await page.wait_for_selector(self._douyin_publish_cfg.description_loc)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8158, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+ERROR    mypy.lib.douyin.publish_app:log.py:94 [91m🔴 《vertical_video》发布异常: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 170, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 456, in wrapper
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/home/runner/work/github-runner/github-runner/mypy/utils/tools.py", line 462, in wrapper
+    await async_func(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 152, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/video_publish_helper.py", line 109, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 478, in fill_publish_content
+    await self._set_description(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 383, in _set_description
+    await page.wait_for_selector(self._douyin_publish_cfg.description_loc)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8158, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app/config[0m

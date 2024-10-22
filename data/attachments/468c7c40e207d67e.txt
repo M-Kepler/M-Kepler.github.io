@@ -1,0 +1,95 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper[0m
+INFO     mypy.utils.file:log.py:82 [92m🟢 配置 [/home/runner/work/github-runner/github-runner/mypy/tools/config] 成功拷贝到: [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config][0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/video/vertical_video.mp4', '/home/runner/work/github-runner/github-runner/mypy/assets/video/horizontal_video.mp4'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media[0m
+INFO     mypy.lib.playwright.publish_handler:log.py:82 [92m🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4》到 ['douyin'] 平台[0m
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: horizontal_video.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 深圳(https) 代理地址[0m
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: horizontal_video.mp4] - 从文件标题解析出话题: #horizontal #video
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: horizontal_video.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 获取并上传封面
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: horizontal_video.mp4] - 封面 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.jpg 不存在，默认用第一秒作为封面了
+CRITICAL mypy.lib.playwright.publish_handler:log.py:146 ❌ [platform: douyin], [publish_file: horizontal_video.mp4] - 上传封面失败: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".cover-lTOzOo")
+
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 设置视频简介为: horizontal_video #horizontal #video 
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 【定时发布】时间设置为: 2024-10-23 11:43:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: horizontal_video.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 -----> 清理 horizontal_video.mp4 临时文件[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 horizontal 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 horizontal 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.jpg[0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 继续处理下一个视频...[0m
+INFO     mypy.lib.playwright.publish_handler:log.py:82 [92m🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4》到 ['douyin'] 平台[0m
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: vertical_video.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 深圳(https) 代理地址[0m
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: vertical_video.mp4] - 从文件标题解析出话题: #vertical #video
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: vertical_video.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 获取并上传封面
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: vertical_video.mp4] - 封面 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.jpg 不存在，默认用第一秒作为封面了
+CRITICAL mypy.lib.playwright.publish_handler:log.py:146 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 上传封面失败: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".cover-lTOzOo")
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:146 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 《vertical_video》发布异常: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+ERROR    mypy.lib.playwright.common:log.py:94 [91m🔴 Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 173, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 162, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/core/publish_helper.py", line 152, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/video_publish_helper.py", line 109, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 478, in fill_publish_content
+    await self._set_description(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/douyin/publish_helper.py", line 383, in _set_description
+    await page.wait_for_selector(self._douyin_publish_cfg.description_loc)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8158, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+CRITICAL mypy.lib.playwright.publish_handler:log.py:146 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 《vertical_video》发布异常: Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+
+WARNING  mypy.lib.playwright.publish_handler:log.py:90 [93m🟠 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4] 发布到 [douyin] 失败，原因: [Page.wait_for_selector: Target crashed 
+Call log:
+waiting for locator(".ace-line > div") to be visible
+][0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 -----> 清理 vertical_video.mp4 临时文件[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 vertical 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.jpg[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 vertical 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4[0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 继续处理下一个视频...[0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 处理完成，一共处理了 2 个视频[0m
+INFO     mypy.utils.file:log.py:82 [92m🟢 运行完成，删除拷贝过来的文件夹: [/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config][0m

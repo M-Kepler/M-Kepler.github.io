@@ -1,0 +1,19 @@
+DEBUG    test_captcha_img_handler:log.py:86 [94m🔵 正在识别验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/2.png[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 计算验证码缺口距离[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始对验证码背景图片进行预处理[0m
+WARNING  mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:90 [93m🟠 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0[0m
+ERROR    test_captcha_img_handler:log.py:94 [91m🔴 验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/2.png 识别失败: index 0 is out of bounds for axis 0 with size 0[0m
+DEBUG    test_captcha_img_handler:log.py:86 [94m🔵 正在识别验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/4.png[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 计算验证码缺口距离[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始对验证码背景图片进行预处理[0m
+WARNING  mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:90 [93m🟠 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean[0m
+ERROR    test_captcha_img_handler:log.py:94 [91m🔴 验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/4.png 识别失败: Cannot set a DataFrame without columns to the column dx_mean[0m
+DEBUG    test_captcha_img_handler:log.py:86 [94m🔵 正在识别验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/5.png[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 计算验证码缺口距离[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.playwright.captcha.puzzle.captcha_img_handler:log.py:86 [94m🔵 获取到缺口距离: 10[0m
+INFO     test_captcha_img_handler:log.py:82 [92m🟢 模拟拖动列表: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -3, -2, -3, -1, -3, -3][0m
+INFO     test_captcha_img_handler:log.py:98 [92m🍊🍊🍊 验证码: /home/runner/work/github-runner/github-runner/mypy/assets/image/captcha/slide_captcha/5.png 识别成功[0m

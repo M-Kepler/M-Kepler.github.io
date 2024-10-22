@@ -1,0 +1,6 @@
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'created' timestamp seems very low; regarding as unix timestamp[0m
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'modified' timestamp seems very low; regarding as unix timestamp[0m
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'created' timestamp seems very low; regarding as unix timestamp[0m
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'modified' timestamp seems very low; regarding as unix timestamp[0m
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'created' timestamp seems very low; regarding as unix timestamp[0m
+WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:90 [93m🟠 'modified' timestamp seems very low; regarding as unix timestamp[0m

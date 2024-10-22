@@ -1,0 +1,3 @@
+INFO     mypy.lib.youtube.y2_handler:log.py:82 [92m🟢 playlist 中有 2 个视频[0m
+INFO     mypy.lib.youtube.y2_handler:log.py:82 [92m🟢 https://www.youtube.com/watch?v=XvdTr0RhdsM[0m
+INFO     mypy.lib.youtube.y2_handler:log.py:82 [92m🟢 https://www.youtube.com/watch?v=fV8YfwAkdJ4[0m

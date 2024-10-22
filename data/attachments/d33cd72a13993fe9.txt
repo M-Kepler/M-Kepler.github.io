@@ -1,0 +1,4 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_zip[0m
+DEBUG    mypy.utils.zip:log.py:86 [94m🔵 Added to zip: ../test_1.ini[0m
+DEBUG    mypy.utils.zip:log.py:86 [94m🔵 Added to zip: ../test_2/test_2.ini[0m
+INFO     mypy.utils.zip:log.py:82 [92m🟢 ['/home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_zip/test_1.ini', '/home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_zip/test_2/test_2.ini'] 压缩完成: /home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_zip/test_zip.zip[0m

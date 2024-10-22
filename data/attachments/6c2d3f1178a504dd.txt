@@ -1,0 +1,3 @@
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/music/test.m4a'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_helper[0m
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:86 [94m🔵 正在把 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_helper/test.m4a] 转换成 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_helper/test.mp3][0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/video/_out/test_ffmpeg_helper/test.m4a[0m

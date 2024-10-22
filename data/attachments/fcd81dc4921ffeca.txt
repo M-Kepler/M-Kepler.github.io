@@ -1,0 +1,4 @@
+INFO     mypy.lib.music.music:log.py:82 [92m🟢 如需下载歌曲，输入 0 退出选择[0m
+INFO     mypy.utils.file:log.py:82 [92m🟢 -----> 发现以下选项：[0m
+INFO     mypy.utils.file:log.py:82 [92m🟢 1. /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_bgm.mp3[0m
+INFO     mypy.utils.file:log.py:82 [92m🟢 -----> 你选择了 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_bgm.mp3[0m

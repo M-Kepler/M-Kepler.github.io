@@ -1,0 +1,2 @@
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_file/test_copy_file_context[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/utils/_out/test_file/test_copy_file_context/ppt.pptx[0m

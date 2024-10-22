@@ -1,0 +1,1 @@
+INFO     mypy.lib.video.utils:log.py:82 [92m🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/assets/media/ted/ted.mp4 正常[0m

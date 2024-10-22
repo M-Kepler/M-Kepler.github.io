@@ -1,0 +1,4 @@
+INFO     __file__:log.py:82 [92m🟢 working on /tmp/tmp4pfnusrt[0m
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:82 [92m🟢 ----- 把同一时间的字幕合并到同一行输出到: /tmp/tmp4pfnusrt/tmp.srt[0m
+DEBUG    __file__:log.py:86 [94m🔵 待处理 subtitle 总行数: 316[0m
+INFO     __file__:log.py:82 [92m🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3[0m

@@ -1,0 +1,140 @@
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 正在生成 ...[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.lib.playwright.publish_config:log.py:82 [92m🟢 -----> 配置如下 <-----[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个[0m
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:86 [94m🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+[0m
+DEBUG    mypy.lib.llm.api:log.py:86 [94m🔵 本轮 AI 对话由 [KimiHelper] 提供服务[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 获取到以下主题：[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 《神经内科偏瘫患者护理质量改善项目》[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:82 [92m🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1][0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:82 [92m🟢 -----> 开始执行生成任务: ['神经内科偏瘫患者护理质量改善项目'][0m
+WARNING  mypy.lib.baidu.baidu_aigc_helper:log.py:140 🟠 [ppt_topic: 神经内科偏瘫患者护理质量改善项目] - 文件已存在，无需生成
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 正在处理 PPT 发布...[0m
+INFO     mypy.apps.baidu2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.lib.playwright.publish_config:log.py:82 [92m🟢 -----> 配置如下 <-----[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 正在把当前目录下的文件转成 video[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:82 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx》转换成 video[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:82 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx》 中的敏感信息[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:82 [92m🟢 PPT 转换成视频，并生成一张拼图作为封面[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:86 [94m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:86 [94m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:86 [94m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:86 [94m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpp14m469v[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:86 [94m🔵 把 /tmp/tmpp14m469v 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目_ppt2video.mp4[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:86 [94m🔵 正在把图片序列转换成视频，输出到: /tmp/tmp471emxp1[0m
+INFO     mypy.lib.image.image2video_helper:log.py:82 [92m🟢 文件夹 /tmp/tmpp14m469v 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目_ppt2video.mp4[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:82 [92m🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 ========================================[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下的文件[0m
+INFO     mypy.apps.ppt2douyin.main:log.py:82 [92m🟢 ========================================[0m
+WARNING  mypy.lib.music.music:log.py:90 [93m🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt 下未发现歌曲，开始下载 douyin 热门歌曲[0m
+INFO     mypy.lib.douyin.douyin_music:log.py:82 [92m🟢 一共发现 98 条音乐信息[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 ------------------------------------------------------------[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 下载任务数量: 98[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 ------------------------------------------------------------[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 ------------------------------------------------------------[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 生产者数量: 5, 每个生产者负责 20 个任务[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 消费者数量: 20[0m
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:86 [94m🔵 ------------------------------------------------------------[0m
+INFO     mypy.lib.mqs.pylib.downloader:log.py:82 [92m🟢 下载任务结束[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/music/梵文大悲咒 (DjBilly Remix)（剪辑版1）.m4a》，并加速到 35s[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加 bgm[0m
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:86 [94m🔵 视频时长(35s) < bgm 时长(50.233s)，截取音乐的中间部分[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加演讲语音[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 添加水印: /home/runner/work/github-runner/github-runner/mypy/assets/account/test/logo.png[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 开始进行视频剪辑 <-----[0m
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:82 [92m🟢 -----> 视频剪辑完成 <-----[0m
+INFO     mypy.lib.playwright.publish_handler:log.py:82 [92m🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目.mp4》到 ['douyin'] 平台[0m
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 深圳(https) 代理地址[0m
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 从文件标题解析出话题: #神经内科 #偏瘫 #护理
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - ============================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:134 🔵 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 获取并上传封面
+CRITICAL mypy.lib.playwright.publish_handler:log.py:146 ❌ [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 上传封面失败: Page.click: Timeout 120000ms exceeded.
+Call log:
+waiting for locator(".cover-lTOzOo")
+
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 设置视频简介为: 神经内科偏瘫患者护理质量改善项目 #神经内科 #偏瘫 #护理 #护士长竞聘 #护士懂护士 #护士 #护士长
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:137 🟢 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 【定时发布】时间设置为: 2024-10-23 17:24:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:140 🟠 [platform: douyin], [publish_file: 神经内科偏瘫患者护理质量改善项目.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 -----> 清理 神经内科偏瘫患者护理质量改善项目.mp4 临时文件[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 神经内科偏瘫患者护理质量改善项目 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目.mp4[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 神经内科偏瘫患者护理质量改善项目 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目.pdf[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 神经内科偏瘫患者护理质量改善项目 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目_ppt2video.mp4[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 神经内科偏瘫患者护理质量改善项目 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out/神经内科偏瘫患者护理质量改善项目.jpg[0m
+WARNING  mypy.utils.file:log.py:90 [93m🟠 正在删除文件名前缀为 神经内科偏瘫患者护理质量改善项目 文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/神经内科偏瘫患者护理质量改善项目.mp3[0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 继续处理下一个视频...[0m
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:82 [92m🟢 处理完成，一共处理了 1 个视频[0m
+DEBUG    mypy.utils.file:log.py:86 [94m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config[0m

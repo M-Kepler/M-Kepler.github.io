@@ -1,0 +1,44 @@
+INFO     mypy.apps.youtu2douyin.main:log.py:82 [92m🟢 运行模式: manual[0m
+INFO     mypy.apps.youtu2douyin.main:log.py:82 [92m🟢 video_url: https://www.youtube.com/watch?v=A8WVGxXHUuU[0m
+WARNING  mypy.apps.youtu2douyin.channel_loop:log.py:90 [93m🟠 未发现 [香港VVI] 的频道配置，将使用默认配置: {'channel_url': '', 'channel_name': '', 'enable': True, 'with_videos': True, 'with_shorts': True, 'publish_cfg': {}, 'videos': [], 'shorts': []}[0m
+INFO     mypy.apps.youtu2douyin.tools:log.py:82 [92m🟢 new video《香港优才移民计划有什么利弊吗？全方位分析》found, id: A8WVGxXHUuU, publish date: None[0m
+WARNING  mypy.apps.youtu2douyin.channel_loop:log.py:90 [93m🟠 解析日期字符串异常: time data 'None' does not match format '%Y-%m-%d %H:%M:%S'[0m
+WARNING  mypy.apps.youtu2douyin.channel_loop:log.py:90 [93m🟠 未发现频道 [香港VVI] 的发布配置，将采用默认发布配置[0m
+INFO     mypy.apps.youtu2douyin.channel_loop:log.py:82 [92m🟢 -----> 开始下载第 1/1 个视频: https://youtube.com/watch?v=A8WVGxXHUuU[0m
+INFO     mypy.lib.youtube.y2_video_handler:log.py:82 [92m🟢 ===== 获取视频 =====[0m
+INFO     mypy.lib.youtube.y2_video_handler:log.py:82 [92m🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/apps/youtu2douyin/_out/channel_UC4cw8Y12uIvrh8eLwGA3n8A[0m
+ERROR    mypy.apps.youtu2douyin.channel_loop:log.py:94 [91m🔴 ERROR: [youtube] A8WVGxXHUuU: Sign in to confirm you’re not a bot. This helps protect our community. Learn more[0m
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1625, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1760, in __extract_info
+    ie_result = ie.extract(url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/common.py", line 741, in extract
+    ie_result = self._real_extract(url)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/youtube.py", line 4671, in _real_extract
+    self.raise_no_formats(reason, expected=True)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/extractor/common.py", line 1275, in raise_no_formats
+    raise ExtractorError(msg, expected=expected, video_id=video_id)
+yt_dlp.utils.ExtractorError: [youtube] A8WVGxXHUuU: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/apps/youtu2douyin/channel_loop.py", line 175, in _download_video_and_publish
+    video_title, video_fullpath = video_handler.get_video(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/y2_video_handler.py", line 292, in get_video
+    y2_api = YtdlpHelper(video_url=self._video_url,
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/ytdlp_helper.py", line 75, in __init__
+    self._title, self._video_id, self._publish_date = get_video_info(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/youtube/ytdlp_helper.py", line 62, in get_video_info
+    info_dict = ydl.extract_info(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1614, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1643, in wrapper
+    self.report_error(str(e), e.format_traceback())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1091, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/yt_dlp/YoutubeDL.py", line 1030, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: [youtube] A8WVGxXHUuU: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+ERROR    mypy.apps.youtu2douyin.channel_loop:log.py:94 [91m🔴 视频 https://youtube.com/watch?v=A8WVGxXHUuU 获取异常: ERROR: [youtube] A8WVGxXHUuU: Sign in to confirm you’re not a bot. This helps protect our community. Learn more[0m

@@ -1,0 +1,2 @@
+INFO     test_log:log.py:82 [92m🟢 info[0m
+INFO     test_log:log.py:98 [92m🍊🍊🍊 success: hhhhh[0m

@@ -1,0 +1,1 @@
+WARNING  mypy.lib.video.utils:log.py:90 [93m🟠 视频文件 /home/runner/work/github-runner/github-runner/mypy/assets/media/test.jpg 可能损坏，无法读取帧[0m

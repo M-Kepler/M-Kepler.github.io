@@ -1,0 +1,1 @@
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:86 [94m🔵 通过 pdf2image 库转成图片，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/pdf/_out/test_pdf_handler/test_pdf2image_by_pylib[0m
