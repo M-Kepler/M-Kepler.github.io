@@ -1,0 +1,5 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/crawler/_out/test_hrxz[0m
+INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:82 [92m🟢 总共有 1 页数据[0m
+INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:82 [92m🟢 -----> 正在爬取: https://www.hrxz.com/e/search/result/?searchid=31727&page=0[0m
+ERROR    mypy.lib.crawler.hrxz.crawle_search:log.py:94 [91m🔴 文件 武汉加油众志成城抗击疫情PPT手册 下载失败: RetryError[<Future at 0x7f8a3c40c580 state=finished raised ClientConnectorDNSError>][0m
+INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:82 [92m🟢 -----> 正在爬取: https://www.hrxz.com/e/search/result/?searchid=31727&page=1[0m

@@ -1,0 +1,47 @@
+INFO     conftest:log.py:82 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/pexels/_out/test_pexels[0m
+ERROR    mypy.lib.pexels.video:log.py:94 [91m🔴 搜索视频失败: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pexels/video.py", line 138, in _search_videos
+    response = r.json()
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO     mypy.lib.pexels.video:log.py:82 [92m🟢 找到 0 条与 [mountain] 话题相关的视频[0m
+ERROR    mypy.lib.pexels.video:log.py:94 [91m🔴 搜索视频失败: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/pexels/video.py", line 138, in _search_videos
+    response = r.json()
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO     mypy.lib.pexels.video:log.py:82 [92m🟢 找到 0 条与 [cat] 话题相关的视频[0m
+INFO     mypy.lib.pexels.video:log.py:82 [92m🟢 总共搜集到: 0 条视频，时长总和为 0[0m
+WARNING  mypy.lib.pexels.video:log.py:90 [93m🟠 注意！！！未下载够指定的视频时长[0m
+INFO     mypy.lib.pexels.video:log.py:82 [92m🟢 开始下载视频...[0m
+INFO     mypy.lib.pexels.video:log.py:82 [92m🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/pexels/_out/test_pexels/test_pexels_get_videos[0m

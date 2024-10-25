@@ -1,2 +1,0 @@
-DEBUG    mypy.lib.llm.api:log.py:86 [94m🔵 本轮 AI 对话由 [KimiHelper] 提供服务[0m
-DEBUG    mypy.lib.llm.api:log.py:86 [94m🔵 本轮 AI 对话由 [KimiHelper] 提供服务[0m

@@ -1,2 +1,0 @@
-INFO     mypy.lib.youtube.y2_video_handler:log.py:82 [92m🟢 ===== 获取视频 =====[0m
-INFO     mypy.lib.youtube.y2_video_handler:log.py:82 [92m🟢 输出路径: /home/runner/work/github-runner/github-runner/mypy/tests/lib/youtube/_out/test_y2_video_handler/test_video_handler/_out/channel_UCt2v4QKNrV32R7jZygPGl9Q[0m
