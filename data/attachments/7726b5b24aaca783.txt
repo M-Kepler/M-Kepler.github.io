@@ -1,0 +1,1 @@
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:90 [0m🔵 正在执行命令: ['ls', '-l']

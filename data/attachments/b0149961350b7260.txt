@@ -1,0 +1,23 @@
+DEBUG    mypy.utils.file:log.py:90 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt_backup_0.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt_backup_0.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:90 [0m🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:90 [0m🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:90 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt_backup_0.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:90 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpw_20h7di
+DEBUG    mypy.lib.image.image2video_helper:log.py:90 [0m🔵 把 /tmp/tmpw_20h7di 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out/ppt_backup_0_ppt2video.mp4
+DEBUG    mypy.lib.image.image2video_helper:log.py:90 [0m🔵 正在把图片序列转换成视频，输出到: /tmp/tmpdydr3gji
+INFO     mypy.lib.image.image2video_helper:log.py:86 [92m🟢 文件夹 /tmp/tmpw_20h7di 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out/ppt_backup_0_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:90 [0m🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:90 [0m🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:90 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:90 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpqwg1yh03
+DEBUG    mypy.lib.image.image2video_helper:log.py:90 [0m🔵 把 /tmp/tmpqwg1yh03 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out/ppt_ppt2video.mp4
+DEBUG    mypy.lib.image.image2video_helper:log.py:90 [0m🔵 正在把图片序列转换成视频，输出到: /tmp/tmpmk26utro
+INFO     mypy.lib.image.image2video_helper:log.py:86 [92m🟢 文件夹 /tmp/tmpqwg1yh03 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out/ppt_ppt2video.mp4
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:86 [92m🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/_out 目录下
+DEBUG    mypy.utils.file:log.py:90 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/random/random/ppt.pptx

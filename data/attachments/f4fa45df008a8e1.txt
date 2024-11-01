@@ -1,2 +1,0 @@
-DEBUG    mypy.lib.proxy_pool.proxy_pool_helper:log.py:86 [94m🔵 {'anonymous': '', 'check_count': 12, 'fail_count': 0, 'https': False, 'last_status': True, 'last_time': '2024-10-25 19:05:29', 'proxy': '183.234.215.11:8443', 'region': '中国 广东 深圳 移动', 'source': 'freeProxy11'}[0m
-WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:90 [93m🟠 未找到可用的 深圳(https) 代理地址[0m

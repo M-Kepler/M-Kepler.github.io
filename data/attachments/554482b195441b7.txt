@@ -1,1 +1,0 @@
-WARNING  mypy.apps.douyin2douyin.main:log.py:90 [93m🟠 在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/douyin2douyin/config/cookie/douyin 下未找到 cookie[0m

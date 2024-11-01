@@ -1,1 +1,0 @@
-WARNING  mypy.lib.weixin.pushplus:log.py:90 [93m🟠 正在进行单元测试，跳过微信消息推送: title: test_title, message: test_msg[0m

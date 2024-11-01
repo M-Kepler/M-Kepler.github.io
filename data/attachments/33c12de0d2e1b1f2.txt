@@ -1,0 +1,1 @@
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:86 [92m🟢 调整字幕每一行文本长度为: 30

@@ -1,0 +1,4 @@
+INFO     conftest:log.py:86 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/github/_out/test_action
+INFO     mypy.lib.github.action:log.py:86 [92m🟢 发现 1 个工件
+INFO     mypy.lib.github.action:log.py:86 [92m🟢 正在下载工件 /home/runner/work/github-runner/github-runner/mypy/tests/lib/github/_out/test_action/test_download_artifact/artifact_1516357837.zip ...
+ERROR    mypy.utils.http:log.py:98 [91m🔴 request to https://api.github.com/repos/wordsworth-mk/github-runner/actions/artifacts/1516357837/zip error, response: {"message":"Artifact has expired","documentation_url":"https://docs.github.com/rest/actions/artifacts#download-an-artifact","status":"410"}
