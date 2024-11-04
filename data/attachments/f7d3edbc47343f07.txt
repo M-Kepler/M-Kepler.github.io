@@ -1,1 +1,0 @@
-INFO     mypy.lib.github.action:log.py:86 [92m🟢 发现 2 个工件

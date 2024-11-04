@@ -1,2 +1,0 @@
-DEBUG    mypy.utils.file:log.py:90 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/_out/test_web2douyin
-DEBUG    mypy.utils.file:log.py:90 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/_out/test_web2douyin/config
