@@ -1,1 +1,1 @@
-[]
+[{"values":["pytest"],"name":"RUN_ENVIRONMENT"},{"values":["1"],"name":"ENV_IN_GITHUBACTION"}]
