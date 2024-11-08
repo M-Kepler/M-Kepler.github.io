@@ -1,2 +1,0 @@
-INFO     mypy.lib.github.action:log.py:86 [92m🟢 发现 1 个工件
-WARNING  mypy.lib.github.action:log.py:94 [93m🟠 正在删除 1516357837 工件
