@@ -1,0 +1,2 @@
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:86 [92m🟢 完成把字幕内容中的 [
+] 替换为 [ ], 输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle_handler/test_merge_subtitle_text_oneline.srt
