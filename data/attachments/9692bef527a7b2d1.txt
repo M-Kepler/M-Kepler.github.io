@@ -1,1 +1,0 @@
-DEBUG    mypy.lib.video.ffmpeg_helper:log.py:90 [0m🔵 视频时长(37s) < bgm 时长(202.866939s)，截取音乐的中间部分
