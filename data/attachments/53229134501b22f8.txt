@@ -1,2 +1,0 @@
-INFO     test_log:log.py:86 [92m🟢 info
-INFO     test_log:log.py:102 [92m🍊🍊🍊 success: hhhhh
