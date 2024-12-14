@@ -1,0 +1,2 @@
+INFO     mypy.lib.video.video_clip_helper:log.py:96 [92m🟢 -----> 开始把视频嵌入到绿幕素材: /home/runner/work/github-runner/github-runner/mypy/assets/video/green_screen_background/middle.mp4
+WARNING  mypy.lib.video.video_clip_helper:log.py:104 [93m🟠 文件 /home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt_video_maked_with_green_sceen_mixed.mp4 已存在，无需转换
