@@ -1,0 +1,31 @@
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt_backup_0.pptx》转换成 video[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt_backup_0.pptx》 中的敏感信息[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 PPT 转换成视频，并生成一张拼图作为封面[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt_backup_0.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpvpj01rla[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 把 /tmp/tmpvpj01rla 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out/ppt_backup_0_ppt2video.mp4[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 正在把图片序列转换成视频，输出到: /tmp/tmprda7u28j[0m
+INFO     mypy.lib.image.image2video_helper:log.py:101 [92m🟢 文件夹 /tmp/tmpvpj01rla 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out/ppt_backup_0_ppt2video.mp4[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpjyr8_whk', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt_backup_0.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpjyr8_whk[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt.pptx》转换成 video[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt.pptx》 中的敏感信息[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 PPT 转换成视频，并生成一张拼图作为封面[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpawbjx3i4[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 把 /tmp/tmpawbjx3i4 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out/ppt_ppt2video.mp4[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 正在把图片序列转换成视频，输出到: /tmp/tmp4w9cpy58[0m
+INFO     mypy.lib.image.image2video_helper:log.py:101 [92m🟢 文件夹 /tmp/tmpawbjx3i4 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out/ppt_ppt2video.mp4[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp5pv47dny', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp5pv47dny[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/_out 目录下[0m
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/video/ppt.pptx[0m

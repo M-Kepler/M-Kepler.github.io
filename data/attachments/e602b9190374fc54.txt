@@ -1,0 +1,16 @@
+INFO     conftest:log.py:101 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert[0m
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt_backup_0.pptx》转换成 image_article[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt_backup_0.pptx》 中的敏感信息[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpfescc0jf', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt_backup_0.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpfescc0jf[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt.pptx》转换成 image_article[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt.pptx》 中的敏感信息[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmpw4z9_1ha', '/home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmpw4z9_1ha[0m
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:101 [92m🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/_out 目录下[0m
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/ppt2douyin/_out/test_ppt_convert/test_batch_ppt_convert/中文路径/ppt/image_article/ppt.pptx[0m

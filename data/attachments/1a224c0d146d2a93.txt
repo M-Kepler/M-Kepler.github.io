@@ -1,1 +1,0 @@
-INFO     mypy.lib.github.action:log.py:96 [92m🟢 github action dispatch: event_type: mypy_event_type.test_app, status_code: 204

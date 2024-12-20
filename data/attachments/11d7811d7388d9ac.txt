@@ -1,0 +1,312 @@
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:105 [0m🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+[0m
+DEBUG    mypy.lib.llm.api:log.py:105 [0m🔵 本轮 AI 对话由 [QWenHelper] 提供服务[0m
+DEBUG    mypy.lib.llm.api:log.py:105 [0m🔵 问答结束, 返回结果[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:101 [92m🟢 获取到以下主题：[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:101 [92m🟢 《神经内科优质护理实践与质量改进项目》[0m
+INFO     mypy.lib.baidu.baidu_aigc:log.py:101 [92m🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/config/cookie/baidu/cookie_large.json]，当前账号排序: [1][0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:101 [92m🟢 -----> 开始执行生成任务: ['神经内科优质护理实践与质量改进项目'][0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 判断图片是否为正的验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 4/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 5/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已触发[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待滑动验证码展示事件就绪信号[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始处理滑块验证码...[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 刷新验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到获取验证码 URL[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/wHmdR.jpg[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 439[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 439[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 判断验证码验证结果[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 439[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_h0VwnbVA0wdDJxW2PpvSulzff82wPU2fa5U6vihjrzzSRT3q_RAKq7i8vqCbXAKKtzjFPU_APyE7oOA37-5H2PnCabx4ivTXqY6OCOAfS0EOc-NYnjhBY_pJoE2aHSuFlxR2Sv1Ns-rPDRWkFcP6oHz3jgl8YrUTOClWiwkNnGdu2gz7msZPp5ids1gzHEirXU5_oe2OeCt2WOt8cViOkQ=='}, 'code': 0, 'msg': 'success'}[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - ---------- 验证码验证通过 ----------[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 清理掉所有的等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_showed 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_downloaded 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_slide_captcha 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已经验证通过，退出循环[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 直接填入主题内容: [
+作为资深的医疗护理领域的专家，具备丰富的护理临床经验和理论知识，能够撰写高质量的护理专业文章，使用护理领域的专业术语；
+并通过表格、流程图、饼图、图片等多种形式展示内容；
+你的文章受众也是护理领域的人员，所以内容要专业可靠，确保文章内容具有实用性，能够帮助他们解决实际问题；
+使用图表、图片和实际案例来说明复杂的概念和方法，使文章更具可读性和实用性；
+段落过度要自然、逻辑清晰。不要使用“首先、其次、再次、然后、最后”这些副词和过渡词。
+不需要用“总分”的形式去组织内容。每一段的内容都尽可能详细，且至少1000字。首行一级标题是我的题目。
+我的题目是《神经内科优质护理实践与质量改进项目
+doc》][0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 正在等待 AI 生成信息...[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:163 [95m❌ [doc_topic: 神经内科优质护理实践与质量改进项目] - prompt: 神经内科优质护理实践与质量改进项目 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".btn-download") to be visible
+[0m
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".btn-download") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 4/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 5/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 6/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 判断图片是否为正的验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 7/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 8/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已触发[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待滑动验证码展示事件就绪信号[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始处理滑块验证码...[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 刷新验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到获取验证码 URL[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/ajo5X.jpg[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 510[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 510[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 判断验证码验证结果[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 510[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_6NJllqY_lLSgyPA3Z6wVzgV7BKM5Ji1sdY9koszzJTQl_dVEre6uQRVAKbRvXgxw56Yr7jy4xJTCk0he903bG0tpbOkzGK2FiRBu0xnaPi0Ui9SMlX33UpWgelqEixnGEaRXXGvHnbyVWjspMNPowogJh1MikC7FgCx8LVmnWcLaDrFG1W_TlAJWVC7IbYCeSQ5atEOV1Dq_d2DK4vzPew=='}, 'code': 0, 'msg': 'success'}[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - ---------- 验证码验证通过 ----------[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 清理掉所有的等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_showed 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_downloaded 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_slide_captcha 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已经验证通过，退出循环[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 直接填入主题内容: [
+作为资深的医疗护理领域的专家，具备丰富的护理临床经验和理论知识，能够撰写高质量的护理专业文章，使用护理领域的专业术语；
+并通过表格、流程图、饼图、图片等多种形式展示内容；
+你的文章受众也是护理领域的人员，所以内容要专业可靠，确保文章内容具有实用性，能够帮助他们解决实际问题；
+使用图表、图片和实际案例来说明复杂的概念和方法，使文章更具可读性和实用性；
+段落过度要自然、逻辑清晰。不要使用“首先、其次、再次、然后、最后”这些副词和过渡词。
+不需要用“总分”的形式去组织内容。每一段的内容都尽可能详细，且至少1000字。首行一级标题是我的题目。
+我的题目是《神经内科优质护理实践与质量改进项目
+doc》][0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 正在等待 AI 生成信息...[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:163 [95m❌ [doc_topic: 神经内科优质护理实践与质量改进项目] - prompt: 神经内科优质护理实践与质量改进项目 执行失败: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".btn-download") to be visible
+[0m
+WARNING  /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".btn-download") to be visible
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 判断图片是否为正的验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 页面重新载入完成[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 尝试获取块验证码: 4/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已触发[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待滑动验证码展示事件就绪信号[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始处理滑块验证码...[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 刷新验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 当前是: 滑块验证码[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到获取验证码 URL[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 拦截到下载验证码图片的请求[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/ic53w.jpg[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 575[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 575[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 判断验证码验证结果[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 等待验证码图片下载完成就绪信号[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 点击拖动缺口滑块[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 计算验证码缺口距离[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始获取验证码缺口坐标[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 开始对验证码背景图片进行预处理[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 获取到缺口距离: 575[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_twgdSnqeqZjNzXrcveN5Unjw35GL7yqgvAvtqV_ketPoeQ2Q852BZxeWZWtz5aSKlgN-YaNliFw4h91jeOBIrSZJx1X9_wAmrbKMUzFC8RB7woAMNzrKkPXexPnHpirC0J6i5GfUuPV_Rf1EzMDcbEUloKeyjI1jubALU3BKZ8qFRl6JSKI5K8Zd0ZBLnWIetepX_ruuZlRxHczS3AdiJw=='}, 'code': 0, 'msg': 'success'}[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - ---------- 验证码验证通过 ----------[0m
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:154 [92m🟢 [doc_topic: 神经内科优质护理实践与质量改进项目] - 清理掉所有的等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_showed 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_captcha_downloaded 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 取消 is_slide_captcha 等待事件[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/doc/_out/captcha_save_dir[0m
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:log.py:151 [0m🔵 [doc_topic: 神经内科优质护理实践与质量改进项目] - 验证码已经验证通过，退出循环[0m
+CRITICAL mypy.lib.baidu.baidu_aigc_helper:log.py:163 [95m❌ [doc_topic: 神经内科优质护理实践与质量改进项目] - prompt: 神经内科优质护理实践与质量改进项目 执行失败: Page.goto: net::ERR_ABORTED at https://wenku.baidu.com/search?word=%E9%97%A8%E8%AF%8A%E6%8A%A4%E7%90%86%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BA%BA%E6%96%87%E5%85%B3%E6%80%80%E7%9A%84%E6%80%9D%E8%80%83PPT%2C%E6%9C%80%E5%A5%BD%E6%9C%89%E6%A1%88%E4%BE%8B%E4%BD%93%E6%98%BE&lm=0&od=0&fr=top_home&ie=utf-8&_wkts_=1731675699196
+Call log:
+  - navigating to "https://wenku.baidu.com/search?word=%E9%97%A8%E8%AF%8A%E6%8A%A4%E7%90%86%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BA%BA%E6%96%87%E5%85%B3%E6%80%80%E7%9A%84%E6%80%9D%E8%80%83PPT%2C%E6%9C%80%E5%A5%BD%E6%9C%89%E6%A1%88%E4%BE%8B%E4%BD%93%E6%98%BE&lm=0&od=0&fr=top_home&ie=utf-8&_wkts_=1731675699196", waiting until "load"
+[0m

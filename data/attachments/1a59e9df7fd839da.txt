@@ -1,0 +1,10 @@
+INFO     conftest:log.py:101 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler[0m
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 把 PPT 转成 PDF[0m
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:105 [0m🔵 通过 libreoffice 把 PPT 转成 PDF[0m
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/utils/tools.py:log.py:105 [0m🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video', '/home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pptx'][0m
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:105 [0m🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp7q1zt71q[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 把 /tmp/tmp7q1zt71q 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4[0m
+DEBUG    mypy.lib.image.image2video_helper:log.py:105 [0m🔵 正在把图片序列转换成视频，输出到: /tmp/tmpaxq8ui75[0m
+INFO     mypy.lib.image.image2video_helper:log.py:101 [92m🟢 文件夹 /tmp/tmp7q1zt71q 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.mp4[0m
+DEBUG    mypy.utils.file:log.py:105 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/lib/ppt/_out/test_ppt_handler/test_ppt2video/ppt.pptx[0m

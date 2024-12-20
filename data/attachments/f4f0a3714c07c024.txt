@@ -1,0 +1,1 @@
+INFO     mypy.lib.youtube.y2_handler:log.py:101 [92m🟢 频道视频个数: 114[0m

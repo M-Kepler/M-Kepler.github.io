@@ -1,6 +1,0 @@
-WARNING  mypy.apps.auto_course.common.core:log.py:104 [93m🟠 拦截到验证码请求: https://cme45.91huayi.com/secure/CheckCode.aspx?id=8:20:09%20AM
-WARNING  mypy.apps.auto_course.common.core:log.py:104 [93m🟠 拦截到验证码请求: https://cme45.91huayi.com/secure/CheckCode.aspx?id=
-INFO     mypy.apps.auto_course.common.core:log.py:96 [92m🟢 当前登录用户为: 阿斯顿非更
-INFO     mypy.apps.auto_course.huayi.huayi_handler:log.py:96 [92m🟢 课程: 血液净化治疗与护理新进展 专业类(提高) 学习进度: 学习进度：14 / 14
-INFO     mypy.apps.auto_course.huayi.huayi_handler:log.py:96 [92m🟢 已完成课件数: 14 需要课件数: 14
-INFO     mypy.apps.auto_course.huayi.huayi_handler:log.py:96 [92m🟢 课程: [血液净化治疗与护理新进展 专业类(提高)] 已完成

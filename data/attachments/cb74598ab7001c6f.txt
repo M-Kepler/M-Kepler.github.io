@@ -1,0 +1,6 @@
+INFO     conftest:log.py:101 [92m🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech[0m
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:101 [92m🟢 working on /tmp/tmpudttx2zn[0m
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:101 [92m🟢 完成把字幕内容中的 [
+] 替换为 [ ], 输出到: /tmp/tmpudttx2zn/tmp.srt[0m
+DEBUG    mypy.lib.subtitle.subtitle2speech:log.py:105 [0m🔵 待处理 subtitle 总行数: 16[0m
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:101 [92m🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech.mp3[0m

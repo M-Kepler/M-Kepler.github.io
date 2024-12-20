@@ -1,5 +1,0 @@
-DEBUG    mypy.utils.file:log.py:100 [0m🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/_out/test_web2douyin
-ERROR    mypy.utils.http:log.py:108 [91m🔴 request to https://zhuanlan.zhihu.com/p/711679452 error, response:     <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" content="CAXKnGBePnTWHh6/TflvDe7zufgWV4Aa+/upB+2OIwayWMOv2XbsdJm2gvVGNnl4RW3xXzvhTMichflHWQZFdSmIJRFNG8CnDPL9/lhej2A3hdgRbzH0jRHrDAHQgGmC"></head><body><div style="color:#535861;opacity: 0.1;display: flex;justify-content: center;">ç¥ä¹ï¼è®©æ¯ä¸æ¬¡ç¹å»é½åæ»¡æä¹ ââ æ¬¢è¿æ¥å°ç¥ä¹ï¼åç°é®é¢èåçä¸çã</div><script data-assets-tracker-config='{"appName":"zse_ck","trackJSRuntimeError":true}' crossorigin="" src="https://static.zhihu.com/zse-ck/v4/2a6ab826b295d2536a5df4929f19516754fe918c8d93972d159626264fb60afc.js"></script></body></html>
-
-
-DEBUG    mypy.utils.file:log.py:100 [0m🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/tests/apps/web2douyin/_out/test_web2douyin/config

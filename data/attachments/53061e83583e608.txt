@@ -1,0 +1,152 @@
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 ----- test_slider_captcha_handler -----[0m
+INFO     test_slider_captcha:log.py:101 [92m🟢 ----- test_slider_captcha_handler -----[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 尝试获取块验证码: 1/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 页面重新载入完成[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 尝试获取块验证码: 2/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 不是滑动验证码, 刷新页面继续检查[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 字体验证码或绳子验证码，刷新页面[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 滑块验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 页面重新载入完成[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 尝试获取块验证码: 3/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码已触发[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待滑动验证码展示事件就绪信号[0m
+INFO     test_slider_captcha:log.py:101 [92m🟢 开始处理滑块验证码...[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 刷新验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 滑块验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到获取验证码 URL[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/crVMh.jpg[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 1/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+WARNING  test_slider_captcha:log.py:109 [93m🟠 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0[0m
+ERROR    test_slider_captcha:log.py:113 [91m🔴 滑块拖动失败，刷新验证码重试[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 202, in _drag_to_breach
+    move_distance = self._captcha_img_handler.get_track_list(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 151, in get_track_list
+    calc_distance = self._calc_distance()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 132, in _calc_distance
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 129, in _calc_distance
+    return res.x.values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 刷新验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 滑块验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到获取验证码 URL[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/crVMh.jpg[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 2/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+WARNING  test_slider_captcha:log.py:109 [93m🟠 识别错误, 异常: index 0 is out of bounds for axis 0 with size 0[0m
+ERROR    test_slider_captcha:log.py:113 [91m🔴 滑块拖动失败，刷新验证码重试[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 202, in _drag_to_breach
+    move_distance = self._captcha_img_handler.get_track_list(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 151, in get_track_list
+    calc_distance = self._calc_distance()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 132, in _calc_distance
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 129, in _calc_distance
+    return res.x.values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 刷新验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 滑块验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到获取验证码 URL[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/crVMh.jpg[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 3/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+WARNING  test_slider_captcha:log.py:109 [93m🟠 识别错误, 异常: Cannot set a DataFrame without columns to the column dx_mean[0m
+ERROR    test_slider_captcha:log.py:113 [91m🔴 滑块拖动失败，刷新验证码重试[0m
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/base.py", line 202, in _drag_to_breach
+    move_distance = self._captcha_img_handler.get_track_list(
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 151, in get_track_list
+    calc_distance = self._calc_distance()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 132, in _calc_distance
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 128, in _calc_distance
+    res = self._mark_position()
+  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/captcha/puzzle/captcha_img_handler.py", line 99, in _mark_position
+    df['dx_mean'] = df.apply(
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4301, in __setitem__
+    self._set_item_frame_value(key, value)
+  File "/opt/hostedtoolcache/Python/3.9.20/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4464, in _set_item_frame_value
+    raise ValueError(
+ValueError: Cannot set a DataFrame without columns to the column dx_mean
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 刷新验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 当前是: 滑块验证码[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到获取验证码 URL[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 拦截到下载验证码图片的请求[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/crVMh.jpg[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 4/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取到缺口距离: 381[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 5/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取到缺口距离: 381[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 判断验证码验证结果[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 等待验证码图片下载完成就绪信号[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取滑块图片在网页上呈现的大小和实际大小的比例[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 图片呈现与实际比例为: 0.3333333333333333[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 滑块拖动逻辑开始，当前尝试轮数: 6/20 次[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 点击拖动缺口滑块[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 计算验证码缺口距离[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始获取验证码缺口坐标[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 开始对验证码背景图片进行预处理[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 获取到缺口距离: 381[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_2aRRe641aBEuEEP3zfR1-wbSr-Ht0AZV5lE9hDMx0ZkC271TlHGRyh8BYtFintxg3lb0KhKALhUf3wptx_5f2o8c9R9ubT8SfjcO2iI1fYRKySY3iAkcXc-xslmy_kiH-Nc028HrTzNpk5-HTjiSvErOsRn1PcIKnffOt3DIv9smA_PFzkkrFv5dhdt81ZSJ'}, 'code': 0, 'msg': 'success'}[0m
+INFO     test_slider_captcha:log.py:101 [92m🟢 ---------- 验证码验证通过 ----------[0m
+INFO     test_slider_captcha:log.py:101 [92m🟢 清理掉所有的等待事件[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 取消 is_captcha_showed 等待事件[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 取消 is_captcha_downloaded 等待事件[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 取消 is_slide_captcha 等待事件[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/_out/captcha_save_dir[0m
+DEBUG    test_slider_captcha:log.py:105 [0m🔵 验证码已经验证通过，退出循环[0m

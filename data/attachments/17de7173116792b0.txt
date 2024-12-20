@@ -1,2 +1,0 @@
-WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:104 [93m🟠 未找到可用的 深圳(http) 代理地址
-WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:104 [93m🟠 未找到可用的 深圳(https) 代理地址
