@@ -1,7 +1,0 @@
-ERROR    mypy.lib.playwright.common:log.py:113 [91m🔴 not enough arguments for format string[0m
-Traceback (most recent call last):
-  File "/home/runner/work/github-runner/github-runner/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
-    yield browser, context, page
-  File "/home/runner/work/github-runner/github-runner/mypy/tests/lib/playwright/test_common.py", line 30, in test_cookies
-    print('set cookie: [%s: %s]' % test_cookie_name, test_cookie_value)
-TypeError: not enough arguments for format string
