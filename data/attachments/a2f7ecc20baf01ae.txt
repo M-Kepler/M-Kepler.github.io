@@ -1,9 +1,0 @@
-INFO     test_log:log.py:154 [92m🟢 [conn_id: 11111], [context_id: 22222] - ==================================================[0m
-DEBUG    test_log:log.py:151 [0m🔵 [conn_id: 11111], [context_id: 22222] - log debug...[0m
-INFO     test_log:log.py:154 [92m🟢 [conn_id: 11111], [context_id: 22222] - log info...[0m
-WARNING  test_log:log.py:157 [93m🟠 [conn_id: 11111], [context_id: 22222] - log warning...[0m
-ERROR    test_log:log.py:160 [91m🔴 [conn_id: 11111], [context_id: 22222] - log error...[0m
-CRITICAL test_log:log.py:163 [95m❌ [conn_id: 11111], [context_id: 22222] - log exception...[0m
-Level 25 test_log:log.py:166 [92m🍊🍊🍊 [conn_id: 11111], [context_id: 22222] - ==================================================[0m
-Level 25 test_log:log.py:167 [92m🍊🍊🍊 [conn_id: 11111], [context_id: 22222] - log success: test...[0m
-Level 25 test_log:log.py:168 [92m🍊🍊🍊 [conn_id: 11111], [context_id: 22222] - ==================================================[0m

@@ -1,1 +1,0 @@
-WARNING  mypy.lib.stock.backtrader.backtrade_helper:log.py:109 [93m🟠 pytest 模式, 不显示回测图[0m

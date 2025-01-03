@@ -1,3 +1,0 @@
-ERROR    mypy.utils.http:log.py:113 [91m🔴 request to https://zhuanlan.zhihu.com/p/711679452 error, response:     <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" content="ivM8jdTpa68tqZ3a8JgxjUveyiuovFTkBuy1rjPX+/AFfAi+yTgTI7JQIp0jYNV09CQybfpjuQeyOK3WbNpiI4sHIX9pNMaz3ZlTQkC/tSDNn8RzpINmYnWvUrxFwQ/D"></head><body><div style="color:#535861;opacity: 0.1;display: flex;justify-content: center;">ç¥ä¹ï¼è®©æ¯ä¸æ¬¡ç¹å»é½åæ»¡æä¹ ââ æ¬¢è¿æ¥å°ç¥ä¹ï¼åç°é®é¢èåçä¸çã</div><script data-assets-tracker-config='{"appName":"zse_ck","trackJSRuntimeError":true}' crossorigin="" src="https://static.zhihu.com/zse-ck/v4/00cbeb6ee500de969d1b2fdf11e5a3ff62b26e9b0cacd2834df1a4ab87daa246.js"></script></body></html>
-
-[0m

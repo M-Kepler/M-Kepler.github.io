@@ -1,6 +1,0 @@
-INFO     test_log:log.py:101 [92m🟢 [0m
-INFO     test_log:log.py:101 [92m🟢 哈哈哈哈哈哈哈哈哈哈哈哈哈[0m
-DEBUG    test_log:log.py:105 [0m🔵 哈哈哈哈哈哈哈哈哈哈哈哈哈[0m
-WARNING  test_log:log.py:109 [93m🟠 哈哈哈哈哈哈哈哈哈哈哈哈哈[0m
-ERROR    test_log:log.py:113 [91m🔴 哈哈哈哈哈哈哈哈哈哈哈哈哈[0m
-INFO     test_log:log.py:117 [92m🍊🍊🍊 success: hhhhh[0m
