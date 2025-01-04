@@ -1,0 +1,56 @@
+INFO     conftest:log.py:101 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin
+DEBUG    mypy.utils.file:log.py:105 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_original_video.mp4'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out
+INFO     mypy.lib.playwright.publish_config:log.py:101 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:101 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:101 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:101 🟢 ==================================================
+WARNING  mypy.lib.music.music:log.py:109 🟠 在 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:log.py:101 🟢 一共发现 85 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 下载任务数量: 85
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 生产者数量: 5, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:105 🔵 ------------------------------------------------------------
+INFO     mypy.lib.mqs.pylib.downloader:log.py:101 🟢 下载任务结束
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_original_video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/Blame You.m4a》，并加速到 50s
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 添加 bgm
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:105 🔵 视频时长(50s) < bgm 时长(145.788005s)，截取音乐的中间部分
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 添加演讲语音
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 添加水印: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/account/test/logo.png
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:101 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:log.py:101 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:log.py:155 🟠 [platform: douyin], [publish_file: ppt.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_large.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json']
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:109 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    jieba:log.py:105 🔵 Building prefix dict from the default dictionary ...
+DEBUG    jieba:log.py:105 🔵 Dumping model to file cache /tmp/jieba.cache
+DEBUG    jieba:log.py:105 🔵 Loading model cost 0.904 seconds.
+DEBUG    jieba:log.py:105 🔵 Prefix dict has been built successfully.
+DEBUG    mypy.lib.playwright.publish_handler:log.py:149 🔵 [platform: douyin], [publish_file: ppt.mp4] - 从文件标题解析出话题: #ppt
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:log.py:149 🔵 [platform: douyin], [publish_file: ppt.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 获取并上传封面
+WARNING  mypy.lib.playwright.publish_handler:log.py:155 🟠 [platform: douyin], [publish_file: ppt.mp4] - 封面 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.jpg 不存在，不设置封面
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 设置视频简介为: ppt #ppt #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - -----> 可选合集:
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - HKRN/RN备考
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 设置到合集: 护士长竞聘
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:log.py:152 🟢 [platform: douyin], [publish_file: ppt.mp4] - 【定时发布】时间设置为: 2025-01-05 11:23:00
+WARNING  mypy.lib.playwright.publish_handler:log.py:155 🟠 [platform: douyin], [publish_file: ppt.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:101 🟢 -----> 清理 ppt.mp4 临时文件
+WARNING  mypy.utils.file:log.py:109 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.mp3
+WARNING  mypy.utils.file:log.py:109 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_original_video.mp4
+WARNING  mypy.utils.file:log.py:109 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:101 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:101 🟢 处理完成，一共处理了 1 个视频
