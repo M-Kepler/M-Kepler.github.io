@@ -1,0 +1,5 @@
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:105 🟢 working on /tmp/tmpgwvwmc13
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:105 🟢 完成把字幕内容中的 [
+] 替换为 [ ], 输出到: /tmp/tmpgwvwmc13/tmp.srt
+DEBUG    mypy.lib.subtitle.subtitle2speech:log.py:109 🔵 待处理 subtitle 总行数: 316
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:105 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech_with_video.mp3

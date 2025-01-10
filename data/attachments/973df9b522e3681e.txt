@@ -1,0 +1,352 @@
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 5f641773-6471-9ebc-85c5-a00370c03fff, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 06166aa0-6b92-913a-b259-47689a151715, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 39325b5f-97f0-9ca0-839b-bb52c31a1aec, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 0f788149-9389-97bb-be68-467925dd99a9, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 51cb731f-c91f-983e-b1cc-845aa498b73f, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 连续失败次数超过 5 次，退出
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:113 🟠 请先输入主题！

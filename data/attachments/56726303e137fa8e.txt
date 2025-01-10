@@ -1,0 +1,6 @@
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: aa6b7f8e-3751-9675-8255-7956dcb5766d, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 604c5e15-59f8-9f5f-af6d-f7a4e73ef3fc, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果

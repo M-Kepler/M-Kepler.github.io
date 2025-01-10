@@ -1,0 +1,372 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 正在生成 ...
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.playwright.publish_config:log.py:105 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 发布 0.3 天，每天发布 3 个话题，一共 1 个
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 93e48b5e-6e98-91dd-9a7f-920761c3607d, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: a17eacfd-43cf-95f8-8ef3-46987ad17be0, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: 0bde29e9-6e65-975a-9d3f-0ae2e8988026, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: abd32a70-b0a9-948c-a19c-c5d4f8388282, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+DEBUG    mypy.lib.baidu.baidu_aigc:log.py:109 🔵 提示词为: 
+# Role:
+
+
+- 你是一个了解医院组织架构、科室的专家
+- 对护理有深入的理解
+
+
+# Profile:
+
+
+
+## Goals:
+
+
+- 给出护理相关文章题目标题，要求带有科室特色的，比如压疮、失禁性皮炎、偏瘫等；比如某某科室年中总结，某某不良事件，某某护理查房，某某优质护理，某某科某某护理的质量改善项目，品管圈，PDCA，质量管理等带有专科特色的题目
+- 生成的内容不能与以下内容重复: []
+
+
+## Constrains:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Rules:
+
+
+
+## Skills:
+
+
+- 只需要输出 1 个即可
+- 只需要主要内容，不需要多余的话语
+- 禁止出现数字、双引号等字符
+- 只允许出现汉字
+- 用 json 字符串输出列表
+
+
+## Example:
+
+
+["xxxx", "xxxx"]
+
+
+## Workflows:
+
+
+
+## Initialization:
+
+
+
+
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+ERROR    mypy.lib.llm.qwen.helper:log.py:117 🔴 Request id: f58db309-ac12-946e-a3d8-fa77bc93d8da, Status code: 400, error code: Arrearage, error message: Access denied, please make sure your account is in good standing.
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 获取主题失败: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 128, in _loop_get_topic
+    gen_topics, gen_mod = self.gen_topic()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/baidu/baidu_aigc.py", line 98, in gen_topic
+    result = json.loads(ai_answer)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR    mypy.lib.baidu.baidu_aigc:log.py:117 🔴 连续失败次数超过 5 次，退出
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:113 🟠 请先输入主题！
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 正在处理 文档 发布...
+INFO     mypy.apps.baidu2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.playwright.publish_config:log.py:105 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 正在把当前目录下的文件转成 image_article
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+WARNING  mypy.apps.ppt2douyin.ppt_converter:log.py:113 🟠 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt 下未发现待处理 ['.ppt', '.pptx', '.doc', '.docx'] 后缀文件
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 处理完成，一共处理了 0 个图文
+DEBUG    mypy.utils.file:log.py:109 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/baidu2douyin/_out/test_baidu2douyin/ppt/config

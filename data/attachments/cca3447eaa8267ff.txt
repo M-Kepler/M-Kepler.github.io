@@ -1,0 +1,3 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/aliyunpan/_out/test_aliyunpan
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 正在执行命令: ['aliyunpan', 'who']
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 设置环境变量: {'ALIYUNPAN_CONFIG_DIR': '/home/runner/._3party_runtime_dir/03.aliyunpan/config'}

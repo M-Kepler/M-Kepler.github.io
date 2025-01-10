@@ -1,1 +1,0 @@
-INFO     test_log:log.py:101 🟢 test message for logging

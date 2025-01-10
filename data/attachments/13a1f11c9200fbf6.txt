@@ -1,0 +1,2 @@
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/test.jpg'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/image/_out/test_image_handler
+DEBUG    mypy.utils.file:log.py:109 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/image/_out/test_image_handler/test.jpg

@@ -1,0 +1,86 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/youtube/_out/test_y2_downloader
+INFO     mypy.lib.youtube.y2_downloader:log.py:105 🟢 开始下载《https://www.youtube.com/watch?v=0AVrZ5tw_SM》
+ERROR    mypy.lib.youtube.y2_downloader:log.py:117 🔴 视频《https://www.youtube.com/watch?v=0AVrZ5tw_SM》下载异常: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 153, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 346, in title
+    raise exceptions.PytubeError(
+pytube.exceptions.PytubeError: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+INFO     mypy.lib.youtube.y2_downloader:log.py:105 🟢 开始下载《https://www.youtube.com/watch?v=0AVrZ5tw_SM》
+ERROR    mypy.lib.youtube.y2_downloader:log.py:117 🔴 视频《https://www.youtube.com/watch?v=0AVrZ5tw_SM》下载异常: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 153, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 346, in title
+    raise exceptions.PytubeError(
+pytube.exceptions.PytubeError: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+INFO     mypy.lib.youtube.y2_downloader:log.py:105 🟢 开始下载《https://www.youtube.com/watch?v=0AVrZ5tw_SM》
+ERROR    mypy.lib.youtube.y2_downloader:log.py:117 🔴 视频《https://www.youtube.com/watch?v=0AVrZ5tw_SM》下载异常: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 153, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 346, in title
+    raise exceptions.PytubeError(
+pytube.exceptions.PytubeError: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+INFO     mypy.lib.youtube.y2_downloader:log.py:105 🟢 开始下载《https://www.youtube.com/watch?v=0AVrZ5tw_SM》
+ERROR    mypy.lib.youtube.y2_downloader:log.py:117 🔴 视频《https://www.youtube.com/watch?v=0AVrZ5tw_SM》下载异常: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 153, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 346, in title
+    raise exceptions.PytubeError(
+pytube.exceptions.PytubeError: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+INFO     mypy.lib.youtube.y2_downloader:log.py:105 🟢 开始下载《https://www.youtube.com/watch?v=0AVrZ5tw_SM》
+ERROR    mypy.lib.youtube.y2_downloader:log.py:117 🔴 视频《https://www.youtube.com/watch?v=0AVrZ5tw_SM》下载异常: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 153, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pytube/__main__.py", line 346, in title
+    raise exceptions.PytubeError(
+pytube.exceptions.PytubeError: Exception while accessing title of https://youtube.com/watch?v=0AVrZ5tw_SM. Please file a bug report at https://github.com/pytube/pytube
