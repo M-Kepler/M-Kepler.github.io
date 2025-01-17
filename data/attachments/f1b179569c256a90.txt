@@ -1,1 +1,0 @@
-INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/youtu2douyin/_out/test_youtu_video_tools
