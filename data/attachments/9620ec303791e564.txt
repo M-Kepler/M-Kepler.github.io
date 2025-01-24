@@ -1,0 +1,6 @@
+INFO     test_log:log.py:105 🟢 
+INFO     test_log:log.py:105 🟢 哈哈哈哈哈哈哈哈哈哈哈哈哈
+DEBUG    test_log:log.py:109 🔵 哈哈哈哈哈哈哈哈哈哈哈哈哈
+WARNING  test_log:log.py:113 🟠 哈哈哈哈哈哈哈哈哈哈哈哈哈
+ERROR    test_log:log.py:117 🔴 哈哈哈哈哈哈哈哈哈哈哈哈哈
+INFO     test_log:log.py:121 🍊🍊🍊 success: hhhhh

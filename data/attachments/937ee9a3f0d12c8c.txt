@@ -1,0 +1,93 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_original_video.mp4'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out
+INFO     mypy.lib.playwright.publish_config:log.py:105 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+WARNING  mypy.lib.music.music:log.py:113 🟠 在 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:log.py:105 🟢 一共发现 80 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 下载任务数量: 80
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 生产者数量: 4, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+ERROR    mypy.lib.mqs.pylib.downloader:log.py:117 🔴 请求失败: peer closed connection without sending complete message body (received 4194304 bytes, expected 4346911)
+INFO     mypy.lib.mqs.pylib.downloader:log.py:105 🟢 下载任务结束
+ERROR    mypy.lib.douyin.douyin_music:log.py:117 🔴 重命名文件 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/o0ptqWegeInChKQCzcJgbADFkBMjZ3cACEOUTB 失败: [Errno 2] No such file or directory: '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/o0ptqWegeInChKQCzcJgbADFkBMjZ3cACEOUTB' -> '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/你做了我梦里的人.m4a'
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_original_video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/你的.m4a》，并加速到 46s
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加 bgm
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:109 🔵 视频时长(46s) >= bgm 时长(18.102857s)，循环播放 bgm 3 次
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加演讲语音
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加水印: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/account/test/logo.png
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:log.py:105 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:119 🟠 [platform: douyin], [publish_file: ppt.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_large.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_middle.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:122 🟢 [platform: douyin], [publish_file: ppt.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:138 🟢 [platform: douyin], [publish_file: ppt.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:145 🟢 [platform: douyin], [publish_file: ppt.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:113 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:59 🔵 [platform: douyin], [publish_file: ppt.mp4] - 从文件标题解析出话题: #ppt
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:135 🟢 [platform: douyin], [publish_file: ppt.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:99 ❌ [platform: douyin], [publish_file: ppt.mp4] - 账号登录状态已失效，正在跳出: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:162 ❌ [platform: douyin], [publish_file: ppt.mp4] - 《ppt》发布异常: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+
+ERROR    mypy.lib.playwright.common:log.py:117 🔴 Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 95, in _check_login_status
+    await page.goto(self._publish_playwright_cfg.creator_home_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 8973, in goto
+    await self._impl_obj.goto(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 163, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 147, in publish_mission
+    await self._check_login_status(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 100, in _check_login_status
+    raise CheckLoginStatusExp(original_exception=ex) from ex
+mypy.lib.playwright.exceptions.CheckLoginStatusExp: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:173 ❌ [platform: douyin], [publish_file: ppt.mp4] - 《ppt》发布异常: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4] 发布到 [douyin] 失败，原因: [Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://creator.douyin.com/", waiting until "load"
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 -----> 清理 ppt.mp4 临时文件
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_original_video.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.mp3
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 处理完成，一共处理了 1 个视频

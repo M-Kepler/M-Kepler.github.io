@@ -1,0 +1,2 @@
+INFO     mypy.apps.youtu2douyin.main:log.py:105 🟢 运行模式: manual
+INFO     mypy.apps.youtu2douyin.main:log.py:105 🟢 video_url: https://www.youtube.com/watch?v=WCh7oZrQOx4

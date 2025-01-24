@@ -1,0 +1,320 @@
+DEBUG    mypy.lib.stock.data.tonghuashun.wencai:log.py:109 🔵 向 wencai 查询 [大单净量大于1.5,净流入前20,非st,非次新,主力净流入大于2亿,未涨停]...
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 300496 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 002265 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 300465 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 300624 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 300166 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 600580 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 002292 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:log.py:113 🟠 组装 002917 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  dde大单净量[20250124]  上市交易日天数[20250124]  主力资金流向[20250124]  收盘价:不复权[20250124]  涨停价[20250124]  {(}收盘价:不复权[20250124]{-}涨停价[20250124]{)}  资金流向[20250124] 资金流向排名[20250124]  资金流入inner[20250124]  资金流出inner[20250124]  主力买入金额[20250124]  主力卖出金额[20250124]  dde大单净流入量[20250124]  流通a股[20250124]  dde散户数量[20250124]  market_code    code
+0  300496.SZ  中科创达 64.92  17.69               1.65               2220         946467870              64.92          66.19                                    -1.27   1330769510.00           2/5393        2752447430.00        1421677920.00        1488685710         542217840           6064578.00    367038051.00            -468.82           33  300496
+1  002265.SZ  建设工业 30.71   5.64               1.76               4004         379794939              30.71          31.98                                    -1.27    553737839.00          13/5393        1692773160.00        1139035321.00         674880560         295085621           7107580.00    403097025.00            -151.00           33  002265
+2  300465.SZ   高伟达 19.81  13.59               3.40               2352         432211360              19.81          20.93                                    -1.12    509360120.00          16/5393        1456446250.00         947086130.00         753025800         320814440          15090392.00    443749357.00            -387.39           33  300465
+3  300624.SZ  万兴科技 68.83  12.69               1.72               1704         361464630              68.83          73.30                                    -4.47    479926250.00          19/5393        1356805120.00         876878870.00         681560720         320096090           2942003.00    171233216.00            -282.97           33  300624
+4  300166.SZ  东方国信 11.20   8.63               2.05               3403         317220400              11.20          12.37                                    -1.17    354180320.00          38/5393        1047995620.00         693815300.00         567425660         250205260          18538485.00    905580365.00            -297.13           33  300166
+5  600580.SH  卧龙电驱 21.19   8.00               1.88               5502         366487110              21.19          21.58                                    -0.39    310021460.00          52/5393        2558277750.00        2248256290.00        1218976990         852489880          24431488.00   1302622626.00             -86.56           17  600580
+6  002292.SZ  奥飞娱乐 10.19   7.04               1.70               3735         219351054              10.19          10.47                                    -0.28    309197954.00          53/5393         992895380.00         683697426.00         371013180         151662126          17325842.00   1017864244.00            -137.94           33  002292
+7  002917.SZ   金奥博 18.40  -4.32               2.14               1732         244334973              18.40          21.15                                    -2.75    178618083.00         115/5393        1007560270.00         828942187.00         487633360         243298387           5573161.00    260545231.00              43.32           33  002917 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250124]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/generic.py", line 4287, in xs
+    return self[key]
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250124]'

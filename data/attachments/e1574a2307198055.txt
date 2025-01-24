@@ -1,0 +1,1 @@
+INFO     mypy.utils.email:log.py:105 🟢 邮件 [test-2025-01-24 20:59:30.418410] 发送成功
