@@ -1,0 +1,150 @@
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/weixin/cookie_large.json
+INFO     mypy.lib.playwright.publish_config:log.py:105 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/weixin/cookie_large.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:113 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.weixin.video.publish_app:log.py:109 🔵 从文件标题解析出话题: #vertical #video
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 ==================================================
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 [WeixinPublishHelper] 开始执行发布任务
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 ==================================================
+ERROR    mypy.lib.weixin.video.publish_app:log.py:117 🔴 获取登陆用户名称失败: Page.inner_text: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".finder-nickname")
+
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 当前登录账号为 [unknow_user]
+INFO     mypy.lib.weixin.video.publish_app:log.py:105 🟢 开始上传文件...
+ERROR    mypy.lib.weixin.video.publish_app:log.py:117 🔴 发生异常: Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 83, in upload
+    await page.wait_for_url(self._playwright_cfg.video_upload_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9126, in wait_for_url
+    await self._impl_obj.wait_for_url(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 575, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 236, in wait_for_url
+    pass
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 207, in continuation
+    event = await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 83, in upload
+    await page.wait_for_url(self._playwright_cfg.video_upload_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9126, in wait_for_url
+    await self._impl_obj.wait_for_url(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 575, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 236, in wait_for_url
+    pass
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 207, in continuation
+    event = await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+ERROR    mypy.lib.weixin.video.publish_app:log.py:117 🔴 《vertical_video》发布异常: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 150, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 88, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 83, in upload
+    await page.wait_for_url(self._playwright_cfg.video_upload_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9126, in wait_for_url
+    await self._impl_obj.wait_for_url(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 575, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 236, in wait_for_url
+    pass
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 207, in continuation
+    event = await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+ERROR    mypy.lib.playwright.common:log.py:117 🔴 Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 163, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 150, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 88, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 83, in upload
+    await page.wait_for_url(self._playwright_cfg.video_upload_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9126, in wait_for_url
+    await self._impl_obj.wait_for_url(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 575, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 236, in wait_for_url
+    pass
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 207, in continuation
+    event = await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+ERROR    mypy.lib.weixin.video.publish_app:log.py:117 🔴 《vertical_video》发布异常: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 171, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py", line 456, in wrapper
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py", line 462, in wrapper
+    await async_func(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 163, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 150, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 88, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/weixin/video/publish_helper.py", line 83, in upload
+    await page.wait_for_url(self._playwright_cfg.video_upload_url)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9126, in wait_for_url
+    await self._impl_obj.wait_for_url(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 575, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 236, in wait_for_url
+    pass
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 207, in continuation
+    event = await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://channels.weixin.qq.com/platform/post/create" until 'load'
+============================================================
+DEBUG    mypy.utils.file:log.py:109 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/_out/test_douyin_publish_app/test_douyin_publish_app/config

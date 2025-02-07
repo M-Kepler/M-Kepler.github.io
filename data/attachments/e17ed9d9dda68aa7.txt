@@ -1,0 +1,59 @@
+INFO     test_slider_captcha:log.py:105 🟢 ----- test_slider_captcha_handler -----
+DEBUG    test_slider_captcha:log.py:109 🔵 尝试获取块验证码: 1/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:log.py:109 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:log.py:109 🔵 当前是: 判断图片是否为正的验证码，刷新页面
+DEBUG    test_slider_captcha:log.py:109 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:log.py:109 🔵 尝试获取块验证码: 2/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 不是滑动验证码, 刷新页面继续检查
+DEBUG    test_slider_captcha:log.py:109 🔵 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    test_slider_captcha:log.py:109 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:log.py:109 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:log.py:109 🔵 页面重新载入完成
+DEBUG    test_slider_captcha:log.py:109 🔵 尝试获取块验证码: 3/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 验证码已触发
+DEBUG    test_slider_captcha:log.py:109 🔵 等待滑动验证码展示事件就绪信号
+INFO     test_slider_captcha:log.py:105 🟢 开始处理滑块验证码...
+DEBUG    test_slider_captcha:log.py:109 🔵 刷新验证码
+DEBUG    test_slider_captcha:log.py:109 🔵 当前是: 滑块验证码
+DEBUG    test_slider_captcha:log.py:109 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:log.py:109 🔵 拦截到获取验证码 URL
+DEBUG    test_slider_captcha:log.py:109 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:log.py:109 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:log.py:109 🔵 拦截到下载验证码图片的请求
+DEBUG    test_slider_captcha:log.py:109 🔵 验证码图片下载完成: /home/runner/work/github-runner/github-runner/_out/TRUpP.jpg
+DEBUG    test_slider_captcha:log.py:109 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:log.py:109 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:log.py:109 🔵 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:log.py:109 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:log.py:109 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:log.py:109 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:log.py:109 🔵 获取到缺口距离: 485
+DEBUG    test_slider_captcha:log.py:109 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:log.py:109 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:log.py:109 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:log.py:109 🔵 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:log.py:109 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:log.py:109 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:log.py:109 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:log.py:109 🔵 获取到缺口距离: 485
+DEBUG    test_slider_captcha:log.py:109 🔵 判断验证码验证结果
+DEBUG    test_slider_captcha:log.py:109 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:log.py:109 🔵 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    test_slider_captcha:log.py:109 🔵 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    test_slider_captcha:log.py:109 🔵 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    test_slider_captcha:log.py:109 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:log.py:109 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:log.py:109 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:log.py:109 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:log.py:109 🔵 获取到缺口距离: 485
+DEBUG    test_slider_captcha:log.py:109 🔵 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_G2PYiIlA_ubBa0UAYBjsZ-vldY4debF2P16Xvm325qta1u0U1BXivERJcr4rWeGleLctGZUUVYxo835MLMdNTB2sjIQjkvBJeOGDC5_ao5N_9g9JVSs4Wmn5lscI3shahTPY4H0JBWz8HRJv_lmjgLliAqC6-jPRGMbCgTmFqRZqsqVEieQK2VLzZYS1Ym8o'}, 'code': 0, 'msg': 'success'}
+INFO     test_slider_captcha:log.py:105 🟢 ---------- 验证码验证通过 ----------
+INFO     test_slider_captcha:log.py:105 🟢 清理掉所有的等待事件
+DEBUG    test_slider_captcha:log.py:109 🔵 取消 is_captcha_showed 等待事件
+DEBUG    test_slider_captcha:log.py:109 🔵 取消 is_captcha_downloaded 等待事件
+DEBUG    test_slider_captcha:log.py:109 🔵 取消 is_slide_captcha 等待事件
+DEBUG    test_slider_captcha:log.py:109 🔵 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/_out/captcha_save_dir
+DEBUG    test_slider_captcha:log.py:109 🔵 验证码已经验证通过，退出循环

@@ -1,0 +1,8 @@
+INFO     mypy.lib.video.video_clip_helper:log.py:105 🟢 -----> 开始把视频嵌入到绿幕素材: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/image/green_screen_background/2.jpg
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 绿幕图片素材 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/image/green_screen_background/2.jpg 转成视频输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/image/green_screen_background/2.mp4
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/image/green_screen_background/2.jpg 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 输出视频分辨率为: (1894, 3251)
+WARNING  mypy.lib.video.video_clip_helper:log.py:113 🟠 输入视频强制使用 30 帧率
+WARNING  mypy.lib.video.video_clip_helper:log.py:113 🟠 绿幕视频帧率为: 30, 替换视频帧率为: 30.303030303030305
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:log.py:105 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_video_maked_with_green_sceen_mixed.mp4 正常

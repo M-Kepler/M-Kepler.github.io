@@ -1,0 +1,81 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/baidu/_out/test_baidu_aigc
+WARNING  mypy.lib.baidu.baidu_aigc:log.py:113 🟠 ----- 由于 AI API 没钱了，所以直接给定主题 -----
+INFO     mypy.lib.baidu.baidu_aigc:log.py:105 🟢 获取到以下主题：
+INFO     mypy.lib.baidu.baidu_aigc:log.py:105 🟢 《神经内科护士长年终总结》
+INFO     mypy.lib.baidu.baidu_aigc:log.py:105 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/config/cookie/baidu/cookie_large.json]，当前账号排序: [1]
+INFO     mypy.lib.baidu.baidu_aigc_helper:log.py:105 🟢 -----> 开始执行生成任务: ['神经内科护士长年终总结']
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:92 🔵 [ppt_topic: 神经内科护士长年终总结] - 尝试获取块验证码: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:101 🔵 [ppt_topic: 神经内科护士长年终总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:60 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:69 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前是: 判断图片是否为正的验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:46 🔵 [ppt_topic: 神经内科护士长年终总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:92 🔵 [ppt_topic: 神经内科护士长年终总结] - 尝试获取块验证码: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:101 🔵 [ppt_topic: 神经内科护士长年终总结] - 不是滑动验证码, 刷新页面继续检查
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:60 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前是: 字体验证码或绳子验证码，刷新页面
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:73 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:108 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:46 🔵 [ppt_topic: 神经内科护士长年终总结] - 页面重新载入完成
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:92 🔵 [ppt_topic: 神经内科护士长年终总结] - 尝试获取块验证码: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:127 🔵 [ppt_topic: 神经内科护士长年终总结] - 验证码已触发
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:252 🔵 [ppt_topic: 神经内科护士长年终总结] - 等待滑动验证码展示事件就绪信号
+INFO     mypy.lib.baidu.baidu_aigc_helper:base.py:254 🟢 [ppt_topic: 神经内科护士长年终总结] - 开始处理滑块验证码...
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:171 🔵 [ppt_topic: 神经内科护士长年终总结] - 刷新验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:73 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前是: 滑块验证码
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:108 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:160 🔵 [ppt_topic: 神经内科护士长年终总结] - 拦截到获取验证码 URL
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:268 🔵 [ppt_topic: 神经内科护士长年终总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:125 🔵 [ppt_topic: 神经内科护士长年终总结] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:125 🔵 [ppt_topic: 神经内科护士长年终总结] - 拦截到下载验证码图片的请求
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu.py:144 🔵 [ppt_topic: 神经内科护士长年终总结] - 验证码图片下载完成: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/_out/WGKvO.jpg
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:108 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:271 🔵 [ppt_topic: 神经内科护士长年终总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:272 🔵 [ppt_topic: 神经内科护士长年终总结] - 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:197 🔵 [ppt_topic: 神经内科护士长年终总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:126 🔵 [ppt_topic: 神经内科护士长年终总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:90 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:30 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:152 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取到缺口距离: 471
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:268 🔵 [ppt_topic: 神经内科护士长年终总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:108 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:271 🔵 [ppt_topic: 神经内科护士长年终总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:272 🔵 [ppt_topic: 神经内科护士长年终总结] - 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:197 🔵 [ppt_topic: 神经内科护士长年终总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:126 🔵 [ppt_topic: 神经内科护士长年终总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:90 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:30 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:152 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取到缺口距离: 471
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:144 🔵 [ppt_topic: 神经内科护士长年终总结] - 判断验证码验证结果
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:268 🔵 [ppt_topic: 神经内科护士长年终总结] - 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:108 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取滑块图片在网页上呈现的大小和实际大小的比例
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:271 🔵 [ppt_topic: 神经内科护士长年终总结] - 图片呈现与实际比例为: 0.3333333333333333
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:272 🔵 [ppt_topic: 神经内科护士长年终总结] - 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:197 🔵 [ppt_topic: 神经内科护士长年终总结] - 点击拖动缺口滑块
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:126 🔵 [ppt_topic: 神经内科护士长年终总结] - 计算验证码缺口距离
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:90 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始获取验证码缺口坐标
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:30 🔵 [ppt_topic: 神经内科护士长年终总结] - 开始对验证码背景图片进行预处理
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:captcha_img_handler.py:152 🔵 [ppt_topic: 神经内科护士长年终总结] - 获取到缺口距离: 471
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:149 🔵 [ppt_topic: 神经内科护士长年终总结] - 验证请求的响应: {'data': {'pass': True, 'v': '1', 'stk': '1_vSzsSaI-2POxUdAk7EQiM-5PAuWwtqulGlVjcmTwAlaH8oJpSZqdoyzPPtAMGp1_h9uNT_WePHPlUXh7z_GYlhUnl3uFCyX18Ub8k_aUFEfqLooH3taJrNllLoBak6ESgElrVDmZpzoMn5Ddo0LdQwaPN-T6wH-mmLRUz74_fQH9jBQjEl5sWEx8hPCBeHzsxnT1CMLOkXBTE9z26suo_w=='}, 'code': 0, 'msg': 'success'}
+INFO     mypy.lib.baidu.baidu_aigc_helper:base.py:151 🟢 [ppt_topic: 神经内科护士长年终总结] - ---------- 验证码验证通过 ----------
+INFO     mypy.lib.baidu.baidu_aigc_helper:base.py:232 🟢 [ppt_topic: 神经内科护士长年终总结] - 清理掉所有的等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:88 🔵 [ppt_topic: 神经内科护士长年终总结] - 取消 is_captcha_showed 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:88 🔵 [ppt_topic: 神经内科护士长年终总结] - 取消 is_captcha_downloaded 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:88 🔵 [ppt_topic: 神经内科护士长年终总结] - 取消 is_slide_captcha 等待事件
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:242 🔵 [ppt_topic: 神经内科护士长年终总结] - 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/_out/captcha_save_dir
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:base.py:266 🔵 [ppt_topic: 神经内科护士长年终总结] - 验证码已经验证通过，退出循环
+WARNING  /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:before_sleep.py:65 Retrying <unknown> in 3.0 seconds as it raised Error: Page.goto: net::ERR_ABORTED at https://wenku.baidu.com/search?word=123&lm=0&od=0&fr=top_home&ie=utf-8&_wkts_=1731675699196
+Call log:
+  - navigating to "https://wenku.baidu.com/search?word=123&lm=0&od=0&fr=top_home&ie=utf-8&_wkts_=1731675699196", waiting until "load"
+.
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:94 🔵 [ppt_topic: 神经内科护士长年终总结] - 当前页面为: https://wenku.baidu.com/search?word=123&lm=0&od=0&fr=top_home&ie=utf-8&_wkts_=1738928096540&fromRefer=wkSearch
+DEBUG    mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:103 🔵 [ppt_topic: 神经内科护士长年终总结] - 点击智能 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:132 🟢 [ppt_topic: 神经内科护士长年终总结] - 填入主题内容: [神经内科护士长年终总结
+ppt]
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:139 🟢 [ppt_topic: 神经内科护士长年终总结] - 正在等待文档生成...
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:111 🟢 [ppt_topic: 神经内科护士长年终总结] - 点击生成 PPT 按钮
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:114 🟢 [ppt_topic: 神经内科护士长年终总结] - 选择主题
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:122 🟢 [ppt_topic: 神经内科护士长年终总结] - 已选择 PPT 主题，点击继续生成
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:177 🟢 [ppt_topic: 神经内科护士长年终总结] - 跳转到新页面生成中，请等待...
+INFO     mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:182 🟢 [ppt_topic: 神经内科护士长年终总结] - 生成完成，正在导出
+Level 25 mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:192 🍊🍊🍊 [ppt_topic: 神经内科护士长年终总结] - ==================================================
+Level 25 mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:192 🍊🍊🍊 [ppt_topic: 神经内科护士长年终总结] - 成功下载到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/baidu/_out/test_baidu_aigc/test_baidu_aigc/ppt/神经内科护士长年终总结.pptx
+Level 25 mypy.lib.baidu.baidu_aigc_helper:baidu_aigc_helper.py:192 🍊🍊🍊 [ppt_topic: 神经内科护士长年终总结] - ==================================================
