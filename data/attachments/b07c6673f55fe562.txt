@@ -1,0 +1,314 @@
+WARNING  mypy.lib.stock.backtrader.backtrader_helper:log.py:113 🟠 pytest 模式, 不显示回测图
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-08, 收盘价: 37.79, 涨跌幅: 0.00%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-09, 收盘价: 37.68, 涨跌幅: -0.29%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-10, 收盘价: 36.77, 涨跌幅: -2.42%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-11, 收盘价: 36.52, 涨跌幅: -0.68%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-12, 收盘价: 35.35, 涨跌幅: -3.20%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-15, 收盘价: 35.93, 涨跌幅: 1.64%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-16, 收盘价: 35.85, 涨跌幅: -0.22%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-17, 收盘价: 36.52, 涨跌幅: 1.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-18, 收盘价: 37.27, 涨跌幅: 2.05%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-18, 下单买入: 37.27
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-19, <--- [买入] 订单编号: 1, 股票名称: , 价格: 37.04, 成交量: 1000.00, 交易金额: 37043.70, 手续费: 18.52
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-19, 收盘价: 36.99, 涨跌幅: -0.75%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-22, 收盘价: 37.40, 涨跌幅: 1.11%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-23, 收盘价: 37.46, 涨跌幅: 0.16%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-24, 收盘价: 38.17, 涨跌幅: 1.90%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-25, 收盘价: 38.63, 涨跌幅: 1.21%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-26, 收盘价: 39.10, 涨跌幅: 1.22%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-29, 收盘价: 39.65, 涨跌幅: 1.41%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-04-30, 收盘价: 38.93, 涨跌幅: -1.82%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-06, 收盘价: 40.06, 涨跌幅: 2.90%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-07, 收盘价: 40.16, 涨跌幅: 0.25%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-08, 收盘价: 39.52, 涨跌幅: -1.59%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-09, 收盘价: 39.91, 涨跌幅: 0.99%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-10, 收盘价: 40.50, 涨跌幅: 1.48%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-13, 收盘价: 40.22, 涨跌幅: -0.69%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-14, 收盘价: 39.88, 涨跌幅: -0.85%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-15, 收盘价: 39.41, 涨跌幅: -1.18%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-15, 下单卖出: 39.41
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-16, ---> [卖出] 订单编号: 2, 股票名称: , 价格: 39.77, 成交量: -1000.00, 交易金额: 37043.70, 手续费: 39.77
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-16, ----- 本次交易净利: 2722.32, 毛利: 2664.03
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-16, 收盘价: 40.62, 涨跌幅: 3.07%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-16, 下单买入: 40.62
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-17, <--- [买入] 订单编号: 3, 股票名称: , 价格: 41.17, 成交量: 1000.00, 交易金额: 41174.12, 手续费: 20.59
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-17, 收盘价: 42.77, 涨跌幅: 5.29%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-20, 收盘价: 43.03, 涨跌幅: 0.61%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-21, 收盘价: 42.97, 涨跌幅: -0.14%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-22, 收盘价: 42.97, 涨跌幅: 0.00%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-23, 收盘价: 42.35, 涨跌幅: -1.44%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-24, 收盘价: 41.46, 涨跌幅: -2.10%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-24, 下单卖出: 41.46
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-27, ---> [卖出] 订单编号: 4, 股票名称: , 价格: 41.57, 成交量: -1000.00, 交易金额: 41174.12, 手续费: 41.57
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-27, ----- 本次交易净利: 391.73, 毛利: 329.57
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-27, 收盘价: 41.67, 涨跌幅: 0.51%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-28, 收盘价: 41.33, 涨跌幅: -0.82%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-29, 收盘价: 41.04, 涨跌幅: -0.70%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-30, 收盘价: 40.72, 涨跌幅: -0.78%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-05-31, 收盘价: 40.64, 涨跌幅: -0.20%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-03, 收盘价: 40.70, 涨跌幅: 0.15%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-04, 收盘价: 40.84, 涨跌幅: 0.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-05, 收盘价: 40.65, 涨跌幅: -0.47%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-06, 收盘价: 40.02, 涨跌幅: -1.55%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-07, 收盘价: 39.69, 涨跌幅: -0.82%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-11, 收盘价: 39.40, 涨跌幅: -0.73%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-12, 收盘价: 38.97, 涨跌幅: -1.09%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-13, 收盘价: 38.87, 涨跌幅: -0.26%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-14, 收盘价: 39.44, 涨跌幅: 1.47%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-17, 收盘价: 39.15, 涨跌幅: -0.74%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-18, 收盘价: 39.30, 涨跌幅: 0.38%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-19, 收盘价: 39.57, 涨跌幅: 0.69%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-19, 下单买入: 39.57
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-20, <--- [买入] 订单编号: 5, 股票名称: , 价格: 39.56, 成交量: 1000.00, 交易金额: 39563.96, 手续费: 19.78
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-20, 收盘价: 39.08, 涨跌幅: -1.24%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-20, 下单卖出: 39.08
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-21, ---> [卖出] 订单编号: 6, 股票名称: , 价格: 39.06, 成交量: -1000.00, 交易金额: 39563.96, 手续费: 39.06
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-21, ----- 本次交易净利: -507.86, 毛利: -566.70
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-21, 收盘价: 39.24, 涨跌幅: 0.41%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-24, 收盘价: 39.37, 涨跌幅: 0.33%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-24, 下单买入: 39.37
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-25, <--- [买入] 订单编号: 7, 股票名称: , 价格: 39.36, 成交量: 1000.00, 交易金额: 39363.94, 手续费: 19.68
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-25, 收盘价: 39.12, 涨跌幅: -0.64%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-25, 下单卖出: 39.12
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-26, ---> [卖出] 订单编号: 8, 股票名称: , 价格: 39.05, 成交量: -1000.00, 交易金额: 39363.94, 手续费: 39.05
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-26, ----- 本次交易净利: -317.84, 毛利: -376.57
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-26, 收盘价: 39.22, 涨跌幅: 0.26%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-27, 收盘价: 38.99, 涨跌幅: -0.59%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-06-28, 收盘价: 38.93, 涨跌幅: -0.15%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-01, 收盘价: 39.19, 涨跌幅: 0.67%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-02, 收盘价: 39.74, 涨跌幅: 1.40%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-02, 下单买入: 39.74
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-03, <--- [买入] 订单编号: 9, 股票名称: , 价格: 39.75, 成交量: 1000.00, 交易金额: 39753.97, 手续费: 19.88
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-03, 收盘价: 39.84, 涨跌幅: 0.25%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-04, 收盘价: 39.55, 涨跌幅: -0.73%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-05, 收盘价: 38.69, 涨跌幅: -2.17%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-05, 下单卖出: 38.69
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-08, ---> [卖出] 订单编号: 10, 股票名称: , 价格: 38.47, 成交量: -1000.00, 交易金额: 39753.97, 手续费: 38.47
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-08, ----- 本次交易净利: -1287.82, 毛利: -1346.17
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-08, 收盘价: 38.41, 涨跌幅: -0.72%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-09, 收盘价: 39.09, 涨跌幅: 1.77%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-10, 收盘价: 39.43, 涨跌幅: 0.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-10, 下单买入: 39.43
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-11, <--- [买入] 订单编号: 11, 股票名称: , 价格: 39.84, 成交量: 1000.00, 交易金额: 39843.98, 手续费: 19.92
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-11, 收盘价: 39.51, 涨跌幅: 0.20%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-12, 收盘价: 40.25, 涨跌幅: 1.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-15, 收盘价: 40.10, 涨跌幅: -0.37%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-16, 收盘价: 38.76, 涨跌幅: -3.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-16, 下单卖出: 38.76
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-17, ---> [卖出] 订单编号: 12, 股票名称: , 价格: 38.82, 成交量: -1000.00, 交易金额: 39843.98, 手续费: 38.82
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-17, ----- 本次交易净利: -1023.98, 毛利: -1082.73
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-17, 收盘价: 39.86, 涨跌幅: 2.84%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-17, 下单买入: 39.86
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-18, <--- [买入] 订单编号: 13, 股票名称: , 价格: 39.76, 成交量: 1000.00, 交易金额: 39763.98, 手续费: 19.88
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-18, 收盘价: 39.94, 涨跌幅: 0.20%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-19, 收盘价: 40.60, 涨跌幅: 1.65%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-22, 收盘价: 40.57, 涨跌幅: -0.07%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-23, 收盘价: 40.36, 涨跌幅: -0.52%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-24, 收盘价: 40.13, 涨跌幅: -0.57%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-25, 收盘价: 40.14, 涨跌幅: 0.02%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-26, 收盘价: 40.16, 涨跌幅: 0.05%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-29, 收盘价: 40.39, 涨跌幅: 0.57%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-30, 收盘价: 40.40, 涨跌幅: 0.02%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-07-31, 收盘价: 41.63, 涨跌幅: 3.04%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-01, 收盘价: 41.58, 涨跌幅: -0.12%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-02, 收盘价: 40.89, 涨跌幅: -1.66%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-05, 收盘价: 41.07, 涨跌幅: 0.44%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-06, 收盘价: 39.97, 涨跌幅: -2.68%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-06, 下单卖出: 39.97
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-07, ---> [卖出] 订单编号: 14, 股票名称: , 价格: 39.99, 成交量: -1000.00, 交易金额: 39763.98, 手续费: 39.99
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-07, ----- 本次交易净利: 222.03, 毛利: 162.16
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-07, 收盘价: 39.77, 涨跌幅: -0.50%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-08, 收盘价: 39.89, 涨跌幅: 0.30%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-09, 收盘价: 39.68, 涨跌幅: -0.53%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-12, 收盘价: 39.69, 涨跌幅: 0.03%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-13, 收盘价: 39.85, 涨跌幅: 0.40%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-14, 收盘价: 39.56, 涨跌幅: -0.73%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-15, 收盘价: 40.39, 涨跌幅: 2.10%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-15, 下单买入: 40.39
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-16, <--- [买入] 订单编号: 15, 股票名称: , 价格: 40.39, 成交量: 1000.00, 交易金额: 40394.04, 手续费: 20.20
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-16, 收盘价: 40.68, 涨跌幅: 0.72%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-19, 收盘价: 41.14, 涨跌幅: 1.13%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-20, 收盘价: 40.99, 涨跌幅: -0.36%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-21, 收盘价: 41.04, 涨跌幅: 0.12%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-22, 收盘价: 40.78, 涨跌幅: -0.63%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-23, 收盘价: 42.42, 涨跌幅: 4.02%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-26, 收盘价: 42.42, 涨跌幅: 0.00%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-27, 收盘价: 42.22, 涨跌幅: -0.47%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-28, 收盘价: 42.26, 涨跌幅: 0.09%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-29, 收盘价: 41.69, 涨跌幅: -1.35%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-08-30, 收盘价: 43.10, 涨跌幅: 3.38%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-02, 收盘价: 42.52, 涨跌幅: -1.35%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-03, 收盘价: 42.28, 涨跌幅: -0.56%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-04, 收盘价: 41.71, 涨跌幅: -1.35%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-04, 下单卖出: 41.71
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-05, ---> [卖出] 订单编号: 16, 股票名称: , 价格: 41.70, 成交量: -1000.00, 交易金额: 40394.04, 手续费: 41.70
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-05, ----- 本次交易净利: 1301.79, 毛利: 1239.90
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-05, 收盘价: 42.49, 涨跌幅: 1.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-05, 下单买入: 42.49
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-06, <--- [买入] 订单编号: 17, 股票名称: , 价格: 42.49, 成交量: 1000.00, 交易金额: 42494.25, 手续费: 21.25
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-06, 收盘价: 42.32, 涨跌幅: -0.40%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-09, 收盘价: 41.75, 涨跌幅: -1.35%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-09, 下单卖出: 41.75
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-10, ---> [卖出] 订单编号: 18, 股票名称: , 价格: 41.82, 成交量: -1000.00, 交易金额: 42494.25, 手续费: 41.82
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-10, ----- 本次交易净利: -678.43, 毛利: -741.49
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-10, 收盘价: 41.73, 涨跌幅: -0.05%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-11, 收盘价: 41.59, 涨跌幅: -0.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-12, 收盘价: 41.67, 涨跌幅: 0.19%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-13, 收盘价: 41.96, 涨跌幅: 0.70%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-18, 收盘价: 42.77, 涨跌幅: 1.93%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-18, 下单买入: 42.77
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-19, <--- [买入] 订单编号: 19, 股票名称: , 价格: 42.79, 成交量: 1000.00, 交易金额: 42794.28, 手续费: 21.40
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-19, 收盘价: 43.10, 涨跌幅: 0.77%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-20, 收盘价: 43.22, 涨跌幅: 0.28%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-23, 收盘价: 43.16, 涨跌幅: -0.14%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-24, 收盘价: 45.57, 涨跌幅: 5.58%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-25, 收盘价: 46.43, 涨跌幅: 1.89%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-26, 收盘价: 49.49, 涨跌幅: 6.59%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-27, 收盘价: 50.97, 涨跌幅: 2.99%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-09-30, 收盘价: 56.16, 涨跌幅: 10.18%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-08, 收盘价: 60.80, 涨跌幅: 8.26%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-09, 收盘价: 54.77, 涨跌幅: -9.92%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-10, 收盘价: 57.57, 涨跌幅: 5.11%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-11, 收盘价: 56.61, 涨跌幅: -1.67%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-14, 收盘价: 57.74, 涨跌幅: 2.00%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-15, 收盘价: 56.26, 涨跌幅: -2.56%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-16, 收盘价: 56.45, 涨跌幅: 0.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-17, 收盘价: 56.07, 涨跌幅: -0.67%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-17, 下单卖出: 56.07
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-18, ---> [卖出] 订单编号: 20, 股票名称: , 价格: 56.07, 成交量: -1000.00, 交易金额: 42794.28, 手续费: 56.07
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-18, ----- 本次交易净利: 13280.11, 毛利: 13202.64
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-18, 收盘价: 57.18, 涨跌幅: 1.98%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-18, 下单买入: 57.18
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-21, <--- [买入] 订单编号: 21, 股票名称: , 价格: 57.41, 成交量: 1000.00, 交易金额: 57405.74, 手续费: 28.70
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-21, 收盘价: 56.90, 涨跌幅: -0.49%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-21, 下单卖出: 56.90
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-22, ---> [卖出] 订单编号: 22, 股票名称: , 价格: 56.79, 成交量: -1000.00, 交易金额: 57405.74, 手续费: 56.79
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-22, ----- 本次交易净利: -611.42, 毛利: -696.92
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-22, 收盘价: 57.06, 涨跌幅: 0.28%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-22, 下单买入: 57.06
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-23, <--- [买入] 订单编号: 23, 股票名称: , 价格: 57.21, 成交量: 1000.00, 交易金额: 57205.72, 手续费: 28.60
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-23, 收盘价: 58.31, 涨跌幅: 2.19%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-24, 收盘价: 58.10, 涨跌幅: -0.36%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-25, 收盘价: 57.70, 涨跌幅: -0.69%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-28, 收盘价: 57.50, 涨跌幅: -0.35%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-29, 收盘价: 57.63, 涨跌幅: 0.23%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-30, 收盘价: 55.97, 涨跌幅: -2.88%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-30, 下单卖出: 55.97
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-31, ---> [卖出] 订单编号: 24, 股票名称: , 价格: 55.95, 成交量: -1000.00, 交易金额: 57205.72, 手续费: 55.95
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-31, ----- 本次交易净利: -1251.32, 毛利: -1335.87
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-10-31, 收盘价: 55.92, 涨跌幅: -0.09%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-01, 收盘价: 56.15, 涨跌幅: 0.41%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-04, 收盘价: 56.97, 涨跌幅: 1.46%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-05, 收盘价: 58.75, 涨跌幅: 3.12%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-05, 下单买入: 58.75
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-06, <--- [买入] 订单编号: 25, 股票名称: , 价格: 58.90, 成交量: 1000.00, 交易金额: 58895.89, 手续费: 29.45
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-06, 收盘价: 57.49, 涨跌幅: -2.14%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-07, 收盘价: 60.84, 涨跌幅: 5.83%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-08, 收盘价: 59.12, 涨跌幅: -2.83%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-11, 收盘价: 58.40, 涨跌幅: -1.22%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-12, 收盘价: 57.01, 涨跌幅: -2.38%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-12, 下单卖出: 57.01
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-13, ---> [卖出] 订单编号: 26, 股票名称: , 价格: 56.69, 成交量: -1000.00, 交易金额: 58895.89, 手续费: 56.69
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-13, ----- 本次交易净利: -2201.56, 毛利: -2287.70
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-13, 收盘价: 57.19, 涨跌幅: 0.32%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-14, 收盘价: 57.00, 涨跌幅: -0.33%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-15, 收盘价: 55.80, 涨跌幅: -2.11%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-18, 收盘价: 55.76, 涨跌幅: -0.07%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-19, 收盘价: 55.61, 涨跌幅: -0.27%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-20, 收盘价: 55.46, 涨跌幅: -0.27%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-21, 收盘价: 55.49, 涨跌幅: 0.05%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-22, 收盘价: 53.03, 涨跌幅: -4.43%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-25, 收盘价: 52.57, 涨跌幅: -0.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-26, 收盘价: 53.05, 涨跌幅: 0.91%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-27, 收盘价: 53.55, 涨跌幅: 0.94%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-28, 收盘价: 53.17, 涨跌幅: -0.71%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-11-29, 收盘价: 53.25, 涨跌幅: 0.15%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-02, 收盘价: 54.01, 涨跌幅: 1.43%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-02, 下单买入: 54.01
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-03, <--- [买入] 订单编号: 27, 股票名称: , 价格: 53.86, 成交量: 1000.00, 交易金额: 53855.38, 手续费: 26.93
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-03, 收盘价: 54.43, 涨跌幅: 0.78%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-04, 收盘价: 53.93, 涨跌幅: -0.92%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-05, 收盘价: 53.68, 涨跌幅: -0.46%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-06, 收盘价: 55.12, 涨跌幅: 2.68%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-09, 收盘价: 54.83, 涨跌幅: -0.53%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-10, 收盘价: 55.62, 涨跌幅: 1.44%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-11, 收盘价: 54.90, 涨跌幅: -1.29%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-12, 收盘价: 55.58, 涨跌幅: 1.24%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-13, 收盘价: 53.74, 涨跌幅: -3.31%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-13, 下单卖出: 53.74
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-16, ---> [卖出] 订单编号: 28, 股票名称: , 价格: 53.70, 成交量: -1000.00, 交易金额: 53855.38, 手续费: 53.70
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-16, ----- 本次交易净利: -150.76, 毛利: -231.39
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-16, 收盘价: 53.12, 涨跌幅: -1.15%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-17, 收盘价: 53.01, 涨跌幅: -0.21%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-18, 收盘价: 52.94, 涨跌幅: -0.13%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-19, 收盘价: 52.89, 涨跌幅: -0.09%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-20, 收盘价: 52.62, 涨跌幅: -0.51%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-23, 收盘价: 53.10, 涨跌幅: 0.91%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-24, 收盘价: 53.78, 涨跌幅: 1.28%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-24, 下单买入: 53.78
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-25, <--- [买入] 订单编号: 29, 股票名称: , 价格: 53.82, 成交量: 1000.00, 交易金额: 53815.38, 手续费: 26.91
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-25, 收盘价: 53.90, 涨跌幅: 0.22%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-26, 收盘价: 53.45, 涨跌幅: -0.83%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-27, 收盘价: 53.27, 涨跌幅: -0.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-30, 收盘价: 53.90, 涨跌幅: 1.18%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-31, 收盘价: 52.65, 涨跌幅: -2.32%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2024-12-31, 下单卖出: 52.65
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-02, ---> [卖出] 订单编号: 30, 股票名称: , 价格: 52.69, 成交量: -1000.00, 交易金额: 53815.38, 手续费: 52.69
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-02, ----- 本次交易净利: -1120.65, 毛利: -1200.25
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-02, 收盘价: 50.71, 涨跌幅: -3.68%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-03, 收盘价: 50.30, 涨跌幅: -0.81%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-06, 收盘价: 50.34, 涨跌幅: 0.08%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-07, 收盘价: 50.17, 涨跌幅: -0.34%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-08, 收盘价: 50.30, 涨跌幅: 0.26%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-09, 收盘价: 49.81, 涨跌幅: -0.97%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-10, 收盘价: 48.95, 涨跌幅: -1.73%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-13, 收盘价: 48.59, 涨跌幅: -0.74%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-14, 收盘价: 49.36, 涨跌幅: 1.58%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-15, 收盘价: 49.11, 涨跌幅: -0.51%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-16, 收盘价: 49.25, 涨跌幅: 0.29%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-17, 收盘价: 49.38, 涨跌幅: 0.26%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-20, 收盘价: 49.81, 涨跌幅: 0.87%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-20, 下单买入: 49.81
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-21, <--- [买入] 订单编号: 31, 股票名称: , 价格: 50.21, 成交量: 1000.00, 交易金额: 50205.02, 手续费: 25.10
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-21, 收盘价: 49.90, 涨跌幅: 0.18%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-22, 收盘价: 48.95, 涨跌幅: -1.90%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-22, 下单卖出: 48.95
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-23, ---> [卖出] 订单编号: 32, 股票名称: , 价格: 49.82, 成交量: -1000.00, 交易金额: 50205.02, 手续费: 49.82
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-23, ----- 本次交易净利: -390.00, 毛利: -464.92
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-23, 收盘价: 50.37, 涨跌幅: 2.90%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-23, 下单买入: 50.37
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-24, <--- [买入] 订单编号: 33, 股票名称: , 价格: 50.19, 成交量: 1000.00, 交易金额: 50185.02, 手续费: 25.09
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-24, 收盘价: 50.86, 涨跌幅: 0.97%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-01-27, 收盘价: 50.85, 涨跌幅: -0.02%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-05, 收盘价: 49.72, 涨跌幅: -2.22%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-05, 下单卖出: 49.72
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-06, ---> [卖出] 订单编号: 34, 股票名称: , 价格: 49.73, 成交量: -1000.00, 交易金额: 50185.02, 手续费: 49.73
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-06, ----- 本次交易净利: -459.99, 毛利: -534.81
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-06, 收盘价: 50.25, 涨跌幅: 1.07%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-06, 下单买入: 50.25
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-07, <--- [买入] 订单编号: 35, 股票名称: , 价格: 50.19, 成交量: 1000.00, 交易金额: 50185.02, 手续费: 25.09
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-07, 收盘价: 50.88, 涨跌幅: 1.25%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-10, 收盘价: 50.90, 涨跌幅: 0.04%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-11, 收盘价: 50.52, 涨跌幅: -0.75%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-12, 收盘价: 51.08, 涨跌幅: 1.11%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-13, 收盘价: 51.02, 涨跌幅: -0.12%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-14, 收盘价: 51.70, 涨跌幅: 1.33%
+INFO     mypy.lib.stock.strategy.base:log.py:105 🟢 2025-02-14, 回测结束，最终资金: 108222.67
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:121 🍊🍊🍊 时间段 [2024-02-15 17:49:50.589601: 2025-02-14 17:49:50.589601], 起始资金: 100000, 结束资金: 108222.67, 总利润: 8222.67, 利润率: 8.22%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 ========================= trade_analyzer 分析器结果 =========================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 总交易数: 18
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 盈利交易数: 5
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 亏损交易数: 12
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 总净利润: 6732.79
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 最大单笔盈利: 13202.64
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 最大单笔亏损: -2287.70
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 ========================= annual_return 年化收益率 =========================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 年份: 2024, 收益率: 7.74%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 年份: 2025, 收益率: 0.45%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 ========================= sharpe_ratio 夏普比率 =========================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 夏普比率: 0.85
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 ========================= down_draw_down 回测 =========================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 当前回撤持续时间: 86 个交易日
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 当前回撤百分比: 8.49%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 当前回撤金额: 10043.65 元
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:105 🟢 最大回撤: 持续时间: 89 个交易日, 百分比: 9.99%, 金额: 11813.94 元

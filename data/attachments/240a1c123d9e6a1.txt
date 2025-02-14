@@ -1,1 +1,0 @@
-WARNING  mypy.lib.weixin.pushplus:log.py:113 🟠 单元测试跳过微信消息推送: title: test_title_True, message: test_msg_tVAxQhRC5BaWMpgD

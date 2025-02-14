@@ -1,0 +1,199 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper
+INFO     mypy.utils.file:log.py:105 🟢 配置 [/home/runner/work/github-runner/github-runner/mypy/mypy/tools/config] 成功拷贝到: [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config]
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/video/vertical_video.mp4', '/home/runner/work/github-runner/github-runner/mypy/mypy/assets/video/horizontal_video.mp4'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media
+INFO     mypy.lib.playwright.publish_handler:log.py:105 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:119 🟠 [platform: douyin], [publish_file: horizontal_video.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:122 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:145 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.playwright.publish_handler:publish_helper.py:49 🟠 [platform: douyin], [publish_file: horizontal_video.mp4] - 获取代理失败: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /all?type=https (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d8c0e8310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: horizontal_video.mp4] - 从文件标题解析出话题: #horizontal #video
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:142 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - ==================================================
+ERROR    mypy.lib.playwright.publish_handler:publish_helper.py:93 🔴 [platform: douyin], [publish_file: horizontal_video.mp4] - 获取登陆用户名称失败: Page.inner_text: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".name-_lSSDc")
+
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: horizontal_video.mp4] - 当前登录账号为 [unknow_user]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:342 🔵 [platform: douyin], [publish_file: horizontal_video.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:351 ❌ [platform: douyin], [publish_file: horizontal_video.mp4] - 发生异常: Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 343, in upload
+    await page.locator("div[class^='container'] input").set_input_files(upload_filepath)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 17430, in set_input_files
+    await self._impl_obj.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_locator.py", line 592, in set_input_files
+    return await self._frame.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 699, in set_input_files
+    await self._channel.send(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:169 ❌ [platform: douyin], [publish_file: horizontal_video.mp4] - 《horizontal_video》发布异常: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+ERROR    mypy.lib.playwright.common:log.py:117 🔴 Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 170, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 157, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 88, in upload
+    await super().upload(
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 352, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 343, in upload
+    await page.locator("div[class^='container'] input").set_input_files(upload_filepath)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 17430, in set_input_files
+    await self._impl_obj.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_locator.py", line 592, in set_input_files
+    return await self._frame.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 699, in set_input_files
+    await self._channel.send(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:180 ❌ [platform: douyin], [publish_file: horizontal_video.mp4] - 《horizontal_video》发布异常: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4] 发布到 [douyin] 失败，原因: [Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 -----> 清理 horizontal_video.mp4 临时文件
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [horizontal] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/horizontal_video.mp4
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 继续处理下一个视频...
+INFO     mypy.lib.playwright.publish_handler:log.py:105 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:119 🟠 [platform: douyin], [publish_file: vertical_video.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:122 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:145 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config/cookie/douyin/cookie_middle.json] 发布作品
+WARNING  mypy.lib.playwright.publish_handler:publish_helper.py:49 🟠 [platform: douyin], [publish_file: vertical_video.mp4] - 获取代理失败: HTTPConnectionPool(host='127.0.0.1', port=5010): Max retries exceeded with url: /all?type=https (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d70aacdf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: vertical_video.mp4] - 从文件标题解析出话题: #vertical #video
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:142 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - ==================================================
+ERROR    mypy.lib.playwright.publish_handler:publish_helper.py:93 🔴 [platform: douyin], [publish_file: vertical_video.mp4] - 获取登陆用户名称失败: Page.inner_text: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".name-_lSSDc")
+
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: vertical_video.mp4] - 当前登录账号为 [unknow_user]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:342 🔵 [platform: douyin], [publish_file: vertical_video.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:351 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 发生异常: Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 343, in upload
+    await page.locator("div[class^='container'] input").set_input_files(upload_filepath)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 17430, in set_input_files
+    await self._impl_obj.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_locator.py", line 592, in set_input_files
+    return await self._frame.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 699, in set_input_files
+    await self._channel.send(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:169 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 《vertical_video》发布异常: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+ERROR    mypy.lib.playwright.common:log.py:117 🔴 Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 170, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 157, in publish_mission
+    await self.upload(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 88, in upload
+    await super().upload(
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 352, in upload
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 343, in upload
+    await page.locator("div[class^='container'] input").set_input_files(upload_filepath)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 17430, in set_input_files
+    await self._impl_obj.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_locator.py", line 592, in set_input_files
+    return await self._frame.set_input_files(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 699, in set_input_files
+    await self._channel.send(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:180 ❌ [platform: douyin], [publish_file: vertical_video.mp4] - 《vertical_video》发布异常: Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4] 发布到 [douyin] 失败，原因: [Locator.set_input_files: Error: strict mode violation: locator("div[class^='container'] input") resolved to 2 elements:
+    1) <input value="" type="tel" id="number" autocomplete="off" aria-required="false" placeholder="请输入手机号码登录" aria-labelledby="number-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入手机号码登录")
+    2) <input value="" id="code" type="tel" autocomplete="off" placeholder="请输入验证码" aria-required="false" aria-labelledby="code-label" class="douyin-creator-vmock-input douyin-creator-vmock-input-large"/> aka get_by_role("textbox", name="请输入验证码")
+
+Call log:
+  - waiting for locator("div[class^='container'] input")
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 -----> 清理 vertical_video.mp4 临时文件
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [vertical] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/to_publish_media/vertical_video.mp4
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 处理完成，一共处理了 2 个视频
+INFO     mypy.utils.file:log.py:105 🟢 运行完成，删除拷贝过来的文件夹: [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt_publish_helper/config]

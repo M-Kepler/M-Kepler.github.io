@@ -1,0 +1,10 @@
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+WARNING  mypy.lib.llm.api:log.py:113 🟠 向 [QWenHelper] 提问失败: Error code: 400 - {'error': {'code': 'RequestTimeOut', 'param': None, 'message': 'Request timed out, please try again later.', 'type': 'RequestTimeOut'}, 'id': 'chatcmpl-38bf8d0b-d952-94c1-ab7a-4260583ae0ae', 'request_id': '38bf8d0b-d952-94c1-ab7a-4260583ae0ae'}，尝试下一个提供商
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 [{'role': 'user', 'content': '不良事件'}]
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [ZhipuHelper] 提供服务
+WARNING  mypy.lib.llm.api:log.py:113 🟠 向 [ZhipuHelper] 提问失败: RetryError[<Future at 0x7f6da5e863a0 state=finished raised RateLimitError>]，尝试下一个提供商
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 [{'role': 'user', 'content': '不良事件'}, {'role': 'user', 'content': '不良事件'}]
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [LingyiHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果

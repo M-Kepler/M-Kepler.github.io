@@ -1,4 +1,0 @@
-DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 func start at: 1738936525.2894654
-WARNING  /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:113 🟠 func exception: <class 'Exception'> at 1738936525.2898855
-DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 func start at: 1738936526.2911723
-WARNING  /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:113 🟠 func exception: <class 'Exception'> at 1738936526.2915783

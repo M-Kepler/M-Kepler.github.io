@@ -1,0 +1,4 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/_out/test_subtitle2speech
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:105 🟢 working on /tmp/tmp5jx6ztbn
+DEBUG    mypy.lib.subtitle.subtitle2speech:log.py:109 🔵 待处理 subtitle 总行数: 18
+INFO     mypy.lib.subtitle.subtitle2speech:log.py:105 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/_out/test_subtitle2speech/test_subtitle2speech.mp3
