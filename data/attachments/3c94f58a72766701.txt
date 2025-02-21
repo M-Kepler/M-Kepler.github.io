@@ -1,0 +1,50 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.apps.text2douyin.main:log.py:109 🔵 有人翻遍典籍想找出标准答案，却发现两千年前的墓志铭和现代人的朋友圈分享着相似的困惑。空水杯在茶几上折射晨光时，有人突然意识到追问本身才是钥匙。那些在急诊室走廊痛哭的人，在沙漠公路看见银河的学生，他们的答案都藏在睫毛颤抖的瞬间。  
+
+火山灰覆盖的庞贝城壁画里，握画笔的手和拿手机拍照的手掌纹路相同。每个时代都在用不同容器盛装相同的水，有人把青铜器换成玻璃杯，有人把竹简换成电子屏，但解渴时的喉结滚动从没变过。生活的仪式感不过是容器表面的雕花。  
+
+刚学会骑自行车的男孩和完成跨国并购的CEO露出同样弧度的笑容。价值尺度会随货币贬值，但多巴胺分泌量始终诚实。古埃及工匠在金字塔内部刻下自己的名字，与现代人在社交媒体打卡，都源自基因里对"存在过"三个字的原始渴望。  
+
+雨季的亚马孙森林中，切叶蚁搬运的叶片最终会变成供养整个生态系统的真菌。我们递出的伞，分享的面包屑，无意间说出的某句话，都可能在他人的土壤里长出意想不到的植物。意义的种子常常埋在自己看不见的地方。  
+
+潮水反复冲刷的礁石上，年轮状纹路。那些让我们深夜失眠的执念，清晨照镜子时的皱眉，无意中养成的习惯，正以毫米级速度雕刻着生命的形状。最后的答案或许就藏在咖啡杯底部的残渣里，在每天经过的第七块地砖裂缝中，在指纹摩挲手机屏幕形成的油渍轨迹上。
+DEBUG    mypy.apps.text2douyin.main:log.py:109 🔵 ['meaning of life contemplation', 'human existence across eras', 'existential moments in nature', 'philosophical reflections modern society', 'searching purpose daily life']
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 生成配音和字幕
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 文章时长为: 113.53999999999999s
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 根据关键字搜索视频
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 12 条与 [meaning of life contemplation] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 11 条与 [human existence across eras] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 15 条与 [existential moments in nature] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 12 条与 [philosophical reflections modern society] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 11 条与 [searching purpose daily life] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 总共搜集到: 61 条视频，时长总和为 924
+INFO     mypy.lib.pexels.video:log.py:105 🟢 开始下载视频...
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/7429932/7429932-hd_1920_1080_30fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/5025969/5025969-hd_1920_1080_25fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/7270096/7270096-hd_1920_1080_25fps.mp4 下载成功，视频时长: 32s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/9644270/9644270-hd_1920_1080_25fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/8165572/8165572-hd_1920_1080_30fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/9644232/9644232-hd_1920_1080_25fps.mp4 下载成功，视频时长: 16s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/4587762/4587762-hd_1920_1080_25fps.mp4 下载成功，视频时长: 12s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/8164311/8164311-hd_1920_1080_30fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/9644278/9644278-hd_1920_1080_25fps.mp4 下载成功，视频时长: 10s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/6011436/6011436-hd_1920_1080_25fps.mp4 下载成功，视频时长: 8s
+INFO     mypy.lib.pexels.video:log.py:105 🟢 已下载的视频总时长(119.0s)已满足要求(113.53999999999999s)，任务完成
+INFO     mypy.lib.pexels.video:log.py:105 🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 开始制作视频: 把音频、片段、字幕进行整合
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:105 🟢 完成把字幕内容中的 [ ] 替换为 [], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义.srt
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:105 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义.srt 时间线
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:109 🔵 视频时长(113.54s) < bgm 时长(113.544s)，截取音乐的中间部分
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 开始发布
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
