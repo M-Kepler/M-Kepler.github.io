@@ -1,0 +1,49 @@
+INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [QWenHelper] 提供服务
+WARNING  mypy.lib.llm.api:log.py:113 🟠 向 [QWenHelper] 提问失败: Error code: 400 - {'error': {'code': 'RequestTimeOut', 'param': None, 'message': 'Request timed out, please try again later.', 'type': 'RequestTimeOut'}, 'id': 'chatcmpl-36087069-ed1e-9584-bb9c-5229455ec058', 'request_id': '36087069-ed1e-9584-bb9c-5229455ec058'}，尝试下一个提供商
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 [{'role': 'user', 'content': '# Role: Video Search Terms Generator\n\n## Goals:\nGenerate 5 search terms for stock videos, depending on the subject of a video.\n\n## Constrains:\n1. the search terms are to be returned as a json-array of strings.\n2. each search term should consist of 1-3 words, always add the main subject of the video.\n3. you must only return the json-array of strings. you must not return anything else. you must not return the script.\n4. the search terms must be related to the subject of the video.\n5. reply with english search terms only.\n\n## Output Example:\n["search term 1", "search term 2", "search term 3","search term 4","search term 5"]\n\n## Context:\n### Video Subject\n人生的意义\n\n### Video Script\n许多人终其一生都在追寻答案，但意义本身像流动的河。有人用成就丈量生命，有人用情感填满时间，可尺子永远在变。当社会告诉你“必须成功”，自然却在提醒：苔花如米小，也学牡丹开。  \n\n第二段常被忽略的事实是——寻找的过程就是答案。登山者未必迷恋山顶，他们更珍惜肌肉的颤抖与风擦过耳畔。那些深夜痛哭后继续泡茶的人，早已把意义化进晨光里。  \n\n第三层真相藏在关系里。握过临终者的手会懂，没人后悔没多赚一百万，只遗憾少说了几次“我爱你”。人类用情感编织安全网，接住彼此下坠的瞬间，这就是最古老的生存智慧。  \n\n有人问那痛苦的意义何在？伤口是光进入内心的通道，骨折处生长得更强壮。失业、失恋、失去健康，这些裂痕让生命不再是个光滑的谎言。  \n\n最后要承认：意义可以很轻。闻到雨后泥土味时的颤栗，孩子把糖分你半块时的骄傲，这些瞬间连成发光的珠串。不必寻找惊天动地的答案，你认真活着的每个刹那，都是对宇宙最郑重的回应。\n\nPlease note that you must use English for generating video search terms; Chinese is not accepted.'}]
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [ZhipuHelper] 提供服务
+WARNING  mypy.lib.llm.api:log.py:113 🟠 向 [ZhipuHelper] 提问失败: RetryError[<Future at 0x7f99e767fb50 state=finished raised RateLimitError>]，尝试下一个提供商
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 [{'role': 'user', 'content': '# Role: Video Search Terms Generator\n\n## Goals:\nGenerate 5 search terms for stock videos, depending on the subject of a video.\n\n## Constrains:\n1. the search terms are to be returned as a json-array of strings.\n2. each search term should consist of 1-3 words, always add the main subject of the video.\n3. you must only return the json-array of strings. you must not return anything else. you must not return the script.\n4. the search terms must be related to the subject of the video.\n5. reply with english search terms only.\n\n## Output Example:\n["search term 1", "search term 2", "search term 3","search term 4","search term 5"]\n\n## Context:\n### Video Subject\n人生的意义\n\n### Video Script\n许多人终其一生都在追寻答案，但意义本身像流动的河。有人用成就丈量生命，有人用情感填满时间，可尺子永远在变。当社会告诉你“必须成功”，自然却在提醒：苔花如米小，也学牡丹开。  \n\n第二段常被忽略的事实是——寻找的过程就是答案。登山者未必迷恋山顶，他们更珍惜肌肉的颤抖与风擦过耳畔。那些深夜痛哭后继续泡茶的人，早已把意义化进晨光里。  \n\n第三层真相藏在关系里。握过临终者的手会懂，没人后悔没多赚一百万，只遗憾少说了几次“我爱你”。人类用情感编织安全网，接住彼此下坠的瞬间，这就是最古老的生存智慧。  \n\n有人问那痛苦的意义何在？伤口是光进入内心的通道，骨折处生长得更强壮。失业、失恋、失去健康，这些裂痕让生命不再是个光滑的谎言。  \n\n最后要承认：意义可以很轻。闻到雨后泥土味时的颤栗，孩子把糖分你半块时的骄傲，这些瞬间连成发光的珠串。不必寻找惊天动地的答案，你认真活着的每个刹那，都是对宇宙最郑重的回应。\n\nPlease note that you must use English for generating video search terms; Chinese is not accepted.'}, {'role': 'user', 'content': '# Role: Video Search Terms Generator\n\n## Goals:\nGenerate 5 search terms for stock videos, depending on the subject of a video.\n\n## Constrains:\n1. the search terms are to be returned as a json-array of strings.\n2. each search term should consist of 1-3 words, always add the main subject of the video.\n3. you must only return the json-array of strings. you must not return anything else. you must not return the script.\n4. the search terms must be related to the subject of the video.\n5. reply with english search terms only.\n\n## Output Example:\n["search term 1", "search term 2", "search term 3","search term 4","search term 5"]\n\n## Context:\n### Video Subject\n人生的意义\n\n### Video Script\n许多人终其一生都在追寻答案，但意义本身像流动的河。有人用成就丈量生命，有人用情感填满时间，可尺子永远在变。当社会告诉你“必须成功”，自然却在提醒：苔花如米小，也学牡丹开。  \n\n第二段常被忽略的事实是——寻找的过程就是答案。登山者未必迷恋山顶，他们更珍惜肌肉的颤抖与风擦过耳畔。那些深夜痛哭后继续泡茶的人，早已把意义化进晨光里。  \n\n第三层真相藏在关系里。握过临终者的手会懂，没人后悔没多赚一百万，只遗憾少说了几次“我爱你”。人类用情感编织安全网，接住彼此下坠的瞬间，这就是最古老的生存智慧。  \n\n有人问那痛苦的意义何在？伤口是光进入内心的通道，骨折处生长得更强壮。失业、失恋、失去健康，这些裂痕让生命不再是个光滑的谎言。  \n\n最后要承认：意义可以很轻。闻到雨后泥土味时的颤栗，孩子把糖分你半块时的骄傲，这些瞬间连成发光的珠串。不必寻找惊天动地的答案，你认真活着的每个刹那，都是对宇宙最郑重的回应。\n\nPlease note that you must use English for generating video search terms; Chinese is not accepted.'}]
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 本轮 AI 对话由 [LingyiHelper] 提供服务
+DEBUG    mypy.lib.llm.api:log.py:109 🔵 问答结束, 返回结果
+DEBUG    mypy.apps.text2douyin.main:log.py:109 🔵 许多人终其一生都在追寻答案，但意义本身像流动的河。有人用成就丈量生命，有人用情感填满时间，可尺子永远在变。当社会告诉你“必须成功”，自然却在提醒：苔花如米小，也学牡丹开。  
+
+第二段常被忽略的事实是——寻找的过程就是答案。登山者未必迷恋山顶，他们更珍惜肌肉的颤抖与风擦过耳畔。那些深夜痛哭后继续泡茶的人，早已把意义化进晨光里。  
+
+第三层真相藏在关系里。握过临终者的手会懂，没人后悔没多赚一百万，只遗憾少说了几次“我爱你”。人类用情感编织安全网，接住彼此下坠的瞬间，这就是最古老的生存智慧。  
+
+有人问那痛苦的意义何在？伤口是光进入内心的通道，骨折处生长得更强壮。失业、失恋、失去健康，这些裂痕让生命不再是个光滑的谎言。  
+
+最后要承认：意义可以很轻。闻到雨后泥土味时的颤栗，孩子把糖分你半块时的骄傲，这些瞬间连成发光的珠串。不必寻找惊天动地的答案，你认真活着的每个刹那，都是对宇宙最郑重的回应。
+DEBUG    mypy.apps.text2douyin.main:log.py:109 🔵 ['life meaning', 'existential journey', 'emotional depth', 'finding purpose', 'momentary significance']
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 生成配音和字幕
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 文章时长为: 82.2s
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 根据关键字搜索视频
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 19 条与 [life meaning] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 20 条与 [existential journey] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 12 条与 [emotional depth] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 10 条与 [finding purpose] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 找到 16 条与 [momentary significance] 话题相关的视频
+INFO     mypy.lib.pexels.video:log.py:105 🟢 总共搜集到: 77 条视频，时长总和为 1503
+INFO     mypy.lib.pexels.video:log.py:105 🟢 开始下载视频...
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/7429932/7429932-hd_1920_1080_30fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/30857501/13195368_1920_1080_50fps.mp4 下载成功，视频时长: 71s
+DEBUG    mypy.lib.pexels.video:log.py:109 🔵 视频 https://videos.pexels.com/video-files/30808869/13176931_1920_1080_30fps.mp4 下载成功，视频时长: 27s
+INFO     mypy.lib.pexels.video:log.py:105 🟢 已下载的视频总时长(105.0s)已满足要求(82.2s)，任务完成
+INFO     mypy.lib.pexels.video:log.py:105 🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 开始制作视频: 把音频、片段、字幕进行整合
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:105 🟢 完成把字幕内容中的 [ ] 替换为 [], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义.srt
+INFO     mypy.lib.subtitle.subtitle_handler:log.py:105 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/_out/test_text2douyin/_out/人生的意义.srt 时间线
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:109 🔵 视频时长(82.2s) >= bgm 时长(82.2s)，循环播放 bgm 2 次
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 开始发布
+INFO     mypy.apps.text2douyin.main:log.py:105 🟢 ==================================================
