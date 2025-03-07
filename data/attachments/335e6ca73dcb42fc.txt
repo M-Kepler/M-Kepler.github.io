@@ -1,0 +1,449 @@
+DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin
+INFO     mypy.lib.playwright.publish_config:log.py:105 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 正在把当前目录下的文件转成 video
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:105 🟢 开始把《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.pptx》转换成 video
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:105 🟢 去除 《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.pptx》 中的敏感信息
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:105 🟢 PPT 转换成视频，并生成一张拼图作为封面
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:109 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmphvjduoc8
+DEBUG    mypy.lib.image.image2video_helper:log.py:109 🔵 把 /tmp/tmphvjduoc8 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video.mp4
+DEBUG    mypy.lib.image.image2video_helper:log.py:109 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpd5m9lll4
+INFO     mypy.lib.image.image2video_helper:log.py:105 🟢 文件夹 /tmp/tmphvjduoc8 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video.mp4
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 把 PPT 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/tmp/tmp4ojcofxu', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:log.py:109 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp4ojcofxu
+INFO     mypy.apps.ppt2douyin.ppt_converter:log.py:105 🟢 转换完成，结果输出在 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out 目录下
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:105 🟢 ==================================================
+WARNING  mypy.lib.music.music:log.py:113 🟠 在 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin 下未发现歌曲，开始下载 douyin 热门歌曲
+INFO     mypy.lib.douyin.douyin_music:log.py:105 🟢 一共发现 89 条音乐信息
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 下载任务数量: 89
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 生产者数量: 5, 每个生产者负责 20 个任务
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 消费者数量: 20
+DEBUG    mypy.lib.mqs.pylib.downloader:log.py:109 🔵 ------------------------------------------------------------
+INFO     mypy.lib.mqs.pylib.downloader:log.py:105 🟢 下载任务结束
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 正在合并音视频《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video.mp4》和 《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/music/算了吧（1coco Remix）（剪辑版1）.m4a》，并加速到 33s
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加 bgm
+DEBUG    mypy.lib.video.ffmpeg_helper:log.py:109 🔵 视频时长(33s) < bgm 时长(37.44s)，截取音乐的中间部分
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加演讲语音
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 把标题添加到视频中间
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 添加水印: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/account/test/logo.png
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 开始进行视频剪辑 <-----
+INFO     mypy.lib.video.video_clip_helper:log.py:105 🟢 -----> 拼接片头
+WARNING  mypy.apps.ppt2douyin.ppt_video_handler:log.py:113 🟠 账号 test 没有指定绿幕素材，使用默认绿幕素材: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/video/green_screen_background/middle.mp4
+INFO     mypy.lib.video.video_clip_helper:log.py:105 🟢 -----> 开始把视频嵌入到绿幕素材: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/video/green_screen_background/middle.mp4
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 正在使用 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/video/green_screen_background/middle.mp4 绿幕素材
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 输出视频分辨率为: (1080, 1920)
+WARNING  mypy.lib.video.video_clip_helper:log.py:113 🟠 输入视频强制使用 30 帧率
+DEBUG    mypy.lib.video.video_clip_helper:log.py:109 🔵 在第 0.0s 处开始出现绿幕
+INFO     mypy.lib.video.utils:log.py:105 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening_with_green_sceen_mixed.mp4 正常
+INFO     mypy.lib.video.video_clip_helper:log.py:105 🟢 -----> 横屏转成竖屏
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 正在执行命令: ['ffmpeg', '-i', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening_with_green_screen.mp4', '-vf', 'split[a][b]; [a]crop=(ih/16*9):ih,scale=iw/10:-1,gblur=sigma=5,scale=720:1280[1]; [b]scale=720:(720*ih/iw)[2]; [1][2]overlay=0:(H-h)/2', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening_with_green_screen_with_h2v.mp4', '-y']
+INFO     mypy.apps.ppt2douyin.ppt_video_handler:log.py:105 🟢 -----> 视频剪辑完成 <-----
+INFO     mypy.lib.playwright.publish_handler:log.py:105 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:119 🟠 [platform: douyin], [publish_file: ppt.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_large.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_middle.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:122 🟢 [platform: douyin], [publish_file: ppt.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:138 🟢 [platform: douyin], [publish_file: ppt.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:145 🟢 [platform: douyin], [publish_file: ppt.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:log.py:113 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: ppt.mp4] - 从文件标题解析出话题: #ppt
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:142 🟢 [platform: douyin], [publish_file: ppt.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:46 🟢 [platform: douyin], [publish_file: ppt.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: ppt.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:342 🔵 [platform: douyin], [publish_file: ppt.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4
+INFO     mypy.lib.playwright.publish_handler:video_publish_helper.py:39 🟢 [platform: douyin], [publish_file: ppt.mp4] - 获取并上传封面
+CRITICAL mypy.lib.playwright.publish_handler:video_publish_helper.py:70 ❌ [platform: douyin], [publish_file: ppt.mp4] - 上传封面失败: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"完成\")")
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:169 ❌ [platform: douyin], [publish_file: ppt.mp4] - 《ppt》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".ace-line > div")
+  -     - locator resolved to <div dir="auto" data-line-wrapper="true">…</div>
+  -   - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 100ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   56 × retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+
+ERROR    mypy.lib.playwright.common:log.py:117 🔴 Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".ace-line > div")
+  -     - locator resolved to <div dir="auto" data-line-wrapper="true">…</div>
+  -   - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 100ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   56 × retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 170, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 160, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 96, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 477, in fill_publish_content
+    await self._set_description(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 383, in _set_description
+    await page.click(self._douyin_publish_cfg.description_loc)
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/async_api/_generated.py", line 9866, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_page.py", line 827, in click
+    return await self._main_frame.click(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 488, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.9.21/x64/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".ace-line > div")
+  -     - locator resolved to <div dir="auto" data-line-wrapper="true">…</div>
+  -   - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 100ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   56 × retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:180 ❌ [platform: douyin], [publish_file: ppt.mp4] - 《ppt》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".ace-line > div")
+  -     - locator resolved to <div dir="auto" data-line-wrapper="true">…</div>
+  -   - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 100ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   56 × retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+
+WARNING  mypy.lib.playwright.publish_handler:log.py:113 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4] 发布到 [douyin] 失败，原因: [Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".ace-line > div")
+  -     - locator resolved to <div dir="auto" data-line-wrapper="true">…</div>
+  -   - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 100ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   56 × retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+  -        - waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   2 × retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <canvas width="596" height="341" class="upper-canvas cloudImage-N0ai8Y" elementtiming="douyin_creator_content-element-timing"></canvas> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div role="modal" tabindex="-1" class="semi-modal-wrap">…</div> from <div class="semi-portal">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 500ms
+]
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 -----> 清理 ppt.mp4 临时文件
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening.mp3
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.pdf
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt.jpg
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening_with_green_screen.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video_with_opening_with_green_sceen_mixed.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/_out/ppt_ppt2video_merge_audio_and_video.mp4
+WARNING  mypy.utils.file:log.py:113 🟠 正在删除文件名前缀为 [ppt] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.mp3
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 继续处理下一个视频...
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:log.py:105 🟢 处理完成，一共处理了 1 个视频
+DEBUG    mypy.utils.file:log.py:109 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/ppt2douyin/_out/test_ppt2douyin/ppt.pptx
