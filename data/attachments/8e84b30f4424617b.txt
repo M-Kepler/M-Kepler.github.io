@@ -1,7 +1,0 @@
-INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/doc/_out/test_doc_helper
-DEBUG    mypy.utils.file:log.py:109 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/doc/test.docx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/doc/_out/test_doc_helper
-DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 把 PPT 转成 PDF
-DEBUG    mypy.lib.libreoffice.libreoffice_helper:log.py:109 🔵 通过 libreoffice 把 PPT 转成 PDF
-DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:log.py:109 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/doc/_out/test_doc_helper', '/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/doc/test.docx']
-DEBUG    mypy.lib.pdf.pdf_handler:log.py:109 🔵 通过 pdf2image 库转成图片，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/doc/_out/test_doc_helper
-DEBUG    mypy.utils.file:log.py:109 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/doc/_out/test_doc_helper/test.docx

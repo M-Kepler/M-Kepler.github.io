@@ -1,0 +1,1 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/youtube/.out/test_y2_video_handler

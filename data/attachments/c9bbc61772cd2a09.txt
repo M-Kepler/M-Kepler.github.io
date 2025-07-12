@@ -1,5 +1,0 @@
-INFO     conftest:log.py:105 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/crawler/_out/test_hrxz
-INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:105 🟢 总共有 1 页数据
-INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:105 🟢 -----> 正在爬取: https://www.hrxz.com/e/search/result/?searchid=31727&page=0
-ERROR    mypy.lib.crawler.hrxz.crawle_search:log.py:117 🔴 文件 武汉加油众志成城抗击疫情PPT手册 下载失败: RetryError[<Future at 0x7f0c038038b0 state=finished raised ClientConnectorDNSError>]
-INFO     mypy.lib.crawler.hrxz.crawle_search:log.py:105 🟢 -----> 正在爬取: https://www.hrxz.com/e/search/result/?searchid=31727&page=1

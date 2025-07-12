@@ -1,0 +1,276 @@
+DEBUG    mypy.utils.file:file.py:398 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/.out/test_douyin_publish_app/test_douyin_publish_app
+WARNING  mypy.lib.douyin.publish_app:publish_app.py:120 🟠 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.douyin.publish_app:publish_app.py:123 🟢 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_config:publish_config.py:156 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.douyin.publish_app:publish_app.py:139 🟢 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.douyin.publish_app:publish_app.py:146 🟢 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.douyin.publish_app:publish_helper.py:65 🔵 从文件标题解析出话题: #ppt #video #maked
+INFO     mypy.lib.douyin.publish_app:log.py:46 🟢 ==================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:142 🟢 [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.douyin.publish_app:log.py:46 🟢 ==================================================
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:104 🟢 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.douyin.publish_app:publish_helper.py:343 🔵 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_video_maked.mp4
+INFO     mypy.lib.douyin.publish_app:video_publish_helper.py:35 🟢 获取并上传封面
+INFO     mypy.lib.douyin.publish_app:publish_helper.py:400 🟢 设置视频简介为: ppt_video_maked #ppt #video #maked #护士长竞聘 #护士懂护士 #护士 #护士长
+ERROR    mypy.lib.douyin.publish_app:publish_helper.py:169 🔴 《ppt_video_maked》发布异常: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 160, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 92, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 482, in fill_publish_content
+    await self._set_collection(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 74, in _set_collection
+    return await super()._set_collection(page, collection_loc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 124, in _set_collection
+    await page.locator("div").filter(has_text=collection_loc).nth(2).click()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 15459, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 160, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 521, in click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+ERROR    mypy.lib.playwright.common:common.py:183 🔴 Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 181, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 170, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 160, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 92, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 482, in fill_publish_content
+    await self._set_collection(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 74, in _set_collection
+    return await super()._set_collection(page, collection_loc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 124, in _set_collection
+    await page.locator("div").filter(has_text=collection_loc).nth(2).click()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 15459, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 160, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 521, in click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+ERROR    mypy.lib.douyin.publish_app:publish_helper.py:180 🔴 《ppt_video_maked》发布异常: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 178, in do_publish
+    await self.publish_mission(playwright)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py", line 460, in wrapper
+    async for attempt in AsyncRetrying(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/tenacity/asyncio/__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py", line 466, in wrapper
+    await async_func(*args, **kwargs)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 170, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 160, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 92, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 482, in fill_publish_content
+    await self._set_collection(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 74, in _set_collection
+    return await super()._set_collection(page, collection_loc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 124, in _set_collection
+    await page.locator("div").filter(has_text=collection_loc).nth(2).click()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 15459, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 160, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 521, in click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    231 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+DEBUG    mypy.utils.file:file.py:411 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/douyin/.out/test_douyin_publish_app/test_douyin_publish_app/config

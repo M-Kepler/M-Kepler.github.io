@@ -1,6 +1,0 @@
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'created' timestamp seems very low; regarding as unix timestamp
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'modified' timestamp seems very low; regarding as unix timestamp
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'created' timestamp seems very low; regarding as unix timestamp
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'modified' timestamp seems very low; regarding as unix timestamp
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'created' timestamp seems very low; regarding as unix timestamp
-WARNING  fontTools.ttLib.tables._h_e_a_d:log.py:113 🟠 'modified' timestamp seems very low; regarding as unix timestamp
