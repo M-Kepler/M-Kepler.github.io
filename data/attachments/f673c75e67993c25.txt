@@ -1,0 +1,220 @@
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载异常: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载异常: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载异常: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载异常: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载异常: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载异常: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载异常: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载异常: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=z7bUu-RUcMg》
+INFO     mypy.lib.youtube.y2_downloader:y2_downloader.py:155 🟢 开始下载《https://youtube.com/watch?v=peQ-CsY19Ag》
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=peQ-CsY19Ag》下载异常: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: peQ-CsY19Ag This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+ERROR    mypy.lib.youtube.y2_downloader:y2_downloader.py:185 🔴 视频《https://youtube.com/watch?v=z7bUu-RUcMg》下载异常: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 802, in title
+    if 'title' in self.vid_info['videoDetails']:
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_downloader.py", line 156, in download_video
+    api = Y2VideoHandler(work_path=self._work_path,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/youtube/y2_video_handler.py", line 239, in __init__
+    self._video_original_title = y2_video.title
+                                 ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 838, in title
+    self.check_availability()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 406, in check_availability
+    raise exceptions.BotDetection(video_id=self.video_id)
+pytubefix.exceptions.BotDetection: z7bUu-RUcMg This request was detected as a bot. Use `use_po_token=True` or switch to WEB client to view. See more details at https://github.com/JuanBindez/pytubefix/pull/209

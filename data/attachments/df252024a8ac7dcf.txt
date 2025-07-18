@@ -1,0 +1,149 @@
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+贝达药业：参股公司禾元生物新药奥福民获批上市  
+
+相关板块：[医药]
+[选股宝 - 2025-07-18 19:15:55]
+{'type': 'xgb', 'data': {'id': 1217370, 'title': '贝达药业：参股公司禾元生物新药奥福民获批上市', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [151, 723, 9], 'stocks': [{'name': '贝达药业', 'symbol': '300558.SZ', 'market': ''}], 'bkj_infos': [{'id': 25638417, 'name': '医药'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752837355, 'manual_updated_at': 1752837355, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '贝达药业', 'symbol': '300558.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217370?fromSubjectId=151'}, 'time': 1752837355000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+金融监管总局：扎实推进中小金融机构改革化险，有效防范化解重点领域风险  
+金融监管总局7月18日召开系统党的建设工作会议。会议强调，要进一步发挥党建引领作用，统筹做好防风险、强监管、促高质量发展各项工作。扎实推进中小金融机构改革化险，有效防范化解重点领域风险，严密防范和打击非法金融活动，牢牢守住风险底线。坚持聚焦实质风险、解决实际问题，规范金融机构经营行为，加强金融消费者权益保护，不断增强监管针对性和有效性。加力加劲支持经济运行向好向优，强化城市高质量发展金融供给，支持实施提振消费专项行动，加强有效投资融资保障，优化稳企业稳外贸金融服务，更好支持新质生产力发展，助力实现全年经济社会发展目标。
+[选股宝 - 2025-07-18 19:19:05]
+{'type': 'xgb', 'data': {'id': 1217371, 'title': '金融监管总局：扎实推进中小金融机构改革化险，有效防范化解重点领域风险', 'title_path': '', 'summary': '金融监管总局7月18日召开系统党的建设工作会议。会议强调，要进一步发挥党建引领作用，统筹做好防风险、强监管、促高质量发展各项工作。扎实推进中小金融机构改革化险，有效防范化解重点领域风险，严密防范和打击非法金融活动，牢牢守住风险底线。坚持聚焦实质风险、解决实际问题，规范金融机构经营行为，加强金融消费者权益保护，不断增强监管针对性和有效性。加力加劲支持经济运行向好向优，强化城市高质量发展金融供给，支持实施提振消费专项行动，加强有效投资融资保障，优化稳企业稳外贸金融服务，更好支持新质生产力发展，助力实现全年经济社会发展目标。', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [9], 'stocks': [], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752837545, 'manual_updated_at': 1752837545, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217371?fromSubjectId=9'}, 'time': 1752837545000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+诺和诺德司美格鲁肽注射液慢性肾脏病适应症在华获批  
+7月18日，诺和诺德宣布，国家药品监督管理局（NMPA）于近日正式批准了诺和泰®（司美格鲁肽注射液）新增慢性肾脏病（CKD）适应症，成为中国首个且唯一的GLP-1受体激动剂（GLP-1RA）获批用于降低伴有慢性肾脏病的2型糖尿病成人患者eGFR持续下降、终末期肾病和心血管死亡的风险。
+相关板块：[医药]
+[选股宝 - 2025-07-18 19:20:38]
+{'type': 'xgb', 'data': {'id': 1217372, 'title': '诺和诺德司美格鲁肽注射液慢性肾脏病适应症在华获批', 'title_path': '', 'summary': '7月18日，诺和诺德宣布，国家药品监督管理局（NMPA）于近日正式批准了诺和泰®（司美格鲁肽注射液）新增慢性肾脏病（CKD）适应症，成为中国首个且唯一的GLP-1受体激动剂（GLP-1RA）获批用于降低伴有慢性肾脏病的2型糖尿病成人患者eGFR持续下降、终末期肾病和心血管死亡的风险。', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [151, 9], 'stocks': [], 'bkj_infos': [{'id': 25638417, 'name': '医药'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752837638, 'manual_updated_at': 1752837638, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217372?fromSubjectId=151'}, 'time': 1752837638000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+绿通科技：股东创钰铭晨及其一致行动人创钰铭恒、创钰铭汇、创钰凯越、创钰铭泰、拓弘投资拟减持不超过3.39%  
+
+[选股宝 - 2025-07-18 19:23:48]
+{'type': 'xgb', 'data': {'id': 1217374, 'title': '绿通科技：股东创钰铭晨及其一致行动人创钰铭恒、创钰铭汇、创钰凯越、创钰铭泰、拓弘投资拟减持不超过3.39%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [334, 723, 9], 'stocks': [{'name': '绿通科技', 'symbol': '301322.SZ', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752837828, 'manual_updated_at': 1752837828, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '绿通科技', 'symbol': '301322.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217374?fromSubjectId=334'}, 'time': 1752837828000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+华骐环保：控股股东的一致行动人王爱斌、胡一强拟减持不超过1%  
+
+[选股宝 - 2025-07-18 19:27:28]
+{'type': 'xgb', 'data': {'id': 1217375, 'title': '华骐环保：控股股东的一致行动人王爱斌、胡一强拟减持不超过1%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [334, 723, 9], 'stocks': [{'name': '华骐环保', 'symbol': '300929.SZ', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752838048, 'manual_updated_at': 1752838048, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '华骐环保', 'symbol': '300929.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217375?fromSubjectId=334'}, 'time': 1752838048000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+凯撒旅业：全资子公司拟收购中国国旅（福建）国际旅行社有限公司51%股权，本次交易对价合计1,683万元  
+
+相关板块：[旅游]
+[选股宝 - 2025-07-18 19:27:57]
+{'type': 'xgb', 'data': {'id': 1217376, 'title': '凯撒旅业：全资子公司拟收购中国国旅（福建）国际旅行社有限公司51%股权，本次交易对价合计1,683万元', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [61, 723, 9], 'stocks': [{'name': '凯撒旅业', 'symbol': '000796.SZ', 'market': ''}], 'bkj_infos': [{'id': 19993841, 'name': '旅游'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752838077, 'manual_updated_at': 1752838077, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '凯撒旅业', 'symbol': '000796.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217376?fromSubjectId=61'}, 'time': 1752838077000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+美迪西：股东林长青拟减持不超过1.49%  
+
+[选股宝 - 2025-07-18 19:29:36]
+{'type': 'xgb', 'data': {'id': 1217377, 'title': '美迪西：股东林长青拟减持不超过1.49%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [334, 723, 9], 'stocks': [{'name': '美迪西', 'symbol': '688202.SS', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752838176, 'manual_updated_at': 1752838176, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '美迪西', 'symbol': '688202.SS', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217377?fromSubjectId=334'}, 'time': 1752838176000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+东方财富：股东沈友根拟询价转让公司1%股份  
+
+相关板块：[股权转让]
+[选股宝 - 2025-07-18 19:38:26]
+{'type': 'xgb', 'data': {'id': 1217378, 'title': '东方财富：股东沈友根拟询价转让公司1%股份', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [451, 723, 9], 'stocks': [{'name': '东方财富', 'symbol': '300059.SZ', 'market': ''}], 'bkj_infos': [{'id': 16920249, 'name': '股权转让'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752838706, 'manual_updated_at': 1752838706, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '东方财富', 'symbol': '300059.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217378?fromSubjectId=451'}, 'time': 1752838706000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+惠云钛业：控股股东钟镇光和一致行动人美国万邦拟减持不超过 2.9802%  
+
+[选股宝 - 2025-07-18 19:44:23]
+{'type': 'xgb', 'data': {'id': 1217380, 'title': '惠云钛业：控股股东钟镇光和一致行动人美国万邦拟减持不超过 2.9802%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [334, 723, 9], 'stocks': [{'name': '惠云钛业', 'symbol': '300891.SZ', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752839063, 'manual_updated_at': 1752839063, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '惠云钛业', 'symbol': '300891.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217380?fromSubjectId=334'}, 'time': 1752839063000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+光伏产品报价骤然升温之际，华润电力3GW组件招标生变  
+从华润集团守正采购交易平台获悉，华润电力2025年第2批光伏项目光伏组件设备集中采购开标时间已推迟。一则7月15日晚发布的公告称，因受外部环境变化、项目建设进度等因素影响，该集采的开标时间暂定延期至2025年8月18日，具体开标时间另行通知。（澎湃）
+相关板块：[光伏]
+[选股宝 - 2025-07-18 19:52:29]
+{'type': 'xgb', 'data': {'id': 1217381, 'title': '光伏产品报价骤然升温之际，华润电力3GW组件招标生变', 'title_path': '', 'summary': '从华润集团守正采购交易平台获悉，华润电力2025年第2批光伏项目光伏组件设备集中采购开标时间已推迟。一则7月15日晚发布的公告称，因受外部环境变化、项目建设进度等因素影响，该集采的开标时间暂定延期至2025年8月18日，具体开标时间另行通知。（澎湃）', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [110, 9], 'stocks': [], 'bkj_infos': [{'id': 21825682, 'name': '光伏'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752839549, 'manual_updated_at': 1752839549, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217381?fromSubjectId=110'}, 'time': 1752839549000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+美邦股份：经核实，公司本次股票异常波动期间，美平咨询、郝新新于2025年7月17日、7月18日存在通过大宗交易减持公司股票的情形，该减持行为与此前披露的减持计划一致，不存在违规减持的情形  
+
+[选股宝 - 2025-07-18 19:53:34]
+{'type': 'xgb', 'data': {'id': 1217382, 'title': '美邦股份：经核实，公司本次股票异常波动期间，美平咨询、郝新新于2025年7月17日、7月18日存在通过大宗交易减持公司股票的情形，该减持行为与此前披露的减持计划一致，不存在违规减持的情形', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [10, 723, 9], 'stocks': [{'name': '美邦股份', 'symbol': '605033.SS', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752839614, 'manual_updated_at': 1752839614, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '美邦股份', 'symbol': '605033.SS', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217382?fromSubjectId=10'}, 'time': 1752839614000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+博汇股份：拟通过全资子公司无锡极致液冷科技有限公司购买服务器、数据中心机房及配套技术服务、网络设备及服务等，用于开展智能算力服务及相关业务，采购总金额预计不超过人民币3.9亿元  
+
+[选股宝 - 2025-07-18 19:54:27]
+{'type': 'xgb', 'data': {'id': 1217383, 'title': '博汇股份：拟通过全资子公司无锡极致液冷科技有限公司购买服务器、数据中心机房及配套技术服务、网络设备及服务等，用于开展智能算力服务及相关业务，采购总金额预计不超过人民币3.9亿元', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [10, 723, 9], 'stocks': [{'name': '博汇股份', 'symbol': '300839.SZ', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752839667, 'manual_updated_at': 1752839667, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '博汇股份', 'symbol': '300839.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217383?fromSubjectId=10'}, 'time': 1752839667000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+重庆：引导金融机构合理降低商业性个人住房贷款利率，优化个人住房套数认定办法  
+重庆市政府办公厅印发《重庆市提振消费若干措施》。其中提出，促进住房消费健康发展。多渠道争取资金支持保障性住房和租赁住房建设，持续推进城中村和城乡危旧房改造。加大租购住房、城镇老旧小区住宅加装电梯提取住房公积金支持力度。引导金融机构合理降低商业性个人住房贷款利率，优化个人住房套数认定办法，支持改善性住房消费。2025年5月30日至12月31日期间，对在我市中心城区新购商品住房，且在一年内出售中心城区原有住房的，给予新购住房总房款1%的补贴；对在我市中心城区新购商品住房单套建筑面积140平方米以上的，给予总房款0.5%的补贴。
+相关板块：[房地产]
+[选股宝 - 2025-07-18 20:04:05]
+{'type': 'xgb', 'data': {'id': 1217384, 'title': '重庆：引导金融机构合理降低商业性个人住房贷款利率，优化个人住房套数认定办法', 'title_path': '', 'summary': '重庆市政府办公厅印发《重庆市提振消费若干措施》。其中提出，促进住房消费健康发展。多渠道争取资金支持保障性住房和租赁住房建设，持续推进城中村和城乡危旧房改造。加大租购住房、城镇老旧小区住宅加装电梯提取住房公积金支持力度。引导金融机构合理降低商业性个人住房贷款利率，优化个人住房套数认定办法，支持改善性住房消费。2025年5月30日至12月31日期间，对在我市中心城区新购商品住房，且在一年内出售中心城区原有住房的，给予新购住房总房款1%的补贴；对在我市中心城区新购商品住房单套建筑面积140平方米以上的，给予总房款0.5%的补贴。', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [83, 9], 'stocks': [], 'bkj_infos': [{'id': 17236249, 'name': '房地产'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752840245, 'manual_updated_at': 1752840245, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217384?fromSubjectId=83'}, 'time': 1752840245000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+市场监管总局开展行政约谈，要求外卖平台企业理性竞争  
+今天（18日），市场监管总局约谈饿了么、美团、京东三家平台企业，要求相关平台企业严格遵守《中华人民共和国电子商务法》《中华人民共和国反不正当竞争法》《中华人民共和国食品安全法》等法律法规规定，严格落实主体责任，进一步规范促销行为，理性参与竞争，共同构建消费者、商家、外卖骑手和平台企业等多方共赢的良好生态，促进餐饮服务行业规范健康持续发展。
+[选股宝 - 2025-07-18 20:16:13]
+{'type': 'xgb', 'data': {'id': 1217386, 'title': '市场监管总局开展行政约谈，要求外卖平台企业理性竞争', 'title_path': '', 'summary': '今天（18日），市场监管总局约谈饿了么、美团、京东三家平台企业，要求相关平台企业严格遵守《中华人民共和国电子商务法》《中华人民共和国反不正当竞争法》《中华人民共和国食品安全法》等法律法规规定，严格落实主体责任，进一步规范促销行为，理性参与竞争，共同构建消费者、商家、外卖骑手和平台企业等多方共赢的良好生态，促进餐饮服务行业规范健康持续发展。', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [10, 9], 'stocks': [], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752840973, 'manual_updated_at': 1752840973, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217386?fromSubjectId=10'}, 'time': 1752840973000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+退市锦港：上海证券交易所将在2025年7月25日对公司股票予以摘牌，公司股票终止上市  
+
+[选股宝 - 2025-07-18 20:17:02]
+{'type': 'xgb', 'data': {'id': 1217387, 'title': '退市锦港：上海证券交易所将在2025年7月25日对公司股票予以摘牌，公司股票终止上市', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [723, 9], 'stocks': [{'name': '退市锦港', 'symbol': '600190.SS', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752841022, 'manual_updated_at': 1752841022, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '退市锦港', 'symbol': '600190.SS', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217387?fromSubjectId=723'}, 'time': 1752841022000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+申通快递：6月快递服务业务收入43.41亿元，同比增长10.15%  
+
+相关板块：[快递物流]
+[选股宝 - 2025-07-18 20:18:27]
+{'type': 'xgb', 'data': {'id': 1217388, 'title': '申通快递：6月快递服务业务收入43.41亿元，同比增长10.15%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [338, 723, 9], 'stocks': [{'name': '申通快递', 'symbol': '002468.SZ', 'market': ''}], 'bkj_infos': [{'id': 14909985, 'name': '快递物流'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752841107, 'manual_updated_at': 1752841107, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '申通快递', 'symbol': '002468.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217388?fromSubjectId=338'}, 'time': 1752841107000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+韵达股份：6月快递服务业务收入41.49亿元，同比增长2.77%  
+
+相关板块：[快递物流]
+[选股宝 - 2025-07-18 20:26:38]
+{'type': 'xgb', 'data': {'id': 1217389, 'title': '韵达股份：6月快递服务业务收入41.49亿元，同比增长2.77%', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [338, 723, 9], 'stocks': [{'name': '韵达股份', 'symbol': '002120.SZ', 'market': ''}], 'bkj_infos': [{'id': 14909985, 'name': '快递物流'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752841598, 'manual_updated_at': 1752841598, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '韵达股份', 'symbol': '002120.SZ', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217389?fromSubjectId=338'}, 'time': 1752841598000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+中央第四指导组围绕综合整治新能源汽车行业非理性竞争问题开展专题调研座谈  
+7月17日下午，中央第四指导组聚焦“综合整治新能源汽车行业非理性竞争问题”专项工作赴中国汽车工业协会开展下沉调研，并与北汽集团、比亚迪集团、中国汽车工业协会负责同志座谈交流，了解进展情况、听取意见建议、研究工作举措，推动解决有关难点问题。中央第四指导组组长车俊强调，，要清醒认识到，新能源汽车行业非理性竞争问题容易反复，要久久为功、持续整治。要继续深化思想认识，切实把思想和行动统一到以习近平同志为核心的党中央决策部署上来，从坚定拥护“两个确立”、坚决做到“两个维护”的政治高度，把综合整治新能源汽车行业非理性竞争问题作为学习教育工作的重点整改内容。要持续推进集中整治，坚持问题导向、法治思维，突出源头治理、综合施策，着力完善政策、法规和标准体系，建立健全常态化长效化治理机制，依法依规推动汽车行业规范竞争，引导企业通过科技创新、标准引领等推动产品提质、产业升级，促进行业高质量发展。要强化部门协作、政企联动，建立健全协同工作机制，及时发现并解决关键问题。汽车企业特别是龙头企业要依法合规理性竞争，发挥示范带动作用。行业协会要发挥好桥梁纽带作用，引导行业加强自律，联合抵制行业非理性竞争，共同维护公平公正的市场竞争秩序。
+相关板块：[新能源整车]
+[选股宝 - 2025-07-18 20:28:10]
+{'type': 'xgb', 'data': {'id': 1217390, 'title': '中央第四指导组围绕综合整治新能源汽车行业非理性竞争问题开展专题调研座谈', 'title_path': '', 'summary': '7月17日下午，中央第四指导组聚焦“综合整治新能源汽车行业非理性竞争问题”专项工作赴中国汽车工业协会开展下沉调研，并与北汽集团、比亚迪集团、中国汽车工业协会负责同志座谈交流，了解进展情况、听取意见建议、研究工作举措，推动解决有关难点问题。中央第四指导组组长车俊强调，，要清醒认识到，新能源汽车行业非理性竞争问题容易反复，要久久为功、持续整治。要继续深化思想认识，切实把思想和行动统一到以习近平同志为核心的党中央决策部署上来，从坚定拥护“两个确立”、坚决做到“两个维护”的政治高度，把综合整治新能源汽车行业非理性竞争问题作为学习教育工作的重点整改内容。要持续推进集中整治，坚持问题导向、法治思维，突出源头治理、综合施策，着力完善政策、法规和标准体系，建立健全常态化长效化治理机制，依法依规推动汽车行业规范竞争，引导企业通过科技创新、标准引领等推动产品提质、产业升级，促进行业高质量发展。要强化部门协作、政企联动，建立健全协同工作机制，及时发现并解决关键问题。汽车企业特别是龙头企业要依法合规理性竞争，发挥示范带动作用。行业协会要发挥好桥梁纽带作用，引导行业加强自律，联合抵制行业非理性竞争，共同维护公平公正的市场竞争秩序。', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [10, 9, 678], 'stocks': [], 'bkj_infos': [{'id': 17731137, 'name': '新能源整车'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752841690, 'manual_updated_at': 1752841690, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217390?fromSubjectId=10'}, 'time': 1752841690000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+九毛九：在2025年第二季度，本集团主要品牌的同店日均销售额同比仍呈下降趋势，主要反映外部环境持续带来的消费压力。其中，第二季度太二及怂火锅的同店日均销售额同比下降幅度较第一季度显著收窄。太二品牌在2025年4-6月份同店日均销售额同比降幅逐月收窄，显示经营调整初见效用及筑底企稳的迹象  
+
+相关板块：[餐饮]
+[选股宝 - 2025-07-18 20:29:26]
+{'type': 'xgb', 'data': {'id': 1217391, 'title': '九毛九：在2025年第二季度，本集团主要品牌的同店日均销售额同比仍呈下降趋势，主要反映外部环境持续带来的消费压力。其中，第二季度太二及怂火锅的同店日均销售额同比下降幅度较第一季度显著收窄。太二品牌在2025年4-6月份同店日均销售额同比降幅逐月收窄，显示经营调整初见效用及筑底企稳的迹象', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [1142, 573, 723, 9], 'stocks': [], 'bkj_infos': [{'id': 63722137, 'name': '餐饮'}], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752841766, 'manual_updated_at': 1752841766, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217391?fromSubjectId=1142'}, 'time': 1752841766000}
+------------------------------
+
+INFO     mypy.lib.stock.news.xuangubao.flush_news:flush_news.py:94 🟢 
+诺泰生物：公司股票将于2025年7月21日停牌1天，2025年7月22日起复牌，自复牌之日起实施其他风险警示，A股股票简称变更为“ST诺泰”  
+
+[选股宝 - 2025-07-18 20:36:45]
+{'type': 'xgb', 'data': {'id': 1217394, 'title': '诺泰生物：公司股票将于2025年7月21日停牌1天，2025年7月22日起复牌，自复牌之日起实施其他风险警示，A股股票简称变更为“ST诺泰”', 'title_path': '', 'summary': '', 'summary_path': '', 'image': '', 'pc_image': '', 'subscribe_type': 0, 'is_subscribed': False, 'is_premium': False, 'impact': 0, 'need_explained': False, 'whether_hide_impact_face': False, 'subj_ids': [10, 723, 9], 'stocks': [{'name': '诺泰生物', 'symbol': '688076.SS', 'market': ''}], 'bkj_infos': [], 'explain_infos': [], 'watermarks': '', 'has_summary': False, 'created_at': 1752842205, 'manual_updated_at': 1752842205, 'content_refused': False, 'flash_message_type': 'default', 'super_vip_right_type': -1, 'all_stocks': [{'name': '诺泰生物', 'symbol': '688076.SS', 'market': 'mdc'}], 'sub_title': '', 'route': 'https://xuangubao.cn/article/1217394?fromSubjectId=10'}, 'time': 1752842205000}
+------------------------------
