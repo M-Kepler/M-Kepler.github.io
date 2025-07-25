@@ -1,4 +1,0 @@
-DEBUG    mypy.lib.ai.llm.api:api.py:69 🔵 本轮 AI 对话由 [OpenrouterHelper] 提供服务
-DEBUG    mypy.lib.ai.llm.api:api.py:65 🔵 问答结束, 返回结果
-DEBUG    mypy.lib.ai.llm.api:api.py:69 🔵 本轮 AI 对话由 [OpenrouterHelper] 提供服务
-DEBUG    mypy.lib.ai.llm.api:api.py:65 🔵 问答结束, 返回结果

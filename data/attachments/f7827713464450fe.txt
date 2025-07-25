@@ -1,1 +1,0 @@
-INFO     mypy.lib.video.utils:utils.py:103 🟢 视频文件 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ted/ted.mp4 正常
