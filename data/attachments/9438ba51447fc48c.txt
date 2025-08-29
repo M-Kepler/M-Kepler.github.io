@@ -1,0 +1,1 @@
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:126 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle_handler/test_fix_subtitle_timeline.srt 时间线

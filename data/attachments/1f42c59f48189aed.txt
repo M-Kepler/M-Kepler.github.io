@@ -1,0 +1,3 @@
+INFO     mypy.lib.youtube.y2_handler:y2_handler.py:193 🟢 playlist 中有 2 个视频
+INFO     mypy.lib.youtube.y2_handler:y2_handler.py:195 🟢 https://www.youtube.com/watch?v=XvdTr0RhdsM
+INFO     mypy.lib.youtube.y2_handler:y2_handler.py:195 🟢 https://www.youtube.com/watch?v=fV8YfwAkdJ4

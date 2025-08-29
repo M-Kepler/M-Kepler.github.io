@@ -1,0 +1,3 @@
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:239 🔵 正在执行命令: echo $test_run_cmd_with_env
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:226 🔵 设置环境变量: {'test_run_cmd_with_env': '1a2b'}
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:268 🔵 output: 1a2b

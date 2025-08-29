@@ -1,0 +1,10 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler
+DEBUG    mypy.utils.file:file.py:398 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video
+INFO     mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:136 🟢 开始把 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video/ppt.pptx 转成 PDF
+DEBUG    mypy.lib.libreoffice.libreoffice_helper:libreoffice_helper.py:77 🔵 通过 libreoffice 把 PPT 转成 PDF
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:239 🔵 正在执行命令: ['soffice', '--headless', '--convert-to', 'pdf', '--outdir', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video/ppt.pptx']
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:55 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmppdch200q
+DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:100 🔵 把 /tmp/tmppdch200q 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video/ppt.mp4
+DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:109 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpt0dv_niy
+INFO     mypy.lib.image.image2video_helper:image2video_helper.py:128 🟢 文件夹 /tmp/tmppdch200q 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video/ppt.mp4
+DEBUG    mypy.utils.file:file.py:411 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_handler/test_ppt2video/ppt.pptx

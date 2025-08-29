@@ -1,0 +1,2 @@
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:239 🔵 正在执行命令: ['date', '+%Y%m%d']
+DEBUG    /home/runner/work/github-runner/github-runner/mypy/mypy/utils/tools.py:tools.py:239 🔵 正在执行命令: ['date', '+%Y%m%d']

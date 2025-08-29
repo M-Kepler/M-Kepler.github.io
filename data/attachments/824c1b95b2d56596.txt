@@ -1,0 +1,1 @@
+INFO     mypy.utils.email:email.py:34 🟢 邮件 [mypy-test-2025-08-29 20:48:49.266280] 发送成功
