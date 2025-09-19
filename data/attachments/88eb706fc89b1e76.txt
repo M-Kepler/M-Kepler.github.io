@@ -1,0 +1,12 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/pexels/.out/test_pexels
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 18 条与 [mountain] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 16 条与 [cat] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:182 🟢 总共搜集到: 34 条视频，时长总和为 734
+INFO     mypy.lib.pexels.video:video.py:89 🟢 开始下载视频...
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/2334654/2334654-hd_1920_1080_30fps.mp4 下载成功，视频时长: 18s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/3121327/3121327-hd_1920_1080_24fps.mp4 下载成功，视频时长: 14s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/855265/855265-hd_1920_1080_24fps.mp4 下载成功，视频时长: 8s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/3326930/3326930-hd_1920_1080_24fps.mp4 下载成功，视频时长: 20s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/2040076/2040076-hd_1920_1080_24fps.mp4 下载成功，视频时长: 10s
+INFO     mypy.lib.pexels.video:video.py:106 🟢 已下载的视频总时长(70.0s)已满足要求(60s)，任务完成
+INFO     mypy.lib.pexels.video:video.py:112 🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/pexels/.out/test_pexels/test_pexels_get_videos
