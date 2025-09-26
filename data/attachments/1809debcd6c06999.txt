@@ -1,0 +1,72 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [ModelscopeHelper] 提供服务
+DEBUG    mypy.lib.ai.llm.api:api.py:73 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [ModelscopeHelper] 提供服务
+DEBUG    mypy.lib.ai.llm.api:api.py:73 🔵 问答结束, 返回结果
+DEBUG    mypy.apps.text2douyin.main:main.py:138 🔵 人生的意义是一个古老而深刻的哲学问题，每个人在生命的不同阶段都会思考这个问题。从古至今，无数思想家、哲学家和宗教领袖都试图给出答案，但这个问题始终没有标准答案。意义不是被发现的，而是被创造的，它源于我们如何选择度过每一天。
+
+许多人认为人生的意义在于追求幸福和满足感。这种观点强调个人的快乐和内心的平静，认为生命的价值在于体验美好、建立深厚的人际关系、享受生活中的小确幸。然而，单纯的快乐追求往往无法带来持久的满足，因为快乐是短暂的，而人生的意义需要更深层的根基。
+
+另一种常见的观点是人生的意义在于实现自我价值和潜能。这种理念鼓励人们不断学习、成长和突破自己的局限。通过追求事业成功、艺术创作、知识探索或技能提升，人们可以在成就中找到生命的意义。但这种观点也可能导致过度竞争和焦虑，忽视了生活的其他重要方面。
+
+服务他人和为社会做贡献也被许多人视为人生的核心意义。通过帮助需要帮助的人、推动社会进步、保护环境或传承文化，个人可以超越自我，与更大的整体产生连接。这种利他主义的视角让人们在奉献中找到深刻的生命价值和归属感。
+
+最终，人生的意义可能是多元而个性化的。它可能包含个人成长、人际关系、创造价值、精神追求等多个维度。每个人都可以根据自己的价值观、经历和目标来定义属于自己的生命意义。重要的是保持开放的心态，不断探索和调整，让生命在寻找意义的过程中本身就充满意义。
+DEBUG    mypy.apps.text2douyin.main:main.py:139 🔵 ['meaning of life', 'life philosophy', 'personal growth', 'human existence', 'life purpose']
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 生成配音和字幕
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:main.py:80 🟢 文章时长为: 120.74s
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 根据关键字搜索视频
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 19 条与 [meaning of life] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 20 条与 [life philosophy] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 11 条与 [personal growth] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 12 条与 [human existence] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 16 条与 [life purpose] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:182 🟢 总共搜集到: 56 条视频，时长总和为 998
+INFO     mypy.lib.pexels.video:video.py:89 🟢 开始下载视频...
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/7429932/7429932-hd_1920_1080_30fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/7666907/7666907-hd_1920_1080_30fps.mp4 下载成功，视频时长: 28s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34036789/14435317_1920_1080_60fps.mp4 下载成功，视频时长: 11s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34011103/14427168_1920_1080_30fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34026169/14431824_1920_1080_60fps.mp4 下载成功，视频时长: 6s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34007741/14426185_1920_1080_60fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/33994397/14421168_1920_1080_60fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/33982842/14417012_1920_1080_60fps.mp4 下载成功，视频时长: 15s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/2098988/2098988-hd_1920_1080_30fps.mp4 下载成功，视频时长: 34s
+INFO     mypy.lib.pexels.video:video.py:106 🟢 已下载的视频总时长(126.0s)已满足要求(120.74s)，任务完成
+INFO     mypy.lib.pexels.video:video.py:112 🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 开始制作视频: 把音频、片段、字幕进行整合
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 完成把字幕内容中的 [ ] 替换为 [], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:126 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.srt 时间线
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:205 🔵 视频时长(120.75s) >= bgm 时长(120.744s)，循环播放 bgm 2 次
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 开始发布
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:156 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:120 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:123 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:139 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:146 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: 人生的意义.mp4] - 从文件标题解析出话题: #人生 #意义
+INFO     mypy.lib.playwright.publish_handler:log.py:54 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:55 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:56 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:343 🔵 [platform: douyin], [publish_file: 人生的意义.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.mp4
+INFO     mypy.lib.playwright.publish_handler:video_publish_helper.py:35 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 获取并上传封面
+WARNING  mypy.lib.playwright.publish_handler:video_publish_helper.py:43 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - 封面 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.jpg 不存在，不设置封面
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:400 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 设置视频简介为: 人生的意义 #人生 #意义 #护士长竞聘 #护士懂护士 #护士 #护士长
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:102 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - -----> 可选合集:
+WARNING  mypy.lib.playwright.publish_handler:publish_helper.py:111 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - 未发现可选合集
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:268 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 可见范围设置为: 公开
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:142 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 视频可下载权限设置为: 不允许
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:255 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 【定时发布】时间设置为: 2025-09-27 11:16:00
+WARNING  mypy.lib.playwright.publish_handler:publish_helper.py:117 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - 测试模式，不点击发布按钮
+INFO     mypy.apps.text2douyin.main:main.py:151 🟢 [['douyin', True, 'None']]

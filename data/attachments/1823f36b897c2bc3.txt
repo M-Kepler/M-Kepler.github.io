@@ -1,0 +1,204 @@
+INFO     test_slider_captcha:test_slider_captcha.py:27 🟢 ----- test_slider_captcha_handler -----
+DEBUG    test_slider_captcha:base.py:127 🔵 验证码已触发
+DEBUG    test_slider_captcha:base.py:252 🔵 等待滑动验证码展示事件就绪信号
+INFO     test_slider_captcha:base.py:254 🟢 开始处理滑块验证码...
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:77 🔵 拦截到验证码请求，开始下载验证码
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:77 🔵 拦截到验证码请求，开始下载验证码
+INFO     mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:90 🟢 验证码图片保存成功
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 1/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 2/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 3/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 4/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 5/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 6/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 7/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 8/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 9/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 10/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 11/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 12/20 次
+WARNING  test_slider_captcha:base.py:193 🟠 没找到滑块坐标
+ERROR    test_slider_captcha:base.py:277 🔴 滑块拖动失败，刷新验证码重试
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 275, in handle
+    await self._drag_to_breach()
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/captcha/puzzle/base.py", line 194, in _drag_to_breach
+    raise Exception('没找到滑块坐标')
+Exception: 没找到滑块坐标
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 13/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 486
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 14/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 486
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 15/20 次
+DEBUG    test_slider_captcha:base.py:144 🔵 判断验证码验证结果
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 486
+DEBUG    test_slider_captcha:base.py:149 🔵 验证请求的响应: {'errorCode': '50', 'randstr': '', 'ticket': '', 'traceId': '', 'errMessage': '', 'sess': 's0VnpsyW5j8wLdoKH0vKfRI2H9E3A8pnOj8GIVVHQpfGop_8YT3qWXvUp7C5EbTUQ8PO77y1RY1IKG0qlOj1IHGuNWDNra7b-P_cEdS6I1kfaz9X7GQ_X0EO3iILEBOYACCFOrTSf6LKVFHHTHqx2i_Af6Au0b7qoO7rbelRGGCEQji_LVpj0GufIvzlahSiZLAPRvZ_AkU6Z41rloixhA_3P069I6I7bPg1XigW3V0LMceHaSB1JhwKaQiJOCjyCdLbhSioere5r5p8WjbMDVbkBM8oKiukzEtnIHAdvNcxISN3NbkdwukgwtsMYHHD6C5HoDB-R05Ww*'}
+WARNING  test_slider_captcha:base.py:154 🟠 验证失败，刷新验证码重新验证
+DEBUG    mypy.lib.playwright.captcha.puzzle.qcloud:qcloud.py:61 🔵 无需刷新验证码
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 16/20 次
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 486
+DEBUG    test_slider_captcha:base.py:268 🔵 等待验证码图片下载完成就绪信号
+DEBUG    test_slider_captcha:base.py:271 🔵 图片呈现与实际比例为: 0.5191176470588236
+DEBUG    test_slider_captcha:base.py:272 🔵 滑块拖动逻辑开始，当前尝试轮数: 17/20 次
+DEBUG    test_slider_captcha:base.py:144 🔵 判断验证码验证结果
+DEBUG    test_slider_captcha:base.py:197 🔵 点击拖动缺口滑块
+DEBUG    test_slider_captcha:captcha_img_handler.py:126 🔵 计算验证码缺口距离
+DEBUG    test_slider_captcha:captcha_img_handler.py:90 🔵 开始获取验证码缺口坐标
+DEBUG    test_slider_captcha:captcha_img_handler.py:30 🔵 开始对验证码背景图片进行预处理
+DEBUG    test_slider_captcha:captcha_img_handler.py:152 🔵 获取到缺口距离: 486
+DEBUG    test_slider_captcha:base.py:149 🔵 验证请求的响应: {'errorCode': '0', 'randstr': '@G8u', 'ticket': 'tr035gfjYF2pGpuS9otDZS1bLcog8MepJGVpHIwBXUHKPKyuSSIbT9DTOWxuusqs7qFO6WSlYvB1UwmxkKqOuf2xT6SYHAdkAGRizKB0NC5lVdUQuZYtYX2KFc4lOCMoQfz1', 'traceId': '', 'errMessage': '', 'sess': ''}
+INFO     test_slider_captcha:base.py:151 🟢 ---------- 验证码验证通过 ----------
+INFO     test_slider_captcha:base.py:232 🟢 清理掉所有的等待事件
+DEBUG    test_slider_captcha:base.py:88 🔵 取消 is_captcha_showed 等待事件
+DEBUG    test_slider_captcha:base.py:88 🔵 取消 is_captcha_downloaded 等待事件
+DEBUG    test_slider_captcha:base.py:242 🔵 删除验证码图片文件夹: /home/runner/work/github-runner/github-runner/.out/captcha_save_dir
+DEBUG    test_slider_captcha:base.py:266 🔵 验证码已经验证通过，退出循环

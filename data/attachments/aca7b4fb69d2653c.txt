@@ -1,0 +1,180 @@
+DEBUG    mypy.lib.tonghuashun.wencai:wencai.py:37 🔵 向 wencai 查询 [大单净量大于1.5,净流入前20,非st,非次新,主力净流入大于2亿,未涨停]...
+WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:179 🟠 组装 002400 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  收盘价:不复权[20250926]  涨停价[20250926]  {(}收盘价:不复权[20250926]{-}涨停价[20250926]{)}  主力资金流向[20250926]  上市交易日天数[20250926]  dde大单净量[20250926]  资金流向[20250926] 资金流向排名[20250926]  资金流入inner[20250926]  资金流出inner[20250926]  主力买入金额[20250926]  主力卖出金额[20250926]  dde大单净流入量[20250926]  流通a股[20250926]  dde散户数量[20250926]  market_code    code
+0  002400.SZ  省广集团  8.90   5.33               8.90           9.30                                    -0.40         516655470               3743               2.44    541574060.00           4/5437        2043625540.00        1502051480.00         991744770         475089300          42210557.00   1726164618.00             -42.72           33  002400
+1  300303.SZ  聚飞光电  7.22   8.41               7.22           7.99                                    -0.77         328250026               3290               2.31    384794506.00          15/5437         994685750.00         609891244.00         518996210         190746184          30744893.00   1327997986.00            -152.85           33  300303
+2  300157.SZ  新锦动力  5.00   8.46               5.00           5.53                                    -0.53         219828174               3579               3.86    262774695.00          34/5437         496834038.00         234059343.00         292173886          72345712          27340465.00    707824632.00            -373.06           33  300157
+3  300046.SZ  台基股份 43.88   4.50              43.88          50.39                                    -6.51         200936075               3812               1.54    241780395.00          42/5437         927981260.00         686200865.00         396920700         195984625           3642981.00    236531371.00            -113.98           33  300046 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250926]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 4306, in xs
+    return self[key]
+           ~~~~^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250926]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:179 🟠 组装 300303 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  收盘价:不复权[20250926]  涨停价[20250926]  {(}收盘价:不复权[20250926]{-}涨停价[20250926]{)}  主力资金流向[20250926]  上市交易日天数[20250926]  dde大单净量[20250926]  资金流向[20250926] 资金流向排名[20250926]  资金流入inner[20250926]  资金流出inner[20250926]  主力买入金额[20250926]  主力卖出金额[20250926]  dde大单净流入量[20250926]  流通a股[20250926]  dde散户数量[20250926]  market_code    code
+0  002400.SZ  省广集团  8.90   5.33               8.90           9.30                                    -0.40         516655470               3743               2.44    541574060.00           4/5437        2043625540.00        1502051480.00         991744770         475089300          42210557.00   1726164618.00             -42.72           33  002400
+1  300303.SZ  聚飞光电  7.22   8.41               7.22           7.99                                    -0.77         328250026               3290               2.31    384794506.00          15/5437         994685750.00         609891244.00         518996210         190746184          30744893.00   1327997986.00            -152.85           33  300303
+2  300157.SZ  新锦动力  5.00   8.46               5.00           5.53                                    -0.53         219828174               3579               3.86    262774695.00          34/5437         496834038.00         234059343.00         292173886          72345712          27340465.00    707824632.00            -373.06           33  300157
+3  300046.SZ  台基股份 43.88   4.50              43.88          50.39                                    -6.51         200936075               3812               1.54    241780395.00          42/5437         927981260.00         686200865.00         396920700         195984625           3642981.00    236531371.00            -113.98           33  300046 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250926]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 4306, in xs
+    return self[key]
+           ~~~~^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250926]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:179 🟠 组装 300157 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  收盘价:不复权[20250926]  涨停价[20250926]  {(}收盘价:不复权[20250926]{-}涨停价[20250926]{)}  主力资金流向[20250926]  上市交易日天数[20250926]  dde大单净量[20250926]  资金流向[20250926] 资金流向排名[20250926]  资金流入inner[20250926]  资金流出inner[20250926]  主力买入金额[20250926]  主力卖出金额[20250926]  dde大单净流入量[20250926]  流通a股[20250926]  dde散户数量[20250926]  market_code    code
+0  002400.SZ  省广集团  8.90   5.33               8.90           9.30                                    -0.40         516655470               3743               2.44    541574060.00           4/5437        2043625540.00        1502051480.00         991744770         475089300          42210557.00   1726164618.00             -42.72           33  002400
+1  300303.SZ  聚飞光电  7.22   8.41               7.22           7.99                                    -0.77         328250026               3290               2.31    384794506.00          15/5437         994685750.00         609891244.00         518996210         190746184          30744893.00   1327997986.00            -152.85           33  300303
+2  300157.SZ  新锦动力  5.00   8.46               5.00           5.53                                    -0.53         219828174               3579               3.86    262774695.00          34/5437         496834038.00         234059343.00         292173886          72345712          27340465.00    707824632.00            -373.06           33  300157
+3  300046.SZ  台基股份 43.88   4.50              43.88          50.39                                    -6.51         200936075               3812               1.54    241780395.00          42/5437         927981260.00         686200865.00         396920700         195984625           3642981.00    236531371.00            -113.98           33  300046 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250926]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 4306, in xs
+    return self[key]
+           ~~~~^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250926]'
+
+WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:179 🟠 组装 300046 告警信息:         股票代码  股票简称   最新价  最新涨跌幅  收盘价:不复权[20250926]  涨停价[20250926]  {(}收盘价:不复权[20250926]{-}涨停价[20250926]{)}  主力资金流向[20250926]  上市交易日天数[20250926]  dde大单净量[20250926]  资金流向[20250926] 资金流向排名[20250926]  资金流入inner[20250926]  资金流出inner[20250926]  主力买入金额[20250926]  主力卖出金额[20250926]  dde大单净流入量[20250926]  流通a股[20250926]  dde散户数量[20250926]  market_code    code
+0  002400.SZ  省广集团  8.90   5.33               8.90           9.30                                    -0.40         516655470               3743               2.44    541574060.00           4/5437        2043625540.00        1502051480.00         991744770         475089300          42210557.00   1726164618.00             -42.72           33  002400
+1  300303.SZ  聚飞光电  7.22   8.41               7.22           7.99                                    -0.77         328250026               3290               2.31    384794506.00          15/5437         994685750.00         609891244.00         518996210         190746184          30744893.00   1327997986.00            -152.85           33  300303
+2  300157.SZ  新锦动力  5.00   8.46               5.00           5.53                                    -0.53         219828174               3579               3.86    262774695.00          34/5437         496834038.00         234059343.00         292173886          72345712          27340465.00    707824632.00            -373.06           33  300157
+3  300046.SZ  台基股份 43.88   4.50              43.88          50.39                                    -6.51         200936075               3812               1.54    241780395.00          42/5437         927981260.00         686200865.00         396920700         195984625           3642981.00    236531371.00            -113.98           33  300046 失败: Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '主力资金流向排名[20250926]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/stock/monitor/addons/wencai.py", line 167, in _get_notify_content
+    funding_rank = wencai_result.loc[
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1368, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1065, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 4306, in xs
+    return self[key]
+           ~~~~^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: '主力资金流向排名[20250926]'
