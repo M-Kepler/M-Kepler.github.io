@@ -1,0 +1,8 @@
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 完成把字幕内容中的 [
+] 替换为 [ ], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle2speech/tmp.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:126 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle2speech/tmp.srt 时间线
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 完成把字幕内容中的 [ ] 替换为 [], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle2speech/tmp.srt
+INFO     mypy.lib.subtitle.subtitle2speech:subtitle2speech.py:115 🟢 working on /tmp/tmpdsu4uzro
+DEBUG    mypy.lib.subtitle.subtitle2speech:subtitle2speech.py:58 🔵 待处理 subtitle 总行数: 316
+INFO     mypy.lib.subtitle.subtitle2speech:subtitle2speech.py:106 🟢 转换完成，文件保存到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle2speech/test_subtitle2speech_with_video.mp3
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:126 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/subtitle/.out/test_subtitle2speech/tmp.srt 时间线
