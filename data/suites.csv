@@ -1,95 +1,238 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","7341","test_wencai_monitor","lib.stock.monitor.addons","Fri Oct 03 12:29:14 UTC 2025","passed","Fri Oct 03 12:29:22 UTC 2025","","test_wencai","",""
-"测试获取指数基本信息","2","test_get_index_basic_info","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试 PPT 转成 视频 / 图片
-    XXX 目前只能转换首页为图片，不能每一页都转
-    ","2335","test_batch_transfer[doc2pdf]","lib.libreoffice","Fri Oct 03 12:20:24 UTC 2025","passed","Fri Oct 03 12:20:27 UTC 2025","","test_libreoffice_helper","",""
-"","0","test_get_py_executable_path","utils","Fri Oct 03 12:56:12 UTC 2025","passed","Fri Oct 03 12:56:12 UTC 2025","","test_tools","",""
-"","0","test_truncate_date","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-    测试获取 MA 指标
-    ","0","test_get_ma_day","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_indicate","",""
-"
-    测试 youtube 视频字幕用 edge-tts 配音
-    ","142115","test_subtitle2speech_with_video","lib.subtitle","Fri Oct 03 12:30:48 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle2speech","",""
-"","230","test_y2_video_playlist","lib.youtube","Fri Oct 03 12:55:22 UTC 2025","passed","Fri Oct 03 12:55:23 UTC 2025","","test_y2_handler","",""
-"
-    支持选择聊天记录继续聊
-    ","0","test_chat_with_history[openrouter]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"
-    测试通过 ppt2image 库进行转换
-    ","5140","test_pdf2image_by_pylib","lib.pdf","Fri Oct 03 12:27:21 UTC 2025","passed","Fri Oct 03 12:27:27 UTC 2025","","test_pdf_handler","",""
+"","0","test_dt2str","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
 "
         测试生成 PPT 题目
-        ","0","test_ppt_topic[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 PPT 转成图片
-    ","9409","test_ppt2image","lib.ppt","Fri Oct 03 12:28:48 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_ppt_handler","",""
-"
-    测试通过协程进行下载任务的并发
-    ","374285","test_downloader","lib.mqs.pylib","Fri Oct 03 12:20:41 UTC 2025","failed","Fri Oct 03 12:26:55 UTC 2025","","test_downloader","",""
-"
-    视频填充到素材的绿幕中
-    ","33321","test_replace_green_screen[video]","lib.video","Fri Oct 03 12:46:26 UTC 2025","passed","Fri Oct 03 12:46:59 UTC 2025","","test_video_clip_helper","",""
-"","525","test_get_jing_xuan","lib.xuangutong","Fri Oct 03 12:47:16 UTC 2025","broken","Fri Oct 03 12:47:16 UTC 2025","","test_jing_xuan","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[1\u4e0a\u5348\u5f00\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"","0","test_data_masking[1234567]","utils","Fri Oct 03 12:56:39 UTC 2025","passed","Fri Oct 03 12:56:39 UTC 2025","","test_tools","",""
-"","0","test_ppt2image_by_powerpoint","lib.powerpoint","Fri Oct 03 12:28:14 UTC 2025","skipped","Fri Oct 03 12:28:14 UTC 2025","","test_powerpoint_helper","",""
-"
-    测试 cv2.cvtColor 中文路径问题
-    ","115","test_cv2_imread","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    测试添加字幕，并给字幕绘制半透明背景框
-    ","91529","test_add_subtitle_and_draw_box","lib.video","Fri Oct 03 12:38:24 UTC 2025","passed","Fri Oct 03 12:39:56 UTC 2025","","test_ffmpeg_helper","",""
-"","0","test_who_are_you[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    n 张图片垂直拼图
-    ","700","test_batch_conn_images_to_one[3_lines]","lib.image","Fri Oct 03 12:20:05 UTC 2025","passed","Fri Oct 03 12:20:06 UTC 2025","","test_image_stitch","",""
-"
-    测试定时发布、立即发布
-    ","4","test_publish2douyin[xiaohongshu_now]","lib.douyin","Fri Oct 03 12:02:44 UTC 2025","broken","Fri Oct 03 12:02:44 UTC 2025","","test_douyin_publish_app","",""
-"","0","test_dt2str","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-    测试 PPT 生成视频
-    ","214335","test_make_video[large]","apps.ppt2douyin","Fri Oct 03 10:56:31 UTC 2025","passed","Fri Oct 03 11:00:05 UTC 2025","","test_ppt_video_handler","",""
-"测试 chunk_list 函数","0","test_chunk_list","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"测试带重试机制的请求成功","1","test_request_with_retry_success","apps.csindex_crawler","Fri Oct 03 10:39:30 UTC 2025","passed","Fri Oct 03 10:39:30 UTC 2025","","test_csindex_crawler","",""
-"
-    测试 baidu 生成 PPT / DOC 再发布到 douyin
-    ","835626","test_baidu2douyin[ppt2image_article]","apps.baidu2douyin","Fri Oct 03 09:45:23 UTC 2025","passed","Fri Oct 03 09:59:18 UTC 2025","","test_baidu2douyin","",""
-"测试带重试机制的请求失败","2003","test_request_with_retry_failure","apps.csindex_crawler","Fri Oct 03 10:39:30 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    图片上添加标题
-    ","193","test_add_title[horizontal]","lib.image","Fri Oct 03 12:20:02 UTC 2025","passed","Fri Oct 03 12:20:02 UTC 2025","","test_image_handler","",""
-"
-    获取信息
-    :param with_client: 是否测试通过客户端连接 easytrader 服务端进行操作
-    ","0","test_get_info","lib.stock.trader","Fri Oct 03 12:29:22 UTC 2025","skipped","Fri Oct 03 12:29:22 UTC 2025","","test_easytrader_helper","",""
-"
-    视频加速，并添加 bgm
-    ","18243","test_speedup_add_bgm","lib.video","Fri Oct 03 12:35:38 UTC 2025","passed","Fri Oct 03 12:35:57 UTC 2025","","test_ffmpeg_helper","",""
+        ","0","test_ppt_topic[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
     测试网页内容发不到 douyin
-    ","136712","test_web2douyin[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","apps.web2douyin","Fri Oct 03 11:18:30 UTC 2025","passed","Fri Oct 03 11:20:47 UTC 2025","","test_web2douyin","",""
+    ","163837","test_web2douyin[cn-healthcare-https://www.cn-healthcare.com/articlewm/20230416/content-1537509.html]","apps.web2douyin","Fri Oct 10 11:30:08 UTC 2025","passed","Fri Oct 10 11:32:52 UTC 2025","","test_web2douyin","",""
 "
-    无水印下载 tiktok 视频
-    ","3149","test_tiktok_downloader","lib.tiktok","Fri Oct 03 12:33:10 UTC 2025","broken","Fri Oct 03 12:33:13 UTC 2025","","test_tiktok_downloader","",""
+    docx 转 PDF 再转成多张图片
+    ","913","test_doc2images","lib.doc","Fri Oct 10 12:00:47 UTC 2025","passed","Fri Oct 10 12:00:47 UTC 2025","","test_doc_helper","",""
 "
-    测试浏览器指纹（看是否被识别为被自动化软件控制）
-    ","5110","test_get_fingerprint","lib.playwright","Fri Oct 03 12:28:08 UTC 2025","passed","Fri Oct 03 12:28:14 UTC 2025","","test_common","",""
+    测试 youtu 视频剪辑
+    ","232","test_video_handler[SlideSkills]","lib.youtube","Fri Oct 10 12:58:34 UTC 2025","broken","Fri Oct 10 12:58:34 UTC 2025","","test_y2_video_handler","",""
+"
+        测试生成视频脚本
+        ","0","test_video_script[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试发布 PPT 导出的原始视频
+    ","93495","test_ppt2douyin_mission","apps.ppt2douyin","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:49:01 UTC 2025","","test_ppt2douyin","",""
+"
+        测试阅读文章
+        ","0","test_chat_with_file[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_who_are_you[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_iq[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试视频前两秒添加文字标题
+    ","9270","test_draw_text[horizontal]","lib.video","Fri Oct 10 12:41:49 UTC 2025","passed","Fri Oct 10 12:41:59 UTC 2025","","test_ffmpeg_helper","",""
+"","1","test_safe_filename[with_empty]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试数据预处理
+    ","470","test_pre_process","lib.stock.data","Fri Oct 10 12:35:36 UTC 2025","passed","Fri Oct 10 12:35:37 UTC 2025","","test_data_helper","",""
+"","0","test_iq[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 youtu 下载工具
+    ","36002","test_y2_downloader[video]","lib.youtube","Fri Oct 10 12:50:29 UTC 2025","broken","Fri Oct 10 12:51:05 UTC 2025","","test_y2_downloader","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","1","test_parse_args","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
+"
+    PPT 转视频
+    ","16285","test_ppt2video[by_powerpoint]","lib.ppt","Fri Oct 10 12:35:02 UTC 2025","passed","Fri Oct 10 12:35:18 UTC 2025","","test_ppt_handler","",""
+"
+    测试通过 convertio 接口将 ppt 转为 pdf
+    ","19452","test_convertio_ppt2pdf","lib.convertio","Fri Oct 10 12:00:26 UTC 2025","passed","Fri Oct 10 12:00:46 UTC 2025","","test_convertio_helper","",""
+"测试获取个股公告时API返回错误","1","test_get_stock_announcements_api_error","lib.xuangutong","Fri Oct 10 12:50:26 UTC 2025","broken","Fri Oct 10 12:50:26 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试爬取单页指数数据","5764","test_crawl_single_page","apps.csindex_crawler","Fri Oct 10 10:47:19 UTC 2025","passed","Fri Oct 10 10:47:25 UTC 2025","","test_csindex_crawler","",""
+"
+    测试定时发布、立即发布
+    ","58726","test_publish2douyin[douyin_now]","lib.douyin","Fri Oct 10 12:03:02 UTC 2025","passed","Fri Oct 10 12:04:01 UTC 2025","","test_douyin_publish_app","",""
+"
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    爬取 douyin 热门音乐
+    ","975","test_douyin_hot[hot_music_chart]","lib.douyin","Fri Oct 10 12:00:50 UTC 2025","passed","Fri Oct 10 12:00:51 UTC 2025","","test_douyin_hot_hub","",""
+"","0","test_get_safe_name","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    支持选择聊天记录继续聊
+    ","0","test_chat_with_history[qwen]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
+"测试获取指数收益","1","test_get_index_yield_item","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"
+    测试 PPT 发布到 douyin
+    ","1271","test_ppt2douyin[doc2video]","apps.ppt2douyin","Fri Oct 10 11:00:09 UTC 2025","passed","Fri Oct 10 11:00:10 UTC 2025","","test_ppt2douyin","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 ytdlp 下载 youtu 视频资源
+    ","1053","test_ytdlp_helper[video]","lib.youtube","Fri Oct 10 12:58:45 UTC 2025","broken","Fri Oct 10 12:58:46 UTC 2025","","test_ytdlp_helper","",""
+"
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[8\u4e0b\u5348\u6536\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"","0","test_json_config_read","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_json_config","",""
+"
+    测试市场热度，并把生成的图片转成 base64 嵌入 markdown
+    ","6614","test_how_hot","lib.stock.data","Fri Oct 10 12:35:37 UTC 2025","passed","Fri Oct 10 12:35:44 UTC 2025","","test_data_helper","",""
 "
     测试字幕转语音
-    ","3064","test_subtitle2speech","lib.subtitle","Fri Oct 03 12:30:45 UTC 2025","passed","Fri Oct 03 12:30:48 UTC 2025","","test_subtitle2speech","",""
+    ","3504","test_subtitle2speech","lib.subtitle","Fri Oct 10 12:37:03 UTC 2025","passed","Fri Oct 10 12:37:06 UTC 2025","","test_subtitle2speech","",""
 "
-    发布 tiktok 视频到 douyin （暂无剪辑流程）
-    ","3150","test_tiktok2douyin","apps.tiktok2douyin","Fri Oct 03 11:10:41 UTC 2025","broken","Fri Oct 03 11:10:44 UTC 2025","","test_tiktok2douyin","",""
-"","0","test_assert_file_not_exists","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
+    测试图片叠加
+    ","34","test_image_overlay[bottom-left]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
 "
-    测试与 AI 聊天
-    ","26980","test_ai_chat","apps.ai_chat","Fri Oct 03 09:44:09 UTC 2025","passed","Fri Oct 03 09:44:36 UTC 2025","","test_ai_chat","",""
+    测试 base64 图片展示
+    ","1","test_display_img_from_base64","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"","1000","test_time_spen_deco","utils","Fri Oct 10 12:59:25 UTC 2025","passed","Fri Oct 10 12:59:26 UTC 2025","","test_tools","",""
+"","4991","test_wencai_monitor","lib.stock.monitor.addons","Fri Oct 10 12:35:46 UTC 2025","passed","Fri Oct 10 12:35:51 UTC 2025","","test_wencai","",""
+"
+    测试图片叠加
+    ","41","test_image_overlay[center-center]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+    测试 cv2.imwrite 中文路径问
+    ","37","test_cv2_imwrite","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+    保存 srt 字幕文件
+    ","0","test_save_srt","lib.subtitle","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle_handler","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_who_are_you[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    音频 m4a 格式转 mp3
+    ","385","test_m4a2mp3","lib.video","Fri Oct 10 12:46:14 UTC 2025","passed","Fri Oct 10 12:46:15 UTC 2025","","test_ffmpeg_helper","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","155496","test_douyin_publish_app[douyin_ppt_video]","lib.douyin","Fri Oct 10 12:15:37 UTC 2025","broken","Fri Oct 10 12:18:13 UTC 2025","","test_douyin_publish_app","",""
+"
+    从歌曲宝下载音乐
+    ","1478","test_download","lib.music","Fri Oct 10 12:33:25 UTC 2025","passed","Fri Oct 10 12:33:26 UTC 2025","","test_gequbao","",""
+"
+    获取最近的改动
+    ","7767","test_get_latest_commit","lib.github","Fri Oct 10 12:27:58 UTC 2025","broken","Fri Oct 10 12:28:06 UTC 2025","","test_repository","",""
+"
+    支持选择聊天记录继续聊
+    ","0","test_chat_with_history[openrouter]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
+"
+    n 张图片垂直拼图
+    ","639","test_batch_conn_images_to_one[3_lines]","lib.image","Fri Oct 10 12:29:33 UTC 2025","passed","Fri Oct 10 12:29:34 UTC 2025","","test_image_stitch","",""
+"
+    获取第一帧作为封面
+    ","109","test_get_coverage","lib.video","Fri Oct 10 12:46:15 UTC 2025","passed","Fri Oct 10 12:46:15 UTC 2025","","test_ffmpeg_utils","",""
+"
+    测试通过 poppler/pdftoppm 工具进行转换
+    ","3024","test_pdf2image_by_pdftoppm","lib.pdf","Fri Oct 10 12:33:44 UTC 2025","passed","Fri Oct 10 12:33:47 UTC 2025","","test_pdf_handler","",""
+"
+    测试 chatttts
+    ","0","test_chattts_helper","lib.tts","Fri Oct 10 12:39:32 UTC 2025","passed","Fri Oct 10 12:39:32 UTC 2025","","test_chattts_helper","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 PPT 转成 视频 / 图片
+    ","2494","test_batch_ppt_convert[random]","apps.ppt2douyin","Fri Oct 10 11:01:37 UTC 2025","passed","Fri Oct 10 11:01:40 UTC 2025","","test_ppt_convert","",""
+"
+    测试定时发布、立即发布
+    ","4","test_publish2douyin[xiaohongshu_now]","lib.douyin","Fri Oct 10 12:10:33 UTC 2025","broken","Fri Oct 10 12:10:33 UTC 2025","","test_douyin_publish_app","",""
+"","0","test_random_string","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"
+    测试定时发布、立即发布
+    ","195217","test_publish2douyin[weixin_timing]","lib.douyin","Fri Oct 10 12:04:01 UTC 2025","broken","Fri Oct 10 12:07:16 UTC 2025","","test_douyin_publish_app","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 ytdlp 下载视频，并且合并音视频和字幕
+    ","128","test_y2_video_handler","lib.youtube","Fri Oct 10 12:58:32 UTC 2025","broken","Fri Oct 10 12:58:32 UTC 2025","","test_y2_handler","",""
+"
+    测试修改 PPT 文字样式
+    ","544","test_ppt_editor_change_font","lib.ppt","Fri Oct 10 12:35:01 UTC 2025","passed","Fri Oct 10 12:35:02 UTC 2025","","test_ppt_editor","",""
+"
+    更新频道记录的视频到最新
+    ","30515","test_upd_channel_to_latest","apps.youtu2douyin","Fri Oct 10 11:33:02 UTC 2025","broken","Fri Oct 10 11:33:33 UTC 2025","","test_youtu2douyin","",""
+"","1336","test_xinzhi_weather","lib.weather","Fri Oct 10 12:50:21 UTC 2025","passed","Fri Oct 10 12:50:23 UTC 2025","","test_xinzhi","",""
+"
+    测试 PPT 转成 视频 / 图片
+    ","57488","test_batch_ppt_convert[ppt2video]","apps.ppt2douyin","Fri Oct 10 11:00:35 UTC 2025","passed","Fri Oct 10 11:01:32 UTC 2025","","test_ppt_convert","",""
+"","1866","test_post","utils","Fri Oct 10 12:59:17 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
+"","0","test_ppt2video_by_powerpoint","lib.powerpoint","Fri Oct 10 12:34:44 UTC 2025","skipped","Fri Oct 10 12:34:44 UTC 2025","","test_powerpoint_helper","",""
+"
+    替换 PPT 中的敏感文字
+    ","1332","test_ppt_editor_replace_txt","lib.ppt","Fri Oct 10 12:35:00 UTC 2025","passed","Fri Oct 10 12:35:01 UTC 2025","","test_ppt_editor","",""
+"
+    测试当天每个时刻涨跌情况
+    ","108","test_get_raise_fall_detail","lib.xuangutong","Fri Oct 10 12:50:28 UTC 2025","broken","Fri Oct 10 12:50:29 UTC 2025","","test_top_gainer","",""
+"","13091","test_slider_captcha_handler[qcloud]","lib.playwright.captcha.puzzle","Fri Oct 10 12:34:09 UTC 2025","passed","Fri Oct 10 12:34:23 UTC 2025","","test_slider_captcha","",""
+"","1","test_dot_dict","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"","0","test_parse_url","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
+"
+    测试 html 转成 markdown 或 pdf
+    ","2083","test_html_converter[dingxiangyishegn_web-https://dxy.com/article/50056]","lib.html","Fri Oct 10 12:28:33 UTC 2025","passed","Fri Oct 10 12:28:35 UTC 2025","","test_html_converter","",""
+"
+    测试买入
+    ","0","test_buy","lib.stock.trader","Fri Oct 10 12:35:51 UTC 2025","skipped","Fri Oct 10 12:35:51 UTC 2025","","test_easytrader_helper","",""
+"","0","test_json_config_write","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_json_config","",""
+"
+    测试字幕文件中，某行太长的情况
+    ","134","test_srt_over_length","lib.youtube","Fri Oct 10 12:58:42 UTC 2025","broken","Fri Oct 10 12:58:42 UTC 2025","","test_y2_video_handler","",""
+"
+    测试 markdown css 主题
+    ","11555","test_markdown2html2pdf_themes","lib.markdown","Fri Oct 10 12:29:54 UTC 2025","passed","Fri Oct 10 12:30:05 UTC 2025","","test_markdown_converter","",""
+"
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    ","816043","test_baidu2douyin[doc2video]","apps.baidu2douyin","Fri Oct 10 10:33:43 UTC 2025","passed","Fri Oct 10 10:47:19 UTC 2025","","test_baidu2douyin","",""
+"","1","test_random_time_generator","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"
+    测试定时发布、立即发布
+    ","5","test_publish2douyin[xiaohongshu_timing]","lib.douyin","Fri Oct 10 12:10:33 UTC 2025","broken","Fri Oct 10 12:10:33 UTC 2025","","test_douyin_publish_app","",""
+"
+    横屏转竖屏
+    ","11497","test_make_h2v","lib.video","Fri Oct 10 12:50:08 UTC 2025","passed","Fri Oct 10 12:50:19 UTC 2025","","test_video_clip_helper","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_parse_topic","lib.jieba","Fri Oct 10 12:29:34 UTC 2025","passed","Fri Oct 10 12:29:34 UTC 2025","","test_jieba_helper","",""
+"","0","test_iq[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试获取热点解读页热门板块成功的情况","65","test_get_top_plates_success","lib.xuangutong","Fri Oct 10 12:50:28 UTC 2025","broken","Fri Oct 10 12:50:28 UTC 2025","","test_top_gainer","",""
+"","526","test_get","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
+"","0","test_list_files_by_ext_sort_by_name","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 cookie 的设置和获取
+    ","11818","test_cookies","lib.playwright","Fri Oct 10 12:34:23 UTC 2025","passed","Fri Oct 10 12:34:34 UTC 2025","","test_common","",""
+"
+    策略回测
+    ","363","test_strategy[trend_following]","lib.stock.backtrader.strategy","Fri Oct 10 12:35:33 UTC 2025","passed","Fri Oct 10 12:35:33 UTC 2025","","test_strategy","",""
+"","212","test_translate_string[input_zh]","utils","Fri Oct 10 12:59:47 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"
+        测试阅读文章
+        ","0","test_chat_with_file[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+        测试生成视频脚本
+        ","0","test_video_script[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 youtu 视频剪辑
+    ","161","test_video_handler[vertical_video]","lib.youtube","Fri Oct 10 12:58:35 UTC 2025","broken","Fri Oct 10 12:58:35 UTC 2025","","test_y2_video_handler","",""
+"
+    测试通过 ppt2image 库进行转换
+    ","5112","test_pdf2image_by_pylib","lib.pdf","Fri Oct 10 12:33:47 UTC 2025","passed","Fri Oct 10 12:33:52 UTC 2025","","test_pdf_handler","",""
+"
+    测试按时间分割数据块
+    ","485","test_split_data","lib.stock.data","Fri Oct 10 12:35:37 UTC 2025","passed","Fri Oct 10 12:35:37 UTC 2025","","test_data_helper","",""
+"
+    日志输出中，文件名是否正确
+    ","2","test_logger_filename","lib","Fri Oct 10 12:39:28 UTC 2025","skipped","Fri Oct 10 12:39:28 UTC 2025","","test_log","",""
+"
+        测试查询余额
+        ","0","test_balance[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 llm API（封装了全部已对接的 LLM）
+    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
+    ","0","test_llm_api[qwen]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
 "
     1. 合并音视频
     2. 添加中英文字幕
@@ -99,892 +242,749 @@
     6. 视频前两秒添加文字标题
     7. 添加水印
     8. 添加 bgm
-    ","91416","test_ffmpeg_pro","lib.video","Fri Oct 03 12:33:28 UTC 2025","passed","Fri Oct 03 12:34:59 UTC 2025","","test_ffmpeg_helper","",""
-"
-    策略回测
-    ","365","test_strategy[trend_following]","lib.stock.backtrader.strategy","Fri Oct 03 12:28:59 UTC 2025","passed","Fri Oct 03 12:28:59 UTC 2025","","test_strategy","",""
-"
-    测试生成 PPT 题目
-    ","0","test_gen_ppt_topic","lib.baidu","Fri Oct 03 11:27:20 UTC 2025","passed","Fri Oct 03 11:27:20 UTC 2025","","test_baidu_aigc","",""
-"测试获取选股宝文章内容","1606","test_get_article_content","lib.xuangutong","Fri Oct 03 12:47:14 UTC 2025","passed","Fri Oct 03 12:47:16 UTC 2025","","test_article","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","169155","test_douyin_publish_app[douyin_ppt_video]","lib.douyin","Fri Oct 03 12:05:55 UTC 2025","broken","Fri Oct 03 12:08:44 UTC 2025","","test_douyin_publish_app","",""
-"
-    横屏图片转竖屏
-    ","41","test_convert_to_portrait","lib.image","Fri Oct 03 12:20:02 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"","0","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u5f53\u524d\u65f6\u95f4\u5f88\u8fd1]","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"","530","test_get","utils","Fri Oct 03 12:56:07 UTC 2025","passed","Fri Oct 03 12:56:07 UTC 2025","","test_http","",""
-"
-        测试查询余额
-        ","0","test_balance[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试创建多个文件备份
-    ","36","test_create_backups","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    测试 chatttts
-    ","0","test_chattts_helper","lib.tts","Fri Oct 03 12:33:13 UTC 2025","passed","Fri Oct 03 12:33:13 UTC 2025","","test_chattts_helper","",""
-"测试获取指数列表的不同参数组合","1","test_get_index_list_params[3-100]","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试网页内容发不到 douyin
-    ","177730","test_web2douyin[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","apps.web2douyin","Fri Oct 03 11:10:44 UTC 2025","passed","Fri Oct 03 11:13:42 UTC 2025","","test_web2douyin","",""
-"","0","test_safe_filename[with_empty]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    视频塞到绿幕素材中，并处理音频
-    ","150725","test_mix_with_green_screen[image]","lib.video","Fri Oct 03 12:41:25 UTC 2025","passed","Fri Oct 03 12:43:56 UTC 2025","","test_video_clip_helper","",""
-"","1732","test_tushare_helper","lib.stock.data","Fri Oct 03 12:29:13 UTC 2025","passed","Fri Oct 03 12:29:14 UTC 2025","","test_tushare_helper","",""
-"
-        测试查询余额
-        ","0","test_balance[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 ytdlp 下载 youtu 视频资源
-    ","1668","test_ytdlp_helper[channel]","lib.youtube","Fri Oct 03 12:55:39 UTC 2025","broken","Fri Oct 03 12:55:41 UTC 2025","","test_ytdlp_helper","",""
-"
-    图片水印
-    ","147471","test_overlay_image","lib.video","Fri Oct 03 12:35:57 UTC 2025","passed","Fri Oct 03 12:38:24 UTC 2025","","test_ffmpeg_helper","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    使用代理 IP 运行浏览器
-    前提是安装了 3party/ 下的 proxy_pool
-    ","871","test_launch_with_proxy","lib.playwright","Fri Oct 03 12:28:07 UTC 2025","broken","Fri Oct 03 12:28:08 UTC 2025","","test_common","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1358","test_post","utils","Fri Oct 03 12:56:06 UTC 2025","passed","Fri Oct 03 12:56:07 UTC 2025","","test_http","",""
-"
-    创建大图小图的封面
-    ","582","test_make_coverage[4_lines]","lib.image","Fri Oct 03 12:20:04 UTC 2025","passed","Fri Oct 03 12:20:05 UTC 2025","","test_image_stitch","",""
+    ","92383","test_ffmpeg_pro","lib.video","Fri Oct 10 12:39:48 UTC 2025","passed","Fri Oct 10 12:41:20 UTC 2025","","test_ffmpeg_helper","",""
+"","2","test_is_chinese_punctuation_only","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
 "
     测试定时发布、立即发布
-    ","43741","test_publish2douyin[douyin_now]","lib.douyin","Fri Oct 03 11:55:25 UTC 2025","passed","Fri Oct 03 11:56:09 UTC 2025","","test_douyin_publish_app","",""
-"","1335","test_xinzhi_weather","lib.weather","Fri Oct 03 12:47:13 UTC 2025","passed","Fri Oct 03 12:47:14 UTC 2025","","test_xinzhi","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试定时发布、立即发布
-    ","5","test_publish2douyin[xiaohongshu_timing]","lib.douyin","Fri Oct 03 12:02:44 UTC 2025","broken","Fri Oct 03 12:02:44 UTC 2025","","test_douyin_publish_app","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","1","test_get_trading_minute_count[9\u4e0b\u5348\u6536\u76d8]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"测试获取个股新闻并根据来源过滤","1","test_get_stock_news_with_subjects_filter","lib.xuangutong","Fri Oct 03 12:47:19 UTC 2025","broken","Fri Oct 03 12:47:19 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[7\u4e0b\u5348\u5f00\u76d8\u540e\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    所有 voice 采样
-    ","13916","test_sample_all_voice[\u97f3\u9891\u6df7\u5408\u8fc7\u6ee4\u5668\uff0c\u5b83\u5141\u8bb8\u4f60\u5c06\u591a\u4e2a\u97f3\u9891\u6d41\u6df7\u5408\u5230\u4e00\u4e2a\u8f93\u51fa\u6d41\u4e2d\u3002\u8fd9\u5bf9\u4e8e\u5c06\u80cc\u666f\u97f3\u4e50\u3001\u5bf9\u8bdd\u6216\u5176\u4ed6\u97f3\u9891\u6548\u679c\u5408\u5e76\u5230\u4e00\u4e2a\u89c6\u9891\u4e2d\u975e\u5e38\u6709\u7528\u3002]","lib.tts","Fri Oct 03 12:33:14 UTC 2025","passed","Fri Oct 03 12:33:28 UTC 2025","","test_edge_tts_helper","",""
-"
-    爬取 douyin 热门音乐
-    ","676","test_douyin_hot[hot_music_chart]","lib.douyin","Fri Oct 03 11:53:21 UTC 2025","passed","Fri Oct 03 11:53:21 UTC 2025","","test_douyin_hot_hub","",""
-"
-    测试按前缀删除文件
-    ","2","test_delete_files_with_prefix","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"","2367","test_hefeng_weather","lib.weather","Fri Oct 03 12:47:11 UTC 2025","passed","Fri Oct 03 12:47:13 UTC 2025","","test_hefeng","",""
-"","0","test_who_are_you[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1","test_parse_args","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
-"","0","test_who_are_you[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 douyin 视频搬运（防查重处理）
-    ","1","test_douyin2douyin","apps.douyin2douyin","Fri Oct 03 10:39:32 UTC 2025","skipped","Fri Oct 03 10:39:32 UTC 2025","","test_douyin2douyin","",""
-"
-    测试 PPT 转成 视频 / 图片
-    XXX 目前只能转换首页为图片，不能每一页都转
-    ","12999","test_batch_transfer[ppt2pdf]","lib.libreoffice","Fri Oct 03 12:20:11 UTC 2025","passed","Fri Oct 03 12:20:24 UTC 2025","","test_libreoffice_helper","",""
-"
-    测试发布 PPT 导出的原始视频
-    ","70944","test_ppt2douyin_mission","apps.ppt2douyin","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:40:43 UTC 2025","","test_ppt2douyin","",""
-"","3001","test_analyze_optimize","utils","Fri Oct 03 12:56:13 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
-"
-    测试 PPT 发布到 douyin
-    ","240409","test_ppt2douyin[ppt2video]","apps.ppt2douyin","Fri Oct 03 10:44:02 UTC 2025","passed","Fri Oct 03 10:48:02 UTC 2025","","test_ppt2douyin","",""
-"","0","test_mysql_api","lib.mysql","Fri Oct 03 12:27:18 UTC 2025","skipped","Fri Oct 03 12:27:18 UTC 2025","","test_mysql_api","",""
-"
-    测试发微信通知
-    ","1","test_send_weixin_notify[False]","lib.weixin","Fri Oct 03 12:47:14 UTC 2025","passed","Fri Oct 03 12:47:14 UTC 2025","","test_pushplus","",""
-"
-    测试手动触发 youtube 视频发布
-    ","376","test_y2douyin_manual[teded_channel]","apps.youtu2douyin","Fri Oct 03 11:26:01 UTC 2025","broken","Fri Oct 03 11:26:01 UTC 2025","","test_youtu2douyin","",""
-"测试获取个股公告并指定页码","1","test_get_stock_announcements_with_page","lib.xuangutong","Fri Oct 03 12:47:18 UTC 2025","broken","Fri Oct 03 12:47:18 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"
-        测试查询余额
-        ","0","test_balance[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试图片叠加
-    ","42","test_image_overlay[bottom-center]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    测试 PPT 转成 视频 / 图片
-    ","58453","test_batch_ppt_convert[ppt2video]","apps.ppt2douyin","Fri Oct 03 10:53:08 UTC 2025","passed","Fri Oct 03 10:54:07 UTC 2025","","test_ppt_convert","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    ini 配置选项直接映射到类属性上
-    ","1","test_ini_config","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_ini_config","",""
-"
-    测试 youtu 视频剪辑
-    ","147","test_video_handler[TedEd]","lib.youtube","Fri Oct 03 12:55:23 UTC 2025","broken","Fri Oct 03 12:55:23 UTC 2025","","test_y2_video_handler","",""
-"
-    拼接片头
-    ","35918","test_add_opening","lib.video","Fri Oct 03 12:40:49 UTC 2025","passed","Fri Oct 03 12:41:25 UTC 2025","","test_video_clip_helper","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1159","test_y2_video_channel","lib.youtube","Fri Oct 03 12:55:21 UTC 2025","passed","Fri Oct 03 12:55:22 UTC 2025","","test_y2_handler","",""
-"
-    测试定时发布、立即发布
-    ","199464","test_publish2douyin[weixin_timing]","lib.douyin","Fri Oct 03 11:56:09 UTC 2025","broken","Fri Oct 03 11:59:28 UTC 2025","","test_douyin_publish_app","",""
-"
-    测试通过 API 从 pexels 网站下载视频
-    ","5314","test_pexels_get_videos","lib.pexels","Fri Oct 03 12:27:39 UTC 2025","passed","Fri Oct 03 12:27:44 UTC 2025","","test_pexels","",""
-"
-    测试简单的文字验证码
-    ","44","test_ocr_captcha_helper","lib.playwright.captcha.font","Fri Oct 03 12:27:44 UTC 2025","passed","Fri Oct 03 12:27:44 UTC 2025","","test_font_captcha_helper","",""
-"","131","test_translate_string[input_zh]","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"","0","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5c0f\u4e8e\u5f53\u524d\u65f6\u95f4]","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"","0","test_get_week_start_day","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-    测试 youtu 下载工具
-    ","37146","test_y2_downloader[playlist]","lib.youtube","Fri Oct 03 12:47:58 UTC 2025","broken","Fri Oct 03 12:48:35 UTC 2025","","test_y2_downloader","",""
-"
-    测试收集总结内容
-    ","12923","test_weekly_review","apps.weekly_review","Fri Oct 03 11:25:47 UTC 2025","broken","Fri Oct 03 11:26:00 UTC 2025","","test_weekly_review","",""
-"
-    测试 markdown 转换成 html
-    ","1245","test_markdown2html","lib.markdown","Fri Oct 03 12:20:27 UTC 2025","passed","Fri Oct 03 12:20:28 UTC 2025","","test_markdown_converter","",""
-"
-    视频塞到绿幕素材中，并处理音频
-    ","59044","test_mix_with_green_screen[video]","lib.video","Fri Oct 03 12:43:56 UTC 2025","passed","Fri Oct 03 12:44:55 UTC 2025","","test_video_clip_helper","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试查询余额
-        ","0","test_balance[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试拷贝目录下的文件和文件夹
-    ","1","test_shutil_copytree","utils","Fri Oct 03 12:55:46 UTC 2025","passed","Fri Oct 03 12:55:46 UTC 2025","","test_file","",""
-"","8907","test_slider_captcha_handler[qcloud]","lib.playwright.captcha.puzzle","Fri Oct 03 12:27:44 UTC 2025","passed","Fri Oct 03 12:27:53 UTC 2025","","test_slider_captcha","",""
-"","0","test_safe_filename[cn]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    n 张图片垂直拼图
-    ","707","test_batch_conn_images_to_one[4_lines]","lib.image","Fri Oct 03 12:20:06 UTC 2025","passed","Fri Oct 03 12:20:07 UTC 2025","","test_image_stitch","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"测试获取指数特征","1","test_get_index_feature","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-        测试查询余额
-        ","0","test_balance[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"测试带搜索条件的获取指数列表","1","test_get_index_list_with_search","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试当天每个时刻涨跌情况
-    ","182","test_get_raise_fall_detail","lib.xuangutong","Fri Oct 03 12:47:21 UTC 2025","broken","Fri Oct 03 12:47:22 UTC 2025","","test_top_gainer","",""
-"
-    获取日期内股票数据
-    ","240","test_data_helper","lib.stock.data","Fri Oct 03 12:29:03 UTC 2025","passed","Fri Oct 03 12:29:04 UTC 2025","","test_data_helper","",""
+    ","195969","test_publish2douyin[weixin_now]","lib.douyin","Fri Oct 10 12:07:17 UTC 2025","broken","Fri Oct 10 12:10:33 UTC 2025","","test_douyin_publish_app","",""
+"","0","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5927\u4e8e\u5f53\u524d\u65f6\u95f4]","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"测试 chunk_list 函数","0","test_chunk_list","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
 "
     测试临时文件拷贝上下文管理器
-    ","73","test_copy_file_context[dir]","utils","Fri Oct 03 12:55:46 UTC 2025","passed","Fri Oct 03 12:55:46 UTC 2025","","test_file","",""
+    ","44","test_copy_file_context[multi_file]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
 "
-        测试生成视频脚本
-        ","0","test_video_script[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    获取第一帧作为封面
-    ","110","test_get_coverage","lib.video","Fri Oct 03 12:39:56 UTC 2025","passed","Fri Oct 03 12:39:56 UTC 2025","","test_ffmpeg_utils","",""
-"测试获取指数列表的不同参数组合","1","test_get_index_list_params[2-50]","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试字幕文件中，某行太长的情况
-    ","168","test_srt_over_length","lib.youtube","Fri Oct 03 12:55:30 UTC 2025","broken","Fri Oct 03 12:55:31 UTC 2025","","test_y2_video_handler","",""
-"
-    测试批量发布 PPT 导出并制作后的视频、图文
-    ","136697","test_ppt_publish_helper","apps.ppt2douyin","Fri Oct 03 10:54:14 UTC 2025","passed","Fri Oct 03 10:56:31 UTC 2025","","test_ppt_publish_helper","",""
-"","3014","test_progress","utils","Fri Oct 03 12:56:09 UTC 2025","passed","Fri Oct 03 12:56:12 UTC 2025","","test_progress","",""
-"
-    获取视频长度
-    ","67","test_get_video_duration[get_audio_duration]","lib.video","Fri Oct 03 12:40:49 UTC 2025","passed","Fri Oct 03 12:40:49 UTC 2025","","test_ffprobe_helper","",""
-"","3449","test_df2md_list","lib.stock.common","Fri Oct 03 12:29:00 UTC 2025","passed","Fri Oct 03 12:29:03 UTC 2025","","test_utils","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 youtu 下载工具
-    ","405829","test_y2_downloader[channel]","lib.youtube","Fri Oct 03 12:48:35 UTC 2025","broken","Fri Oct 03 12:55:21 UTC 2025","","test_y2_downloader","",""
-"
-    爬取 douyin 热门音乐
-    ","736","test_douyin_hot[soar_music_chart]","lib.douyin","Fri Oct 03 11:53:21 UTC 2025","passed","Fri Oct 03 11:53:22 UTC 2025","","test_douyin_hot_hub","",""
-"
-    图片裁剪
-    ","12","test_image_crop_with_img","lib.image","Fri Oct 03 12:20:02 UTC 2025","passed","Fri Oct 03 12:20:02 UTC 2025","","test_image_handler","",""
-"
-    测试 PPT 生成视频
-    ","133149","test_make_video[middle]","apps.ppt2douyin","Fri Oct 03 11:00:05 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_ppt_video_handler","",""
-"
-    测试视频信息排序
-    ","1","test_sort_video_infos[channel]","apps.youtu2douyin","Fri Oct 03 11:27:19 UTC 2025","passed","Fri Oct 03 11:27:19 UTC 2025","","test_youtu_video_tools","",""
-"","0","test_iq[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","0","test_safe_path_join","utils","Fri Oct 03 12:55:46 UTC 2025","passed","Fri Oct 03 12:55:46 UTC 2025","","test_file","",""
-"","61","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ted/ted.mp4-True]","lib.video","Fri Oct 03 12:40:49 UTC 2025","passed","Fri Oct 03 12:40:49 UTC 2025","","test_ffprobe_helper","",""
-"","1","test_all_dirs","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"","0","test_make_chunk","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"","0","test_twitter_handler","lib.twitter","Fri Oct 03 12:33:28 UTC 2025","passed","Fri Oct 03 12:33:28 UTC 2025","","test_twitter_helper","",""
-"","0","test_iq[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    检测一次 youtube 的频道
-    ","30150","test_y2douyin_once[channel]","apps.youtu2douyin","Fri Oct 03 11:26:47 UTC 2025","broken","Fri Oct 03 11:27:17 UTC 2025","","test_youtu2douyin","",""
-"
-    测试图片叠加
-    ","35","test_image_overlay[top-right]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"","52","test_is_video_usable[image]","lib.video","Fri Oct 03 12:47:11 UTC 2025","passed","Fri Oct 03 12:47:11 UTC 2025","","test_video_utils","",""
-"","20000","test_ttl_cache","utils","Fri Oct 03 12:55:46 UTC 2025","passed","Fri Oct 03 12:56:06 UTC 2025","","test_function","",""
-"
-    PPT 转视频
-    ","16081","test_ppt2video","lib.ppt","Fri Oct 03 12:28:14 UTC 2025","passed","Fri Oct 03 12:28:30 UTC 2025","","test_ppt2video","",""
-"
-    测试 llm API（封装了全部已对接的 LLM）
-    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
-    ","0","test_llm_api[try_all]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"
-    测试 html 转成 markdown 或 pdf
-    ","29827","test_html_converter[xuangutong-https://xuangutong.com.cn/article/1226255]","lib.html","Fri Oct 03 12:19:21 UTC 2025","passed","Fri Oct 03 12:19:51 UTC 2025","","test_html_converter","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","45509","test_douyin_publish_app[douyin_vertical_video]","lib.douyin","Fri Oct 03 12:05:09 UTC 2025","passed","Fri Oct 03 12:05:55 UTC 2025","","test_douyin_publish_app","",""
-"","0","test_make_url[/api/v1/user-param_dict0-/api/v1/user?age=24&city=shenzhen]","utils","Fri Oct 03 12:56:07 UTC 2025","passed","Fri Oct 03 12:56:07 UTC 2025","","test_http","",""
-"
-    测试网页内容发不到 douyin
-    ","143269","test_web2douyin[cn-healthcare-https://www.cn-healthcare.com/articlewm/20230416/content-1537509.html]","apps.web2douyin","Fri Oct 03 11:23:24 UTC 2025","passed","Fri Oct 03 11:25:47 UTC 2025","","test_web2douyin","",""
-"
-    测试通过 github API 触发流水线
-    ","383","test_githubaction_trigger","lib.github","Fri Oct 03 12:18:30 UTC 2025","passed","Fri Oct 03 12:18:30 UTC 2025","","test_action","",""
-"
-    ","264","test_package","lib.github","Fri Oct 03 12:18:31 UTC 2025","passed","Fri Oct 03 12:18:32 UTC 2025","","test_package","",""
-"
-    测试 localstorage 的设置和获取
-    ","5154","test_localstorage","lib.playwright","Fri Oct 03 12:28:02 UTC 2025","passed","Fri Oct 03 12:28:07 UTC 2025","","test_common","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    从歌曲宝下载音乐
-    ","1443","test_download","lib.music","Fri Oct 03 12:26:59 UTC 2025","passed","Fri Oct 03 12:27:00 UTC 2025","","test_gequbao","",""
-"
-    测试给图文中的图片添加水印
-    ","145","test_add_image_watermark","apps.ppt2douyin","Fri Oct 03 10:54:14 UTC 2025","passed","Fri Oct 03 10:54:14 UTC 2025","","test_ppt_convert","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1","test_json_config_list_update","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_json_config","",""
-"","0","test_get_cookie_dir","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"","0","test_json_config_write","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_json_config","",""
-"
-    测试 youtu 下载工具
-    ","36002","test_y2_downloader[video]","lib.youtube","Fri Oct 03 12:47:22 UTC 2025","broken","Fri Oct 03 12:47:58 UTC 2025","","test_y2_downloader","",""
-"
-    测试 ytdlp 下载视频，并且合并音视频和字幕
-    ","146","test_y2_video_handler","lib.youtube","Fri Oct 03 12:55:21 UTC 2025","broken","Fri Oct 03 12:55:21 UTC 2025","","test_y2_handler","",""
-"
-    生产者、消费者测试
-    ","3312","test_async_count","lib.mqs.pylib","Fri Oct 03 12:26:55 UTC 2025","passed","Fri Oct 03 12:26:59 UTC 2025","","test_producer_consumer","",""
-"
-    测试 llm API（封装了全部已对接的 LLM）
-    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
-    ","0","test_llm_api[qwen]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"","0","test_make_url[/a/b/c-param_dict1-/a/b/c?age=4&city=beijing]","utils","Fri Oct 03 12:56:07 UTC 2025","passed","Fri Oct 03 12:56:07 UTC 2025","","test_http","",""
-"测试获取指数年化波动率","1","test_get_index_yield_item_nian_hua","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试 PPT 发布到 douyin
-    ","198644","test_ppt2douyin[ppt2image_article]","apps.ppt2douyin","Fri Oct 03 10:40:43 UTC 2025","passed","Fri Oct 03 10:44:02 UTC 2025","","test_ppt2douyin","",""
-"
-    测试 html 转成 markdown 或 pdf
-    ","13337","test_html_converter[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","lib.html","Fri Oct 03 12:18:43 UTC 2025","passed","Fri Oct 03 12:18:56 UTC 2025","","test_html_converter","",""
-"","0","test_ppt2video_by_powerpoint","lib.powerpoint","Fri Oct 03 12:28:14 UTC 2025","skipped","Fri Oct 03 12:28:14 UTC 2025","","test_powerpoint_helper","",""
-"","58","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ted/ted_video.mp4-False]","lib.video","Fri Oct 03 12:40:49 UTC 2025","passed","Fri Oct 03 12:40:49 UTC 2025","","test_ffprobe_helper","",""
-"
-    测试生成网格
-    ","0","test_make_grid","lib.stock.common","Fri Oct 03 12:29:03 UTC 2025","passed","Fri Oct 03 12:29:03 UTC 2025","","test_utils","",""
-"
-    测试下载整个分类
-    ","134","test_download_category","lib.crawler","Fri Oct 03 11:53:18 UTC 2025","broken","Fri Oct 03 11:53:18 UTC 2025","","test_hrxz","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 baidu 生成 PPT / DOC 再发布到 douyin
-    ","794289","test_baidu2douyin[ppt2video]","apps.baidu2douyin","Fri Oct 03 09:59:18 UTC 2025","passed","Fri Oct 03 10:12:33 UTC 2025","","test_baidu2douyin","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","193698","test_douyin_publish_app[weixin_vertical_video]","lib.douyin","Fri Oct 03 12:12:00 UTC 2025","broken","Fri Oct 03 12:15:14 UTC 2025","","test_douyin_publish_app","",""
-"
-    把秒转换成可读性的时长
-    ","0","test_convert_seconds","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","767","test_flush_news","lib.xuangutong","Fri Oct 03 12:47:17 UTC 2025","passed","Fri Oct 03 12:47:18 UTC 2025","","test_live","",""
-"测试初始化","0","test_init","lib.xuangutong","Fri Oct 03 12:47:20 UTC 2025","passed","Fri Oct 03 12:47:20 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"
-    支持选择聊天记录继续聊
-    ","0","test_chat_with_history[qwen]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试查询余额
-        ","0","test_balance[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    创建大图小图的封面
-    ","441","test_make_coverage[3_lines]","lib.image","Fri Oct 03 12:20:04 UTC 2025","passed","Fri Oct 03 12:20:04 UTC 2025","","test_image_stitch","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","4","test_douyin_publish_app[xiaohongshu_vertical_video]","lib.douyin","Fri Oct 03 12:18:30 UTC 2025","broken","Fri Oct 03 12:18:30 UTC 2025","","test_douyin_publish_app","",""
-"
-    测试 youtu 视频剪辑
-    ","183","test_video_handler[SlideSkills]","lib.youtube","Fri Oct 03 12:55:23 UTC 2025","broken","Fri Oct 03 12:55:23 UTC 2025","","test_y2_video_handler","",""
-"","0","test_safe_filename[length]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    测试 base64 图片展示
-    ","1","test_display_img_from_base64","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"测试获取个股新闻时发生异常的情况","1","test_get_stock_news_exception","lib.xuangutong","Fri Oct 03 12:47:18 UTC 2025","broken","Fri Oct 03 12:47:18 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"测试爬取单页指数数据","57","test_crawl_single_page","apps.csindex_crawler","Fri Oct 03 10:39:29 UTC 2025","broken","Fri Oct 03 10:39:29 UTC 2025","","test_csindex_crawler","",""
-"","0","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5927\u4e8e\u5f53\u524d\u65f6\u95f4]","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-    支持选择聊天记录继续聊
-    ","0","test_chat_with_history[try_all]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"
-    测试图片叠加
-    ","43","test_image_overlay[top-center]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","54","test_calc_distance","lib.playwright.captcha.puzzle","Fri Oct 03 12:27:44 UTC 2025","passed","Fri Oct 03 12:27:44 UTC 2025","","test_captcha_img_handler","",""
-"
-    n 张图片垂直拼图
-    ","698","test_batch_conn_images_to_one[2_lines]","lib.image","Fri Oct 03 12:20:05 UTC 2025","passed","Fri Oct 03 12:20:05 UTC 2025","","test_image_stitch","",""
-"
-    每一帧视频转成图片
-    ","52368","test_video2image","lib.video","Fri Oct 03 12:39:56 UTC 2025","passed","Fri Oct 03 12:40:49 UTC 2025","","test_ffmpeg_utils","",""
-"
-    测试标题包含艾特和话题
-    ","0","test_title_with_at","lib.douyin","Fri Oct 03 11:54:39 UTC 2025","skipped","Fri Oct 03 11:54:39 UTC 2025","","test_douyin_publish_app","",""
-"
-    通过 edge 读出文字
-    ","1012","test_edge_tts_helper","lib.tts","Fri Oct 03 12:33:13 UTC 2025","passed","Fri Oct 03 12:33:14 UTC 2025","","test_edge_tts_helper","",""
-"
-    docx 转 PDF 再转成多张图片
-    ","902","test_doc2images","lib.doc","Fri Oct 03 11:53:18 UTC 2025","passed","Fri Oct 03 11:53:19 UTC 2025","","test_doc_helper","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[10\u4e0b\u5348\u6536\u76d8\u540e\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"
-    日志支持添加前缀
-    ","10","test_log_adapter","lib","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_log","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[8\u4e0b\u5348\u6536\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"
-    策略回测
-    ","441","test_strategy[grid]","lib.stock.backtrader.strategy","Fri Oct 03 12:28:59 UTC 2025","passed","Fri Oct 03 12:29:00 UTC 2025","","test_strategy","",""
-"测试获取指数收益","1","test_get_index_yield_item","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-    测试定时发布、立即发布
-    ","45895","test_publish2douyin[douyin_timing]","lib.douyin","Fri Oct 03 11:54:39 UTC 2025","passed","Fri Oct 03 11:55:25 UTC 2025","","test_douyin_publish_app","",""
-"
-    检测一次 youtube 的频道
-    ","14373","test_y2douyin_once[playlist]","apps.youtu2douyin","Fri Oct 03 11:26:33 UTC 2025","broken","Fri Oct 03 11:26:47 UTC 2025","","test_youtu2douyin","",""
-"
-    测试撤单
-    ","0","test_cancel","lib.stock.trader","Fri Oct 03 12:29:22 UTC 2025","skipped","Fri Oct 03 12:29:22 UTC 2025","","test_easytrader_helper","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 youtu 视频剪辑
-    ","200","test_video_handler[SciePro]","lib.youtube","Fri Oct 03 12:55:23 UTC 2025","broken","Fri Oct 03 12:55:23 UTC 2025","","test_y2_video_handler","",""
-"
-    测试下载抖音 top50 热门歌曲
-    ","77020","test_douyin_music","lib.douyin","Fri Oct 03 11:53:22 UTC 2025","passed","Fri Oct 03 11:54:39 UTC 2025","","test_douyin_music","",""
-"
-    测试 PPT 发布到 douyin
-    ","140018","test_ppt2douyin[pdf2image_article]","apps.ppt2douyin","Fri Oct 03 10:48:02 UTC 2025","passed","Fri Oct 03 10:50:23 UTC 2025","","test_ppt2douyin","",""
-"","0","test_who_are_you[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 pdf 转 doc
-    ","411","test_pdf2doc","lib.pdf","Fri Oct 03 12:27:38 UTC 2025","passed","Fri Oct 03 12:27:39 UTC 2025","","test_pdf_handler","",""
-"
-    rich 打印表格
-    ","2","test_print_table","lib.rich","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_rich_helper","",""
-"
-    测试 baidu 生成 PPT / DOC
-    ","764884","test_baidu_aigc[doc]","lib.baidu","Fri Oct 03 11:40:03 UTC 2025","passed","Fri Oct 03 11:52:48 UTC 2025","","test_baidu_aigc","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        测试查询余额
-        ","0","test_balance[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    修正字幕时间线（有些字母时间线会重合）
-    ","1","test_fix_subtitle_timeline","lib.subtitle","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle_handler","",""
-"","0","test_dict_to_markdown_table2","lib.markdown","Fri Oct 03 12:20:41 UTC 2025","passed","Fri Oct 03 12:20:41 UTC 2025","","test_markdown_helper","",""
-"","1","test_obj2json","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"
-    测试网页内容发不到 douyin
-    ","144353","test_web2douyin[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","apps.web2douyin","Fri Oct 03 11:16:06 UTC 2025","passed","Fri Oct 03 11:18:30 UTC 2025","","test_web2douyin","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试组装提醒文字
-    ","0","test_make_notify_msg","lib.weixin","Fri Oct 03 12:47:14 UTC 2025","passed","Fri Oct 03 12:47:14 UTC 2025","","test_pushplus","",""
-"
-    测试通过 poppler/pdftoppm 工具进行转换
-    ","3058","test_pdf2image_by_pdftoppm","lib.pdf","Fri Oct 03 12:27:18 UTC 2025","passed","Fri Oct 03 12:27:21 UTC 2025","","test_pdf_handler","",""
-"测试获取指数列表的不同参数组合","1","test_get_index_list_params[1-20]","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"","0","test_plot_bar","lib.stock.plot","Fri Oct 03 12:29:22 UTC 2025","skipped","Fri Oct 03 12:29:22 UTC 2025","","test_plot_helper","",""
-"","2","test_is_chinese_punctuation_only","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试给文档图片加上水印
-    ","96","test_image_watermark[middle]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    测试通过 convertio 接口将 ppt 转为 pdf
-    ","29067","test_convertio_ppt2pdf","lib.convertio","Fri Oct 03 11:52:48 UTC 2025","passed","Fri Oct 03 11:53:17 UTC 2025","","test_convertio_helper","",""
-"","0","test_random_string","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"测试获取指数产品","1","test_get_index_product","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"","4","test_run_cmd_with_env","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
-"
-    测试 cookie 的设置和获取
-    ","9081","test_cookies","lib.playwright","Fri Oct 03 12:27:53 UTC 2025","passed","Fri Oct 03 12:28:02 UTC 2025","","test_common","",""
-"
-    日志输出中，文件名是否正确
-    ","2","test_logger_filename","lib","Fri Oct 03 12:33:10 UTC 2025","skipped","Fri Oct 03 12:33:10 UTC 2025","","test_log","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 youtu 视频剪辑
-    ","143","test_video_handler[RegisteredNurseRN]","lib.youtube","Fri Oct 03 12:55:23 UTC 2025","broken","Fri Oct 03 12:55:24 UTC 2025","","test_y2_video_handler","",""
-"","0","test_json_config_read","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_json_config","",""
-"
-    测试发布结果的处理
-    ","27","test_handle_publish_result","apps.ppt2douyin","Fri Oct 03 10:52:43 UTC 2025","passed","Fri Oct 03 10:52:43 UTC 2025","","test_ppt2douyin","",""
-"","2778","test_send_email","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_email","",""
-"","1002","test_retry_deco","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:35 UTC 2025","","test_tools","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试给文档图片加上水印
-    ","77","test_image_watermark[test]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    字幕很长，超出视频屏幕大小的情况
-    ","1","test_adjust_srt_text_length","lib.subtitle","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle_handler","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","4","test_run_cmd_with_result","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
-"
-    测试下载youtu字幕
-    ","2","test_y2_srt_handler","lib.youtube","Fri Oct 03 12:55:23 UTC 2025","broken","Fri Oct 03 12:55:23 UTC 2025","","test_y2_subtitle_handler","",""
-"
-    测试手动触发 youtube 视频发布
-    ","408","test_y2douyin_manual[rn_channel]","apps.youtu2douyin","Fri Oct 03 11:26:01 UTC 2025","broken","Fri Oct 03 11:26:02 UTC 2025","","test_youtu2douyin","",""
-"","0","test_data_masking[aa12345678901]","utils","Fri Oct 03 12:56:39 UTC 2025","passed","Fri Oct 03 12:56:39 UTC 2025","","test_tools","",""
-"
-    测试图片叠加
-    ","41","test_image_overlay[center-center]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"","0","test_iq[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 PPT 转成 视频 / 图片
-    XXX 目前只能转换首页为图片，不能每一页都转
-    ","4482","test_batch_transfer[ppt2images]","lib.libreoffice","Fri Oct 03 12:20:07 UTC 2025","passed","Fri Oct 03 12:20:11 UTC 2025","","test_libreoffice_helper","",""
-"
-    测试按时间分割数据块
-    ","1218","test_split_data","lib.stock.data","Fri Oct 03 12:29:05 UTC 2025","passed","Fri Oct 03 12:29:06 UTC 2025","","test_data_helper","",""
-"","1","test_json_config_dict_update","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_json_config","",""
-"
-    测试更改域名
-    ","0","test_change_domain","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:08 UTC 2025","","test_http","",""
-"
-    同一时间线的字幕合并成一行
-    ","5","test_merge_subtitle_text_oneline","lib.subtitle","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle_handler","",""
-"测试获取个股公告成功的情况","1","test_get_stock_announcements_success","lib.xuangutong","Fri Oct 03 12:47:18 UTC 2025","broken","Fri Oct 03 12:47:18 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"
-    获取工件信息
-    ","259","test_get_artifacts","lib.github","Fri Oct 03 12:18:31 UTC 2025","passed","Fri Oct 03 12:18:31 UTC 2025","","test_action","",""
-"
-    如果今天是工作日，测试是否返回正确日期
-    ","0","test_get_working_day","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
+    测试判断文件是不是有效的 ppt 文件
+    ","44","test_is_valid_pptx","lib.ppt","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_ppt_handler","",""
 "
     测试 text2douyin app
-    ","502689","test_text2douyin[\u4eba\u751f\u7684\u610f\u4e49]","apps.text2douyin","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:10:41 UTC 2025","","test_text2douyin","",""
-"
-    保存 srt 字幕文件
-    ","1","test_save_srt","lib.subtitle","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle_handler","",""
-"
-    测试 PPT 转成 视频 / 图片
-    ","2482","test_batch_ppt_convert[doc2video]","apps.ppt2douyin","Fri Oct 03 10:54:09 UTC 2025","passed","Fri Oct 03 10:54:12 UTC 2025","","test_ppt_convert","",""
-"
-    测试 ytdlp 下载 youtu 视频资源
-    ","1502","test_ytdlp_helper[video]","lib.youtube","Fri Oct 03 12:55:34 UTC 2025","broken","Fri Oct 03 12:55:36 UTC 2025","","test_ytdlp_helper","",""
-"
-    测试 markdown css 主题
-    ","13340","test_markdown2html2pdf_themes","lib.markdown","Fri Oct 03 12:20:28 UTC 2025","passed","Fri Oct 03 12:20:41 UTC 2025","","test_markdown_converter","",""
-"
-    测试给文档图片加上水印
-    ","101","test_image_watermark[large]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-        多轮对话
-        ","0","test_multi_chat[flow_response-OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    获取视频长度
-    ","58","test_get_video_duration[get_video_duration]","lib.video","Fri Oct 03 12:40:49 UTC 2025","passed","Fri Oct 03 12:40:49 UTC 2025","","test_ffprobe_helper","",""
-"","0","test_format_unit","lib.stock.common","Fri Oct 03 12:29:03 UTC 2025","passed","Fri Oct 03 12:29:03 UTC 2025","","test_utils","",""
-"
-    测试 PPT 发布到 douyin
-    ","139676","test_ppt2douyin[doc2image_article]","apps.ppt2douyin","Fri Oct 03 10:50:23 UTC 2025","passed","Fri Oct 03 10:52:42 UTC 2025","","test_ppt2douyin","",""
-"
-    测试 llm API（封装了全部已对接的 LLM）
-    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
-    ","0","test_llm_api[modelscope]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"
-    测试 llm API（封装了全部已对接的 LLM）
-    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
-    ","0","test_llm_api[openrouter]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","","test_llm_api","",""
-"","82956","test_ppt2video_with_content_summary","lib.subtitle","Fri Oct 03 12:29:22 UTC 2025","passed","Fri Oct 03 12:30:45 UTC 2025","","test_ppt2video_with_content_summary","",""
+    ","592203","test_text2douyin[\u4eba\u751f\u7684\u610f\u4e49]","apps.text2douyin","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:18:09 UTC 2025","","test_text2douyin","",""
 "
     创建大图小图的封面
-    ","303","test_make_coverage[2_lines]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:04 UTC 2025","","test_image_stitch","",""
+    ","566","test_make_coverage[4_lines]","lib.image","Fri Oct 10 12:29:32 UTC 2025","passed","Fri Oct 10 12:29:32 UTC 2025","","test_image_stitch","",""
+"","3016","test_progress","utils","Fri Oct 10 12:59:22 UTC 2025","passed","Fri Oct 10 12:59:25 UTC 2025","","test_progress","",""
 "
-    测试下载工件
-    ","240","test_download_artifact","lib.github","Fri Oct 03 12:18:31 UTC 2025","passed","Fri Oct 03 12:18:31 UTC 2025","","test_action","",""
+    测试 youtu 下载工具
+    ","409965","test_y2_downloader[channel]","lib.youtube","Fri Oct 10 12:51:42 UTC 2025","broken","Fri Oct 10 12:58:32 UTC 2025","","test_y2_downloader","",""
 "
-    测试买入
-    ","0","test_buy","lib.stock.trader","Fri Oct 03 12:29:22 UTC 2025","skipped","Fri Oct 03 12:29:22 UTC 2025","","test_easytrader_helper","",""
+    检测一次 youtube 的频道
+    ","13008","test_y2douyin_once[playlist]","apps.youtu2douyin","Fri Oct 10 11:33:33 UTC 2025","broken","Fri Oct 10 11:33:46 UTC 2025","","test_youtu2douyin","",""
+"","1","test_make_url[/api/v1/user-param_dict0-/api/v1/user?age=24&city=shenzhen]","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
 "
-    测试图文发布、横屏视频、竖屏视频发布
-    ","144846","test_douyin_publish_app[douyin_image_article]","lib.douyin","Fri Oct 03 12:02:44 UTC 2025","broken","Fri Oct 03 12:05:09 UTC 2025","","test_douyin_publish_app","",""
+        测试生成视频脚本
+        ","0","test_video_script[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
-    列出全部工件
-    ","259","test_list_artifacts","lib.github","Fri Oct 03 12:18:30 UTC 2025","passed","Fri Oct 03 12:18:31 UTC 2025","","test_action","",""
+    无水印下载 tiktok 视频
+    ","3358","test_tiktok_downloader","lib.tiktok","Fri Oct 10 12:39:28 UTC 2025","broken","Fri Oct 10 12:39:32 UTC 2025","","test_tiktok_downloader","",""
 "
-    测试图片转 base64
-    ","4","test_image2base64","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
+    测试图片叠加
+    ","34","test_image_overlay[top-right]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
 "
-    测试 PPT 转成 视频 / 图片
-    ","2474","test_batch_ppt_convert[random]","apps.ppt2douyin","Fri Oct 03 10:54:12 UTC 2025","passed","Fri Oct 03 10:54:14 UTC 2025","","test_ppt_convert","",""
+    PPT 转视频
+    ","16380","test_ppt2video","lib.ppt","Fri Oct 10 12:34:44 UTC 2025","passed","Fri Oct 10 12:35:00 UTC 2025","","test_ppt2video","",""
 "
-    测试 ytdlp 下载 youtu 视频资源
-    ","1697","test_ytdlp_helper[playlist]","lib.youtube","Fri Oct 03 12:55:36 UTC 2025","broken","Fri Oct 03 12:55:38 UTC 2025","","test_ytdlp_helper","",""
+        测试生成视频脚本
+        ","0","test_video_script[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
-    视频填充到素材的绿幕中
-    ","91040","test_replace_green_screen[image]","lib.video","Fri Oct 03 12:44:55 UTC 2025","passed","Fri Oct 03 12:46:26 UTC 2025","","test_video_clip_helper","",""
-"
-    测试 html 转成 markdown 或 pdf
-    ","3250","test_html_converter[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","lib.html","Fri Oct 03 12:19:09 UTC 2025","passed","Fri Oct 03 12:19:12 UTC 2025","","test_html_converter","",""
-"
-    图片上添加标题
-    ","305","test_add_title[vertical]","lib.image","Fri Oct 03 12:20:02 UTC 2025","passed","Fri Oct 03 12:20:02 UTC 2025","","test_image_handler","",""
-"","24","test_is_video_usable[video]","lib.video","Fri Oct 03 12:47:11 UTC 2025","passed","Fri Oct 03 12:47:11 UTC 2025","","test_video_utils","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","4","test_douyin_publish_app[xiaohongshu_ppt_video]","lib.douyin","Fri Oct 03 12:18:30 UTC 2025","broken","Fri Oct 03 12:18:30 UTC 2025","","test_douyin_publish_app","",""
-"","0","test_parse_topic","lib.jieba","Fri Oct 03 12:20:07 UTC 2025","passed","Fri Oct 03 12:20:07 UTC 2025","","test_jieba_helper","",""
+    同一时间线的字幕合并成一行
+    ","4","test_merge_subtitle_text_oneline","lib.subtitle","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle_handler","",""
+"测试带重试机制的请求成功","2","test_request_with_retry_success","apps.csindex_crawler","Fri Oct 10 10:47:25 UTC 2025","passed","Fri Oct 10 10:47:25 UTC 2025","","test_csindex_crawler","",""
+"","0","test_iq[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","4","test_run_cmd_with_env","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
 "
     测试下载 hrsz 网站的 PPT
-    ","450","test_hrxz","lib.crawler","Fri Oct 03 11:53:17 UTC 2025","broken","Fri Oct 03 11:53:17 UTC 2025","","test_hrxz","",""
-"","2","test_select_music","lib.music","Fri Oct 03 12:27:18 UTC 2025","passed","Fri Oct 03 12:27:18 UTC 2025","","test_music","",""
-"测试 CSIndexCrawler 初始化","0","test_csindex_crawler_init","apps.csindex_crawler","Fri Oct 03 10:39:30 UTC 2025","passed","Fri Oct 03 10:39:30 UTC 2025","","test_csindex_crawler","",""
+    ","227","test_hrxz","lib.crawler","Fri Oct 10 12:00:46 UTC 2025","broken","Fri Oct 10 12:00:46 UTC 2025","","test_hrxz","",""
 "
-    横屏转竖屏
-    ","11596","test_make_h2v","lib.video","Fri Oct 03 12:46:59 UTC 2025","passed","Fri Oct 03 12:47:11 UTC 2025","","test_video_clip_helper","",""
+    发布 tiktok 视频到 douyin （暂无剪辑流程）
+    ","3244","test_tiktok2douyin","apps.tiktok2douyin","Fri Oct 10 11:18:09 UTC 2025","broken","Fri Oct 10 11:18:13 UTC 2025","","test_tiktok2douyin","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 PPT 转成 视频 / 图片
+    ","2506","test_batch_ppt_convert[doc2image_article]","apps.ppt2douyin","Fri Oct 10 11:01:32 UTC 2025","passed","Fri Oct 10 11:01:35 UTC 2025","","test_ppt_convert","",""
+"
+    测试给文档图片加上水印
+    ","101","test_image_watermark[large]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 llm API（封装了全部已对接的 LLM）
+    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
+    ","0","test_llm_api[openrouter]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
+"
+    测试给文档图片加上水印
+    ","74","test_image_watermark[test]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+    测试网页内容发不到 douyin
+    ","159906","test_web2douyin[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","apps.web2douyin","Fri Oct 10 11:18:13 UTC 2025","passed","Fri Oct 10 11:20:52 UTC 2025","","test_web2douyin","",""
+"
+    测试获取 MA 指标
+    ","1","test_get_ma_day","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_indicate","",""
+"测试获取个股新闻并根据来源过滤","1","test_get_stock_news_with_subjects_filter","lib.xuangutong","Fri Oct 10 12:50:27 UTC 2025","broken","Fri Oct 10 12:50:27 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"","1216","test_y2_video_channel","lib.youtube","Fri Oct 10 12:58:32 UTC 2025","passed","Fri Oct 10 12:58:33 UTC 2025","","test_y2_handler","",""
+"
+    列出全部工件
+    ","285","test_list_artifacts","lib.github","Fri Oct 10 12:27:57 UTC 2025","passed","Fri Oct 10 12:27:57 UTC 2025","","test_action","",""
+"
+    视频填充到素材的绿幕中
+    ","33013","test_replace_green_screen[video]","lib.video","Fri Oct 10 12:49:35 UTC 2025","passed","Fri Oct 10 12:50:08 UTC 2025","","test_video_clip_helper","",""
+"
+    n 张图片垂直拼图
+    ","679","test_batch_conn_images_to_one[4_lines]","lib.image","Fri Oct 10 12:29:34 UTC 2025","passed","Fri Oct 10 12:29:34 UTC 2025","","test_image_stitch","",""
+"","0","test_get_content_md5","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 youtu 视频剪辑
+    ","192","test_video_handler[SciePro]","lib.youtube","Fri Oct 10 12:58:34 UTC 2025","broken","Fri Oct 10 12:58:34 UTC 2025","","test_y2_video_handler","",""
+"
+    测试 llm API（封装了全部已对接的 LLM）
+    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
+    ","0","test_llm_api[try_all]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
+"
+    测试 html 转成 markdown 或 pdf
+    ","37505","test_html_converter[xuangutong-https://xuangutong.com.cn/article/1226255]","lib.html","Fri Oct 10 12:28:41 UTC 2025","passed","Fri Oct 10 12:29:19 UTC 2025","","test_html_converter","",""
+"
+    字幕很长，超出视频屏幕大小的情况
+    ","2","test_adjust_srt_text_length","lib.subtitle","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle_handler","",""
+"
+    测试 baidu 生成 PPT / DOC 再发布到 douyin
+    ","845877","test_baidu2douyin[ppt2image_article]","apps.baidu2douyin","Fri Oct 10 09:46:48 UTC 2025","passed","Fri Oct 10 10:00:54 UTC 2025","","test_baidu2douyin","",""
+"
+    测试 youtu 视频剪辑
+    ","146","test_video_handler[TedEd]","lib.youtube","Fri Oct 10 12:58:34 UTC 2025","broken","Fri Oct 10 12:58:34 UTC 2025","","test_y2_video_handler","",""
+"","20001","test_ttl_cache","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:59:17 UTC 2025","","test_function","",""
+"
+    测试 PPT 转成 视频 / 图片
+    ","2495","test_batch_ppt_convert[doc2video]","apps.ppt2douyin","Fri Oct 10 11:01:35 UTC 2025","passed","Fri Oct 10 11:01:37 UTC 2025","","test_ppt_convert","",""
+"
+        测试查询余额
+        ","0","test_balance[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试视频信息排序
+    ","923","test_sort_video_infos[playlist]","apps.youtu2douyin","Fri Oct 10 11:34:17 UTC 2025","broken","Fri Oct 10 11:34:18 UTC 2025","","test_youtu_video_tools","",""
+"
+    如果今天是工作日，测试是否返回正确日期
+    ","0","test_get_working_day","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"","0","test_ppt2pdf_by_powerpoint","lib.powerpoint","Fri Oct 10 12:34:44 UTC 2025","skipped","Fri Oct 10 12:34:44 UTC 2025","","test_powerpoint_helper","",""
 "
     测试微信文章转成 pdf
     # XXX 微信可以转成 markdown，但是无法转成 pdf
-    ","3793","test_weixin2pdf","lib.html","Fri Oct 03 12:19:51 UTC 2025","passed","Fri Oct 03 12:19:55 UTC 2025","","test_html_converter","",""
+    ","4124","test_weixin2pdf","lib.html","Fri Oct 10 12:29:19 UTC 2025","passed","Fri Oct 10 12:29:23 UTC 2025","","test_html_converter","",""
 "
-    获取最近的改动
-    ","11497","test_get_latest_commit","lib.github","Fri Oct 03 12:18:32 UTC 2025","broken","Fri Oct 03 12:18:43 UTC 2025","","test_repository","",""
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
-    策略回测
-    ","1947","test_strategy[sma]","lib.stock.backtrader.strategy","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:59 UTC 2025","","test_strategy","",""
+    支持选择聊天记录继续聊
+    ","0","test_chat_with_history[try_all]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
 "
-    测试图文发布、横屏视频、竖屏视频发布
-    ","195117","test_douyin_publish_app[weixin_image_article]","lib.douyin","Fri Oct 03 12:08:44 UTC 2025","broken","Fri Oct 03 12:11:59 UTC 2025","","test_douyin_publish_app","",""
+    测试 PPT 转成图片
+    ","9420","test_ppt2image","lib.ppt","Fri Oct 10 12:35:18 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_ppt_handler","",""
+"
+    日志支持添加前缀
+    ","9","test_log_adapter","lib","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_log","",""
 "
     测试 html 转成 markdown 或 pdf
-    ","7338","test_html_converter[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","lib.html","Fri Oct 03 12:19:01 UTC 2025","passed","Fri Oct 03 12:19:09 UTC 2025","","test_html_converter","",""
+    ","8556","test_html_converter[cnblogs-https://www.cnblogs.com/testlearn/p/15693366.html]","lib.html","Fri Oct 10 12:28:06 UTC 2025","passed","Fri Oct 10 12:28:15 UTC 2025","","test_html_converter","",""
 "
-    网课助手
-    ","46518","test_auto_course[huayi]","apps.auto_course","Fri Oct 03 09:44:36 UTC 2025","passed","Fri Oct 03 09:45:23 UTC 2025","","test_auto_course","",""
+    测试 PPT 发布到 douyin
+    ","188487","test_ppt2douyin[ppt2image_article]","apps.ppt2douyin","Fri Oct 10 10:49:01 UTC 2025","passed","Fri Oct 10 10:52:09 UTC 2025","","test_ppt2douyin","",""
+"","53","test_is_video_usable[image]","lib.video","Fri Oct 10 12:50:19 UTC 2025","passed","Fri Oct 10 12:50:19 UTC 2025","","test_video_utils","",""
+"
+    获取视频长度
+    ","56","test_get_video_duration[get_video_duration]","lib.video","Fri Oct 10 12:47:07 UTC 2025","passed","Fri Oct 10 12:47:07 UTC 2025","","test_ffprobe_helper","",""
+"","1","test_get_week_start_day","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"
+    图片裁剪
+    ","11","test_image_crop_with_img","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
 "
     获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[4\u4e0a\u5348\u6536\u76d8]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
+    ","0","test_get_trading_minute_count[9\u4e0b\u5348\u6536\u76d8]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
 "
-    测试 zip 压缩和解压
-    ","2","test_zip","utils","Fri Oct 03 12:56:39 UTC 2025","passed","Fri Oct 03 12:56:39 UTC 2025","","test_zip","",""
-"测试获取个股板块信息成功的情况","343","test_get_stock_plates_success","lib.xuangutong","Fri Oct 03 12:47:20 UTC 2025","broken","Fri Oct 03 12:47:20 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"
-    测试图片叠加
-    ","35","test_image_overlay[bottom-left]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    测试截取视频第一帧，并对该图片进行裁剪
-    ","167","test_image_crop_with_video","lib.image","Fri Oct 03 12:20:02 UTC 2025","passed","Fri Oct 03 12:20:02 UTC 2025","","test_image_handler","",""
-"
-    PPT 转视频
-    ","11","test_ppt2video[by_libreoffice]","lib.ppt","Fri Oct 03 12:28:48 UTC 2025","passed","Fri Oct 03 12:28:48 UTC 2025","","test_ppt_handler","",""
-"
-    音频 m4a 格式转 mp3
-    ","382","test_m4a2mp3","lib.video","Fri Oct 03 12:39:56 UTC 2025","passed","Fri Oct 03 12:39:56 UTC 2025","","test_ffmpeg_helper","",""
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[2\u4e0a\u5348\u5f00\u76d8]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"","0","test_safe_filename[eng]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
 "
     测试 baidu 生成 PPT / DOC 再发布到 douyin
-    ","808363","test_baidu2douyin[doc2image_article]","apps.baidu2douyin","Fri Oct 03 10:12:33 UTC 2025","passed","Fri Oct 03 10:26:01 UTC 2025","","test_baidu2douyin","",""
+    ","1145364","test_baidu2douyin[ppt2video]","apps.baidu2douyin","Fri Oct 10 10:00:54 UTC 2025","passed","Fri Oct 10 10:19:59 UTC 2025","","test_baidu2douyin","",""
 "
-    测试 baidu 生成 PPT / DOC
-    ","763092","test_baidu_aigc[ppt]","lib.baidu","Fri Oct 03 11:27:20 UTC 2025","passed","Fri Oct 03 11:40:03 UTC 2025","","test_baidu_aigc","",""
+    创建大图小图的封面
+    ","431","test_make_coverage[3_lines]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:32 UTC 2025","","test_image_stitch","",""
 "
-    运行浏览器
-    ","0","test_launch_browser[dont_open_browser]","lib.playwright","Fri Oct 03 12:28:07 UTC 2025","skipped","Fri Oct 03 12:28:07 UTC 2025","","test_common","",""
+    ini 配置选项直接映射到类属性上
+    ","0","test_ini_config","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_ini_config","",""
 "
-    测试获取代理 IP
-    ","24","test_proxy_pool","lib.proxy","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_proxy_pool","",""
-"","0","test_ppt2pdf_by_powerpoint","lib.powerpoint","Fri Oct 03 12:28:14 UTC 2025","skipped","Fri Oct 03 12:28:14 UTC 2025","","test_powerpoint_helper","",""
+    测试添加字幕，并给字幕绘制半透明背景框
+    ","90531","test_add_subtitle_and_draw_box","lib.video","Fri Oct 10 12:44:44 UTC 2025","passed","Fri Oct 10 12:46:14 UTC 2025","","test_ffmpeg_helper","",""
 "
-    运行浏览器
-    ","0","test_launch_browser[open_browser]","lib.playwright","Fri Oct 03 12:28:07 UTC 2025","skipped","Fri Oct 03 12:28:07 UTC 2025","","test_common","",""
-"","18059","test_translate_string[input_en]","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
+    测试浏览器指纹（看是否被识别为被自动化软件控制）
+    ","3989","test_get_fingerprint","lib.playwright","Fri Oct 10 12:34:40 UTC 2025","passed","Fri Oct 10 12:34:44 UTC 2025","","test_common","",""
+"","3","test_run_cmd_without_result","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
 "
-    测试图文发布、横屏视频、竖屏视频发布
-    ","194982","test_douyin_publish_app[weixin_ppt_video]","lib.douyin","Fri Oct 03 12:15:14 UTC 2025","broken","Fri Oct 03 12:18:29 UTC 2025","","test_douyin_publish_app","",""
+        测试阅读文章
+        ","0","test_chat_with_file[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
-    替换 PPT 中的敏感文字
-    ","1295","test_ppt_editor_replace_txt","lib.ppt","Fri Oct 03 12:28:30 UTC 2025","passed","Fri Oct 03 12:28:31 UTC 2025","","test_ppt_editor","",""
+    测试发微信通知
+    ","0","test_send_weixin_notify[False]","lib.weixin","Fri Oct 10 12:50:23 UTC 2025","passed","Fri Oct 10 12:50:23 UTC 2025","","test_pushplus","",""
 "
     获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[5\u4e0b\u5348\u5f00\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
+    ","0","test_get_trading_minute_count[1\u4e0a\u5348\u5f00\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
 "
-    测试手动触发 youtube 视频发布
-    ","487","test_y2douyin_manual[no_channel_cfg]","apps.youtu2douyin","Fri Oct 03 11:26:00 UTC 2025","broken","Fri Oct 03 11:26:01 UTC 2025","","test_youtu2douyin","",""
-"测试获取个股公告时API返回错误","1","test_get_stock_announcements_api_error","lib.xuangutong","Fri Oct 03 12:47:18 UTC 2025","broken","Fri Oct 03 12:47:18 UTC 2025","TestXuanguobaoStock","test_stock","",""
+    横屏图片转竖屏
+    ","38","test_convert_to_portrait","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"测试获取指数基本信息","1","test_get_index_basic_info","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
 "
-    测试获取youtube视频发布时间
-    ","975","test_get_video_publish_date","apps.youtu2douyin","Fri Oct 03 11:27:18 UTC 2025","passed","Fri Oct 03 11:27:19 UTC 2025","","test_youtu_video_tools","",""
+    测试 youtube 视频字幕用 edge-tts 配音
+    ","142003","test_subtitle2speech_with_video","lib.subtitle","Fri Oct 10 12:37:06 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle2speech","",""
 "
-    更新频道记录的视频到最新
-    ","30601","test_upd_channel_to_latest","apps.youtu2douyin","Fri Oct 03 11:26:02 UTC 2025","broken","Fri Oct 03 11:26:33 UTC 2025","","test_youtu2douyin","",""
+    检测一次 youtube 的频道
+    ","30645","test_y2douyin_once[channel]","apps.youtu2douyin","Fri Oct 10 11:33:46 UTC 2025","broken","Fri Oct 10 11:34:16 UTC 2025","","test_youtu2douyin","",""
 "
-    字幕提取到 txt
-    ","0","test_subtitles2text","lib.subtitle","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_subtitle_handler","",""
-"","0","test_dot_dict","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
-"","0","test_assert_file_exists","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
+        测试阅读文章
+        ","0","test_chat_with_file[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","2946","test_get_phone_city","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:22 UTC 2025","","test_phone_city","",""
+"测试带搜索条件的获取指数列表","1","test_get_index_list_with_search","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
 "
-    PPT 转视频
-    ","16082","test_ppt2video[by_powerpoint]","lib.ppt","Fri Oct 03 12:28:32 UTC 2025","passed","Fri Oct 03 12:28:48 UTC 2025","","test_ppt_handler","",""
+    测试与 AI 聊天
+    ","31437","test_ai_chat","apps.ai_chat","Fri Oct 10 09:45:39 UTC 2025","passed","Fri Oct 10 09:46:10 UTC 2025","","test_ai_chat","",""
 "
-    测试 html 转成 markdown 或 pdf
-    ","1931","test_html_converter[dingxiangyishegn_web-https://dxy.com/article/50056]","lib.html","Fri Oct 03 12:19:12 UTC 2025","passed","Fri Oct 03 12:19:14 UTC 2025","","test_html_converter","",""
-"","0","test_iq[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[4\u4e0a\u5348\u6536\u76d8]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
 "
-    测试修改 PPT 文字样式
-    ","528","test_ppt_editor_change_font","lib.ppt","Fri Oct 03 12:28:31 UTC 2025","passed","Fri Oct 03 12:28:32 UTC 2025","","test_ppt_editor","",""
+    测试创建多个文件备份
+    ","36","test_create_backups","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 PPT 发布到 douyin
+    ","189196","test_ppt2douyin[ppt2video]","apps.ppt2douyin","Fri Oct 10 10:52:09 UTC 2025","passed","Fri Oct 10 10:55:18 UTC 2025","","test_ppt2douyin","",""
+"
+        测试生成视频脚本
+        ","0","test_video_script[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试下载整个分类
+    ","130","test_download_category","lib.crawler","Fri Oct 10 12:00:46 UTC 2025","broken","Fri Oct 10 12:00:46 UTC 2025","","test_hrxz","",""
+"","0","test_data_masking[12345]","utils","Fri Oct 10 12:59:53 UTC 2025","passed","Fri Oct 10 12:59:53 UTC 2025","","test_tools","",""
+"
+    测试下载工件
+    ","275","test_download_artifact","lib.github","Fri Oct 10 12:27:58 UTC 2025","passed","Fri Oct 10 12:27:58 UTC 2025","","test_action","",""
+"测试获取个股公告成功的情况","1","test_get_stock_announcements_success","lib.xuangutong","Fri Oct 10 12:50:26 UTC 2025","broken","Fri Oct 10 12:50:26 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+    ","258","test_package","lib.github","Fri Oct 10 12:27:58 UTC 2025","passed","Fri Oct 10 12:27:58 UTC 2025","","test_package","",""
+"","1","test_all_dirs","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    策略回测
+    ","5086","test_strategy[sma]","lib.stock.backtrader.strategy","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:33 UTC 2025","","test_strategy","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试网页内容发不到 douyin
+    ","136429","test_web2douyin[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","apps.web2douyin","Fri Oct 10 11:20:52 UTC 2025","passed","Fri Oct 10 11:23:09 UTC 2025","","test_web2douyin","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","4","test_douyin_publish_app[xiaohongshu_vertical_video]","lib.douyin","Fri Oct 10 12:27:57 UTC 2025","broken","Fri Oct 10 12:27:57 UTC 2025","","test_douyin_publish_app","",""
+"测试获取个股新闻成功的情况","142","test_get_stock_news_success","lib.xuangutong","Fri Oct 10 12:50:27 UTC 2025","broken","Fri Oct 10 12:50:27 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+    测试发微信通知
+    ","0","test_send_weixin_notify[True]","lib.weixin","Fri Oct 10 12:50:23 UTC 2025","passed","Fri Oct 10 12:50:23 UTC 2025","","test_pushplus","",""
+"
+        测试生成视频脚本
+        ","0","test_video_script[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
     测试图片叠加
-    ","35","test_image_overlay[bottom-right]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
+    ","41","test_image_overlay[top-center]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"","2822","test_send_email","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_email","",""
 "
-    测试卖出
-    ","0","test_sell","lib.stock.trader","Fri Oct 03 12:29:22 UTC 2025","skipped","Fri Oct 03 12:29:22 UTC 2025","","test_easytrader_helper","",""
-"","0","test_iq[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"测试获取个股板块信息时发生异常的情况","0","test_get_stock_plates_exception","lib.xuangutong","Fri Oct 03 12:47:20 UTC 2025","broken","Fri Oct 03 12:47:20 UTC 2025","TestXuanguobaoStock","test_stock","",""
+        测试生成小红书文章
+        ","0","test_xiaohongshu[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
 "
-    测试市场热度，并把生成的图片转成 base64 嵌入 markdown
-    ","6342","test_how_hot","lib.stock.data","Fri Oct 03 12:29:06 UTC 2025","passed","Fri Oct 03 12:29:13 UTC 2025","","test_data_helper","",""
-"","0","test_data_masking[12345]","utils","Fri Oct 03 12:56:39 UTC 2025","passed","Fri Oct 03 12:56:39 UTC 2025","","test_tools","",""
+    每一帧视频转成图片
+    ","52251","test_video2image","lib.video","Fri Oct 10 12:46:15 UTC 2025","passed","Fri Oct 10 12:47:07 UTC 2025","","test_ffmpeg_utils","",""
+"","0","test_iq[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_get_py_executable_path","utils","Fri Oct 10 12:59:25 UTC 2025","passed","Fri Oct 10 12:59:25 UTC 2025","","test_tools","",""
 "
-    测试 youtu 视频剪辑
-    ","139","test_video_handler[vertical_video]","lib.youtube","Fri Oct 03 12:55:24 UTC 2025","broken","Fri Oct 03 12:55:24 UTC 2025","","test_y2_video_handler","",""
-"测试获取热点解读页热门板块成功的情况","506","test_get_top_plates_success","lib.xuangutong","Fri Oct 03 12:47:20 UTC 2025","broken","Fri Oct 03 12:47:21 UTC 2025","","test_top_gainer","",""
+    测试生成 PPT 题目
+    ","1","test_gen_ppt_topic","lib.baidu","Fri Oct 10 11:34:19 UTC 2025","passed","Fri Oct 10 11:34:19 UTC 2025","","test_baidu_aigc","",""
 "
-    爬取 douyin 热门音乐
-    ","1597","test_douyin_hot[custom_music_char]","lib.douyin","Fri Oct 03 11:53:19 UTC 2025","passed","Fri Oct 03 11:53:21 UTC 2025","","test_douyin_hot_hub","",""
+    获取视频长度
+    ","65","test_get_video_duration[get_audio_duration]","lib.video","Fri Oct 10 12:47:07 UTC 2025","passed","Fri Oct 10 12:47:07 UTC 2025","","test_ffprobe_helper","",""
+"
+    测试 PPT 生成视频
+    ","119020","test_make_video[middle]","apps.ppt2douyin","Fri Oct 10 11:06:18 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_ppt_video_handler","",""
+"","0","test_who_are_you[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试截取视频第一帧，并对该图片进行裁剪
+    ","154","test_image_crop_with_video","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"","0","test_make_url[/a/b/c-param_dict1-/a/b/c?age=4&city=beijing]","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","1","test_truncate_date","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"测试获取指数权重","1","test_get_index_weight_top","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"
+    测试 baidu 生成 PPT / DOC
+    ","783154","test_baidu_aigc[doc]","lib.baidu","Fri Oct 10 11:47:23 UTC 2025","passed","Fri Oct 10 12:00:26 UTC 2025","","test_baidu_aigc","",""
+"","54","test_calc_distance","lib.playwright.captcha.puzzle","Fri Oct 10 12:34:09 UTC 2025","passed","Fri Oct 10 12:34:09 UTC 2025","","test_captcha_img_handler","",""
+"","71821","test_ppt2video_with_content_summary","lib.subtitle","Fri Oct 10 12:35:51 UTC 2025","passed","Fri Oct 10 12:37:03 UTC 2025","","test_ppt2video_with_content_summary","",""
+"测试获取选股宝文章内容","2128","test_get_article_content","lib.xuangutong","Fri Oct 10 12:50:23 UTC 2025","passed","Fri Oct 10 12:50:25 UTC 2025","","test_article","",""
+"
+    测试 markdown 转换成 html
+    ","915","test_markdown2html","lib.markdown","Fri Oct 10 12:29:53 UTC 2025","passed","Fri Oct 10 12:29:54 UTC 2025","","test_markdown_converter","",""
+"
+    测试图片叠加
+    ","34","test_image_overlay[top-left]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+    rich 打印 markdown
+    ","2","test_print_markdown","lib.rich","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_rich_helper","",""
+"","1","test_assert_file_not_exists","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","193735","test_douyin_publish_app[weixin_ppt_video]","lib.douyin","Fri Oct 10 12:24:42 UTC 2025","broken","Fri Oct 10 12:27:56 UTC 2025","","test_douyin_publish_app","",""
+"
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试撤单
+    ","0","test_cancel","lib.stock.trader","Fri Oct 10 12:35:51 UTC 2025","skipped","Fri Oct 10 12:35:51 UTC 2025","","test_easytrader_helper","",""
+"","0","test_plot_bar","lib.stock.plot","Fri Oct 10 12:35:51 UTC 2025","skipped","Fri Oct 10 12:35:51 UTC 2025","","test_plot_helper","",""
+"
+    视频塞到绿幕素材中，并处理音频
+    ","55799","test_mix_with_green_screen[image]","lib.video","Fri Oct 10 12:47:43 UTC 2025","passed","Fri Oct 10 12:48:39 UTC 2025","","test_video_clip_helper","",""
+"","0","test_safe_filename[cn]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 html 转成 markdown 或 pdf
+    ","6396","test_html_converter[cn-healthcare-https://www.cn-healthcare.com/articlewm/20211206/content-1292513.html]","lib.html","Fri Oct 10 12:28:35 UTC 2025","passed","Fri Oct 10 12:28:41 UTC 2025","","test_html_converter","",""
+"测试初始化","0","test_init","lib.xuangutong","Fri Oct 10 12:50:28 UTC 2025","passed","Fri Oct 10 12:50:28 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+    图片上添加标题
+    ","289","test_add_title[vertical]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","5","test_douyin_publish_app[xiaohongshu_image_article]","lib.douyin","Fri Oct 10 12:27:56 UTC 2025","broken","Fri Oct 10 12:27:56 UTC 2025","","test_douyin_publish_app","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    视频填充到素材的绿幕中
+    ","33168","test_replace_green_screen[image]","lib.video","Fri Oct 10 12:49:01 UTC 2025","passed","Fri Oct 10 12:49:35 UTC 2025","","test_video_clip_helper","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试获取指数产品","0","test_get_index_product","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 zip 压缩和解压
+    ","2","test_zip","utils","Fri Oct 10 12:59:53 UTC 2025","passed","Fri Oct 10 12:59:53 UTC 2025","","test_zip","",""
+"
+    测试更改域名
+    ","0","test_change_domain","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_http","",""
+"
+        测试生成小红书文章
+        ","0","test_xiaohongshu[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试图片叠加
+    ","34","test_image_overlay[bottom-right]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"
+    测试图片转 base64
+    ","4","test_image2base64","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"
+    测试 ytdlp 下载 youtu 视频资源
+    ","1798","test_ytdlp_helper[playlist]","lib.youtube","Fri Oct 10 12:58:47 UTC 2025","broken","Fri Oct 10 12:58:49 UTC 2025","","test_ytdlp_helper","",""
 "
     测试非无痕浏览器
     访问 https://bot.sannysoft.com 页面会有检测报告
-    ","0","test_launch_browser_no_headless","lib.playwright","Fri Oct 03 12:28:08 UTC 2025","skipped","Fri Oct 03 12:28:08 UTC 2025","","test_common","",""
+    ","0","test_launch_browser_no_headless","lib.playwright","Fri Oct 10 12:34:40 UTC 2025","skipped","Fri Oct 10 12:34:40 UTC 2025","","test_common","",""
 "
-    rich 打印 markdown
-    ","2","test_print_markdown","lib.rich","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_rich_helper","",""
-"
-    测试临时文件拷贝上下文管理器
-    ","11","test_copy_file_context[one_file]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:46 UTC 2025","","test_file","",""
-"
-    测试图片叠加
-    ","34","test_image_overlay[top-left]","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-    测试图文发布、横屏视频、竖屏视频发布
-    ","4","test_douyin_publish_app[xiaohongshu_image_article]","lib.douyin","Fri Oct 03 12:18:30 UTC 2025","broken","Fri Oct 03 12:18:30 UTC 2025","","test_douyin_publish_app","",""
-"
-    测试 cv2.imwrite 中文路径问
-    ","37","test_cv2_imwrite","lib.image","Fri Oct 03 12:20:03 UTC 2025","passed","Fri Oct 03 12:20:03 UTC 2025","","test_image_handler","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","0","test_publish_time_generator[\u25b2 \u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u4e0b\u4e00\u4e2a\u53d1\u5e03\u65f6\u95f4\u5f88\u8fd1]","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"
-    测试从音乐文件夹下随机选择一首歌曲
-    ","18078","test_random_music","lib.music","Fri Oct 03 12:27:00 UTC 2025","passed","Fri Oct 03 12:27:18 UTC 2025","","test_music","",""
-"
-        测试阅读文章
-        ","0","test_chat_with_file[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","0","test_iq[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 aliyunpan 文件上传和下载
-    ","12","test_aliyunpan","lib.aliyunpan","Fri Oct 03 11:27:20 UTC 2025","broken","Fri Oct 03 11:27:20 UTC 2025","","test_aliyunpan","",""
+    测试给图文中的图片添加水印
+    ","146","test_add_image_watermark","apps.ppt2douyin","Fri Oct 10 11:01:40 UTC 2025","passed","Fri Oct 10 11:01:40 UTC 2025","","test_ppt_convert","",""
 "
     获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[6\u4e0b\u5348\u5f00\u76d8]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"","0","test_list_files_by_ext_sort_by_name","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    测试视频前两秒添加文字标题
-    ","9323","test_draw_text[horizontal]","lib.video","Fri Oct 03 12:35:29 UTC 2025","passed","Fri Oct 03 12:35:38 UTC 2025","","test_ffmpeg_helper","",""
-"
-    测试 ytdlp 获取 youtu 视频信息
-    ","2576","test_get_yt_video_info","lib.youtube","Fri Oct 03 12:55:31 UTC 2025","broken","Fri Oct 03 12:55:33 UTC 2025","","test_ytdlp_helper","",""
-"","0","test_safe_filename[eng]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    测试数据预处理
-    ","1480","test_pre_process","lib.stock.data","Fri Oct 03 12:29:04 UTC 2025","passed","Fri Oct 03 12:29:05 UTC 2025","","test_data_helper","",""
-"
-    测试 PPT 转成 视频 / 图片
-    ","24706","test_batch_ppt_convert[ppt2image_article]","apps.ppt2douyin","Fri Oct 03 10:52:43 UTC 2025","passed","Fri Oct 03 10:53:08 UTC 2025","","test_ppt_convert","",""
-"","0","test_who_are_you[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-        多轮对话
-        ","0","test_multi_chat[direct_response-QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","0","test_iq[QWenHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试 html 转成 markdown 或 pdf
-    ","4857","test_html_converter[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","lib.html","Fri Oct 03 12:18:56 UTC 2025","passed","Fri Oct 03 12:19:01 UTC 2025","","test_html_converter","",""
-"","0","test_parse_url","utils","Fri Oct 03 12:56:07 UTC 2025","passed","Fri Oct 03 12:56:07 UTC 2025","","test_http","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1","test_get_content_md5","utils","Fri Oct 03 12:56:34 UTC 2025","passed","Fri Oct 03 12:56:34 UTC 2025","","test_tools","",""
+    ","0","test_get_trading_minute_count[7\u4e0b\u5348\u5f00\u76d8\u540e\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"","1871","test_df2md_list","lib.stock.common","Fri Oct 10 12:35:34 UTC 2025","passed","Fri Oct 10 12:35:36 UTC 2025","","test_utils","",""
 "
     测试 baidu 生成 PPT / DOC 再发布到 douyin
-    ","807842","test_baidu2douyin[doc2video]","apps.baidu2douyin","Fri Oct 03 10:26:01 UTC 2025","passed","Fri Oct 03 10:39:29 UTC 2025","","test_baidu2douyin","",""
-"","0","test_get_safe_name","utils","Fri Oct 03 12:55:46 UTC 2025","passed","Fri Oct 03 12:55:46 UTC 2025","","test_file","",""
-"
-        测试生成视频脚本
-        ","0","test_video_script[ModelscopeHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    PDF 转成图片，组合成视频
-    ","11871","test_pdf2video","lib.pdf","Fri Oct 03 12:27:27 UTC 2025","passed","Fri Oct 03 12:27:38 UTC 2025","","test_pdf_handler","",""
-"
-        测试生成 PPT 题目
-        ","0","test_ppt_topic[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"测试获取指数权重","1","test_get_index_weight_top","apps.csindex_crawler","Fri Oct 03 10:39:32 UTC 2025","passed","Fri Oct 03 10:39:32 UTC 2025","","test_csindex_crawler","",""
-"
-        测试生成小红书文章
-        ","0","test_xiaohongshu[ZhipuHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试按文件修改时间排序
-    ","0","test_list_files_by_ext","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
-"
-    测试视频信息排序
-    ","1092","test_sort_video_infos[playlist]","apps.youtu2douyin","Fri Oct 03 11:27:19 UTC 2025","broken","Fri Oct 03 11:27:20 UTC 2025","","test_youtu_video_tools","",""
-"
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[2\u4e0a\u5348\u5f00\u76d8]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
-"测试获取个股公告时发生异常的情况","1","test_get_stock_announcements_exception","lib.xuangutong","Fri Oct 03 12:47:18 UTC 2025","broken","Fri Oct 03 12:47:18 UTC 2025","TestXuanguobaoStock","test_stock","",""
-"","1543","test_get_phone_city","utils","Fri Oct 03 12:56:08 UTC 2025","passed","Fri Oct 03 12:56:09 UTC 2025","","test_phone_city","",""
-"
-    测试视频前两秒添加文字标题
-    ","29689","test_draw_text[vertical]","lib.video","Fri Oct 03 12:34:59 UTC 2025","passed","Fri Oct 03 12:35:29 UTC 2025","","test_ffmpeg_helper","",""
-"
-    rich 打印 ini 配置
-    ","4","test_print_ini_config","lib.rich","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_rich_helper","",""
-"","1","test_random_time_generator","utils","Fri Oct 03 12:55:43 UTC 2025","passed","Fri Oct 03 12:55:43 UTC 2025","","test_dt","",""
-"","0","test_who_are_you[KimiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"
-    测试发微信通知
-    ","1","test_send_weixin_notify[True]","lib.weixin","Fri Oct 03 12:47:14 UTC 2025","passed","Fri Oct 03 12:47:14 UTC 2025","","test_pushplus","",""
+    ","823836","test_baidu2douyin[doc2image_article]","apps.baidu2douyin","Fri Oct 10 10:19:59 UTC 2025","passed","Fri Oct 10 10:33:43 UTC 2025","","test_baidu2douyin","",""
+"","1","test_assert_file_exists","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
 "
     测试网页内容发不到 douyin
-    ","156391","test_web2douyin[dingxiangyishegn_web-https://dxy.com/article/50056]","apps.web2douyin","Fri Oct 03 11:20:47 UTC 2025","passed","Fri Oct 03 11:23:24 UTC 2025","","test_web2douyin","",""
+    ","135359","test_web2douyin[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","apps.web2douyin","Fri Oct 10 11:25:33 UTC 2025","passed","Fri Oct 10 11:27:48 UTC 2025","","test_web2douyin","",""
 "
-    测试判断文件是不是有效的 ppt 文件
-    ","41","test_is_valid_pptx","lib.ppt","Fri Oct 03 12:28:57 UTC 2025","passed","Fri Oct 03 12:28:57 UTC 2025","","test_ppt_handler","",""
-"","3","test_run_cmd_without_result","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
+    测试发布结果的处理
+    ","27","test_handle_publish_result","apps.ppt2douyin","Fri Oct 10 11:00:10 UTC 2025","passed","Fri Oct 10 11:00:10 UTC 2025","","test_ppt2douyin","",""
+"","0","test_data_masking[1234567]","utils","Fri Oct 10 12:59:53 UTC 2025","passed","Fri Oct 10 12:59:53 UTC 2025","","test_tools","",""
 "
-    测试 PPT 发布到 douyin
-    ","1272","test_ppt2douyin[doc2video]","apps.ppt2douyin","Fri Oct 03 10:52:42 UTC 2025","passed","Fri Oct 03 10:52:43 UTC 2025","","test_ppt2douyin","",""
-"","1","test_get_logger","lib","Fri Oct 03 12:33:10 UTC 2025","passed","Fri Oct 03 12:33:10 UTC 2025","","test_log","",""
+    测试从音乐文件夹下随机选择一首歌曲
+    ","17956","test_random_music","lib.music","Fri Oct 10 12:33:26 UTC 2025","passed","Fri Oct 10 12:33:44 UTC 2025","","test_music","",""
+"
+    运行浏览器
+    ","0","test_launch_browser[dont_open_browser]","lib.playwright","Fri Oct 10 12:34:38 UTC 2025","skipped","Fri Oct 10 12:34:38 UTC 2025","","test_common","",""
+"
+    网课助手
+    ","37746","test_auto_course[huayi]","apps.auto_course","Fri Oct 10 09:46:10 UTC 2025","passed","Fri Oct 10 09:46:48 UTC 2025","","test_auto_course","",""
+"","59","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ted/ted.mp4-True]","lib.video","Fri Oct 10 12:47:07 UTC 2025","passed","Fri Oct 10 12:47:07 UTC 2025","","test_ffprobe_helper","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u8fdc\u5c0f\u4e8e\u5f53\u524d\u65f6\u95f4]","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
 "
     测试临时文件拷贝上下文管理器
-    ","44","test_copy_file_context[multi_file]","utils","Fri Oct 03 12:55:45 UTC 2025","passed","Fri Oct 03 12:55:45 UTC 2025","","test_file","",""
+    ","73","test_copy_file_context[dir]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"","1","test_get_logger","lib","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_log","",""
 "
-    会打印 retry 日志
-    ","4004","test_async_retry_decorator","utils","Fri Oct 03 12:56:35 UTC 2025","passed","Fri Oct 03 12:56:39 UTC 2025","","test_tools","",""
-"","1","test_clear_string_char","utils","Fri Oct 03 12:56:16 UTC 2025","passed","Fri Oct 03 12:56:16 UTC 2025","","test_tools","",""
+    使用代理 IP 运行浏览器
+    前提是安装了 3party/ 下的 proxy_pool
+    ","818","test_launch_with_proxy","lib.playwright","Fri Oct 10 12:34:38 UTC 2025","broken","Fri Oct 10 12:34:39 UTC 2025","","test_common","",""
 "
-    测试删除工件
-    ","253","test_delete_artifact","lib.github","Fri Oct 03 12:18:31 UTC 2025","passed","Fri Oct 03 12:18:31 UTC 2025","","test_action","",""
-"","0","test_who_are_you[DeepSeekHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
-"","1000","test_time_spen_deco","utils","Fri Oct 03 12:56:12 UTC 2025","passed","Fri Oct 03 12:56:13 UTC 2025","","test_tools","",""
+    通过 edge 读出文字
+    ","670","test_edge_tts_helper","lib.tts","Fri Oct 10 12:39:32 UTC 2025","passed","Fri Oct 10 12:39:32 UTC 2025","","test_edge_tts_helper","",""
 "
-    测试 PPT 转成 视频 / 图片
-    ","2466","test_batch_ppt_convert[doc2image_article]","apps.ppt2douyin","Fri Oct 03 10:54:07 UTC 2025","passed","Fri Oct 03 10:54:09 UTC 2025","","test_ppt_convert","",""
+    获取工件信息
+    ","255","test_get_artifacts","lib.github","Fri Oct 10 12:27:57 UTC 2025","passed","Fri Oct 10 12:27:57 UTC 2025","","test_action","",""
 "
-    测试图片组合成视频
-    ","7077","test_images2video","lib.image","Fri Oct 03 12:19:55 UTC 2025","passed","Fri Oct 03 12:20:02 UTC 2025","","test_image2video_helper","",""
+    测试获取代理 IP
+    ","25","test_proxy_pool","lib.proxy","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_proxy_pool","",""
+"
+    测试按文件修改时间排序
+    ","0","test_list_files_by_ext","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 PPT 发布到 douyin
+    ","148622","test_ppt2douyin[pdf2image_article]","apps.ppt2douyin","Fri Oct 10 10:55:18 UTC 2025","passed","Fri Oct 10 10:57:47 UTC 2025","","test_ppt2douyin","",""
+"
+    创建大图小图的封面
+    ","294","test_make_coverage[2_lines]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_stitch","",""
 "
     测试网页内容发不到 douyin
-    ","144020","test_web2douyin[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","apps.web2douyin","Fri Oct 03 11:13:42 UTC 2025","passed","Fri Oct 03 11:16:06 UTC 2025","","test_web2douyin","",""
+    ","143874","test_web2douyin[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","apps.web2douyin","Fri Oct 10 11:23:09 UTC 2025","passed","Fri Oct 10 11:25:33 UTC 2025","","test_web2douyin","",""
+"","55","test_has_audio[/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ted/ted_video.mp4-False]","lib.video","Fri Oct 10 12:47:07 UTC 2025","passed","Fri Oct 10 12:47:07 UTC 2025","","test_ffprobe_helper","",""
+"
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 ytdlp 获取 youtu 视频信息
+    ","2218","test_get_yt_video_info","lib.youtube","Fri Oct 10 12:58:42 UTC 2025","broken","Fri Oct 10 12:58:44 UTC 2025","","test_ytdlp_helper","",""
+"
+    测试手动触发 youtube 视频发布
+    ","405","test_y2douyin_manual[teded_channel]","apps.youtu2douyin","Fri Oct 10 11:33:01 UTC 2025","broken","Fri Oct 10 11:33:01 UTC 2025","","test_youtu2douyin","",""
+"
+    测试 PPT 转成 视频 / 图片
+    ","24645","test_batch_ppt_convert[ppt2image_article]","apps.ppt2douyin","Fri Oct 10 11:00:10 UTC 2025","passed","Fri Oct 10 11:00:35 UTC 2025","","test_ppt_convert","",""
+"
+    策略回测
+    ","426","test_strategy[grid]","lib.stock.backtrader.strategy","Fri Oct 10 12:35:33 UTC 2025","passed","Fri Oct 10 12:35:34 UTC 2025","","test_strategy","",""
+"测试带重试机制的请求失败","2003","test_request_with_retry_failure","apps.csindex_crawler","Fri Oct 10 10:47:25 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"
+        测试生成视频脚本
+        ","0","test_video_script[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试通过 API 从 pexels 网站下载视频
+    ","4766","test_pexels_get_videos","lib.pexels","Fri Oct 10 12:34:05 UTC 2025","passed","Fri Oct 10 12:34:09 UTC 2025","","test_pexels","",""
+"
+    测试 cv2.cvtColor 中文路径问题
+    ","105","test_cv2_imread","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"
+    拼接片头
+    ","35989","test_add_opening","lib.video","Fri Oct 10 12:47:07 UTC 2025","passed","Fri Oct 10 12:47:43 UTC 2025","","test_video_clip_helper","",""
+"
+    PDF 转成图片，组合成视频
+    ","11882","test_pdf2video","lib.pdf","Fri Oct 10 12:33:52 UTC 2025","passed","Fri Oct 10 12:34:04 UTC 2025","","test_pdf_handler","",""
+"","0","test_data_masking[aa12345678901]","utils","Fri Oct 10 12:59:53 UTC 2025","passed","Fri Oct 10 12:59:53 UTC 2025","","test_tools","",""
+"
+        多轮对话
+        ","0","test_multi_chat[flow_response-KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","1","test_get_cookie_dir","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"
+    获取信息
+    :param with_client: 是否测试通过客户端连接 easytrader 服务端进行操作
+    ","0","test_get_info","lib.stock.trader","Fri Oct 10 12:35:51 UTC 2025","skipped","Fri Oct 10 12:35:51 UTC 2025","","test_easytrader_helper","",""
+"
+    爬取 douyin 热门音乐
+    ","945","test_douyin_hot[soar_music_chart]","lib.douyin","Fri Oct 10 12:00:51 UTC 2025","passed","Fri Oct 10 12:00:52 UTC 2025","","test_douyin_hot_hub","",""
+"","263","test_y2_video_playlist","lib.youtube","Fri Oct 10 12:58:33 UTC 2025","passed","Fri Oct 10 12:58:34 UTC 2025","","test_y2_handler","",""
+"
+    修正字幕时间线（有些字母时间线会重合）
+    ","1","test_fix_subtitle_timeline","lib.subtitle","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle_handler","",""
+"
+    测试 localstorage 的设置和获取
+    ","3979","test_localstorage","lib.playwright","Fri Oct 10 12:34:34 UTC 2025","passed","Fri Oct 10 12:34:38 UTC 2025","","test_common","",""
+"测试获取个股公告并指定页码","1","test_get_stock_announcements_with_page","lib.xuangutong","Fri Oct 10 12:50:26 UTC 2025","broken","Fri Oct 10 12:50:26 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","194172","test_douyin_publish_app[weixin_image_article]","lib.douyin","Fri Oct 10 12:18:13 UTC 2025","broken","Fri Oct 10 12:21:27 UTC 2025","","test_douyin_publish_app","",""
+"","0","test_safe_filename[length]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 llm API（封装了全部已对接的 LLM）
+    llm_provider 为 None 表示不指定 llm_provider，会尝试所有已对接的 LLM
+    ","0","test_llm_api[modelscope]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","","test_llm_api","",""
+"
+    测试 youtu 下载工具
+    ","37076","test_y2_downloader[playlist]","lib.youtube","Fri Oct 10 12:51:05 UTC 2025","broken","Fri Oct 10 12:51:42 UTC 2025","","test_y2_downloader","",""
+"
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    ","2189","test_batch_transfer[doc2pdf]","lib.libreoffice","Fri Oct 10 12:29:51 UTC 2025","passed","Fri Oct 10 12:29:53 UTC 2025","","test_libreoffice_helper","",""
+"
+    测试 douyin 视频搬运（防查重处理）
+    ","1","test_douyin2douyin","apps.douyin2douyin","Fri Oct 10 10:47:27 UTC 2025","skipped","Fri Oct 10 10:47:27 UTC 2025","","test_douyin2douyin","",""
+"
+    运行浏览器
+    ","0","test_launch_browser[open_browser]","lib.playwright","Fri Oct 10 12:34:38 UTC 2025","skipped","Fri Oct 10 12:34:38 UTC 2025","","test_common","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","4","test_douyin_publish_app[xiaohongshu_ppt_video]","lib.douyin","Fri Oct 10 12:27:57 UTC 2025","broken","Fri Oct 10 12:27:57 UTC 2025","","test_douyin_publish_app","",""
+"
+    会打印 retry 日志
+    ","4006","test_async_retry_decorator","utils","Fri Oct 10 12:59:49 UTC 2025","passed","Fri Oct 10 12:59:53 UTC 2025","","test_tools","",""
+"","0","test_iq[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","0","test_who_are_you[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试获取个股新闻时发生异常的情况","1","test_get_stock_news_exception","lib.xuangutong","Fri Oct 10 12:50:26 UTC 2025","broken","Fri Oct 10 12:50:26 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"测试获取指数列表的不同参数组合","1","test_get_index_list_params[3-100]","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"","0","test_who_are_you[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","1","test_publish_time_generator[\u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u5f53\u524d\u65f6\u95f4\u5f88\u8fd1]","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"
+    测试简单的文字验证码
+    ","46","test_ocr_captcha_helper","lib.playwright.captcha.font","Fri Oct 10 12:34:09 UTC 2025","passed","Fri Oct 10 12:34:09 UTC 2025","","test_font_captcha_helper","",""
+"测试获取指数列表的不同参数组合","1","test_get_index_list_params[2-50]","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"","0","test_make_chunk","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
+"","24","test_is_video_usable[video]","lib.video","Fri Oct 10 12:50:19 UTC 2025","passed","Fri Oct 10 12:50:19 UTC 2025","","test_video_utils","",""
+"
+    测试卖出
+    ","0","test_sell","lib.stock.trader","Fri Oct 10 12:35:51 UTC 2025","skipped","Fri Oct 10 12:35:51 UTC 2025","","test_easytrader_helper","",""
+"测试获取指数特征","1","test_get_index_feature","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
 "
         测试阅读文章
-        ","0","test_chat_with_file[OpenrouterHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
+        ","0","test_chat_with_file[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试获取个股板块信息成功的情况","338","test_get_stock_plates_success","lib.xuangutong","Fri Oct 10 12:50:27 UTC 2025","broken","Fri Oct 10 12:50:28 UTC 2025","TestXuanguobaoStock","test_stock","",""
 "
-        测试生成小红书文章
-        ","0","test_xiaohongshu[LingyiHelper]","lib.ai.llm","Fri Oct 03 11:27:20 UTC 2025","skipped","Fri Oct 03 11:27:20 UTC 2025","TestLLM","test_llm","",""
+    测试标题包含艾特和话题
+    ","0","test_title_with_at","lib.douyin","Fri Oct 10 12:01:40 UTC 2025","skipped","Fri Oct 10 12:01:40 UTC 2025","","test_douyin_publish_app","",""
 "
-    获取当前时间点距离市场开盘以来的分钟数
-    ","0","test_get_trading_minute_count[3\u4e0a\u5348\u6536\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 03 11:02:18 UTC 2025","passed","Fri Oct 03 11:02:18 UTC 2025","","test_trade_helper","",""
+    所有 voice 采样
+    ","15235","test_sample_all_voice[\u97f3\u9891\u6df7\u5408\u8fc7\u6ee4\u5668\uff0c\u5b83\u5141\u8bb8\u4f60\u5c06\u591a\u4e2a\u97f3\u9891\u6d41\u6df7\u5408\u5230\u4e00\u4e2a\u8f93\u51fa\u6d41\u4e2d\u3002\u8fd9\u5bf9\u4e8e\u5c06\u80cc\u666f\u97f3\u4e50\u3001\u5bf9\u8bdd\u6216\u5176\u4ed6\u97f3\u9891\u6548\u679c\u5408\u5e76\u5230\u4e00\u4e2a\u89c6\u9891\u4e2d\u975e\u5e38\u6709\u7528\u3002]","lib.tts","Fri Oct 10 12:39:32 UTC 2025","passed","Fri Oct 10 12:39:48 UTC 2025","","test_edge_tts_helper","",""
+"
+    视频加速，并添加 bgm
+    ","18340","test_speedup_add_bgm","lib.video","Fri Oct 10 12:41:59 UTC 2025","passed","Fri Oct 10 12:42:17 UTC 2025","","test_ffmpeg_helper","",""
+"
+    测试收集总结内容
+    ","7779","test_weekly_review","apps.weekly_review","Fri Oct 10 11:32:52 UTC 2025","broken","Fri Oct 10 11:32:59 UTC 2025","","test_weekly_review","",""
+"
+    测试获取youtube视频发布时间
+    ","757","test_get_video_publish_date","apps.youtu2douyin","Fri Oct 10 11:34:17 UTC 2025","passed","Fri Oct 10 11:34:17 UTC 2025","","test_youtu_video_tools","",""
+"
+    视频塞到绿幕素材中，并处理音频
+    ","22510","test_mix_with_green_screen[video]","lib.video","Fri Oct 10 12:48:39 UTC 2025","passed","Fri Oct 10 12:49:01 UTC 2025","","test_video_clip_helper","",""
+"
+    PPT 转视频
+    ","12","test_ppt2video[by_libreoffice]","lib.ppt","Fri Oct 10 12:35:18 UTC 2025","passed","Fri Oct 10 12:35:18 UTC 2025","","test_ppt_handler","",""
 "
     测试 html 转成 markdown 或 pdf
-    ","7218","test_html_converter[cn-healthcare-https://www.cn-healthcare.com/articlewm/20211206/content-1292513.html]","lib.html","Fri Oct 03 12:19:14 UTC 2025","passed","Fri Oct 03 12:19:21 UTC 2025","","test_html_converter","",""
+    ","6980","test_html_converter[wexin-https://mp.weixin.qq.com/s/I2QHEBO26nGqhGwIw281Pg]","lib.html","Fri Oct 10 12:28:21 UTC 2025","passed","Fri Oct 10 12:28:28 UTC 2025","","test_html_converter","",""
+"测试获取指数列表的不同参数组合","2","test_get_index_list_params[1-20]","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"","2150","test_hefeng_weather","lib.weather","Fri Oct 10 12:50:19 UTC 2025","passed","Fri Oct 10 12:50:21 UTC 2025","","test_hefeng","",""
+"","0","test_who_are_you[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试通过 github API 触发流水线
+    ","258","test_githubaction_trigger","lib.github","Fri Oct 10 12:27:57 UTC 2025","passed","Fri Oct 10 12:27:57 UTC 2025","","test_action","",""
+"","3002","test_analyze_optimize","utils","Fri Oct 10 12:59:26 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
+"","18095","test_translate_string[input_en]","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:47 UTC 2025","","test_tools","",""
+"
+    把秒转换成可读性的时长
+    ","0","test_convert_seconds","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
+"
+    测试 PPT 发布到 douyin
+    ","141892","test_ppt2douyin[doc2image_article]","apps.ppt2douyin","Fri Oct 10 10:57:47 UTC 2025","passed","Fri Oct 10 11:00:09 UTC 2025","","test_ppt2douyin","",""
+"
+        测试查询余额
+        ","0","test_balance[ZhipuHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 pdf 转 doc
+    ","412","test_pdf2doc","lib.pdf","Fri Oct 10 12:34:04 UTC 2025","passed","Fri Oct 10 12:34:05 UTC 2025","","test_pdf_handler","",""
+"
+    获取日期内股票数据
+    ","719","test_data_helper","lib.stock.data","Fri Oct 10 12:35:36 UTC 2025","passed","Fri Oct 10 12:35:36 UTC 2025","","test_data_helper","",""
+"
+    测试删除工件
+    ","251","test_delete_artifact","lib.github","Fri Oct 10 12:27:57 UTC 2025","passed","Fri Oct 10 12:27:58 UTC 2025","","test_action","",""
+"
+        测试生成 PPT 题目
+        ","0","test_ppt_topic[ModelscopeHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试下载youtu字幕
+    ","2","test_y2_srt_handler","lib.youtube","Fri Oct 10 12:58:34 UTC 2025","broken","Fri Oct 10 12:58:34 UTC 2025","","test_y2_subtitle_handler","",""
+"","407","test_flush_news","lib.xuangutong","Fri Oct 10 12:50:25 UTC 2025","passed","Fri Oct 10 12:50:26 UTC 2025","","test_live","",""
+"","1002","test_retry_deco","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:49 UTC 2025","","test_tools","",""
+"
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[3\u4e0a\u5348\u6536\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"","0","test_format_unit","lib.stock.common","Fri Oct 10 12:35:36 UTC 2025","passed","Fri Oct 10 12:35:36 UTC 2025","","test_utils","",""
+"
+    测试手动触发 youtube 视频发布
+    ","424","test_y2douyin_manual[rn_channel]","apps.youtu2douyin","Fri Oct 10 11:33:01 UTC 2025","broken","Fri Oct 10 11:33:02 UTC 2025","","test_youtu2douyin","",""
+"","4","test_run_cmd_with_result","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
+"
+    测试临时文件拷贝上下文管理器
+    ","11","test_copy_file_context[one_file]","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"测试获取个股公告时发生异常的情况","1","test_get_stock_announcements_exception","lib.xuangutong","Fri Oct 10 12:50:26 UTC 2025","broken","Fri Oct 10 12:50:26 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"
+    字幕提取到 txt
+    ","1","test_subtitles2text","lib.subtitle","Fri Oct 10 12:39:28 UTC 2025","passed","Fri Oct 10 12:39:28 UTC 2025","","test_subtitle_handler","",""
+"
+    测试下载抖音 top50 热门歌曲
+    ","47937","test_douyin_music","lib.douyin","Fri Oct 10 12:00:52 UTC 2025","passed","Fri Oct 10 12:01:40 UTC 2025","","test_douyin_music","",""
+"
+    测试按前缀删除文件
+    ","2","test_delete_files_with_prefix","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    ","4054","test_batch_transfer[ppt2images]","lib.libreoffice","Fri Oct 10 12:29:34 UTC 2025","passed","Fri Oct 10 12:29:38 UTC 2025","","test_libreoffice_helper","",""
+"
+    测试拷贝目录下的文件和文件夹
+    ","0","test_shutil_copytree","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 PPT 生成视频
+    ","226540","test_make_video[large]","apps.ppt2douyin","Fri Oct 10 11:02:31 UTC 2025","passed","Fri Oct 10 11:06:18 UTC 2025","","test_ppt_video_handler","",""
+"
+    测试 aliyunpan 文件上传和下载
+    ","12","test_aliyunpan","lib.aliyunpan","Fri Oct 10 11:34:18 UTC 2025","broken","Fri Oct 10 11:34:18 UTC 2025","","test_aliyunpan","",""
+"
+    测试通过协程进行下载任务的并发
+    ","196005","test_downloader","lib.mqs.pylib","Fri Oct 10 12:30:05 UTC 2025","failed","Fri Oct 10 12:33:21 UTC 2025","","test_downloader","",""
+"
+    测试组装提醒文字
+    ","0","test_make_notify_msg","lib.weixin","Fri Oct 10 12:50:23 UTC 2025","passed","Fri Oct 10 12:50:23 UTC 2025","","test_pushplus","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","194035","test_douyin_publish_app[weixin_vertical_video]","lib.douyin","Fri Oct 10 12:21:28 UTC 2025","broken","Fri Oct 10 12:24:42 UTC 2025","","test_douyin_publish_app","",""
+"","0","test_iq[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","157443","test_douyin_publish_app[douyin_vertical_video]","lib.douyin","Fri Oct 10 12:12:59 UTC 2025","broken","Fri Oct 10 12:15:37 UTC 2025","","test_douyin_publish_app","",""
+"
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[6\u4e0b\u5348\u5f00\u76d8]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"
+    测试网页内容发不到 douyin
+    ","139740","test_web2douyin[dingxiangyishegn_web-https://dxy.com/article/50056]","apps.web2douyin","Fri Oct 10 11:27:48 UTC 2025","passed","Fri Oct 10 11:30:08 UTC 2025","","test_web2douyin","",""
+"","0","test_who_are_you[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试给文档图片加上水印
+    ","95","test_image_watermark[middle]","lib.image","Fri Oct 10 12:29:31 UTC 2025","passed","Fri Oct 10 12:29:31 UTC 2025","","test_image_handler","",""
+"","0","test_safe_path_join","utils","Fri Oct 10 12:58:57 UTC 2025","passed","Fri Oct 10 12:58:57 UTC 2025","","test_file","",""
+"
+    测试 PPT 转成 视频 / 图片
+    XXX 目前只能转换首页为图片，不能每一页都转
+    ","12395","test_batch_transfer[ppt2pdf]","lib.libreoffice","Fri Oct 10 12:29:38 UTC 2025","passed","Fri Oct 10 12:29:51 UTC 2025","","test_libreoffice_helper","",""
+"","1999","test_tushare_helper","lib.stock.data","Fri Oct 10 12:35:44 UTC 2025","passed","Fri Oct 10 12:35:46 UTC 2025","","test_tushare_helper","",""
+"
+    测试视频前两秒添加文字标题
+    ","29500","test_draw_text[vertical]","lib.video","Fri Oct 10 12:41:20 UTC 2025","passed","Fri Oct 10 12:41:49 UTC 2025","","test_ffmpeg_helper","",""
+"测试获取指数年化波动率","1","test_get_index_yield_item_nian_hua","apps.csindex_crawler","Fri Oct 10 10:47:27 UTC 2025","passed","Fri Oct 10 10:47:27 UTC 2025","","test_csindex_crawler","",""
+"
+    测试 html 转成 markdown 或 pdf
+    ","6453","test_html_converter[csdn-https://blog.csdn.net/qq_40999403/article/details/140129103]","lib.html","Fri Oct 10 12:28:15 UTC 2025","passed","Fri Oct 10 12:28:21 UTC 2025","","test_html_converter","",""
+"
+    测试 html 转成 markdown 或 pdf
+    ","4633","test_html_converter[dingxiangyishegn_mobile-https://m.dxy.com/article/50056]","lib.html","Fri Oct 10 12:28:28 UTC 2025","passed","Fri Oct 10 12:28:33 UTC 2025","","test_html_converter","",""
+"
+        测试查询余额
+        ","0","test_balance[DeepSeekHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+        测试查询余额
+        ","0","test_balance[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 ytdlp 下载 youtu 视频资源
+    ","1890","test_ytdlp_helper[channel]","lib.youtube","Fri Oct 10 12:58:50 UTC 2025","broken","Fri Oct 10 12:58:52 UTC 2025","","test_ytdlp_helper","",""
+"
+    爬取 douyin 热门音乐
+    ","2438","test_douyin_hot[custom_music_char]","lib.douyin","Fri Oct 10 12:00:47 UTC 2025","passed","Fri Oct 10 12:00:50 UTC 2025","","test_douyin_hot_hub","",""
+"","0","test_dict_to_markdown_table2","lib.markdown","Fri Oct 10 12:30:05 UTC 2025","passed","Fri Oct 10 12:30:05 UTC 2025","","test_markdown_helper","",""
+"
+    n 张图片垂直拼图
+    ","658","test_batch_conn_images_to_one[2_lines]","lib.image","Fri Oct 10 12:29:32 UTC 2025","passed","Fri Oct 10 12:29:33 UTC 2025","","test_image_stitch","",""
+"测试 CSIndexCrawler 初始化","0","test_csindex_crawler_init","apps.csindex_crawler","Fri Oct 10 10:47:25 UTC 2025","passed","Fri Oct 10 10:47:25 UTC 2025","","test_csindex_crawler","",""
+"
+    测试图文发布、横屏视频、竖屏视频发布
+    ","145547","test_douyin_publish_app[douyin_image_article]","lib.douyin","Fri Oct 10 12:10:33 UTC 2025","broken","Fri Oct 10 12:12:59 UTC 2025","","test_douyin_publish_app","",""
+"
+        测试阅读文章
+        ","0","test_chat_with_file[QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试 baidu 生成 PPT / DOC
+    ","784456","test_baidu_aigc[ppt]","lib.baidu","Fri Oct 10 11:34:19 UTC 2025","passed","Fri Oct 10 11:47:23 UTC 2025","","test_baidu_aigc","",""
+"
+    rich 打印表格
+    ","2","test_print_table","lib.rich","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_rich_helper","",""
+"
+    测试生成网格
+    ","0","test_make_grid","lib.stock.common","Fri Oct 10 12:35:36 UTC 2025","passed","Fri Oct 10 12:35:36 UTC 2025","","test_utils","",""
+"
+        测试查询余额
+        ","0","test_balance[LingyiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    测试图片组合成视频
+    ","6772","test_images2video","lib.image","Fri Oct 10 12:29:23 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image2video_helper","",""
+"","0","test_json_config_dict_update","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_json_config","",""
+"
+    测试手动触发 youtube 视频发布
+    ","530","test_y2douyin_manual[no_channel_cfg]","apps.youtu2douyin","Fri Oct 10 11:33:00 UTC 2025","broken","Fri Oct 10 11:33:00 UTC 2025","","test_youtu2douyin","",""
+"
+        测试查询余额
+        ","0","test_balance[KimiHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"","1","test_obj2json","utils","Fri Oct 10 12:59:48 UTC 2025","passed","Fri Oct 10 12:59:48 UTC 2025","","test_tools","",""
 "
     测试定时发布、立即发布
-    ","194330","test_publish2douyin[weixin_now]","lib.douyin","Fri Oct 03 11:59:29 UTC 2025","broken","Fri Oct 03 12:02:43 UTC 2025","","test_douyin_publish_app","",""
-"测试获取个股新闻成功的情况","351","test_get_stock_news_success","lib.xuangutong","Fri Oct 03 12:47:19 UTC 2025","broken","Fri Oct 03 12:47:19 UTC 2025","TestXuanguobaoStock","test_stock","",""
+    ","82135","test_publish2douyin[douyin_timing]","lib.douyin","Fri Oct 10 12:01:40 UTC 2025","passed","Fri Oct 10 12:03:02 UTC 2025","","test_douyin_publish_app","",""
+"
+    测试 youtu 视频剪辑
+    ","174","test_video_handler[RegisteredNurseRN]","lib.youtube","Fri Oct 10 12:58:35 UTC 2025","broken","Fri Oct 10 12:58:35 UTC 2025","","test_y2_video_handler","",""
+"","1","test_clear_string_char","utils","Fri Oct 10 12:59:29 UTC 2025","passed","Fri Oct 10 12:59:29 UTC 2025","","test_tools","",""
+"
+    测试视频信息排序
+    ","1","test_sort_video_infos[channel]","apps.youtu2douyin","Fri Oct 10 11:34:17 UTC 2025","passed","Fri Oct 10 11:34:17 UTC 2025","","test_youtu_video_tools","",""
+"","0","test_ppt2image_by_powerpoint","lib.powerpoint","Fri Oct 10 12:34:44 UTC 2025","skipped","Fri Oct 10 12:34:44 UTC 2025","","test_powerpoint_helper","",""
+"","0","test_twitter_handler","lib.twitter","Fri Oct 10 12:39:48 UTC 2025","passed","Fri Oct 10 12:39:48 UTC 2025","","test_twitter_helper","",""
+"
+    测试图片叠加
+    ","41","test_image_overlay[bottom-center]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"","1","test_select_music","lib.music","Fri Oct 10 12:33:44 UTC 2025","passed","Fri Oct 10 12:33:44 UTC 2025","","test_music","",""
+"","1","test_json_config_list_update","utils","Fri Oct 10 12:59:19 UTC 2025","passed","Fri Oct 10 12:59:19 UTC 2025","","test_json_config","",""
+"测试获取个股板块信息时发生异常的情况","1","test_get_stock_plates_exception","lib.xuangutong","Fri Oct 10 12:50:27 UTC 2025","broken","Fri Oct 10 12:50:27 UTC 2025","TestXuanguobaoStock","test_stock","",""
+"","0","test_mysql_api","lib.mysql","Fri Oct 10 12:33:44 UTC 2025","skipped","Fri Oct 10 12:33:44 UTC 2025","","test_mysql_api","",""
+"
+    测试批量发布 PPT 导出并制作后的视频、图文
+    ","51349","test_ppt_publish_helper","apps.ppt2douyin","Fri Oct 10 11:01:40 UTC 2025","passed","Fri Oct 10 11:02:31 UTC 2025","","test_ppt_publish_helper","",""
+"","60","test_get_jing_xuan","lib.xuangutong","Fri Oct 10 12:50:25 UTC 2025","broken","Fri Oct 10 12:50:25 UTC 2025","","test_jing_xuan","",""
+"
+    获取当前时间点距离市场开盘以来的分钟数
+    ","0","test_get_trading_minute_count[5\u4e0b\u5348\u5f00\u76d8\u524d\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"
+    生产者、消费者测试
+    ","3313","test_async_count","lib.mqs.pylib","Fri Oct 10 12:33:21 UTC 2025","passed","Fri Oct 10 12:33:25 UTC 2025","","test_producer_consumer","",""
+"
+    图片水印
+    ","146531","test_overlay_image","lib.video","Fri Oct 10 12:42:17 UTC 2025","passed","Fri Oct 10 12:44:44 UTC 2025","","test_ffmpeg_helper","",""
+"
+        多轮对话
+        ","0","test_multi_chat[direct_response-QWenHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    图片上添加标题
+    ","185","test_add_title[horizontal]","lib.image","Fri Oct 10 12:29:30 UTC 2025","passed","Fri Oct 10 12:29:30 UTC 2025","","test_image_handler","",""
+"
+    rich 打印 ini 配置
+    ","6","test_print_ini_config","lib.rich","Fri Oct 10 12:35:28 UTC 2025","passed","Fri Oct 10 12:35:28 UTC 2025","","test_rich_helper","",""
+"
+        测试阅读文章
+        ","0","test_chat_with_file[OpenrouterHelper]","lib.ai.llm","Fri Oct 10 11:34:18 UTC 2025","skipped","Fri Oct 10 11:34:18 UTC 2025","TestLLM","test_llm","",""
+"
+    获取当前时间点距离市场开盘以来的分钟数
+    ","1","test_get_trading_minute_count[10\u4e0b\u5348\u6536\u76d8\u540e\u4e00\u5206\u949f]","apps.ptrade.lib","Fri Oct 10 11:08:17 UTC 2025","passed","Fri Oct 10 11:08:17 UTC 2025","","test_trade_helper","",""
+"","0","test_publish_time_generator[\u25b2 \u6d4b\u8bd5\u6700\u8fd1\u53d1\u5e03\u65f6\u95f4\u79bb\u4e0b\u4e00\u4e2a\u53d1\u5e03\u65f6\u95f4\u5f88\u8fd1]","utils","Fri Oct 10 12:58:54 UTC 2025","passed","Fri Oct 10 12:58:54 UTC 2025","","test_dt","",""
