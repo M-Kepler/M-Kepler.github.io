@@ -1,0 +1,3 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_editor
+DEBUG    mypy.utils.file:file.py:526 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt.pptx'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_editor/test_ppt_editor_replace_txt
+DEBUG    mypy.utils.file:file.py:539 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/ppt/.out/test_ppt_editor/test_ppt_editor_replace_txt/ppt.pptx

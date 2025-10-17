@@ -1,4 +1,0 @@
-DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:55 🔵 通过 pdf2image 库转成图片，输出到: /tmp/tmp5yfodxax
-DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:100 🔵 把 /tmp/tmp5yfodxax 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/pdf/.out/test_pdf_handler/test_pdf2video.mp4
-DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:109 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpmjvaq1n1
-INFO     mypy.lib.image.image2video_helper:image2video_helper.py:128 🟢 文件夹 /tmp/tmp5yfodxax 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/pdf/.out/test_pdf_handler/test_pdf2video.mp4

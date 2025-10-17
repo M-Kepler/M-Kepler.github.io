@@ -1,4 +1,0 @@
-INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/image/.out/test_image2video_helper
-DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:100 🔵 把 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_slide_images 目录下的图片合成视频，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/image/.out/test_image2video_helper/test_images2video/test_images2video.mp4
-DEBUG    mypy.lib.image.image2video_helper:image2video_helper.py:109 🔵 正在把图片序列转换成视频，输出到: /tmp/tmpb8nbb0kk
-INFO     mypy.lib.image.image2video_helper:image2video_helper.py:128 🟢 文件夹 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_slide_images 下的图片成功转成视频： /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/image/.out/test_image2video_helper/test_images2video/test_images2video.mp4

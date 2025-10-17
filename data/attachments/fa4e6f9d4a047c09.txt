@@ -1,5 +1,0 @@
-INFO     mypy.apps.youtu2douyin.tools:tools.py:102 🟢 更新 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/youtu2douyin/config/channel_record.json 中的 videos 为较新的记录
-WARNING  mypy.apps.youtu2douyin.tools:before_sleep.py:65 Retrying mypy.apps.youtu2douyin.tools.get_new_video_info in 3.0 seconds as it raised IndexError: list index out of range.
-WARNING  mypy.apps.youtu2douyin.tools:before_sleep.py:65 Retrying mypy.apps.youtu2douyin.tools.get_new_video_info in 3.0 seconds as it raised IndexError: list index out of range.
-WARNING  mypy.apps.youtu2douyin.tools:before_sleep.py:65 Retrying mypy.apps.youtu2douyin.tools.get_new_video_info in 3.0 seconds as it raised IndexError: list index out of range.
-WARNING  mypy.apps.youtu2douyin.tools:before_sleep.py:65 Retrying mypy.apps.youtu2douyin.tools.get_new_video_info in 3.0 seconds as it raised IndexError: list index out of range.

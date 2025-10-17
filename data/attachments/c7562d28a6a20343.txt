@@ -1,0 +1,9 @@
+WARNING  mypy.lib.weixin.pushplus:pushplus.py:46 🟠 单元测试中, 跳过微信消息推送: title: unittest_markdown, message: aaa
+
+---
+
+bbb
+
+---
+
+ccc

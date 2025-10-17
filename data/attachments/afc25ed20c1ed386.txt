@@ -1,0 +1,98 @@
+WARNING  mypy.lib.stock.backtrader.backtrader_helper:backtrader_helper.py:199 🟠 pytest 模式, 不显示回测图
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.91
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 1, 股票名称: , 价格: 57.90, 成交量: 1000.00, 交易金额: 57895.79, 手续费: 28.95
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.85
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 2, 股票名称: , 价格: 57.85, 成交量: -1000.00, 交易金额: 57895.79, 手续费: 57.85
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -41.57, 毛利: -128.38
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.91
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 3, 股票名称: , 价格: 57.93, 成交量: 1000.00, 交易金额: 57925.79, 手续费: 28.96
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.82
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 4, 股票名称: , 价格: 57.85, 成交量: -1000.00, 交易金额: 57925.79, 手续费: 57.85
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -71.58, 毛利: -158.40
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.80
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 5, 股票名称: , 价格: 57.80, 成交量: 1000.00, 交易金额: 57800.00, 手续费: 28.90
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.97
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 6, 股票名称: , 价格: 57.96, 成交量: -1000.00, 交易金额: 57800.00, 手续费: 57.96
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: 164.20, 毛利: 77.34
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.10
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 7, 股票名称: , 价格: 58.07, 成交量: 1000.00, 交易金额: 58070.00, 手续费: 29.04
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.01
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 8, 股票名称: , 价格: 58.02, 成交量: -1000.00, 交易金额: 58070.00, 手续费: 58.02
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -50.00, 毛利: -137.05
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.06
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 9, 股票名称: , 价格: 58.06, 成交量: 1000.00, 交易金额: 58060.00, 手续费: 29.03
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.05
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 10, 股票名称: , 价格: 58.03, 成交量: -1000.00, 交易金额: 58060.00, 手续费: 58.03
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -30.00, 毛利: -117.06
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.10
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 11, 股票名称: , 价格: 58.11, 成交量: 1000.00, 交易金额: 58105.81, 手续费: 29.05
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.08
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 12, 股票名称: , 价格: 58.08, 成交量: -1000.00, 交易金额: 58105.81, 手续费: 58.08
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -21.62, 毛利: -108.76
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.12
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 13, 股票名称: , 价格: 58.11, 成交量: 1000.00, 交易金额: 58105.81, 手续费: 29.05
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.11
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 14, 股票名称: , 价格: 58.11, 成交量: -1000.00, 交易金额: 58105.81, 手续费: 58.11
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: 8.38, 毛利: -78.79
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.13
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 15, 股票名称: , 价格: 58.14, 成交量: 1000.00, 交易金额: 58135.81, 手续费: 29.07
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.09
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 16, 股票名称: , 价格: 58.08, 成交量: -1000.00, 交易金额: 58135.81, 手续费: 58.08
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -51.62, 毛利: -138.77
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.14
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 17, 股票名称: , 价格: 58.14, 成交量: 1000.00, 交易金额: 58135.81, 手续费: 29.07
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.30
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 18, 股票名称: , 价格: 58.31, 成交量: -1000.00, 交易金额: 58135.81, 手续费: 58.31
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: 178.36, 毛利: 90.97
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 58.34
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 19, 股票名称: , 价格: 58.35, 成交量: 1000.00, 交易金额: 58350.00, 手续费: 29.18
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 58.30
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 20, 股票名称: , 价格: 58.29, 成交量: -1000.00, 交易金额: 58350.00, 手续费: 58.29
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -55.83, 毛利: -143.30
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.90
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 21, 股票名称: , 价格: 57.92, 成交量: 1000.00, 交易金额: 57915.79, 手续费: 28.96
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.88
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 22, 股票名称: , 价格: 57.87, 成交量: -1000.00, 交易金额: 57915.79, 手续费: 57.87
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -41.58, 毛利: -128.41
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.87
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 23, 股票名称: , 价格: 57.89, 成交量: 1000.00, 交易金额: 57885.79, 手续费: 28.94
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.84
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 24, 股票名称: , 价格: 57.84, 成交量: -1000.00, 交易金额: 57885.79, 手续费: 57.84
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -41.57, 毛利: -128.36
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.84
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 25, 股票名称: , 价格: 57.84, 成交量: 1000.00, 交易金额: 57840.00, 手续费: 28.92
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.82
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 26, 股票名称: , 价格: 57.82, 成交量: -1000.00, 交易金额: 57840.00, 手续费: 57.82
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -15.78, 毛利: -102.53
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.80
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 27, 股票名称: , 价格: 57.79, 成交量: 1000.00, 交易金额: 57790.00, 手续费: 28.89
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.77
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 28, 股票名称: , 价格: 57.77, 成交量: -1000.00, 交易金额: 57790.00, 手续费: 57.77
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -20.00, 毛利: -106.66
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.84
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 29, 股票名称: , 价格: 57.83, 成交量: 1000.00, 交易金额: 57825.78, 手续费: 28.91
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.79
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 30, 股票名称: , 价格: 57.78, 成交量: -1000.00, 交易金额: 57825.78, 手续费: 57.78
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -41.56, 毛利: -128.26
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.79
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 31, 股票名称: , 价格: 57.80, 成交量: 1000.00, 交易金额: 57800.00, 手续费: 28.90
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.78
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 32, 股票名称: , 价格: 57.77, 成交量: -1000.00, 交易金额: 57800.00, 手续费: 57.77
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -25.78, 毛利: -112.45
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.31
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 33, 股票名称: , 价格: 57.32, 成交量: 1000.00, 交易金额: 57315.73, 手续费: 28.66
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单卖出: 57.29
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ---> [卖出] 订单编号: 34, 股票名称: , 价格: 57.28, 成交量: -1000.00, 交易金额: 57315.73, 手续费: 57.28
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, ----- 本次交易净利: -31.46, 毛利: -117.40
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 下单买入: 57.28
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, <--- [买入] 订单编号: 35, 股票名称: , 价格: 57.24, 成交量: 1000.00, 交易金额: 57235.72, 手续费: 28.62
+INFO     mypy.lib.stock.backtrader.strategy.base:base.py:65 🟢 2025-10-17, 回测结束，最终资金: 98349.39
+INFO     mypy.lib.stock.backtrader.backtrader_helper:backtrader_helper.py:208 🍊🍊🍊 时间段 [2024-10-17 17:47:49.959071: 2025-10-17 17:47:49.959071], 起始资金: 100000, 结束资金: 98349.39, 总利润: -1650.61, 利润率: -1.65%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:54 🟢 ==================================================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:55 🟢 annual_return 年化收益率
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:56 🟢 ==================================================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:backtrader_helper.py:164 🟢 年份: 2025, 收益率: -1.65%
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:54 🟢 ==================================================
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:55 🟢 sharpe_ratio 夏普比率
+INFO     mypy.lib.stock.backtrader.backtrader_helper:log.py:56 🟢 ==================================================
+ERROR    mypy.lib.stock.backtrader.backtrader_helper:backtrader_helper.py:218 🔴 分析器出错: must be real number, not NoneType

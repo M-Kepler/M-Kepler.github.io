@@ -1,0 +1,5 @@
+WARNING  mypy.utils.file:file.py:290 🟠 正在删除文件名前缀为 [test_file] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/utils/.out/test_file/test_delete_files_with_prefix/a/b/test_file2.txt
+WARNING  mypy.utils.file:file.py:290 🟠 正在删除文件名前缀为 [test_file] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/utils/.out/test_file/test_delete_files_with_prefix/a/b/test_file.txt
+WARNING  mypy.utils.file:file.py:290 🟠 正在删除文件名前缀为 [test_file] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/utils/.out/test_file/test_delete_files_with_prefix/a/b/a/b/test_file4.txt
+WARNING  mypy.utils.file:file.py:290 🟠 正在删除文件名前缀为 [test_file] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/utils/.out/test_file/test_delete_files_with_prefix/a/b/a/test_file3.txt
+WARNING  mypy.utils.file:file.py:290 🟠 正在删除文件名前缀为 [test_file] 的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/utils/.out/test_file/test_delete_files_with_prefix/a/b/test_file.md

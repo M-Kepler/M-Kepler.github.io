@@ -1,0 +1,65 @@
+DEBUG    mypy.utils.file:file.py:526 🔵 测试文件 ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/config'] 成功拷贝到 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin
+DEBUG    mypy.lib.html.html_converter:html_converter.py:139 🔵 正在使用 ['/home/runner/work/github-runner/github-runner/mypy/mypy/assets/static/css/markdown/themes/README.md', '/home/runner/work/github-runner/github-runner/mypy/mypy/assets/static/css/markdown/common.css'] 主题
+INFO     mypy.lib.html.html_converter:html_converter.py:191 🍊🍊🍊 url https://dxy.com/article/50056 成功转换成 .pdf, 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/习惯性崴脚会不会让脚踝变粗？.pdf
+DEBUG    mypy.lib.pdf.pdf_handler:pdf_handler.py:55 🔵 通过 pdf2image 库转成图片，输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？
+INFO     mypy.lib.playwright.publish_config:publish_config.py:156 🟢 -----> 配置如下 <-----
+INFO     mypy.apps.ppt2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.ppt2douyin.main:log.py:55 🟢 开始发布 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out 目录下的文件
+INFO     mypy.apps.ppt2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:120 🟠 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:123 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:139 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:146 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 从文件标题解析出话题: #脚会 #变粗 #脚踝
+INFO     mypy.lib.playwright.publish_handler:log.py:54 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:55 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - [DouyinImagesPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:56 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:343 🔵 [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 准备上传文件: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？/slide_000000001.jpg', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？/slide_000000002.jpg', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？/slide_000000003.jpg', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？/slide_000000004.jpg']
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:168 ❌ [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 《习惯性崴脚会不会让脚踝变粗？》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")
+
+ERROR    mypy.lib.playwright.common:common.py:194 🔴 Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 192, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 169, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 159, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/image_publish_helper.py", line 104, in fill_publish_content
+    await self.add_bgm(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/image_publish_helper.py", line 60, in add_bgm
+    await page.click(self._playwright_cfg.images_hot_music_loc)
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 9878, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_page.py", line 858, in click
+    return await self._main_frame.click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 549, in click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:179 ❌ [platform: douyin], [publish_file: 习惯性崴脚会不会让脚踝变粗？] - 《习惯性崴脚会不会让脚踝变粗？》发布异常: Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:61 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？] 发布到 [douyin] 失败，原因: [Page.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")
+]
+DEBUG    mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:195 🔵 发布结果: [['douyin', False, 'Page.click: Timeout 120000ms exceeded.\nCall log:\n  - waiting for locator(".music-wrapper-ghtri-CzU5Pl")\n']], 删除文件夹: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/.out/习惯性崴脚会不会让脚踝变粗？
+INFO     mypy.apps.ppt2douyin.ppt_publish_helper:ppt_publish_helper.py:198 🟢 处理完成，一共处理了 1 个图文
+DEBUG    mypy.utils.file:file.py:539 🔵 测试完成，删除拷贝过来的文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/web2douyin/.out/test_web2douyin/config

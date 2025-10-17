@@ -1,0 +1,4 @@
+INFO     mypy.lib.music.music:music.py:41 🟢 如需下载歌曲，输入 0 退出选择
+INFO     mypy.utils.file:file.py:329 🟢 -----> 发现以下选项：
+INFO     mypy.utils.file:file.py:331 🟢 1. /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_bgm.mp3
+INFO     mypy.utils.file:file.py:346 🟢 -----> 你选择了 /home/runner/work/github-runner/github-runner/mypy/mypy/assets/media/ppt/ppt_bgm.mp3

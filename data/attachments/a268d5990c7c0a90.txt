@@ -1,0 +1,231 @@
+INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [ModelscopeHelper] 提供服务
+WARNING  mypy.lib.ai.llm.api:api.py:96 🟠 向 [ModelscopeHelper] 提问失败: Error code: 400 - {'errors': {'message': 'Model id : Qwen/Qwen3-Coder-480B-A35B-Instruct , has no provider supported', 'request_id': '0c2e9516-a389-4a2a-86b8-e22208cd5911'}}，尝试下一个提供商
+DEBUG    mypy.lib.ai.llm.api:api.py:100 🔵 [{'role': 'user', 'content': '\n## Goals:\nGenerate a script for a video, depending on the subject of the video.\n\n## Constrains:\n1. the script is to be returned as a string with the specified number of paragraphs.\n2. do not under any circumstance reference this prompt in your response.\n3. get straight to the point, don\'t start with unnecessary things like, "welcome to this video".\n4. you must not include any type of markdown or formatting in the script, never use a title.\n5. only return the raw content of the script.\n6. do not include "voiceover", "narrator" or similar indicators of what should be spoken at the beginning of each paragraph or line.\n7. you must not mention the prompt, or anything about the script itself. also, never talk about the amount of paragraphs or lines. just write the script.\n8. respond in the same language as the video subject.\n\n# Initialization:\n- video subject: 人生的意义\n- number of paragraphs: 5\n'}]
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [OpenrouterHelper] 提供服务
+DEBUG    mypy.lib.ai.llm.api:api.py:73 🔵 问答结束, 返回结果
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [ModelscopeHelper] 提供服务
+WARNING  mypy.lib.ai.llm.api:api.py:96 🟠 向 [ModelscopeHelper] 提问失败: Error code: 400 - {'errors': {'message': 'Model id : Qwen/Qwen3-Coder-480B-A35B-Instruct , has no provider supported', 'request_id': '7759a820-545a-4df0-8054-73cf8266b072'}}，尝试下一个提供商
+DEBUG    mypy.lib.ai.llm.api:api.py:100 🔵 [{'role': 'user', 'content': '# Role: Video Search Terms Generator\n\n## Goals:\nGenerate 5 search terms for stock videos, depending on the subject of a video.\n\n## Constrains:\n1. the search terms are to be returned as a json-array of strings.\n2. each search term should consist of 1-3 words, always add the main subject of the video.\n3. you must only return the json-array of strings. you must not return anything else. you must not return the script.\n4. the search terms must be related to the subject of the video.\n5. reply with english search terms only.\n\n## Output Example:\n["search term 1", "search term 2", "search term 3","search term 4","search term 5"]\n\n## Context:\n### Video Subject\n人生的意义\n\n### Video Script\n人生的意义是什么？这个问题困扰了无数人，每个人都在用自己的方式寻找答案。有人认为意义在于追求财富与成功，有人觉得是家庭与爱，还有人相信是精神上的成长与超越。答案或许没有对错，因为意义本身就是主观的。  \n\n我们常常在忙碌中迷失，被社会的标准推着走，却忘了停下来思考自己真正想要的是什么。人生的意义不在于外界的评判，而在于内心的感受。找到让你感到充实和快乐的事，可能就是答案的开始。  \n\n有些人通过帮助他人找到意义，因为给予带来的满足感无法替代。另一些人则在创造中实现自我，无论是艺术、科学还是日常的微小创新。意义可以很宏大，也可以藏在平凡的生活细节里。  \n\n面对苦难时，人们更容易质疑人生的意义。但正是这些挑战让我们成长，赋予经历深度。没有黑暗，光明的价值也无从体现。痛苦和快乐共同编织了生命的丰富性。  \n\n最终，人生的意义或许不是一个固定的终点，而是一段不断探索的旅程。每个人都在书写自己的故事，定义自己的价值。重要的不是找到标准答案，而是活出真实的自己。\n\nPlease note that you must use English for generating video search terms; Chinese is not accepted.'}]
+DEBUG    mypy.lib.ai.llm.api:api.py:77 🔵 本轮 AI 对话由 [OpenrouterHelper] 提供服务
+DEBUG    mypy.lib.ai.llm.api:api.py:73 🔵 问答结束, 返回结果
+DEBUG    mypy.apps.text2douyin.main:main.py:138 🔵 人生的意义是什么？这个问题困扰了无数人，每个人都在用自己的方式寻找答案。有人认为意义在于追求财富与成功，有人觉得是家庭与爱，还有人相信是精神上的成长与超越。答案或许没有对错，因为意义本身就是主观的。  
+
+我们常常在忙碌中迷失，被社会的标准推着走，却忘了停下来思考自己真正想要的是什么。人生的意义不在于外界的评判，而在于内心的感受。找到让你感到充实和快乐的事，可能就是答案的开始。  
+
+有些人通过帮助他人找到意义，因为给予带来的满足感无法替代。另一些人则在创造中实现自我，无论是艺术、科学还是日常的微小创新。意义可以很宏大，也可以藏在平凡的生活细节里。  
+
+面对苦难时，人们更容易质疑人生的意义。但正是这些挑战让我们成长，赋予经历深度。没有黑暗，光明的价值也无从体现。痛苦和快乐共同编织了生命的丰富性。  
+
+最终，人生的意义或许不是一个固定的终点，而是一段不断探索的旅程。每个人都在书写自己的故事，定义自己的价值。重要的不是找到标准答案，而是活出真实的自己。
+DEBUG    mypy.apps.text2douyin.main:main.py:139 🔵 ['meaning of life', 'life purpose', 'happiness and fulfillment', 'personal growth journey', 'finding life meaning']
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 生成配音和字幕
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:main.py:80 🟢 文章时长为: 87.1s
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 根据关键字搜索视频
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 19 条与 [meaning of life] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 16 条与 [life purpose] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 16 条与 [happiness and fulfillment] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 15 条与 [personal growth journey] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:172 🟢 找到 18 条与 [finding life meaning] 话题相关的视频
+INFO     mypy.lib.pexels.video:video.py:182 🟢 总共搜集到: 69 条视频，时长总和为 1228
+INFO     mypy.lib.pexels.video:video.py:89 🟢 开始下载视频...
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/7429932/7429932-hd_1920_1080_30fps.mp4 下载成功，视频时长: 7s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/7666907/7666907-hd_1920_1080_30fps.mp4 下载成功，视频时长: 28s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34319340/14539191_1920_1080_60fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34319299/14539133_1920_1080_60fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/34319174/14539012_1920_1080_60fps.mp4 下载成功，视频时长: 9s
+DEBUG    mypy.lib.pexels.video:video.py:100 🔵 视频 https://videos.pexels.com/video-files/31585787/13459946_1920_1080_30fps.mp4 下载成功，视频时长: 48s
+INFO     mypy.lib.pexels.video:video.py:106 🟢 已下载的视频总时长(110.0s)已满足要求(87.1s)，任务完成
+INFO     mypy.lib.pexels.video:video.py:112 🟢 视频下载完成，保存路径: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 开始制作视频: 把音频、片段、字幕进行整合
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:46 🟢 完成把字幕内容中的 [ ] 替换为 [], 输出到: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.srt
+INFO     mypy.lib.subtitle.subtitle_handler:subtitle_handler.py:126 🟢 整理字幕: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.srt 时间线
+DEBUG    mypy.lib.video.ffmpeg_helper:ffmpeg_helper.py:205 🔵 视频时长(87.1s) >= bgm 时长(87.096s)，循环播放 bgm 2 次
+INFO     mypy.apps.text2douyin.main:log.py:54 🟢 ==================================================
+INFO     mypy.apps.text2douyin.main:log.py:55 🟢 开始发布
+INFO     mypy.apps.text2douyin.main:log.py:56 🟢 ==================================================
+INFO     mypy.lib.playwright.publish_config:publish_config.py:156 🟢 -----> 配置如下 <-----
+INFO     mypy.lib.playwright.publish_handler:publish_handler.py:84 🟢 -----> 开始发布《/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.mp4》到 ['douyin'] 平台
+WARNING  mypy.lib.playwright.publish_handler:publish_app.py:120 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin 下发现多个 cookie: ['/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json', '/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_large.json']
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:123 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 默认选择第一个 cookie: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:139 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 从配置文件中读取的发布账号: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json
+INFO     mypy.lib.playwright.publish_handler:publish_app.py:146 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 正在使用 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/config/cookie/douyin/cookie_test.json] 发布作品
+WARNING  mypy.lib.proxy_pool.proxy_pool_helper:proxy_pool_helper.py:49 🟠 未找到可用的 深圳(https) 代理地址
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:65 🔵 [platform: douyin], [publish_file: 人生的意义.mp4] - 从文件标题解析出话题: #人生 #意义
+INFO     mypy.lib.playwright.publish_handler:log.py:54 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:log.py:55 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - [DouyinVideoPublishHelper] 开始执行发布任务
+INFO     mypy.lib.playwright.publish_handler:log.py:56 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - ==================================================
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:104 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 当前登录账号为 [啊斯顿非更 🅥]
+DEBUG    mypy.lib.playwright.publish_handler:publish_helper.py:343 🔵 [platform: douyin], [publish_file: 人生的意义.mp4] - 准备上传文件: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.mp4
+INFO     mypy.lib.playwright.publish_handler:video_publish_helper.py:35 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 获取并上传封面
+WARNING  mypy.lib.playwright.publish_handler:video_publish_helper.py:43 🟠 [platform: douyin], [publish_file: 人生的意义.mp4] - 封面 /home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.jpg 不存在，不设置封面
+INFO     mypy.lib.playwright.publish_handler:publish_helper.py:400 🟢 [platform: douyin], [publish_file: 人生的意义.mp4] - 设置视频简介为: 人生的意义 #人生 #意义 #护士长竞聘 #护士懂护士 #护士 #护士长
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:168 ❌ [platform: douyin], [publish_file: 人生的意义.mp4] - 《人生的意义》发布异常: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    226 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+ERROR    mypy.lib.playwright.common:common.py:194 🔴 Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    226 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+Traceback (most recent call last):
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/common.py", line 192, in launch_browser_mgr
+    yield browser, context, page
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 169, in publish_mission
+    raise ex
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/playwright/core/publish_helper.py", line 159, in publish_mission
+    await self.fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 92, in fill_publish_content
+    await super().fill_publish_content(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 482, in fill_publish_content
+    await self._set_collection(page)
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/video_publish_helper.py", line 74, in _set_collection
+    return await super()._set_collection(page, collection_loc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/github-runner/github-runner/mypy/mypy/lib/douyin/publish_helper.py", line 124, in _set_collection
+    await page.locator("div").filter(has_text=collection_loc).nth(2).click()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 15497, in click
+    await self._impl_obj.click(
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 160, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 549, in click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    226 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+CRITICAL mypy.lib.playwright.publish_handler:publish_helper.py:179 ❌ [platform: douyin], [publish_file: 人生的意义.mp4] - 《人生的意义》发布异常: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    226 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+WARNING  mypy.lib.playwright.publish_handler:publish_handler.py:61 🟠 [/home/runner/work/github-runner/github-runner/mypy/mypy/tests/apps/text2douyin/.out/test_text2douyin/.out/人生的意义.mp4] 发布到 [douyin] 失败，原因: [Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)
+    - locator resolved to <div class="semi-select-content-wrapper">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    226 × waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+]
+INFO     mypy.apps.text2douyin.main:main.py:151 🟢 [['douyin', False, 'Locator.click: Timeout 120000ms exceeded.\nCall log:\n  - waiting for locator("div").filter(has_text=re.compile(r"^请选择合集$")).nth(2)\n    - locator resolved to <div class="semi-select-content-wrapper">…</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    226 × waiting for element to be visible, enabled and stable\n        - element is visible, enabled and stable\n        - scrolling into view if needed\n        - done scrolling\n        - <div class="tag-dVUDkJ tag-hash-o0tpyE">…</div> from <div class="publish-mention-wrapper-LWv5ed">…</div> subtree intercepts pointer events\n      - retrying click action\n        - waiting 500ms\n']]
