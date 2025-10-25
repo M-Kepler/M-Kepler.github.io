@@ -1,4 +1,0 @@
-WARNING  mypy.apps.csindex_crawler.main:main.py:63 🟠 请求失败 (尝试 1/3): Connection error
-WARNING  mypy.apps.csindex_crawler.main:main.py:63 🟠 请求失败 (尝试 2/3): Connection error
-WARNING  mypy.apps.csindex_crawler.main:main.py:63 🟠 请求失败 (尝试 3/3): Connection error
-ERROR    mypy.apps.csindex_crawler.main:main.py:67 🔴 请求最终失败: http://example.com

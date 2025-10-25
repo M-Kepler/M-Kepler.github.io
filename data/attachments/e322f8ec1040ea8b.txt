@@ -1,6 +1,0 @@
-INFO     test_log:test_log.py:14 🟢 
-INFO     test_log:test_log.py:15 🟢 哈哈哈哈哈哈哈哈哈哈哈哈哈
-DEBUG    test_log:test_log.py:16 🔵 哈哈哈哈哈哈哈哈哈哈哈哈哈
-WARNING  test_log:test_log.py:17 🟠 哈哈哈哈哈哈哈哈哈哈哈哈哈
-ERROR    test_log:test_log.py:18 🔴 哈哈哈哈哈哈哈哈哈哈哈哈哈
-INFO     test_log:test_log.py:19 🍊🍊🍊 success: hhhhh

@@ -1,1 +1,0 @@
-INFO     mypy.lib.pic_bed.imgbb:imgbb.py:60 🍊🍊🍊 图片上传成功: https://i.ibb.co/x8j10zyg/test.png

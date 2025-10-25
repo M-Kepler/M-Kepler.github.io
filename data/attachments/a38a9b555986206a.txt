@@ -1,2 +1,0 @@
-INFO     conftest:conftest.py:114 🟢 [创建]测试用例输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/github/.out/test_github_uploader
-INFO     conftest:conftest.py:173 🟢 [创建]测试函数输出目录: /home/runner/work/github-runner/github-runner/mypy/mypy/tests/lib/github/.out/test_github_uploader/test_github_uploader

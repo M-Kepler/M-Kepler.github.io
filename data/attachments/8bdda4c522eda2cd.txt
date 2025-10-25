@@ -1,3 +1,0 @@
-DEBUG    mypy.lib.tonghuashun.wencai:wencai.py:37 🔵 向 wencai 查询 [大单净量大于1.5,净流入前20,非st,非次新,主力净流入大于2亿,未涨停]...
-WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:43 🟠 问财未查询到任何信息
-WARNING  mypy.lib.stock.monitor.addons.wencai:wencai.py:121 🟠 没有获取到任何股票信息

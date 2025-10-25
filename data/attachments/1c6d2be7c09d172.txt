@@ -1,1 +1,0 @@
-WARNING  mypy.lib.weixin.pushplus:pushplus.py:46 🟠 单元测试中, 跳过微信消息推送: title: unittest_False, message: test_msg_muisTCYx2B3Wy79o
